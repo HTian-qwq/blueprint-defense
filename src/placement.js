@@ -39,7 +39,7 @@
       return {...selection,credited:this.dp-before,count:selection.members.length};
     },
     placementConnections(p){
-      let count=0;const peers=this.production.filter(n=>n.id!==p.id);
+      let count=0;const peers=this.productionNodes().filter(n=>n.id!==p.id);
       for(const n of peers){if(this.productionPortMatches(n,p))count++;if(this.productionPortMatches(p,n))count++;}
       const side=this.productionPorts(p).warehouse;
       const dock=side!=null&&this.edgeCells(p,side).every(c=>{const [dx,dy]=dirs[side];return this.warehouseLine.some(n=>this.productionContains(n,c.x+dx,c.y+dy));});
@@ -50,13 +50,13 @@
       if(!d)return {...base,count:0,dock:false,snapped:false};
       if(!snap||d.kind==='belt')return {...base,...this.placementConnections(base),snapped:false};
       let best=base,bestScore=-Infinity;
-      // Stay within one cell of the requested anchor. Prefer exact alignment
-      // over extra connections farther away; explicit R rotation is respected.
-      for(const [dx,dy] of [[0,0],[1,0],[-1,0],[0,1],[0,-1]])for(const turn of rotate?[dir,(dir+1)%4,(dir+2)%4,(dir+3)%4]:[dir]){
-        const p={...base,x:x+dx,y:y+dy,dir:turn};
+      // The cursor always owns the anchor, including when packing machines
+      // edge to edge. Auto-alignment may rotate, but must never steal a cell.
+      for(const turn of rotate?[dir,(dir+1)%4,(dir+2)%4,(dir+3)%4]:[dir]){
+        const p={...base,dir:turn};
         if(this.productionPlacementError(type,p.x,p.y,turn,ignoreId,true))continue;
-        const c=this.placementConnections(p);if(!c.count&&!c.dock)continue;
-        const score=(c.dock?50:0)+Math.min(c.count,3)*10-(Math.abs(dx)+Math.abs(dy))*12-(turn===dir?0:.1);
+        const c=this.placementConnections(p);
+        const score=(c.dock?50:0)+Math.min(c.count,3)*10-(turn===dir?0:.1);
         if(score>bestScore){best=p;bestScore=score;}
       }
       return {...best,...this.placementConnections(best),snapped:best.x!==x||best.y!==y||best.dir!==dir};

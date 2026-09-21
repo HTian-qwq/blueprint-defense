@@ -155,6 +155,7 @@ function draw(){
   const core=DATA.map.core,cp=screen(core.x,core.y),cw=core.footprint.width*s,ch=core.footprint.depth*s;
   ctx.fillStyle='#e1e1e3';ctx.fillRect(cp.x,cp.y,cw,ch);const coreImage=images.get(core.id);if(coreImage)ctx.drawImage(coreImage,cp.x,cp.y,cw,ch);
   ctx.strokeStyle=selected==='protocol-core'?'#429aa8':'#82afb1';ctx.lineWidth=selected==='protocol-core'?3:1;ctx.strokeRect(cp.x,cp.y,cw,ch);
+  drawCorePorts();
   ctx.fillStyle='#445b5e';ctx.font=`bold ${Math.max(11,s*.45)}px "HarmonyOS Sans SC", sans-serif`;ctx.fillText('协议核心',cp.x+cw/2,cp.y-s*.35);
   ctx.fillStyle='#b7c6c7';ctx.fillRect(cp.x+s,cp.y-s*.18,cw-2*s,s*.16);ctx.fillStyle=game.life>3?'#4599a3':'#bf6453';ctx.fillRect(cp.x+s,cp.y-s*.18,(cw-2*s)*Math.max(0,game.life)/game.config.rules.life,s*.16);
   const tower=game.towers.find(t=>t.id===selected);
@@ -279,9 +280,10 @@ function updateUI(){
   $('productionConfig').hidden=!isProduction;$('rotateBtn').hidden=!isProduction;$('upgradePath').hidden=isProduction;$('upgradeBtn').hidden=isProduction;
   $('inspectorDetail').classList.toggle('production-inspector',isProduction);$('inspectorDetail').classList.toggle('core-inspector',isCore);
   $('upgradeRequirement').hidden=true;$('supplyDetail').hidden=true;
+  updateCoreInspector(isCore,ended);
   if(def){$('detailImage').src=devicePortrait(def);$('detailRole').textContent=(def.role||'防守目标')+(isProduction?'':` · ${game.footprint(def).width}×${game.footprint(def).depth}`);$('detailName').textContent=def.name;$('detailDesc').textContent=def.desc;
     if(isCore){
-      $('selectionTag').textContent='协议核心 · 固定设施';$('detailDesc').textContent='守住协议核心。敌人从南侧接口突破时扣除耐久；罗丹突破扣除 10 点耐久。核心不可移动或拆除。';
+      $('selectionTag').textContent='协议核心 · 固定设施';$('detailDesc').textContent='上下 14 个入口自动将物品存入共享仓库；左右 6 个出口可分别选择取货物品，传送带直接连接接口。已解锁原料无限供应，成品按库存取货。守住南侧敌人通道，核心不可移动或拆除。';
       $('detailDamage').previousElementSibling.textContent='耐久';$('detailDamage').textContent=game.life+' / '+game.config.rules.life;
       $('detailRange').previousElementSibling.textContent='占地';$('detailRange').textContent='9×9';$('detailInterval').previousElementSibling.textContent='状态';$('detailInterval').textContent=game.life>0?'在线':'失守';
       for(const id of ['towerActions','upgradePath','rotateBtn','placementHint','productionConfig'])$(id).hidden=true;
@@ -322,16 +324,17 @@ function boardClick(e){
   clearBulkTools();
   if(movingId!=null){const plan=placementPlan(p),result=game.moveBuilding(movingId,plan.x,plan.y,plan.dir);if(result.error)say(result.error,true);else{movingId=null;hover=null;say('位置已调整，物料、升级与冷却保持不变。');}updateUI();return;}
   const t=game.towerAt(p.x,p.y),unit=game.productionAt(p.x,p.y);
-  if(game.coreAt(p.x,p.y)){choice=-1;selected='protocol-core';say('已选中协议核心：守住南侧接口，防止敌人突破。');}
+  if(game.coreAt(p.x,p.y)){choice=-1;selected='protocol-core';say('协议核心：上下接口入库，左右出口在右侧选择物品。');}
   else if(t||unit){
     choice=-1;selected=t?.id||unit.id;
     if(t)say(`已选中${game.stats(t).name}：右侧可升级或撤回。`);
     else say(unit.fixed?'这是自带仓库存取线；在上方放取货口，并在取货口选择物品。':`已选中${DATA.production.types[unit.type].name}：右侧配置物品或配方，R 转向。`);
   }
-  else if(choice>=0){const def=choiceDef(),plan=placementPlan(p),result=plan.error?{error:plan.error}:productionChoice()?game.deployProduction(choice-towerCount,plan.x,plan.y,plan.dir):game.deploy(choice,plan.x,plan.y);if(result.error)say(result.error,true);else{if(result.unit){buildDirection=plan.dir;if(productionOptions.has(def.id))game.setProductionOption(result.unit.id,productionOptions.get(def.id));}say(`已部署${def.name}，扣除 ${money(def.cost)} 折金票。可继续部署，点击已有设备可配置。`);}}
+  else if(choice>=0){const def=choiceDef(),plan=placementPlan(p),result=plan.error?{error:plan.error}:productionChoice()?game.deployProduction(choice-towerCount,plan.x,plan.y,plan.dir):game.deploy(choice,plan.x,plan.y);if(result.error)say(result.error,true);else{hover=null;if(result.unit){buildDirection=plan.dir;if(productionOptions.has(def.id))game.setProductionOption(result.unit.id,productionOptions.get(def.id));}say(`已部署${def.name}，扣除 ${money(def.cost)} 折金票。可继续部署，点击已有设备可配置。`);}}
   else selected=null;
   updateUI();
   if(t||unit||game.coreAt(p.x,p.y))$('sidebarScroll').scrollTop=0;
+  if(unit?.corePort==='outputs')$(unit.id).focus();
 }
 const boardInput=setupBoardInput();
 $('startBtn').onclick=()=>{if(game.phase==='ready'){game.start();cancel();say(game.production.length?'演练开始。产线交付成品后获得折金票。':'演练开始。尚无产线，不会自然回费；可在「生产机械」补建。');}else{game.togglePause();say(game.phase==='paused'?'已暂停；可以调整产线、部署或升级设备。':'演练继续。');}if(game.phase==='paused'){sound.stopAll();game.drainAudioEvents();}updateUI();};

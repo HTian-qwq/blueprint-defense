@@ -4,7 +4,16 @@ function put(g,type,x,y,dir){const r=g.deployProduction(type,x,y,dir);assert(r.u
 test('smart placement aligns a refinery to an existing output and respects explicit orientation and free placement',()=>{
  const g=arena();put(g,0,1,27,3);const p=g.suggestProduction(2,1,24,0);assert.equal(p.dir,3);assert(p.count>0);assert.equal(p.x,1);assert.equal(p.y,24);
  assert.equal(g.suggestProduction(2,1,24,0,{rotate:false}).dir,0);const free=g.suggestProduction(2,2,24,0,{snap:false});assert.deepEqual([free.x,free.y,free.dir],[2,24,0]);
- const shifted=g.suggestProduction(2,1,23,0);assert.equal(shifted.y,24);assert.equal(shifted.dir,3);assert.equal(Math.abs(shifted.x-1)+Math.abs(shifted.y-23),1);
+ const exact=g.suggestProduction(2,1,23,0);assert.deepEqual([exact.x,exact.y,exact.dir],[1,23,0]);
+});
+test('automatic alignment preserves every requested grid anchor next to machines, including corners',()=>{
+ const g=arena();put(g,2,10,24,0);
+ // Previously these free anchors were moved to y=22 or y=26 to chase a port.
+ for(const [x,y] of [[7,21],[13,21],[7,27],[13,27],[13,24],[7,24],[10,21],[10,27]]){
+  const p=g.suggestProduction(2,x,y,0);assert.deepEqual([p.x,p.y],[x,y]);assert.equal(g.productionPlacementError(2,p.x,p.y,p.dir),'');
+ }
+ for(const x of [13,16,19]){const p=g.suggestProduction(2,x,24,0);assert.equal(p.x,x);put(g,2,p.x,p.y,p.dir);}
+ assert.deepEqual(g.production.map(p=>p.x),[10,13,16,19]);
 });
 test('warehouse docking and snapping never bypass collisions, map edges, core or enemy paths',()=>{
  const g=arena(),dock=g.suggestProduction(0,5,43,0);assert(dock.dock);assert.equal(dock.dir,3);assert.equal(g.productionPlacementError(0,dock.x,dock.y,dock.dir),'');

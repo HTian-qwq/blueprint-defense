@@ -1,0 +1,120 @@
+{
+  "version": "0.18.1",
+  "date": "2026-09-21",
+  "checksPassed": 185,
+  "beltOrientationsPassed": 12,
+  "suites": [
+    {
+      "suite": "core_logistics",
+      "returncode": 0
+    },
+    {
+      "suite": "core_logistics_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "session",
+      "returncode": 0
+    },
+    {
+      "suite": "industrial",
+      "returncode": 0
+    },
+    {
+      "suite": "blue_iron_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "industrial_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "hotbar_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "placement",
+      "returncode": 0
+    },
+    {
+      "suite": "placement_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "bulk",
+      "returncode": 0
+    },
+    {
+      "suite": "bulk_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "original_bulk_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "economy",
+      "returncode": 0
+    },
+    {
+      "suite": "economy_campaign",
+      "returncode": 0
+    },
+    {
+      "suite": "geometry",
+      "returncode": 0
+    },
+    {
+      "suite": "burst",
+      "returncode": 0
+    },
+    {
+      "suite": "audio_mapping",
+      "returncode": 0
+    },
+    {
+      "suite": "mortar",
+      "returncode": 0
+    },
+    {
+      "suite": "actor_facing",
+      "returncode": 0
+    },
+    {
+      "suite": "wave_preparation",
+      "returncode": 0
+    },
+    {
+      "suite": "geometry_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "actor_facing_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "wave_preparation_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "economy_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "currency_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "web_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "belt_assets",
+      "returncode": 0
+    }
+  ],
+  "buildSha256": "a8a1acb166ee3627aef497ee5fb624cd17132b8b6d6ebad2faf14bc454e5b649",
+  "liveWebChecksPassed": 4,
+  "saveCompatibility": "v0.18 rules identity retained; missing core logistics initialized with closed outputs.",
+  "browserVerification": "Real pointer placement with auto-alignment enabled; live core ore withdrawal -> refinery -> core deposit; saved cargo/settings restored after reload."
+}

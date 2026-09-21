@@ -48,6 +48,7 @@
       this.warehouse={};
       this.initEconomy();
       this.initWarehouseLine();
+      this.initCorePorts();
     }
     start() {if(this.phase==='ready'){this.phase='running';this.beginWave();return true;}return false;}
     togglePause() {if(this.phase==='running')this.phase='paused';else if(this.phase==='paused')this.phase='running';}

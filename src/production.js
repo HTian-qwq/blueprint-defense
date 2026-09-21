@@ -12,12 +12,22 @@
         this.warehouseLine.push({id:'warehouse-'+x,type,x,y:this.config.map.height-f.depth,dir:0,fixed:true,cargo:null,work:0,delivered:0});x+=f.width;
       }
     },
+    initCorePorts(){
+      const core=this.config.map.core,types=this.config.production?.types||[];
+      this.corePorts=[];
+      for(const kind of ['inputs','outputs'])for(const port of core?.portCells?.[kind]||[]){
+        const type=types.findIndex(d=>d.kind===(kind==='inputs'?'loader':'unloader'));if(type<0)continue;
+        this.corePorts.push({...port,id:`core-${kind}-${port.index}`,corePort:kind,type,x:core.x+port.x,y:core.y+port.y,dir:0,fixed:true,source:'',cargo:null,work:0,delivered:0,buffer:{},processingIngredients:null,outputRemaining:0});
+      }
+    },
+    productionNodes(){return [...this.production,...(this.corePorts||[])];},
     productionFootprint(type,dir=0){const f=this.footprint(this.config.production.types[type]);return dir%2?{width:f.depth,depth:f.width}:{...f};},
-    productionRect(p){return {x:p.x,y:p.y,...this.productionFootprint(p.type,p.dir)};},
+    productionRect(p){return {x:p.x,y:p.y,...(p.corePort?{width:1,depth:1}:this.productionFootprint(p.type,p.dir))};},
     productionCenter(p){const f=this.productionRect(p);return {x:p.x+f.width/2,y:p.y+f.depth/2};},
     productionContains(p,x,y){const f=this.productionRect(p);return x>=p.x&&y>=p.y&&x<p.x+f.width&&y<p.y+f.depth;},
     edgeCells(p,side){const f=this.productionRect(p),n=side%2?f.width:f.depth;return Array.from({length:n},(_,i)=>({x:p.x+(side===0?f.width-1:side===2?0:i),y:p.y+(side===1?f.depth-1:side===3?0:i),side}));},
     productionPortCells(p,kind){
+      if(p.corePort)return p.corePort===kind?[{x:p.x,y:p.y,side:p.side,index:p.index}]:[];
       const d=this.config.production.types[p.type],f=this.footprint(d),cells=d.portCells?.[kind]||d.ports[kind].map(side=>({x:0,y:0,side}));
       return cells.map(port=>{let {x,y,side}=port,w=f.width,h=f.depth;for(let turn=0;turn<p.dir;turn++){[x,y]=[h-1-y,x];[w,h]=[h,w];side=(side+1)%4;}return {...port,x:p.x+x,y:p.y+y,side};});
     },
@@ -46,7 +56,7 @@
       for(const p of this.production){const side=this.productionPorts(p).warehouse;if(side==null)continue;const [dx,dy]=directions[side];if(this.edgeCells(p,side).every(c=>online.has(byCell.get(`${c.x+dx},${c.y+dy}`)?.id)))online.add(p.id);}
       return online;
     },
-    productionAt(x,y){return this.production.find(p=>this.productionContains(p,x,y))||this.warehouseLine.find(p=>this.productionContains(p,x,y));},
+    productionAt(x,y){return this.production.find(p=>this.productionContains(p,x,y))||(this.corePorts||[]).find(p=>p.x===x&&p.y===y)||this.warehouseLine.find(p=>this.productionContains(p,x,y));},
     productionPlacementError(type,x,y,dir=this.config.production?.types[type]?.defaultDir??0,ignoreId,preview=false){
       const ignores=id=>ignoreId instanceof Set?ignoreId.has(id):id===ignoreId;
       if(!['ready','running','paused'].includes(this.phase))return '演练已结束，请重新开始';
@@ -75,9 +85,9 @@
     },
     productionRecipe(unit){return this.config.production.recipes.find(r=>r.id===unit.recipe);},
     setProductionOption(id,value){
-      const p=this.production.find(p=>p.id===id);if(!p||!['ready','running','paused'].includes(this.phase))return '当前不能修改';
+      const p=this.productionNodes().find(p=>p.id===id);if(!p||p.corePort==='inputs'||!['ready','running','paused'].includes(this.phase))return '当前不能修改';
       const d=this.config.production.types[p.type];
-      const error=this.productionOptionError(p.type,value);if(error)return error;
+      const error=p.corePort&&value===''?'':this.productionOptionError(p.type,value);if(error)return error;
       if(d.kind==='supply'){p.deliveryMode=value;return '';}
       if(d.kind==='unloader'?p.source===value:p.recipe===value)return '';
       // Reconfiguration returns the actual held item, never its future recipe output.
@@ -95,6 +105,7 @@
       const refund=this.config.production.types[p.type].cost;this.dp=Math.min(this.dpCapacity(),this.dp+refund);this.production=this.production.filter(other=>other!==p);return refund;
     },
     productionPorts(unit){
+      if(unit.corePort)return {inputs:unit.corePort==='inputs'?[unit.side]:[],outputs:unit.corePort==='outputs'?[unit.side]:[],warehouse:null};
       const ports=this.config.production.types[unit.type].ports,turn=side=>(side+unit.dir)%4;
       return {inputs:ports.inputs.map(turn),outputs:ports.outputs.map(turn),warehouse:ports.warehouse==null?null:turn(ports.warehouse)};
     },
@@ -128,15 +139,16 @@
     productionOutput(unit){const candidates=this.productionOutputs(unit),kind=unit.cargo?.kind||this.productionRecipe(unit)?.output||unit.source;return candidates.find(n=>this.productionHasRoom(n,kind)&&this.productionAccepts(n,kind,unit))||candidates.find(n=>this.productionPortMatches(unit,n))||candidates[0]||null;},
     supplyDestination(p){return p.deliveryMode==='warehouse'?'warehouse':p.deliveryMode==='balanced'?(this.dp+ (this.config.production.items[p.cargo?.kind]?.value||0)>this.dpCapacity()?'warehouse':p.nextDelivery||'dp'):'dp';},
     productionStatus(p,online=this.warehouseConnections()){
+      if(p.corePort==='outputs'&&!p.source)return '出口关闭 · 请选择物品';
       const d=this.config.production.types[p.type];
       const lock=this.productionUnitLock(p);if(lock)return this.productionLockText(lock);
-      if(d.category==='warehouse'&&!online.has(p.id)){
+      if(d.category==='warehouse'&&!p.corePort&&!online.has(p.id)){
         const nearby=directions.some(([dx,dy],side)=>this.edgeCells(p,side).some(c=>this.warehouseLine.some(n=>this.productionContains(n,c.x+dx,c.y+dy))));
         return nearby?'仓库接口朝向不匹配 · 存取暂停':'未贴靠底部存取线 · 存取暂停';
       }
       if(d.kind==='hub')return '仓库在线 · 原料无限供应';
       if(d.kind==='bus')return '存取线已接通';
-      if(!p.cargo&&this.production.some(other=>this.productionOutput(other)===p&&!this.productionPortMatches(other,p)))return '入口朝向不匹配 · 无法进料';
+      if(!p.cargo&&this.productionNodes().some(other=>this.productionOutput(other)===p&&!this.productionPortMatches(other,p)))return '入口朝向不匹配 · 无法进料';
       if(d.kind==='loader')return p.cargo?'正在入库':'等待物品入库';
       if(d.kind==='unloader'&&!p.cargo)return this.warehouseCount(p.source)>0?'正在取货':'成品库存不足';
       if(d.kind==='supply')return p.cargo?(this.supplyDestination(p)==='warehouse'?'正在存入材料':this.dp+this.config.production.items[p.cargo.kind].value>this.dpCapacity()?'折金票已满 · 暂存成品':'正在兑换折金票'):'等待成品';
@@ -150,7 +162,9 @@
     },
     updateProduction(dt){
       const cfg=this.config.production;if(!cfg)return;const online=this.warehouseConnections();
-      for(const p of this.production){
+      // Core ports are intrinsically online, separate from the bottom bus graph.
+      for(const p of this.corePorts||[])online.add(p.id);
+      for(const p of this.productionNodes()){
         const d=cfg.types[p.type];
         if(this.productionUnitLock(p)){p.work=0;continue;}
         const batchRecipe=this.productionRecipe(p);
@@ -181,7 +195,7 @@
       // Reserve destinations from a snapshot. A piece moves at most one cell
       // per tick, and two upstream devices cannot duplicate into one receiver.
       const transfers=[],reserved=new Set();
-      for(const p of this.production){
+      for(const p of this.productionNodes()){
         if(this.productionUnitLock(p))continue;
         const d=cfg.types[p.type];if(!p.cargo||['supply','loader'].includes(d.kind)||d.kind==='processor'&&p.cargo.kind!==this.productionRecipe(p).output)continue;
         if(d.kind==='unloader'&&!online.has(p.id))continue;
@@ -190,6 +204,7 @@
         if(next){reserved.add(next.id);transfers.push({from:p,to:next,kind:p.cargo.kind});}
       }
       for(const t of transfers){
+        if(t.from.corePort==='outputs')t.from.delivered++;
         if(t.from.outputRemaining>0){t.from.outputRemaining--;t.from.cargo={kind:t.kind,age:0};}else t.from.cargo=null;
         this.receiveProduction(t.to,t.kind);
       }

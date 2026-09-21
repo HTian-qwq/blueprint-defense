@@ -79,3 +79,9 @@ dialog button:disabled,#techDialog button:disabled,.hotbar-dialog-actions button
 #bulkSummary{font-size:11px;margin:8px 0;line-height:1.6;font-variant-numeric:tabular-nums}.bulk-actions{display:flex;gap:7px}.bulk-actions button{flex:1;background:#43434b;border:1px solid #66666e;color:#f4f4f5;padding:7px 8px;font-size:11px}.bulk-actions button:hover{background:#5a5a64}#bulkDeleteBtn{background:#e1e1e5;color:#874a43;border-color:#bdb2b0}.bulk-actions button:disabled{opacity:.5;cursor:default}#bulkWarning{display:block;font-size:10px;color:#797981;line-height:1.5;margin-top:8px}
 @media(max-width:640px){#bulkToolbar{top:5px;right:6px;max-width:calc(100% - 12px);width:285px;padding:6px 9px}.bulk-heading b{font-size:11px}#bulkSummary{font-size:9px;margin:3px 0}.bulk-actions button{font-size:10px;padding:4px}#bulkWarning{font-size:9px;margin-top:4px}.view-controls{padding:3px 2px}.view-controls button{padding:3px 4px;min-width:25px}}
 @media(max-width:640px){#bulkToolbar{display:grid;grid-template-columns:1fr auto;gap:3px 6px}.bulk-heading,#bulkSummary{grid-column:1/-1}.bulk-gestures,#bulkWarning{display:none}#bulkSummary{margin:0;line-height:1.5}#bulkReverseBtn{grid-column:2;grid-row:3;font-size:9px;padding:3px 5px}.bulk-actions{grid-column:1;grid-row:3;gap:5px}.bulk-heading button{font-size:9px}}
+
+/* Core logistics uses the same neutral inspector palette. */
+.core-port-row{display:grid;grid-template-columns:1fr;gap:5px;padding:10px 0;border-bottom:1px solid #bcbcc0}
+.core-port-row label{font-size:12px;font-weight:600;color:#343438}
+.core-port-row select{width:100%;min-width:0;font:inherit;background:#f0f0f1;color:#25252a;border:1px solid #b2b2b6;padding:7px}
+.core-port-row small{font-size:11px;color:#66666b}

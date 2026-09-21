@@ -1,5 +1,40 @@
 'use strict';
 const productionOptions=new Map();
+let coreControls=null;
+function corePortLabel(port){
+  const core=DATA.map.core,offset=port.y-core.y;
+  return (port.side===2?'左':'右')+'侧'+(offset<3?'上':offset>5?'下':'中')+' · 出口 '+(port.index+1);
+}
+function updateCoreInspector(active,ended){
+  $('coreConfig').hidden=!active;if(!active)return;
+  if(!coreControls){
+    coreControls=new Map();
+    const ports=game.corePorts.filter(p=>p.corePort==='outputs').sort((a,b)=>b.side-a.side||a.y-b.y);
+    for(const port of ports){
+      const row=document.createElement('div'),label=document.createElement('label'),select=document.createElement('select'),status=document.createElement('small');
+      row.className='core-port-row';select.id=port.id;label.htmlFor=select.id;label.textContent=corePortLabel(port);
+      select.add(new Option('关闭出口',''));
+      for(const id of DATA.production.types[port.type].sources)select.add(new Option(DATA.production.items[id].name,id));
+      select.onchange=()=>{const error=game.setProductionOption(port.id,select.value);say(error||`${corePortLabel(port)}：${select.value?DATA.production.items[select.value].name:'已关闭'}`,!!error);updateUI();};
+      row.append(label,select,status);$('coreOutputList').append(row);coreControls.set(port.id,{select,status});
+    }
+  }
+  for(const port of game.corePorts.filter(p=>p.corePort==='outputs')){
+    const {select,status}=coreControls.get(port.id);select.value=port.source;select.disabled=ended;
+    for(const option of select.options){if(!option.value)continue;const lock=game.productionItemLock(option.value),item=DATA.production.items[option.value];option.disabled=!!lock;option.textContent=item.name+(lock?' · '+game.productionLockText(lock):game.isRawMaterial(item.id)?' · ∞':' · 库存 '+game.warehouseCount(item.id));}
+    status.textContent=game.productionStatus(port);
+  }
+  $('coreInputState').textContent=`上下入口自动入库 · 已接收 ${game.corePorts.filter(p=>p.corePort==='inputs').reduce((n,p)=>n+p.delivered,0)} 件`;
+}
+function drawCorePorts(){
+  for(const port of game.corePorts){
+    drawProductionPorts(port);
+    if(port.corePort!=='outputs')continue;
+    const p=screen(port.x+.5,port.y+.5),s=view.s,icon=images.get(port.cargo?.kind||port.source);
+    if(icon){circle(p.x,p.y,s*.31,'#e5e4e4');ctx.drawImage(icon,p.x-s*.3,p.y-s*.3,s*.6,s*.6);}
+    if(selected==='protocol-core'){ctx.fillStyle='#276f78';ctx.font=`bold ${Math.max(9,s*.3)}px "HarmonyOS Sans SC", sans-serif`;ctx.textAlign='center';ctx.fillText(String(port.index+1),p.x,p.y-s*.33);}
+  }
+}
 function recipeLabel(recipe){return game.recipeInputs(recipe).map(x=>`${DATA.production.items[x.id].name} ×${x.count}`).join(' + ')+` → ${DATA.production.items[recipe.output].name} ×${recipe.outputCount}`;}
 function productionOptionValue(def,unit){return unit?(def.kind==='supply'?unit.deliveryMode:unit.source||unit.recipe):productionOptions.get(def.id)||(def.kind==='supply'?'dp':def.sources?.[0]||DATA.production.recipes.find(r=>r.machineId===def.id)?.id);}
 function rotateProductionSelection(){
@@ -24,7 +59,7 @@ function drawProduction(unit,online){
   const d=DATA.production.types[unit.type],p=screen(unit.x,unit.y),s=view.s,f=game.productionRect(unit),w=f.width*s,h=f.depth*s;
   let {img,angle}=productionArt(d,unit.dir);
   if(d.kind==='belt'){
-    const upstream=game.production.filter(other=>other!==unit&&game.productionPortMatches(other,unit)),dir=[[1,0],[0,1],[-1,0],[0,-1]][unit.dir];
+    const upstream=game.productionNodes().filter(other=>other!==unit&&game.productionPortMatches(other,unit)),dir=[[1,0],[0,1],[-1,0],[0,-1]][unit.dir];
     if(upstream.length===1){const before=game.productionPortCells(upstream[0],'outputs').find(c=>Math.abs(c.x-unit.x)+Math.abs(c.y-unit.y)===1),after={x:unit.x+dir[0],y:unit.y+dir[1]};if(before&&(before.x!==after.x||before.y!==after.y)){const tile=BlueprintTD.beltTiles([before,unit,after])[1];img=images.get(tile.sprite);angle=tile.angle*Math.PI/180;}}
   }
   ctx.save();ctx.fillStyle='#e0e1df';ctx.fillRect(p.x+1,p.y+1,w-2,h-2);

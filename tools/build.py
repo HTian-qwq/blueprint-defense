@@ -259,6 +259,14 @@ payload = {'towers':towers,'enemies':enemies,'waves':waves,'production':producti
            'rules':{'initialDP':40,'maxDP':ark['levelOptions']['maxCost'],'dpPerSecond':0,
                     'life':10,'refund':.5,'intermission':30},
            'sourceCommit':ark['commit']}
+# The fixed core artwork uses native d0, unlike the rotatable machines (d3).
+# Preserve the original fourteen input cells and six independently configured outputs.
+core=payload['map']['core']
+core['portCells']={kind:[dict(index=p['index'],x=p['trans']['position']['x'],
+    y=core['footprint']['depth']-1-p['trans']['position']['z'],
+    side=(p['trans']['rotation']['y']//90+(2 if kind=='inputs' else 0)+3)%4)
+    for p in buildings['sp_hub_1']['inputPorts' if kind=='inputs' else 'outputPorts'] if not p['isPipe']]
+    for kind in ('inputs','outputs')}
 preview_assets=load(ROOT/'sources/preview_assets.json')['devices']
 footprint_evidence['sp_hub_1']={'originalRange':buildings['sp_hub_1']['range'],'footprint':payload['map']['core']['footprint']}
 (ROOT/'sources/building_geometry_reference.json').write_text(json.dumps({'source':(KIT/'tables/FactoryBuildingTable.json').relative_to(ROOT).as_posix(),'buildings':footprint_evidence,'coordinates':'Original +z points up. Production dir0 is native d3; clockwise turns rotate the entire footprint and every solid port cell.'},ensure_ascii=False,indent=2),encoding='utf-8')
@@ -288,10 +296,13 @@ audio_manifest={**load(ROOT/'assets/audio/manifest.json'),**load(ROOT/'assets/au
 audio={key:['data:audio/mpeg;base64,'+base64.b64encode((ROOT/'assets/audio'/file).read_bytes()).decode() for file in files] for key,files in audio_manifest.items()}
 app='\n'.join((ROOT/'src'/file).read_text('utf-8') for file in ['currency.js','camera.js','actors.js','board_input.js','production_ui.js','economy_ui.js','build_tools.js','bulk_tools.js','hotbar.js','session.js','local_store.js','session_ui.js','app.js'])
 scripts='\n'.join((ROOT/'src'/file).read_text('utf-8') for file in ['production.js','economy.js','placement.js','engine.js','audio.js'])+'\n'+app
-rules_id=hashlib.sha256(json.dumps(reference,ensure_ascii=False,sort_keys=True).encode('utf-8')).hexdigest()
+# Adding formerly inactive core ports is a compatible fix. Keep the v0.18
+# balance identity so existing runs restore with their new ports initially shut.
+rules_reference={**reference,'map':{**reference['map'],'core':{k:v for k,v in reference['map']['core'].items() if k!='portCells'}}}
+rules_id=hashlib.sha256(json.dumps(rules_reference,ensure_ascii=False,sort_keys=True).encode('utf-8')).hexdigest()
 (ROOT/'dist').mkdir(exist_ok=True)
-build_web(ROOT,html,style,payload,audio,scripts,rules_id,'0.18.0')
-html=html.replace('<script>const DATA=','<script>globalThis.BlueprintBuild='+json.dumps(dict(web=False,version='0.18.0',rulesId=rules_id))+';const DATA=',1)
+build_web(ROOT,html,style,payload,audio,scripts,rules_id,'0.18.1')
+html=html.replace('<script>const DATA=','<script>globalThis.BlueprintBuild='+json.dumps(dict(web=False,version='0.18.1',rulesId=rules_id))+';const DATA=',1)
 for key, value in [('DATA', json.dumps(payload,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')),
                    ('SOUNDS',json.dumps(audio,separators=(',',':'))),('AUDIO',(ROOT/'src/audio.js').read_text('utf-8')),
                    ('PLACEMENT',(ROOT/'src/placement.js').read_text('utf-8')),('ECONOMY',(ROOT/'src/economy.js').read_text('utf-8')),('PRODUCTION',(ROOT/'src/production.js').read_text('utf-8')),('ENGINE',(ROOT/'src/engine.js').read_text('utf-8')),('APP',app),

@@ -35,6 +35,7 @@
   }
   function capture(game,rulesId,view={}){
     const state={};for(const key of fields)state[key]=game[key];
+    state.corePorts=(game.corePorts||[]).map(({id,source,cargo,work,delivered})=>({id,source,cargo,work,delivered}));
     const owners=new Map(game.towers.map(t=>[t.id,t]));
     for(const name of ['projectiles','pendingAttacks','zones']){
       state[name]=game[name].map(value=>{owners.set(value.owner.id,value.owner);return {...value,owner:value.owner.id};});
@@ -80,6 +81,20 @@
     }
     for(const e of state.enemies){validateId(e);check(Number.isInteger(e.type)&&game.config.enemies[e.type],'敌人数据无效');for(const k of ['x','y','hp','maxHp','progress'])check(Number.isFinite(e[k]));}
     const originalPhase=state.phase;for(const key of fields)game[key]=state[key];
+    // Older v0.18 saves have no core logistics. Derive immutable port geometry
+    // from the map and restore only the validated per-port inventory/settings.
+    if(state.corePorts!==undefined){
+      check(Array.isArray(state.corePorts)&&state.corePorts.length===game.corePorts.length,'核心接口数据无效');
+      const seen=new Set();
+      for(const saved of state.corePorts){
+        const port=game.corePorts.find(p=>p.id===saved.id);
+        check(port&&!seen.has(saved.id),'核心接口编号无效');seen.add(saved.id);
+        check(typeof saved.source==='string'&&(saved.source===''||port.corePort==='outputs'&&game.config.production.types[port.type].sources.includes(saved.source)),'核心取货物品无效');
+        check(Number.isFinite(saved.work)&&saved.work>=0&&Number.isSafeInteger(saved.delivered)&&saved.delivered>=0,'核心输送进度无效');
+        if(saved.cargo)check(game.config.production.items[saved.cargo.kind]&&Number.isFinite(saved.cargo.age)&&saved.cargo.age>=0&&(port.corePort==='inputs'||saved.cargo.kind===saved.source),'核心物料无效');
+        for(const key of ['source','cargo','work','delivered'])port[key]=saved[key];
+      }
+    }
     check(game.dp<=game.dpCapacity()+1e-6,'折金票超出仓储容量');
     game.phase='paused';
     for(const t of game.towers)check(!game.footprintError(game.stats(t),t.x,t.y,t.id),'存档建筑占地冲突');
@@ -103,7 +118,7 @@
   }
   function apply(target,source){
     target.config=source.config;
-    for(const key of [...fields,'boss','warehouseLine'])target[key]=source[key];
+    for(const key of [...fields,'boss','warehouseLine','corePorts'])target[key]=source[key];
     target.audioEvents=[];
   }
   function layout(game,selectedIds){
