@@ -57,3 +57,13 @@
 `src/placement.js` 自动对齐仅原地旋转，移除了相邻一格吸附。点击成功后清除旧位置的悬浮预览。新增 `core_logistics`、`core_logistics_browser` 覆盖全部端口、实际浏览器生产回路、存档及紧贴放置。
 
 验证：全套 185 项检查 + 12 种传送带方向全部通过；8770 网页额外通过 4 项实际浏览器核心物流/放置检查。摘要见 `docs/verification/v0.18.1.json`。
+
+## v0.18.2：原版战斗 BGM
+
+新增 `src/music.js` 和 `src/music_ui.js`，以单个 HTMLAudioElement 按需播放长音乐，不放入短音效解码缓存。默认音量 25%，每两波轮换，罗丹在场时使用第二首；整备减半，暂停/后台/菜单/结算暂停，倍速不改变播放速度。菜单设置提供独立音量、开关、选曲与加载重试，偏好使用 `blueprint-defense-music` 本地键保存。导入存档和重开战役会重置音乐位置。
+
+素材从本机游戏的 `au_music_states_combat` 状态事件追至音乐切换容器、播放列表、片段、轨道和流式媒体；选用完整的单轨战斗循环 162823481（132 秒）和 935948798（94.286 秒）。两首的 WEM 原件、SHA-256、相关 HIRC 字节和来源记录保留在 `sources/music/` 与 `sources/music_provenance.json`。显示名称不是官方曲名。网页两首 MP3 合计约 3.45 MiB，按曲目加载；离线版内嵌。`tools/prepare_music.py` 可重新编码，普通构建不依赖游戏安装或解包工具。
+
+音乐仅在生成页面配置时添加，不参与 balance_reference / rulesId，继续兼容已有存档。`music` 单元检查和 `music_browser` 实际 HTTP 音频检查纳入 `tools/test_current.py`，覆盖循环末端、暂停续播、独立开关、倍速、后台、偏好、手机布局和断网重试。
+
+验证：197 项检查和 12 种传送带朝向通过，含离线版内嵌音乐实际播放。初次 geometry_browser 加载与重新构建重叠而失败，最终构建后单独重跑 7 项全部通过；重跑记录保留在验证摘要 `docs/verification/v0.18.2.json`。

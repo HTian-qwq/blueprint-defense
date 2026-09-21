@@ -1,0 +1,18 @@
+{
+  "tracks": [
+    {
+      "id": "battle-1",
+      "title": "战斗音乐 01",
+      "file": "battle_01.mp3",
+      "duration": 132.0,
+      "description": "终末地原版战斗循环"
+    },
+    {
+      "id": "battle-2",
+      "title": "战斗音乐 02",
+      "file": "battle_02.mp3",
+      "duration": 94.286,
+      "description": "终末地原版战斗循环"
+    }
+  ]
+}

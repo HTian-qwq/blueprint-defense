@@ -284,6 +284,9 @@ reference = {**payload,'map':{**payload['map'],'core':{k:v for k,v in payload['m
 (ROOT/'sources/balance_reference.json').write_text(json.dumps(reference,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'sources/upgrade_references.json').write_text(json.dumps(upgrade_evidence,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'src/data.json').write_text(json.dumps(reference,ensure_ascii=False,indent=2),encoding='utf-8')
+# Presentation-only music is deliberately outside the saved-game rules identity.
+music_manifest=load(ROOT/'assets/music/manifest.json')
+payload['music']={'tracks':[{**{k:v for k,v in t.items() if k!='file'},'src':'data:audio/mpeg;base64,'+base64.b64encode((ROOT/'assets/music'/t['file']).read_bytes()).decode()} for t in music_manifest['tracks']]}
 html = (ROOT/'src/index.html').read_text('utf-8')
 html=html.replace('<script>const DATA=',(ROOT/'src/session.html').read_text('utf-8')+'<script>const DATA=',1)
 html=html.replace('<div class="header-actions">','<div class="header-actions"><span id="saveIndicator" class="session-save-indicator"></span><button id="sessionBtn">菜单</button><button id="blueprintsBtn">蓝图</button>',1)
@@ -294,15 +297,15 @@ for key,file in load(ROOT/'sources/preview_assets.json')['decorations'].items():
     style=style.replace('__UI_'+key+'__',art(Path(file).stem))
 audio_manifest={**load(ROOT/'assets/audio/manifest.json'),**load(ROOT/'assets/audio/wisadel_manifest.json')}
 audio={key:['data:audio/mpeg;base64,'+base64.b64encode((ROOT/'assets/audio'/file).read_bytes()).decode() for file in files] for key,files in audio_manifest.items()}
-app='\n'.join((ROOT/'src'/file).read_text('utf-8') for file in ['currency.js','camera.js','actors.js','board_input.js','production_ui.js','economy_ui.js','build_tools.js','bulk_tools.js','hotbar.js','session.js','local_store.js','session_ui.js','app.js'])
+app='\n'.join((ROOT/'src'/file).read_text('utf-8') for file in ['music.js','music_ui.js','currency.js','camera.js','actors.js','board_input.js','production_ui.js','economy_ui.js','build_tools.js','bulk_tools.js','hotbar.js','session.js','local_store.js','session_ui.js','app.js'])
 scripts='\n'.join((ROOT/'src'/file).read_text('utf-8') for file in ['production.js','economy.js','placement.js','engine.js','audio.js'])+'\n'+app
 # Adding formerly inactive core ports is a compatible fix. Keep the v0.18
 # balance identity so existing runs restore with their new ports initially shut.
 rules_reference={**reference,'map':{**reference['map'],'core':{k:v for k,v in reference['map']['core'].items() if k!='portCells'}}}
 rules_id=hashlib.sha256(json.dumps(rules_reference,ensure_ascii=False,sort_keys=True).encode('utf-8')).hexdigest()
 (ROOT/'dist').mkdir(exist_ok=True)
-build_web(ROOT,html,style,payload,audio,scripts,rules_id,'0.18.1')
-html=html.replace('<script>const DATA=','<script>globalThis.BlueprintBuild='+json.dumps(dict(web=False,version='0.18.1',rulesId=rules_id))+';const DATA=',1)
+build_web(ROOT,html,style,payload,audio,scripts,rules_id,'0.18.2')
+html=html.replace('<script>const DATA=','<script>globalThis.BlueprintBuild='+json.dumps(dict(web=False,version='0.18.2',rulesId=rules_id))+';const DATA=',1)
 for key, value in [('DATA', json.dumps(payload,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')),
                    ('SOUNDS',json.dumps(audio,separators=(',',':'))),('AUDIO',(ROOT/'src/audio.js').read_text('utf-8')),
                    ('PLACEMENT',(ROOT/'src/placement.js').read_text('utf-8')),('ECONOMY',(ROOT/'src/economy.js').read_text('utf-8')),('PRODUCTION',(ROOT/'src/production.js').read_text('utf-8')),('ENGINE',(ROOT/'src/engine.js').read_text('utf-8')),('APP',app),

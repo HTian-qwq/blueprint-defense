@@ -1,0 +1,164 @@
+{
+  "event": "au_music_states_combat",
+  "eventId": 1569858715,
+  "stateValue": 3813340491,
+  "selection": "Matching combat-state switch decision leaf -> music playlist child -> single full-length music segment -> one source track. Neither stingers nor theme/opening branches are selected. Display names are project labels, not asserted official track titles.",
+  "decode": "vgmstream-cli; Wwise Vorbis -> WAV -> stereo MP3 44.1 kHz 128 kbps, -20 LUFS / -2 dBTP, 40 ms intro and 80 ms outro fade. Original complete loop duration retained.",
+  "bankManifestMd5": "f03ec8780203ddad04df4c2040ed88a9",
+  "bankFileSha256": "e8592a9fec4f0302f1de2101bcf565e9b12e6856526c15ef75cdeef4a3c39188",
+  "verification": "Persistent and StreamingAssets manifests agree on PCK MD5; missing persistent chunks are read from the matching base layer. Only selected WEM ranges are read; complete multi-GB streaming PCK checksums were not rehashed.",
+  "tracks": [
+    {
+      "switch": 511824391,
+      "conditionOffset": 171,
+      "playlist": 1063843890,
+      "segment": 344295256,
+      "tracks": [
+        {
+          "track": 426062664,
+          "source": 162823481,
+          "clips": 1,
+          "timing": [
+            0.0,
+            0.0,
+            0.0,
+            132000.0
+          ]
+        }
+      ],
+      "media": {
+        "layer": "StreamingAssets",
+        "block": "24ED34CF",
+        "version": 24577065,
+        "name": "Data/Audio/PCK/Windows/Main/default_stream_2.pck",
+        "path": "F:\\Endfield Game\\Endfield_Data\\StreamingAssets\\VFS\\24ED34CF\\E77C41225AA901F3D17741ECE0672F30.chk",
+        "offset": 0,
+        "size": 1371981559,
+        "encrypt": false,
+        "md5": "992cf5aebf1075139c4380c8ab079b14",
+        "exists": true,
+        "mediaId": 162823481,
+        "mediaOffset": 1261460800,
+        "mediaBytes": 3135223
+      },
+      "wemSha256": "26e3a5e6c58c0fa6c8fc63fc91deee07495c1714c8a6f786b49008cfcf59a55c",
+      "mp3Sha256": "744e58afdb2d65e852387872ce0b024bf0867c6653ae0c5dc3915df732a8729b",
+      "duration": 132.0,
+      "file": "assets/music/battle_01.mp3",
+      "objects": [
+        {
+          "id": 1569858715,
+          "type": 4,
+          "bank": "1569858715.bnk",
+          "dataHex": "02b25f1f2c12d3671d"
+        },
+        {
+          "id": 740253618,
+          "type": 3,
+          "bank": "1569858715.bnk",
+          "dataHex": "04124bf54ae3000000288c9e4d4bf54ae3"
+        },
+        {
+          "id": 511824391,
+          "type": 12,
+          "bank": "266542773.bnk",
+          "dataHex": "000000000000000000ae2bb10c0001060000c442000000000000000001000000000000000002000000cfb31e2732f8683f0000000000408f4000000000000000000000f042040400000000000100000001000000ffffffff01000000ffffffff0000000004000000000000000700000000000000010000000004000000000000000000000000000000000000000100000101000000288c9e4d0124000000000000000001000200320064004bf54ae332f8683f32006400245567eccfb31e2732006400"
+        },
+        {
+          "id": 1063843890,
+          "type": 13,
+          "bank": "266542773.bnk",
+          "dataHex": "00000000000000000007d2811e00020506000020c10000c442000000000000000001000000000000000001000000588785140000000000408f4000000000000000000000f042040400000000000100000001000000ffffffff01000000ffffffff00000000040000000000000007000000000000000100000000040000000000000000000000000000000000000001000002000000000000001a43c81f010000000000000000000000000050c300000100010058878514893c4e3a00000000ffffffff01000000000050c3000000000000"
+        },
+        {
+          "id": 344295256,
+          "type": 10,
+          "bank": "266542773.bnk",
+          "dataHex": "0001010000041eb3320000000000000032f8683f00010300007041000000000000000001000000000000000001000000483365190000000000408f4000000000000000000000f0420404000000000000000000001d00410200000012df980200000000000000000048d6bb5b00000000001d004100"
+        },
+        {
+          "id": 426062664,
+          "type": 11,
+          "bank": "266542773.bnk",
+          "dataHex": "00010000000100040002397db409e4100000080100000000000000397db4090000000000000000000000000000000000000000000000000000000000000000001d00410100000000000000000000000000000058878514000000000000000000000100000000000000000064000000"
+        }
+      ]
+    },
+    {
+      "switch": 552315426,
+      "conditionOffset": 173,
+      "playlist": 50909865,
+      "segment": 688598552,
+      "tracks": [
+        {
+          "track": 585135213,
+          "source": 935948798,
+          "clips": 1,
+          "timing": [
+            0.0,
+            0.0,
+            0.0,
+            94285.71428571429
+          ]
+        }
+      ],
+      "media": {
+        "layer": "StreamingAssets",
+        "block": "24ED34CF",
+        "version": 24577065,
+        "name": "Data/Audio/PCK/Windows/Main/default_stream_2.pck",
+        "path": "F:\\Endfield Game\\Endfield_Data\\StreamingAssets\\VFS\\24ED34CF\\E77C41225AA901F3D17741ECE0672F30.chk",
+        "offset": 0,
+        "size": 1371981559,
+        "encrypt": false,
+        "md5": "992cf5aebf1075139c4380c8ab079b14",
+        "exists": true,
+        "mediaId": 935948798,
+        "mediaOffset": 822529718,
+        "mediaBytes": 2223848
+      },
+      "wemSha256": "85469dfecc11aeee309e26c18f0f2f524d368a5fdef7d719877c55f25ef4cea6",
+      "mp3Sha256": "4390d43228b6b747e94ec3a2cdd462c9f8416e482e8f6721b59479ca7ca136fb",
+      "duration": 94.28571428571429,
+      "file": "assets/music/battle_02.mp3",
+      "objects": [
+        {
+          "id": 1569858715,
+          "type": 4,
+          "bank": "1569858715.bnk",
+          "dataHex": "02b25f1f2c12d3671d"
+        },
+        {
+          "id": 740253618,
+          "type": 3,
+          "bank": "1569858715.bnk",
+          "dataHex": "04124bf54ae3000000288c9e4d4bf54ae3"
+        },
+        {
+          "id": 552315426,
+          "type": 12,
+          "bank": "266542773.bnk",
+          "dataHex": "00010100009b78692d0000000ae10641831cb83b0000000000000000000001000000000000000002000000a9d2080332683d3f0000000000408f4000000000000000000000f042040400000000000100000001000000ffffffff01000000ffffffff0000000004000000000000000300000000000000010000000004000000000000000000000000000000000000000100000101000000288c9e4d0124000000000000000001000200320064004bf54ae3a9d2080332006400245567ec32683d3f32006400"
+        },
+        {
+          "id": 50909865,
+          "type": 13,
+          "bank": "266542773.bnk",
+          "dataHex": "00000000000000000022aaeb200000000000000000000001000000000000000002000000182e0b291b5a3e350000000000408f4000000000000000000000f042040400000000000100000001000000ffffffff01000000ffffffff000000000400000000000000070000000000000001000000000400000000000000000000000000000000000000010000030000000000000044d1352f020000000000000001000000000050c30000010001001b5a3e3554df723700000000ffffffff01000000000050c3000000000000182e0b292c31c12d00000000ffffffff00000000000050c3000000000000"
+        },
+        {
+          "id": 688598552,
+          "type": 10,
+          "bank": "266542773.bnk",
+          "dataHex": "000000000000000000a9d20803000205060000a0c00000c4420000000000000000010000000000000000010000006d74e0220000000000408f4000000000000000000000f042040400000000006fdbb66ddb04f7400200000012df980200000000000000000048d6bb5b6fdbb66ddb04f74000"
+        },
+        {
+          "id": 585135213,
+          "type": 11,
+          "bank": "266542773.bnk",
+          "dataHex": "00010000000100040002fe71c937cc110000080100000000000000fe71c937000000000000000000000000000000000000000000000000000000006edbb66ddb04f74001000000000000000000000000000000182e0b29000000000000000000000100000000000000000064000000"
+        }
+      ]
+    }
+  ]
+}

@@ -34,7 +34,7 @@ function setupSessionUI(){
   $('sessionConfirmOK').onclick=()=>{const action=pendingConfirmation;pendingConfirmation=null;$('sessionConfirm').close();if(action)action();};
   function syncScenario(){const scenario=mode();$('scenario').value=scenario;$('scenarioHint').textContent=scenario==='boss'?'全科技 · 成品各 60 · 第二波罗丹':'第 10 波迎战罗丹';lastWavePanel='';}
   function install(restored){
-    pause();api.apply(game,restored.game);active=true;chosenSlot=mode();syncScenario();productionOptions.clear();cancel();
+    pause();music.reset();api.apply(game,restored.game);active=true;chosenSlot=mode();syncScenario();productionOptions.clear();cancel();
     const v=restored.view||{};camera.reset();
     if([v.zoom,v.cx,v.cy].every(Number.isFinite)){camera.zoom=Math.max(camera.min,Math.min(camera.max,v.zoom));camera.cx=Math.max(0,Math.min(DATA.map.width,v.cx));camera.cy=Math.max(0,Math.min(DATA.map.height,v.cy));camera.layout();}
     speed=v.speed===2?2:1;$('speedBtn').textContent=speed+'×';accumulator=0;last=0;syncCamera();updateUI();

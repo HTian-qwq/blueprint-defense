@@ -4,6 +4,8 @@ const game=new BlueprintTD.Game(DATA), images=new Map();
 const camera=new BlueprintCamera(DATA.map.width,DATA.map.height);
 const actors=new BlueprintActors(DATA.wisadel,{lazy:!!globalThis.BlueprintBuild?.web});
 const sound=new BlueprintSound(SOUNDS,updateAudioUI,DATA.map.width);
+const music=new BlueprintMusic(DATA.music?.tracks||[],updateMusicUI);
+setupMusicUI();
 function updateAudioUI(){
   const quiet=sound.muted||sound.volume===0,button=$('soundBtn');
   button.textContent=sound.state==='failed'?'音效 · 不可用':quiet?'音效 · 静音':sound.state==='ready'?'音效 · 开':sound.state==='loading'?'音效 · 加载中':'音效 · 待启用';
@@ -11,7 +13,7 @@ function updateAudioUI(){
   button.title=sound.error||'战斗音效与语音 · 点击切换静音';
   $('volume').value=Math.round(sound.volume*100);$('volumeValue').textContent=Math.round(sound.volume*100)+'%';
 }
-function flushAudio(){sound.consume(game.drainAudioEvents(),!document.hidden&&['ready','running'].includes(game.phase),game.time);}
+function flushAudio(){sound.consume(game.drainAudioEvents(),!document.hidden&&['ready','running'].includes(game.phase),game.time);syncMusic();}
 document.addEventListener('pointerdown',e=>{if(e.target!==$('soundBtn'))void sound.unlock();},{capture:true});
 document.addEventListener('keydown',e=>{if(e.isTrusted&&!e.repeat)void sound.unlock();},{capture:true});
 $('soundBtn').onclick=()=>{
@@ -39,7 +41,7 @@ void fontReady.then(()=>{resize();}).catch(()=>{});
 function say(text,error=false){$('status').textContent=text;$('status').style.color=error?'#a84729':'';}
 function selectType(index,keepPage=false){clearBulkTools();movingId=null;beltDraft=null;rotationLocked=false;choice=index;if(!keepPage||deckPage>=0)deckPage=devicePage(index);selected=null;if(['unloader','loader'].includes(choiceDef().kind))buildDirection=choiceDef().defaultDir;invalidatePlacement();updateUI();$('sidebarScroll').scrollTop=0;say(`已选择${choiceDef().name}：${choiceDef().kind==='belt'?'按住拖拽铺设整段传送带，松开确认':'点击空地部署'}${productionChoice()?'，R 锁定朝向，G 开关自动对齐':''}，Esc 取消。`);}
 function cancel(){clearBulkTools();choice=-1;selected=null;hover=null;movingId=null;beltDraft=null;invalidatePlacement();updateUI();}
-function reset(){sound.stopAll();game.reset();productionOptions.clear();boardInput.reset();buildDirection=0;cancel();speed=1;accumulator=0;$('speedBtn').textContent='1×';updateUI();say(game.config.rules.initialDP===500?'罗丹挑战已准备。50,000 折金票、全科技与每种成品 60 份，可直接布阵。':'新演练已准备。先搭建产线供应折金票，再部署防御塔。');}
+function reset(){sound.stopAll();music.reset();game.reset();productionOptions.clear();boardInput.reset();buildDirection=0;cancel();speed=1;accumulator=0;$('speedBtn').textContent='1×';updateUI();say(game.config.rules.initialDP===500?'罗丹挑战已准备。50,000 折金票、全科技与每种成品 60 份，可直接布阵。':'新演练已准备。先搭建产线供应折金票，再部署防御塔。');}
 function resize(){
   const rect=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2);
   canvas.width=Math.round(rect.width*dpr);canvas.height=Math.round(rect.height*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
@@ -244,6 +246,7 @@ for(const [i,t] of allDevices.entries()){
 let lastWavePanel='';
 let lastUpgradePath='';
 function updateUI(){
+  syncMusic();
   invalidatePlacement();updateBuildTools();updateHotbar();
   updateProductionUnlock();
   updateEconomyUI();
@@ -369,7 +372,7 @@ $('closeEnemyGuide').onclick=()=>$('enemyGuide').close();
 document.addEventListener('keydown',e=>{
   if(e.key==='Alt'){placementAlt=true;invalidatePlacement();return;}
   if(e.ctrlKey||e.metaKey||e.altKey)return;
-  if(e.target.matches('input,textarea,select')||e.target.id==='soundBtn')return;
+  if(e.target.matches('input,textarea,select')||['soundBtn','musicBtn'].includes(e.target.id))return;
   if(document.querySelector('dialog[open]'))return;
   if(e.shiftKey&&/^Digit[1-9]$/.test(e.code)){e.preventDefault();if(!e.repeat)assignCurrentHotbar(Number(e.code.slice(-1))-1);return;}
   if(e.code==='Space'){e.preventDefault();if(e.repeat)return;$('startBtn').click();}
@@ -399,4 +402,4 @@ setupHotbar();
 setupBulkTools();
 const session=setupSessionUI();
 ready.then(()=>{resize();updateUI();requestAnimationFrame(frame);}).catch(e=>say(e.message,true));
-window.BlueprintDefense={game,sound,camera,actors,ready,session,selectType,reset,updateUI,screen,render:draw,get choice(){return choice;}};
+window.BlueprintDefense={game,sound,music,camera,actors,ready,session,selectType,reset,updateUI,screen,render:draw,get choice(){return choice;}};

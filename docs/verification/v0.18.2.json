@@ -1,0 +1,163 @@
+{
+  "version": "0.18.2",
+  "date": "2026-09-21",
+  "checksPassed": 197,
+  "beltOrientationsPassed": 12,
+  "suites": [
+    {
+      "suite": "music",
+      "returncode": 0
+    },
+    {
+      "suite": "core_logistics",
+      "returncode": 0
+    },
+    {
+      "suite": "core_logistics_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "session",
+      "returncode": 0
+    },
+    {
+      "suite": "industrial",
+      "returncode": 0
+    },
+    {
+      "suite": "blue_iron_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "industrial_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "hotbar_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "placement",
+      "returncode": 0
+    },
+    {
+      "suite": "placement_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "bulk",
+      "returncode": 0
+    },
+    {
+      "suite": "bulk_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "original_bulk_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "economy",
+      "returncode": 0
+    },
+    {
+      "suite": "economy_campaign",
+      "returncode": 0
+    },
+    {
+      "suite": "geometry",
+      "returncode": 0
+    },
+    {
+      "suite": "burst",
+      "returncode": 0
+    },
+    {
+      "suite": "audio_mapping",
+      "returncode": 0
+    },
+    {
+      "suite": "mortar",
+      "returncode": 0
+    },
+    {
+      "suite": "actor_facing",
+      "returncode": 0
+    },
+    {
+      "suite": "wave_preparation",
+      "returncode": 0
+    },
+    {
+      "suite": "geometry_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "actor_facing_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "wave_preparation_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "economy_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "currency_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "web_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "music_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "belt_assets",
+      "returncode": 0
+    }
+  ],
+  "buildSha256": "7e96c071a7393c9c05ee8c897e74fa0c591632db56009cd29ce473cceec4325c",
+  "music": {
+    "tracks": [
+      {
+        "mediaId": 162823481,
+        "seconds": 132.0,
+        "sha256": "744e58afdb2d65e852387872ce0b024bf0867c6653ae0c5dc3915df732a8729b"
+      },
+      {
+        "mediaId": 935948798,
+        "seconds": 94.28571428571429,
+        "sha256": "4390d43228b6b747e94ec3a2cdd462c9f8416e482e8f6721b59479ca7ca136fb"
+      }
+    ],
+    "browserChecks": [
+      "no music is fetched on the menu or deployment screen; starting a wave streams only the first verified battle loop",
+      "pause/resume preserves the playhead, 2x battle keeps music at 1x, and the music and SFX switches operate independently",
+      "settings select and play the second original loop, the browser loops at its actual end, and preparation halves music volume",
+      "automatic selection follows waves; switching away pauses both battle and music; reload retains preferences without autoplaying the saved run",
+      "music controls remain usable at phone width without horizontal overflow",
+      "a failed music request does not interrupt gameplay and the visible retry successfully recovers playback",
+      "the offline single-file build plays the embedded original music without an HTTP server"
+    ]
+  },
+  "rechecks": [
+    {
+      "suite": "geometry_browser",
+      "previousReturncode": 1,
+      "reason": "Rechecked after final build; initial geometry load overlapped an output rebuild.",
+      "returncode": 0
+    },
+    {
+      "suite": "music_browser",
+      "previousReturncode": 0,
+      "reason": "Added offline embedded-audio playback and selected-track status verification.",
+      "returncode": 0
+    }
+  ],
+  "saveCompatibility": "Music remains outside rulesId. Unchanged v0.18 rulesId: 0d449528b83cd43868cf153b4359c3997c0a5faa02204591e10da5cc266d6d49."
+}
