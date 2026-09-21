@@ -1,7 +1,7 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs/promises'),path=require('node:path'),{pathToFileURL}=require('node:url');
 const root=path.resolve(__dirname,'..'),{starterPlan,campaignPlan}=require('./geometry_helpers.cjs');
 (async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});try{
- const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.BLUEPRINT_TEST_URL||pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+ const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.BLUEPRINT_TEST_URL||pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
  async function point(x,y){return page.evaluate(({x,y})=>{const p=BlueprintDefense.screen(x+.5,y+.5),r=document.getElementById('board').getBoundingClientRect();return{x:r.x+p.x,y:r.y+p.y};},{x,y});}
  async function cell(x,y){const p=await point(x,y);await page.mouse.click(p.x,p.y);}
  async function type(n){await page.locator(`[data-deck-page="${[0,8].includes(n)?3:2}"]`).click();await page.locator(`[data-production-type="${n}"]`).click();}

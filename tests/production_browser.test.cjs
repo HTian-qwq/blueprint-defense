@@ -4,7 +4,7 @@ const {pathToFileURL}=require('node:url'),root=path.resolve(__dirname,'..');
  const browser=await chromium.launch({channel:'chrome',headless:true});
  try{
   const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+  await page.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
   async function cell(x,y){const p=await page.evaluate(({x,y})=>{const p=BlueprintDefense.screen(x+.5,y+.5),r=document.getElementById('board').getBoundingClientRect();return {x:p.x+r.x,y:p.y+r.y};},{x,y});await page.mouse.click(p.x,p.y);}
   await page.locator('[data-deck-page="3"]').click();assert.equal(await page.locator('.unit-card:visible').count(),2);
   await page.locator('[data-production-type="0"]').click();await page.keyboard.press('r');assert.match(await page.locator('#rotateBtn').textContent(),/向右/);await page.keyboard.press('r');await page.keyboard.press('r');await page.keyboard.press('r');await cell(2,10);

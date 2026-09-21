@@ -2,7 +2,7 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=r
 const root=path.resolve(__dirname,'..');
 (async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});try{
  const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];page.setDefaultTimeout(6000);page.on('pageerror',e=>errors.push(e.message));
- await page.goto(process.env.BLUEPRINT_TEST_URL||pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+ await page.goto(process.env.BLUEPRINT_TEST_URL||pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
  async function cell(x,y){y+=16;const p=await page.evaluate(({x,y})=>{const p=BlueprintDefense.screen(x+.5,y+.5),r=document.getElementById('board').getBoundingClientRect();return{x:r.x+p.x,y:r.y+p.y};},{x,y});await page.mouse.click(p.x,p.y);}
  async function machine(type,x,y,option){await page.locator(`[data-deck-page="${type===0?3:2}"]`).click();await page.locator(`[data-production-type="${type}"]`).click();if(option)await page.locator('#productionOption').selectOption(option);for(let i=0;i<4;i++){if((await page.locator('#rotateBtn').innerText()).includes('向上'))break;await page.keyboard.press('r');}await cell(x,y);}
  await page.locator('#techBtn').click();assert.equal(await page.locator('[data-research-tab="production"] small').innerText(),'07');assert.equal(await page.locator('[data-research-tab="combat"] small').innerText(),'08');assert.equal(await page.locator('.tech-node:visible').count(),7);assert.equal(await page.locator('.tech-branch:visible').count(),3);assert(await page.locator('[data-start-research="densification"]').isDisabled());

@@ -1,11 +1,16 @@
 """Serve the built game locally. No third-party dependencies are required."""
 import argparse
+import re
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 
 class GameHandler(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Cache-Control', 'public, max-age=31536000, immutable' if re.search(r'/[a-f0-9]{16}\.[a-z0-9]+$', self.path) else 'no-cache')
+        super().end_headers()
+
     def do_GET(self):
         if self.path == '/':
             self.send_response(302)

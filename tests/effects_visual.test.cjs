@@ -8,7 +8,7 @@ const root=path.resolve(__dirname,'..');
   const browser=await chromium.launch({channel:'chrome',headless:true});
   try{
     const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[];
-    page.on('pageerror',e=>errors.push(e.message));await page.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+    page.on('pageerror',e=>errors.push(e.message));await page.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
     await page.evaluate(()=>{
       const g=BlueprintDefense.game,places=[[3,4],[7,3],[11,5],[15,7]],targets=[[3.5,5.5],[7.5,2.5],[10.5,5.5],[15.5,8.5]];
       for(let i=0;i<4;i++){g.dp=99;const t=g.deploy(i,...places[i]).tower;g.spawn(i,10);const e=g.enemies.at(-1);[e.x,e.y]=targets[i];g.fire(t,g.stats(t),e);}

@@ -7,6 +7,7 @@ import re
 from economy_config import configure
 from production_config import BASE_RECIPES, RECIPE_RESEARCH, PRICES, MACHINES
 from pathlib import Path
+from web_build import build_web
 
 ROOT = Path(__file__).resolve().parents[1]
 KIT = ROOT / 'sources/game_data'
@@ -276,19 +277,27 @@ reference = {**payload,'map':{**payload['map'],'core':{k:v for k,v in payload['m
 (ROOT/'sources/upgrade_references.json').write_text(json.dumps(upgrade_evidence,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'src/data.json').write_text(json.dumps(reference,ensure_ascii=False,indent=2),encoding='utf-8')
 html = (ROOT/'src/index.html').read_text('utf-8')
-style='\n'.join((ROOT/'src'/name).read_text('utf-8') for name in ['fonts.css','style.css','preview_theme.css','economy.css','hotbar.css','interface_theme.css'])
+html=html.replace('<script>const DATA=',(ROOT/'src/session.html').read_text('utf-8')+'<script>const DATA=',1)
+html=html.replace('<div class="header-actions">','<div class="header-actions"><span id="saveIndicator" class="session-save-indicator"></span><button id="sessionBtn">菜单</button><button id="blueprintsBtn">蓝图</button>',1)
+style='\n'.join((ROOT/'src'/name).read_text('utf-8') for name in ['fonts.css','style.css','preview_theme.css','economy.css','hotbar.css','interface_theme.css','session.css'])
 style=style.replace('__FONT_SC__','data:font/ttf;base64,'+base64.b64encode((ROOT/'assets/fonts/HarmonyOS_Sans_SC.ttf').read_bytes()).decode())
 html=html.replace('__FONT_LICENSE__',escape((ROOT/'assets/fonts/LICENSE.txt').read_text('utf-8').rstrip('\x00')))
 for key,file in load(ROOT/'sources/preview_assets.json')['decorations'].items():
     style=style.replace('__UI_'+key+'__',art(Path(file).stem))
 audio_manifest={**load(ROOT/'assets/audio/manifest.json'),**load(ROOT/'assets/audio/wisadel_manifest.json')}
 audio={key:['data:audio/mpeg;base64,'+base64.b64encode((ROOT/'assets/audio'/file).read_bytes()).decode() for file in files] for key,files in audio_manifest.items()}
+app='\n'.join((ROOT/'src'/file).read_text('utf-8') for file in ['currency.js','camera.js','actors.js','board_input.js','production_ui.js','economy_ui.js','build_tools.js','bulk_tools.js','hotbar.js','session.js','local_store.js','session_ui.js','app.js'])
+scripts='\n'.join((ROOT/'src'/file).read_text('utf-8') for file in ['production.js','economy.js','placement.js','engine.js','audio.js'])+'\n'+app
+rules_id=hashlib.sha256(json.dumps(reference,ensure_ascii=False,sort_keys=True).encode('utf-8')).hexdigest()
+(ROOT/'dist').mkdir(exist_ok=True)
+build_web(ROOT,html,style,payload,audio,scripts,rules_id,'0.18.0')
+html=html.replace('<script>const DATA=','<script>globalThis.BlueprintBuild='+json.dumps(dict(web=False,version='0.18.0',rulesId=rules_id))+';const DATA=',1)
 for key, value in [('DATA', json.dumps(payload,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')),
                    ('SOUNDS',json.dumps(audio,separators=(',',':'))),('AUDIO',(ROOT/'src/audio.js').read_text('utf-8')),
-                   ('PLACEMENT',(ROOT/'src/placement.js').read_text('utf-8')),('ECONOMY',(ROOT/'src/economy.js').read_text('utf-8')),('PRODUCTION',(ROOT/'src/production.js').read_text('utf-8')),('ENGINE',(ROOT/'src/engine.js').read_text('utf-8')),('APP','\n'.join((ROOT/'src'/file).read_text('utf-8') for file in ['currency.js','camera.js','actors.js','board_input.js','production_ui.js','economy_ui.js','build_tools.js','bulk_tools.js','hotbar.js','app.js'])),
+                   ('PLACEMENT',(ROOT/'src/placement.js').read_text('utf-8')),('ECONOMY',(ROOT/'src/economy.js').read_text('utf-8')),('PRODUCTION',(ROOT/'src/production.js').read_text('utf-8')),('ENGINE',(ROOT/'src/engine.js').read_text('utf-8')),('APP',app),
                    ('STYLE',style)]:
     html = html.replace('__'+key+'__',value)
-(ROOT/'dist').mkdir(exist_ok=True)
-dest = ROOT/'dist/blueprint_defense.html'
+(ROOT/'dist/offline').mkdir(exist_ok=True)
+dest = ROOT/'dist/offline/blueprint_defense.html'
 dest.write_text(html,encoding='utf-8')
 print(f'Built {dest}: {dest.stat().st_size/1024:.0f} KiB; {len(towers)} original towers, {len(enemies)} original enemy portraits, {sum(len(w["enemies"]) for w in waves)} enemies')

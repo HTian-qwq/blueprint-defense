@@ -1,5 +1,5 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),path=require('node:path'),fs=require('node:fs/promises');
-const {pathToFileURL}=require('node:url'),root=path.resolve(__dirname,'..'),url=pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href;
+const {pathToFileURL}=require('node:url'),root=path.resolve(__dirname,'..'),url=pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href;
 (async()=>{
  const browser=await chromium.launch({channel:'chrome',headless:true});
  try{

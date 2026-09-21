@@ -6,12 +6,23 @@
       this.cues=cues;this.onChange=onChange;this.context=null;this.buffers=new Map();this.voices=new Set();
       this.state='locked';this.volume=.45;this.muted=false;this.pending=null;this.variants=new Map();this.lastPlayed=new Map();
       this.played=0;this.maxVoices=18;this.counts={};this.error='';
+      this.remote=Object.values(cues).some(uris=>uris.some(uri=>!uri.startsWith('data:')));this.loads=new Map();this.generation=0;
       try {const p=JSON.parse(localStorage.getItem('blueprint-defense-audio')||'null');
         if(p&&typeof p.volume==='number'&&Number.isFinite(p.volume))this.volume=Math.max(0,Math.min(1,p.volume));
         if(p&&typeof p.muted==='boolean')this.muted=p.muted;
       }catch(_){}
     }
     save(){try{localStorage.setItem('blueprint-defense-audio',JSON.stringify({volume:this.volume,muted:this.muted}));}catch(_){}this.onChange();}
+    ensureCue(key){
+      if(this.buffers.has(key))return Promise.resolve();if(this.loads.has(key))return this.loads.get(key);
+      const task=Promise.all((this.cues[key]||[]).map(async uri=>{
+        let data;
+        if(uri.startsWith('data:'))data=Uint8Array.from(atob(uri.split(',')[1]),c=>c.charCodeAt(0)).buffer;
+        else{const response=await fetch(uri);if(!response.ok)throw Error('音效加载失败，后续播放将重试');data=await response.arrayBuffer();}
+        return this.context.decodeAudioData(data);
+      })).then(buffers=>{this.buffers.set(key,buffers);this.loads.delete(key);}).catch(error=>{this.loads.delete(key);throw error;});
+      this.loads.set(key,task);return task;
+    }
     async unlock(){
       if(this.muted||this.volume===0)return false;
       try {
@@ -22,12 +33,8 @@
           compressor.ratio.value=8;compressor.attack.value=.004;compressor.release.value=.16;
           compressor.connect(this.master);this.master.connect(this.context.destination);this.input=compressor;
           this.state='loading';this.onChange();
-          this.pending=Promise.all(Object.entries(this.cues).map(async([key,uris])=>{
-            const buffers=await Promise.all(uris.map(uri=>{
-              const bytes=Uint8Array.from(atob(uri.split(',')[1]),c=>c.charCodeAt(0));
-              return this.context.decodeAudioData(bytes.buffer);
-            }));this.buffers.set(key,buffers);
-          }));
+          this.pending=this.remote?Promise.resolve():Promise.all(Object.keys(this.cues).map(key=>this.ensureCue(key)));
+          if(this.remote)for(const key of Object.keys(this.cues).filter(key=>key.startsWith('turret.')||key.startsWith('frost.')))void this.ensureCue(key).catch(()=>{});
         }
         // Called synchronously from a gesture before waiting for decoding.
         const resume=this.context.state==='running'?Promise.resolve():this.context.resume();
@@ -49,10 +56,13 @@
       this.voices.delete(voice);
       try{const now=this.context.currentTime;voice.gain.gain.cancelScheduledValues(now);voice.gain.gain.setTargetAtTime(0,now,.003);voice.source.stop(now+.012);}catch(_){}
     }
-    stopAll(){for(const voice of [...this.voices])this.stopVoice(voice);this.lastPlayed.clear();}
+    stopAll(){this.generation++;for(const voice of [...this.voices])this.stopVoice(voice);this.lastPlayed.clear();}
     play(key,x=this.worldWidth/2,voiceId){
       if(this.state!=='ready'||this.context.state!=='running'||this.muted||this.volume===0||document.hidden)return false;
-      const variants=this.buffers.get(key);if(!variants?.length)return false;
+      const variants=this.buffers.get(key);if(!variants?.length){
+        if(this.remote&&this.cues[key]){const generation=this.generation,requested=performance.now();void this.ensureCue(key).then(()=>{if(generation===this.generation&&performance.now()-requested<1200)this.play(key,x,voiceId);}).catch(error=>{this.error=error.message;this.onChange();});}
+        return false;
+      }
       const dialogue=key.startsWith('wisadel.');
       const now=this.context.currentTime;if(!dialogue&&now-(this.lastPlayed.get(key)??-Infinity)<.025)return false;
       if(dialogue)for(const voice of [...this.voices])if(voice.dialogue)this.stopVoice(voice);

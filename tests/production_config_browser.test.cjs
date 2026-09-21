@@ -2,7 +2,7 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
 const {pathToFileURL}=require('node:url'),root=path.resolve(__dirname,'..');
 (async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});try{
  const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+ await page.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
  async function cell(x,y){const p=await page.evaluate(({x,y})=>{const p=BlueprintDefense.screen(x+.5,y+.5),r=document.getElementById('board').getBoundingClientRect();return {x:p.x+r.x,y:p.y+r.y};},{x,y});await page.mouse.click(p.x,p.y);}
  async function card(type){await page.locator(`[data-deck-page="${[0,8].includes(type)?3:2}"]`).click();await page.locator(`[data-production-type="${type}"]`).click();}
  async function tick(seconds){await page.evaluate(seconds=>{const g=BlueprintDefense.game;if(g.phase==='ready')g.start();else if(g.phase==='paused')g.togglePause();g.advance(seconds);if(g.phase==='running')g.togglePause();BlueprintDefense.updateUI();},seconds);}

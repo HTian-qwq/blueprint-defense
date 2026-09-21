@@ -1,0 +1,120 @@
+{
+  "version": "0.18.0",
+  "date": "2026-09-21",
+  "checksPassed": 173,
+  "beltOrientationsPassed": 12,
+  "suites": [
+    {
+      "suite": "session",
+      "returncode": 0
+    },
+    {
+      "suite": "industrial",
+      "returncode": 0
+    },
+    {
+      "suite": "blue_iron_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "industrial_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "hotbar_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "placement",
+      "returncode": 0
+    },
+    {
+      "suite": "placement_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "bulk",
+      "returncode": 0
+    },
+    {
+      "suite": "bulk_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "original_bulk_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "economy",
+      "returncode": 0
+    },
+    {
+      "suite": "economy_campaign",
+      "returncode": 0
+    },
+    {
+      "suite": "geometry",
+      "returncode": 0
+    },
+    {
+      "suite": "burst",
+      "returncode": 0
+    },
+    {
+      "suite": "audio_mapping",
+      "returncode": 0
+    },
+    {
+      "suite": "mortar",
+      "returncode": 0
+    },
+    {
+      "suite": "actor_facing",
+      "returncode": 0
+    },
+    {
+      "suite": "wave_preparation",
+      "returncode": 0
+    },
+    {
+      "suite": "geometry_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "actor_facing_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "wave_preparation_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "economy_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "currency_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "web_browser",
+      "returncode": 0
+    },
+    {
+      "suite": "belt_assets",
+      "returncode": 0
+    }
+  ],
+  "offlineBuildSha256": "965914226136143dcde752d4169d135e98789e654b10e422e321517eab606e09",
+  "webEntryBytes": 29156,
+  "webResourceCount": 251,
+  "webResourceBytes": 33268119,
+  "webArchiveBytes": 27190434,
+  "archiveMatchesCurrentBuild": true,
+  "visualReview": [
+    "desktop main menu",
+    "phone main menu",
+    "layout placement summary"
+  ],
+  "scope": "Chrome browser, engine and asset regressions. Current campaign balance unchanged; not a new manual full-campaign playthrough."
+}

@@ -11,7 +11,7 @@ const clipCount=Object.values(manifest).reduce((n,clips)=>n+clips.length,0);
   try{
     const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];
     page.on('pageerror',e=>errors.push(e.message));
-    await page.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+    await page.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
     assert.equal(await page.evaluate(()=>BlueprintDefense.sound.context),null);
     checks.push('no AudioContext or playback before a user gesture');
     await page.locator('#soundBtn').click();await page.waitForFunction(()=>BlueprintDefense.sound.state==='ready');
@@ -113,7 +113,7 @@ const clipCount=Object.values(manifest).reduce((n,clips)=>n+clips.length,0);
     checks.push('ending one flame does not stop another tower flame; stop events also handle accelerated game time');
     // An unsupported browser still has a playable game.
     const fallback=await browser.newPage();await fallback.addInitScript(()=>{window.AudioContext=undefined;window.webkitAudioContext=undefined;});
-    await fallback.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await fallback.locator('#soundBtn').click();
+    await fallback.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await fallback.locator('#soundBtn').click();
     await fallback.waitForFunction(()=>BlueprintDefense.sound.state==='failed');await fallback.locator('#startBtn').click();assert.equal(await fallback.evaluate(()=>BlueprintDefense.game.phase),'running');
     checks.push('audio API failure reports unavailable without preventing the game from running');
     assert.deepEqual(errors,[]);

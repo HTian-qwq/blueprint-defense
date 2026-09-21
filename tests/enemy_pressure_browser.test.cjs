@@ -4,7 +4,7 @@ const {pathToFileURL}=require('node:url'),root=path.resolve(__dirname,'..');
  const browser=await chromium.launch({channel:'chrome',headless:true});
  try{
   const page=await browser.newPage({viewport:{width:1540,height:1060}}),checks=[],errors=[];page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+  await page.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
   await page.locator('#enemyGuideBtn').click();assert.equal(await page.locator('#enemyGuideList article').count(),16);
   await page.locator('#enemyGuideList img').evaluateAll(xs=>Promise.all(xs.map(x=>x.decode())));
   const last=await page.locator('#enemyGuideList article').allTextContents();assert(last[13].includes('重刺天使'));assert(last[14].includes('劫云客'));assert(last[15].includes('焚雾源石虫'));assert(last.slice(13).every(t=>t.includes('同人')));

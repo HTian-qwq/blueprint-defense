@@ -1,7 +1,7 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),path=require('node:path'),fs=require('node:fs/promises'),{pathToFileURL}=require('node:url');
 const root=path.resolve(__dirname,'..');
 (async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});try{
- const page=await browser.newPage({viewport:{width:1540,height:1060}}),checks=[],errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.BLUEPRINT_TEST_URL||pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+ const page=await browser.newPage({viewport:{width:1540,height:1060}}),checks=[],errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.BLUEPRINT_TEST_URL||pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
  await page.locator('#scenario').selectOption('boss');await page.keyboard.press('9');const point=await page.evaluate(()=>{const p=BlueprintDefense.screen(22.5,17.5),r=document.getElementById('board').getBoundingClientRect();return {x:p.x+r.x,y:p.y+r.y};});await page.mouse.click(point.x,point.y);await page.mouse.click(point.x,point.y);await page.locator('#upgradeBtn').click();assert.equal(await page.locator('#detailName').textContent(),'维什戴尔改件');
  const comparisons=await page.evaluate(()=>{
   const {game:g,actors}=BlueprintDefense,t=g.towers[0],results=[];

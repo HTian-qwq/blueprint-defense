@@ -8,7 +8,7 @@ const root=path.resolve(__dirname,'..');
   const browser=await chromium.launch({channel:'chrome',headless:true});
   try{
     const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];
-    page.on('pageerror',e=>errors.push(e.message));await page.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+    page.on('pageerror',e=>errors.push(e.message));await page.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
     await page.locator('.unit-card img').evaluateAll(xs=>Promise.all(xs.map(x=>x.decode())));
     assert.equal(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight),true,'desktop controls should fit without scrolling');
     await fs.mkdir(path.join(root,'reports'),{recursive:true});

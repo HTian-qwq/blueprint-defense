@@ -1,7 +1,7 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs/promises'),path=require('node:path'),{pathToFileURL}=require('node:url');
 const root=path.resolve(__dirname,'..');
 (async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});try{
- const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.BLUEPRINT_TEST_URL||pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+ const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.BLUEPRINT_TEST_URL||pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
  const units=()=>page.evaluate(()=>JSON.parse(JSON.stringify({production:BlueprintDefense.game.production,towers:BlueprintDefense.game.towers,dp:BlueprintDefense.game.dp,warehouse:BlueprintDefense.game.warehouse,warehouseLine:BlueprintDefense.game.warehouseLine})));
  async function point(x,y){return page.evaluate(({x,y})=>{const p=BlueprintDefense.screen(x+.5,y+.5),r=document.getElementById('board').getBoundingClientRect();return{x:p.x+r.x,y:p.y+r.y};},{x,y});}
  async function cell(x,y){const p=await point(x,y);await page.mouse.click(p.x,p.y);}

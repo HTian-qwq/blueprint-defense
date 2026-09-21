@@ -7,7 +7,7 @@ const root=path.resolve(__dirname,'..');
   try{
     const page=await browser.newPage({viewport:{width:1540,height:1060}}),errors=[],checks=[];
     page.on('pageerror',e=>errors.push(e.message));
-    await page.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);
+    await page.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);
     await page.evaluate(()=>BlueprintDefense.ready);
     await page.locator('.unit-card img,.blueprint-cover img').evaluateAll(xs=>Promise.all(xs.map(x=>x.decode())));
     const view=()=>page.evaluate(()=>{const c=BlueprintDefense.camera;return [c.zoom,c.cx,c.cy];});

@@ -2,7 +2,7 @@
 const $=id=>document.getElementById(id), canvas=$('board'), ctx=canvas.getContext('2d');
 const game=new BlueprintTD.Game(DATA), images=new Map();
 const camera=new BlueprintCamera(DATA.map.width,DATA.map.height);
-const actors=new BlueprintActors(DATA.wisadel);
+const actors=new BlueprintActors(DATA.wisadel,{lazy:!!globalThis.BlueprintBuild?.web});
 const sound=new BlueprintSound(SOUNDS,updateAudioUI,DATA.map.width);
 function updateAudioUI(){
   const quiet=sound.muted||sound.volume===0,button=$('soundBtn');
@@ -21,7 +21,7 @@ $('soundBtn').onclick=()=>{
 $('volume').addEventListener('input',e=>{sound.setVolume(Number(e.target.value)/100);if(sound.volume>0){sound.setMuted(false);void sound.unlock();}});
 updateAudioUI();
 let choice=-1, selected=null, hover=null, speed=1, deckPage=-1, last=0, accumulator=0, view={s:1,ox:0,oy:0}, lastUI=0;
-let visualClock=0;
+let visualClock=0,menuPainted=false;
 let buildDirection=0;
 const towerCount=DATA.towers.length,allDevices=[...DATA.towers,...DATA.production.types],directionNames=['向右 →','向下 ↓','向左 ←','向上 ↑'];
 const devicePortrait=def=>def.easterEgg?DATA.wisadel.portrait:DATA.deviceArt[def.artId||def.id]?.image||def.image;
@@ -29,9 +29,13 @@ $('blueprintPaper').src=DATA.ui.cover;$('blueprintCover').src=devicePortrait(DAT
 const devicePage=i=>i<towerCount?Math.min(1,Math.floor(i/4)):allDevices[i].category==='warehouse'?3:2;
 const choiceDef=()=>allDevices[choice];
 const productionChoice=()=>choice>=DATA.towers.length;
-const ready=Promise.all([DATA.map.core,...DATA.towers.flatMap(t=>[t,...t.upgrades]),...DATA.enemies,...DATA.production.types.flatMap(d=>[d,...(d.faces||[]).map((image,dir)=>({id:d.id+'@'+dir,image}))]),...Object.values(DATA.production.items),...Object.entries(DATA.sprites).map(([id,image])=>({id,image}))].map(d=>new Promise((resolve,reject)=>{
-  const img=new Image();img.onload=()=>{images.set(d.id,img);resolve();};img.onerror=()=>reject(Error('图像加载失败：'+d.id));img.src=d.image;
-})).concat(actors.ready,document.fonts.load('400 16px "HarmonyOS Sans SC"'),document.fonts.load('700 16px "HarmonyOS Sans SC"')));
+let loadedImages=0;
+const initialImages=[DATA.map.core,...DATA.towers.flatMap(t=>[t,...t.upgrades]),...DATA.enemies,...DATA.production.types.flatMap(d=>[d,...(d.faces||[]).map((image,dir)=>({id:d.id+'@'+dir,image}))]),...Object.values(DATA.production.items),...Object.entries(DATA.sprites).map(([id,image])=>({id,image}))];
+const fontReady=Promise.all([document.fonts.load('400 16px "HarmonyOS Sans SC"'),document.fonts.load('700 16px "HarmonyOS Sans SC"')]);
+const ready=Promise.all(initialImages.map(d=>new Promise((resolve,reject)=>{
+  const img=new Image();img.onload=()=>{images.set(d.id,img);globalThis.BlueprintBoot?.reportImages(++loadedImages,initialImages.length);resolve();};img.onerror=()=>reject(Error('图像加载失败：'+d.id));img.src=d.image;
+})).concat(actors.ready,globalThis.BlueprintBuild?.web?Promise.resolve():fontReady));
+void fontReady.then(()=>{resize();}).catch(()=>{});
 function say(text,error=false){$('status').textContent=text;$('status').style.color=error?'#a84729':'';}
 function selectType(index,keepPage=false){clearBulkTools();movingId=null;beltDraft=null;rotationLocked=false;choice=index;if(!keepPage||deckPage>=0)deckPage=devicePage(index);selected=null;if(['unloader','loader'].includes(choiceDef().kind))buildDirection=choiceDef().defaultDir;invalidatePlacement();updateUI();$('sidebarScroll').scrollTop=0;say(`已选择${choiceDef().name}：${choiceDef().kind==='belt'?'按住拖拽铺设整段传送带，松开确认':'点击空地部署'}${productionChoice()?'，R 锁定朝向，G 开关自动对齐':''}，Esc 取消。`);}
 function cancel(){clearBulkTools();choice=-1;selected=null;hover=null;movingId=null;beltDraft=null;invalidatePlacement();updateUI();}
@@ -195,7 +199,7 @@ function draw(){
     if(def.easterEgg){
       ctx.strokeStyle='#a8506577';ctx.lineWidth=1;ctx.strokeRect(p.x+2,p.y+2,w-4,h-4);
       if(t.aimTargetId!=null&&t.disabledUntil<=game.time){ctx.save();ctx.translate(p.x+w/2,p.y+h/2);ctx.rotate(t.aimAngle);ctx.strokeStyle='#ae526ac0';ctx.lineWidth=Math.max(1,s*.04);ctx.beginPath();ctx.moveTo(w*.34-s*.14,-s*.11);ctx.lineTo(w*.34,0);ctx.lineTo(w*.34-s*.14,s*.11);ctx.stroke();ctx.restore();}
-      actors.draw(ctx,t,game.time,p,s,foot);
+      if(!actors.draw(ctx,t,game.time,p,s,foot)){const portrait=images.get(def.id);if(portrait)ctx.drawImage(portrait,p.x+w*.15,p.y+h*.12,w*.7,h*.75);}
     }
     ctx.fillStyle=def.color;ctx.fillRect(p.x+w*.13,p.y+h*.93,(w*.74)*Math.min(1,1-t.cooldown/def.interval),3);
     ctx.textAlign='center';
@@ -384,10 +388,12 @@ window.addEventListener('pagehide',()=>sound.stopAll());
 function frame(timestamp){
   const elapsed=last?Math.min((timestamp-last)/1000,.15):0;last=timestamp;visualClock+=elapsed;
   if(game.phase==='running'){accumulator+=elapsed*game.simulationRate(speed);while(accumulator>=1/60){const wasPreparing=game.isPreparing();game.step(1/60);accumulator-=1/60;if(game.phase!=='running'||wasPreparing!==game.isPreparing()){accumulator=0;break;}}}else accumulator=0;
-  flushAudio();if(timestamp-lastUI>80){updateUI();lastUI=timestamp;}draw();requestAnimationFrame(frame);
+  session.tick(timestamp);flushAudio();const menuOpen=$('mainMenu').open;
+  if(!menuOpen||!menuPainted){if(timestamp-lastUI>80){updateUI();lastUI=timestamp;}draw();}menuPainted=menuOpen;requestAnimationFrame(frame);
 }
 setupEconomyUI();
 setupHotbar();
 setupBulkTools();
+const session=setupSessionUI();
 ready.then(()=>{resize();updateUI();requestAnimationFrame(frame);}).catch(e=>say(e.message,true));
-window.BlueprintDefense={game,sound,camera,actors,ready,selectType,reset,updateUI,screen,render:draw,get choice(){return choice;}};
+window.BlueprintDefense={game,sound,camera,actors,ready,session,selectType,reset,updateUI,screen,render:draw,get choice(){return choice;}};

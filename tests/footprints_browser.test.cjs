@@ -4,7 +4,7 @@ const {pathToFileURL}=require('node:url'),root=path.resolve(__dirname,'..');
  const browser=await chromium.launch({channel:'chrome',headless:true});
  try{
   const page=await browser.newPage({viewport:{width:1540,height:1060}}),checks=[],errors=[];page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(pathToFileURL(path.join(root,'dist/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
+  await page.goto(pathToFileURL(path.join(root,'dist/offline/blueprint_defense.html')).href);await page.evaluate(()=>BlueprintDefense.ready);
   async function point(x,y){return page.evaluate(({x,y})=>{const p=BlueprintDefense.screen(x+.5,y+.5),r=document.getElementById('board').getBoundingClientRect();return {x:p.x+r.x,y:p.y+r.y};},{x,y});}
   async function cell(x,y){const p=await point(x,y);await page.mouse.click(p.x,p.y);}
   await page.locator('#scenario').selectOption('boss');await page.locator('[data-type="0"]').click();await cell(9,3);assert.equal(await page.evaluate(()=>BlueprintDefense.game.towers.length),0);assert.match(await page.locator('#status').textContent(),/通道重叠/);
