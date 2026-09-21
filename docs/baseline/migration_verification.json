@@ -1,0 +1,14 @@
+{
+  "baseline": "v0.17",
+  "originalBuildSha256": "c59813530e016fb0f8ee4668241719baa65ae5535f0aa3ae6864190d60624312",
+  "standaloneBuildSha256": "c59813530e016fb0f8ee4668241719baa65ae5535f0aa3ae6864190d60624312",
+  "identicalToOriginal": true,
+  "gameDataDirectory": "sources/game_data/tables",
+  "tableCount": 7,
+  "checksPassed": 156,
+  "beltOrientationsPassed": 12,
+  "serverPort": 8770,
+  "serverResponseMatchesBuild": true,
+  "cleanGitSnapshotBuildMatches": true,
+  "cleanGitSnapshotBuildSha256": "c59813530e016fb0f8ee4668241719baa65ae5535f0aa3ae6864190d60624312"
+}

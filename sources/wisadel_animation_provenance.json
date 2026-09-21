@@ -1,0 +1,186 @@
+{
+  "files": {
+    "Attack_Down_A": {
+      "name": "维什戴尔-绝对主角-正面-Attack_Down_A-x1.webm",
+      "bytes": 1101336,
+      "sha256": "29d2ba649fc1facdb9b5f1e0d12cbb4e88b3120c8b3252e90833efb6bcc9f4f6",
+      "valid": true,
+      "duration": 2.064875,
+      "codec": "av1"
+    },
+    "Attack_Down_B": {
+      "name": "维什戴尔-绝对主角-正面-Attack_Down_B-x1 (1).webm",
+      "bytes": 1153971,
+      "sha256": "3b318d36699961831e3153a2c28f65749b853b6f8899821287df14e982b0bd27",
+      "valid": true,
+      "duration": 2.066877,
+      "codec": "av1"
+    },
+    "Attack_Down_C": {
+      "name": "维什戴尔-绝对主角-正面-Attack_Down_C-x1.webm",
+      "bytes": 1105034,
+      "sha256": "f7dde62d3afd7f2a9adcdf089890bd355fd4f45c17f4e191720bf396b62c442a",
+      "valid": true,
+      "duration": 2.067948,
+      "codec": "av1"
+    },
+    "Default": {
+      "name": "维什戴尔-绝对主角-正面-Default-x1.webm",
+      "bytes": 110,
+      "sha256": "34625a59ca017ae414573bcb4a21464514f695d9806955fa676098939005795c",
+      "valid": false,
+      "duration": 0.0,
+      "codec": null
+    },
+    "Skill_1": {
+      "name": "维什戴尔-绝对主角-正面-Skill_1-x1.webm",
+      "bytes": 1133893,
+      "sha256": "e2892bb6e10fcf53c1d8e64fda8f509a090ec398705db38efe26a2f3094e756d",
+      "valid": true,
+      "duration": 2.066571,
+      "codec": "av1"
+    },
+    "Skill_2_Begin": {
+      "name": "维什戴尔-绝对主角-正面-Skill_2_Begin-x1.webm",
+      "bytes": 146060,
+      "sha256": "1ae88e30c0642c5e03c38b3306d56e9ff9597a4ade19b7b9afaf01a5f5161392",
+      "valid": true,
+      "duration": 0.303247,
+      "codec": "av1"
+    },
+    "Skill_2_End": {
+      "name": "维什戴尔-绝对主角-正面-Skill_2_End-x1.webm",
+      "bytes": 110,
+      "sha256": "34625a59ca017ae414573bcb4a21464514f695d9806955fa676098939005795c",
+      "valid": false,
+      "duration": 0.0,
+      "codec": null
+    },
+    "Skill_2_Idle": {
+      "name": "维什戴尔-绝对主角-正面-Skill_2_Idle-x1.webm",
+      "bytes": 1614176,
+      "sha256": "95af15eb351ae18a35f29444915d57b060934cf08ef91be5000acd3493d97fac",
+      "valid": true,
+      "duration": 3.965198,
+      "codec": "av1"
+    },
+    "Skill_2_Loop": {
+      "name": "维什戴尔-绝对主角-正面-Skill_2_Loop-x1.webm",
+      "bytes": 760356,
+      "sha256": "8d5ad9ea9e00c53f0b8716ed076b8106b51c18c8bbb71d20801114c5203e6b76",
+      "valid": true,
+      "duration": 1.368433,
+      "codec": "av1"
+    },
+    "Skill_2_Overload_Begin": {
+      "name": "维什戴尔-绝对主角-正面-Skill_2_Overload_Begin-x1.webm",
+      "bytes": 110,
+      "sha256": "34625a59ca017ae414573bcb4a21464514f695d9806955fa676098939005795c",
+      "valid": false,
+      "duration": 0.0,
+      "codec": null
+    },
+    "Skill_2_Overload_End": {
+      "name": "维什戴尔-绝对主角-正面-Skill_2_Overload_End-x1.webm",
+      "bytes": 230250,
+      "sha256": "d90878c4f82734dceb717c8c056f95aa9e80cdc1aeef44abc0694f3a66514c00",
+      "valid": true,
+      "duration": 0.470578,
+      "codec": "av1"
+    },
+    "Skill_2_Overload_Idle": {
+      "name": "维什戴尔-绝对主角-正面-Skill_2_Overload_Idle-x1.webm",
+      "bytes": 1858243,
+      "sha256": "915151a0f585fcdf1efdc7a29acb6c6d1df1a4fd47a9c6b3fdaf804e11ec0041",
+      "valid": true,
+      "duration": 3.964904,
+      "codec": "av1"
+    },
+    "Skill_2_Overload_Loop": {
+      "name": "维什戴尔-绝对主角-正面-Skill_2_Overload_Loop-x1.webm",
+      "bytes": 758351,
+      "sha256": "d732f83ee2d7cd26069bf6b249e18828ee6d193ac31896522137fa8437d88280",
+      "valid": true,
+      "duration": 1.350524,
+      "codec": "av1"
+    },
+    "Skill_3_Begin": {
+      "name": "维什戴尔-绝对主角-正面-Skill_3_Begin-x1.webm",
+      "bytes": 431050,
+      "sha256": "dd5f9edcfda20238daa209d8644cafb2047d60a779b4165b63be0fd90931b03c",
+      "valid": true,
+      "duration": 0.8057,
+      "codec": "av1"
+    },
+    "Skill_3_End": {
+      "name": "维什戴尔-绝对主角-正面-Skill_3_End-x1.webm",
+      "bytes": 233295,
+      "sha256": "86677d7ba81767663d8f8485db98a2686790fe91e01a00afbe6c363eed1d8c44",
+      "valid": true,
+      "duration": 0.467611,
+      "codec": "av1"
+    },
+    "Skill_3_Idle": {
+      "name": "维什戴尔-绝对主角-正面-Skill_3_Idle-x1.webm",
+      "bytes": 2391586,
+      "sha256": "521326dfcb9a429342f1662a903c3e213f2c99f27e48948c07d78b9560ae98f4",
+      "valid": true,
+      "duration": 5.314772,
+      "codec": "av1"
+    },
+    "Skill_3_Loop": {
+      "name": "维什戴尔-绝对主角-正面-Skill_3_Loop-x1.webm",
+      "bytes": 2735618,
+      "sha256": "aeb93a147ac5e8f6a0d9bc5b0dbe97139cb42b82a61507b96c6996a0ef0302cb",
+      "valid": true,
+      "duration": 4.969144,
+      "codec": "av1"
+    },
+    "Skill_Down_3_Idle": {
+      "name": "维什戴尔-绝对主角-正面-Skill_Down_3_Idle-x1.webm",
+      "bytes": 2661012,
+      "sha256": "9b57d3dd00dccbe829a11a4ab220d1750b84cec48e8c54fe30897beda215b986",
+      "valid": true,
+      "duration": 5.29702,
+      "codec": "av1"
+    },
+    "Skill_Down_3_Loop": {
+      "name": "维什戴尔-绝对主角-正面-Skill_Down_3_Loop-x1.webm",
+      "bytes": 2786152,
+      "sha256": "7cc5d04552a982bf65030312678eb32c5bdbf36c041dbdcc093e0ef80175bdf3",
+      "valid": true,
+      "duration": 4.965986,
+      "codec": "av1"
+    },
+    "Start": {
+      "name": "维什戴尔-绝对主角-正面-Start-x1.webm",
+      "bytes": 441546,
+      "sha256": "0620a11286fcb3636302cb9c583b075d35976336e8d1981ed19b4fb7d0e1f92b",
+      "valid": true,
+      "duration": 0.973619,
+      "codec": "av1"
+    },
+    "Stun": {
+      "name": "维什戴尔-绝对主角-正面-Stun-x1.webm",
+      "bytes": 558077,
+      "sha256": "c13a77f2e5609aebca1d73af5b9a84ec523c91165614c7331e5d13196224fed8",
+      "valid": true,
+      "duration": 0.969627,
+      "codec": "av1"
+    }
+  },
+  "usedStates": {
+    "start": "Start",
+    "begin": "Skill_3_Begin",
+    "idle": "Skill_Down_3_Idle",
+    "attackA": "Attack_Down_A",
+    "attackB": "Attack_Down_B",
+    "attackC": "Attack_Down_C",
+    "special": "Skill_Down_3_Loop",
+    "recover": "Skill_3_End",
+    "stun": "Stun"
+  },
+  "emptyFallback": "Default is empty; use valid Skill_Down_3_Idle. Empty Skill_2_End and Skill_2_Overload_Begin are not scheduled.",
+  "method": "Decode user WebM at 20 fps; reconstruct alpha from border-connected black matte, preserve enclosed dark details, scale to 480, pack lossless WebP atlases. Original videos and supplied PNG are preserved unmodified.",
+  "runtime": "Animations follow simulation time, not HTML video playback. Attack A/B/C rotate with a skill loop every fourth shot; refit enters Start and Skill_3_Begin; suppression uses Stun and Skill_3_End recovery."
+}

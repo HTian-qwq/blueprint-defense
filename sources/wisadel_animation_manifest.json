@@ -1,0 +1,242 @@
+{
+  "size": 480,
+  "anchor": [
+    240.0,
+    391.2
+  ],
+  "bodyWidth": 201.6,
+  "animations": {
+    "start": {
+      "state": "Start",
+      "fps": 20,
+      "frames": 20,
+      "duration": 1.0,
+      "sourceDuration": 0.973619,
+      "box": [
+        169,
+        175,
+        300,
+        390
+      ],
+      "width": 131,
+      "height": 215,
+      "pages": [
+        {
+          "file": "assets/wisadel/start_0.webp",
+          "start": 0,
+          "count": 20,
+          "columns": 8,
+          "sha256": "fa78cb1f60994faa400ec505adf0d3829e824aea022d52f8367c4081fc1cc676"
+        }
+      ]
+    },
+    "begin": {
+      "state": "Skill_3_Begin",
+      "fps": 20,
+      "frames": 17,
+      "duration": 0.85,
+      "sourceDuration": 0.8057,
+      "box": [
+        174,
+        230,
+        298,
+        387
+      ],
+      "width": 124,
+      "height": 157,
+      "pages": [
+        {
+          "file": "assets/wisadel/begin_0.webp",
+          "start": 0,
+          "count": 17,
+          "columns": 8,
+          "sha256": "1eccacded611d54e7558d314e9f5c7b1dbba8dd657a1f7dca5d8671c221f86be"
+        }
+      ]
+    },
+    "idle": {
+      "state": "Skill_Down_3_Idle",
+      "fps": 20,
+      "frames": 106,
+      "duration": 5.3,
+      "sourceDuration": 5.29702,
+      "box": [
+        186,
+        249,
+        307,
+        386
+      ],
+      "width": 121,
+      "height": 137,
+      "pages": [
+        {
+          "file": "assets/wisadel/idle_0.webp",
+          "start": 0,
+          "count": 64,
+          "columns": 8,
+          "sha256": "2557c51ce8ff1dac1a55575f1c8d8703254be7ae9e790bd53b4b9d7f1df5486d"
+        },
+        {
+          "file": "assets/wisadel/idle_1.webp",
+          "start": 64,
+          "count": 42,
+          "columns": 8,
+          "sha256": "0fe1c2ea31b9a2226540742098de0af78237a5e7f1d26b2daf951aa11840673e"
+        }
+      ]
+    },
+    "attackA": {
+      "state": "Attack_Down_A",
+      "fps": 20,
+      "frames": 42,
+      "duration": 2.1,
+      "sourceDuration": 2.064875,
+      "box": [
+        157,
+        246,
+        315,
+        390
+      ],
+      "width": 158,
+      "height": 144,
+      "pages": [
+        {
+          "file": "assets/wisadel/attackA_0.webp",
+          "start": 0,
+          "count": 42,
+          "columns": 8,
+          "sha256": "63eb187b654c11b1c4474f3a0c2574c4380cc8e599f58fe024f04fe894e3e6a2"
+        }
+      ]
+    },
+    "attackB": {
+      "state": "Attack_Down_B",
+      "fps": 20,
+      "frames": 42,
+      "duration": 2.1,
+      "sourceDuration": 2.066877,
+      "box": [
+        154,
+        247,
+        319,
+        394
+      ],
+      "width": 165,
+      "height": 147,
+      "pages": [
+        {
+          "file": "assets/wisadel/attackB_0.webp",
+          "start": 0,
+          "count": 42,
+          "columns": 8,
+          "sha256": "9300d1df8941ad4cdbb26a03cc73d4e7975810ac34c64f22299980a018298cfe"
+        }
+      ]
+    },
+    "attackC": {
+      "state": "Attack_Down_C",
+      "fps": 20,
+      "frames": 42,
+      "duration": 2.1,
+      "sourceDuration": 2.067948,
+      "box": [
+        156,
+        247,
+        312,
+        394
+      ],
+      "width": 156,
+      "height": 147,
+      "pages": [
+        {
+          "file": "assets/wisadel/attackC_0.webp",
+          "start": 0,
+          "count": 42,
+          "columns": 8,
+          "sha256": "f23072ca5fd7b9d1da6c96493c6d83be45a8288352ccbd22d3deea637743ad2f"
+        }
+      ]
+    },
+    "special": {
+      "state": "Skill_Down_3_Loop",
+      "fps": 20,
+      "frames": 100,
+      "duration": 5.0,
+      "sourceDuration": 4.965986,
+      "box": [
+        136,
+        234,
+        317,
+        403
+      ],
+      "width": 181,
+      "height": 169,
+      "pages": [
+        {
+          "file": "assets/wisadel/special_0.webp",
+          "start": 0,
+          "count": 64,
+          "columns": 8,
+          "sha256": "ebe3ded67a0c70c9c2e29889ac144ef57110d4f2c2c197069fdbf89c2adf98ab"
+        },
+        {
+          "file": "assets/wisadel/special_1.webp",
+          "start": 64,
+          "count": 36,
+          "columns": 8,
+          "sha256": "645e7f077e12be362d7d97f145a0f321286d6252e65ae3ccdbc57d37761a3d34"
+        }
+      ]
+    },
+    "recover": {
+      "state": "Skill_3_End",
+      "fps": 20,
+      "frames": 10,
+      "duration": 0.5,
+      "sourceDuration": 0.467611,
+      "box": [
+        181,
+        246,
+        307,
+        386
+      ],
+      "width": 126,
+      "height": 140,
+      "pages": [
+        {
+          "file": "assets/wisadel/recover_0.webp",
+          "start": 0,
+          "count": 10,
+          "columns": 8,
+          "sha256": "df05cd8aaffd5a4422a6ed3fd6e61bfcb0ab8c924899d84182c478d547f9223f"
+        }
+      ]
+    },
+    "stun": {
+      "state": "Stun",
+      "fps": 20,
+      "frames": 20,
+      "duration": 1.0,
+      "sourceDuration": 0.969627,
+      "box": [
+        156,
+        247,
+        297,
+        397
+      ],
+      "width": 141,
+      "height": 150,
+      "pages": [
+        {
+          "file": "assets/wisadel/stun_0.webp",
+          "start": 0,
+          "count": 20,
+          "columns": 8,
+          "sha256": "45e63553fa07de6d56ad454a2f0021576bb28de94bb0721df0dba50c6b19418a"
+        }
+      ]
+    }
+  },
+  "portrait": "assets/wisadel_portrait.png",
+  "portraitSha256": "8636bb7d88ff9ebb63f4e09844b706cd436c3990fb41f10c7da65f3285923460"
+}

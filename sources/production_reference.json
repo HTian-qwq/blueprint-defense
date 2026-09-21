@@ -1,0 +1,1166 @@
+{
+  "unlocks": [
+    {
+      "id": "blue_iron",
+      "name": "蓝铁矿",
+      "research": "blue_iron",
+      "items": [
+        "item_iron_ore",
+        "item_iron_nugget",
+        "item_iron_cmpt"
+      ]
+    }
+  ],
+  "dpPrices": {
+    "item_crystal_shell": 2,
+    "item_quartz_glass": 2,
+    "item_iron_nugget": 3,
+    "item_originium_powder": 2,
+    "item_iron_cmpt": 5,
+    "item_glass_cmpt": 3.5,
+    "item_iron_powder": 3,
+    "item_quartz_powder": 2,
+    "item_crystal_powder": 2,
+    "item_plant_moss_powder_3": 0.5,
+    "item_iron_enr_powder": 7,
+    "item_originium_enr_powder": 5,
+    "item_crystal_enr_powder": 5,
+    "item_iron_enr": 9,
+    "item_crystal_enr": 7,
+    "item_iron_enr_cmpt": 11,
+    "item_quartz_enr_powder": 5,
+    "item_quartz_enr": 7,
+    "item_glass_enr_cmpt": 9,
+    "item_proc_battery_1": 45,
+    "item_proc_battery_2": 95,
+    "item_proc_battery_3": 225
+  },
+  "recipes": {
+    "furnance_crystal_shell_1": {
+      "buffers": {
+        "item_crystal_shell": 0,
+        "item_originium_ore": 0
+      },
+      "formulaDesc": {
+        "id": -7645905936814222602,
+        "text": ""
+      },
+      "formulaGroupId": "group_furnance_normal",
+      "gasEnv": 0,
+      "id": "furnance_crystal_shell_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_originium_ore"
+            }
+          ]
+        }
+      ],
+      "machineId": "furnance_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_crystal_shell"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 5,
+      "totalProgress": 12000
+    },
+    "furnance_quartz_glass_1": {
+      "buffers": {
+        "item_quartz_glass": 0,
+        "item_quartz_sand": 0
+      },
+      "formulaDesc": {
+        "id": -3701089528120228771,
+        "text": ""
+      },
+      "formulaGroupId": "group_furnance_normal",
+      "gasEnv": 0,
+      "id": "furnance_quartz_glass_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_sand"
+            }
+          ]
+        }
+      ],
+      "machineId": "furnance_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_glass"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 3,
+      "totalProgress": 12000
+    },
+    "furnance_iron_nugget_1": {
+      "buffers": {
+        "item_iron_nugget": 0,
+        "item_iron_ore": 0
+      },
+      "formulaDesc": {
+        "id": 8235063256586092725,
+        "text": ""
+      },
+      "formulaGroupId": "group_furnance_normal",
+      "gasEnv": 0,
+      "id": "furnance_iron_nugget_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_ore"
+            }
+          ]
+        }
+      ],
+      "machineId": "furnance_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_nugget"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 1,
+      "totalProgress": 12000
+    },
+    "grinder_originium_powder_1": {
+      "buffers": {
+        "item_originium_ore": 0,
+        "item_originium_powder": 0
+      },
+      "formulaDesc": {
+        "id": -2532777449329259049,
+        "text": ""
+      },
+      "formulaGroupId": "group_grinder_normal",
+      "gasEnv": 0,
+      "id": "grinder_originium_powder_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_originium_ore"
+            }
+          ]
+        }
+      ],
+      "machineId": "grinder_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_originium_powder"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 4,
+      "totalProgress": 12000
+    },
+    "component_iron_cmpt_1": {
+      "buffers": {
+        "item_iron_cmpt": 0,
+        "item_iron_nugget": 0
+      },
+      "formulaDesc": {
+        "id": 2618382692978143977,
+        "text": ""
+      },
+      "formulaGroupId": "group_component_normal",
+      "gasEnv": 0,
+      "id": "component_iron_cmpt_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_nugget"
+            }
+          ]
+        }
+      ],
+      "machineId": "component_mc_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_cmpt"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 1,
+      "totalProgress": 12000
+    },
+    "component_glass_cmpt_1": {
+      "buffers": {
+        "item_glass_cmpt": 0,
+        "item_quartz_glass": 0
+      },
+      "formulaDesc": {
+        "id": -5054102511121865723,
+        "text": ""
+      },
+      "formulaGroupId": "group_component_normal",
+      "gasEnv": 0,
+      "id": "component_glass_cmpt_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_glass"
+            }
+          ]
+        }
+      ],
+      "machineId": "component_mc_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_glass_cmpt"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 2,
+      "totalProgress": 12000
+    },
+    "grinder_iron_powder_1": {
+      "buffers": {
+        "item_iron_nugget": 0,
+        "item_iron_powder": 0
+      },
+      "formulaDesc": {
+        "id": 7994666027002896980,
+        "text": ""
+      },
+      "formulaGroupId": "group_grinder_normal",
+      "gasEnv": 0,
+      "id": "grinder_iron_powder_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_nugget"
+            }
+          ]
+        }
+      ],
+      "machineId": "grinder_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_powder"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 2,
+      "totalProgress": 12000
+    },
+    "grinder_quartz_powder_1": {
+      "buffers": {
+        "item_quartz_glass": 0,
+        "item_quartz_powder": 0
+      },
+      "formulaDesc": {
+        "id": 784264155142609523,
+        "text": ""
+      },
+      "formulaGroupId": "group_grinder_normal",
+      "gasEnv": 0,
+      "id": "grinder_quartz_powder_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_glass"
+            }
+          ]
+        }
+      ],
+      "machineId": "grinder_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_powder"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 3,
+      "totalProgress": 12000
+    },
+    "grinder_crystal_powder_1": {
+      "buffers": {
+        "item_crystal_powder": 0,
+        "item_crystal_shell": 0
+      },
+      "formulaDesc": {
+        "id": -7330802777120433084,
+        "text": ""
+      },
+      "formulaGroupId": "group_grinder_normal",
+      "gasEnv": 0,
+      "id": "grinder_crystal_powder_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_crystal_shell"
+            }
+          ]
+        }
+      ],
+      "machineId": "grinder_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_crystal_powder"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 6,
+      "totalProgress": 12000
+    },
+    "grinder_plant_moss_powder_3_1": {
+      "buffers": {
+        "item_plant_moss_3": 0,
+        "item_plant_moss_powder_3": 0
+      },
+      "formulaDesc": {
+        "id": 6805389201068614623,
+        "text": ""
+      },
+      "formulaGroupId": "group_grinder_normal",
+      "gasEnv": 0,
+      "id": "grinder_plant_moss_powder_3_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_plant_moss_3"
+            }
+          ]
+        }
+      ],
+      "machineId": "grinder_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 3,
+              "id": "item_plant_moss_powder_3"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 9,
+      "totalProgress": 12000
+    },
+    "thickener_iron_enr_powder_1": {
+      "buffers": {
+        "item_iron_enr_powder": 0,
+        "item_iron_powder": 0,
+        "item_plant_moss_powder_3": 0
+      },
+      "formulaDesc": {
+        "id": 8752302489659395488,
+        "text": ""
+      },
+      "formulaGroupId": "group_thickener_normal",
+      "gasEnv": 0,
+      "id": "thickener_iron_enr_powder_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 2,
+              "id": "item_iron_powder"
+            },
+            {
+              "count": 1,
+              "id": "item_plant_moss_powder_3"
+            }
+          ]
+        }
+      ],
+      "machineId": "thickener_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_enr_powder"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 1,
+      "totalProgress": 12000
+    },
+    "thickener_originium_enr_powder_1": {
+      "buffers": {
+        "item_originium_enr_powder": 0,
+        "item_originium_powder": 0,
+        "item_plant_moss_powder_3": 0
+      },
+      "formulaDesc": {
+        "id": -5597257830956341932,
+        "text": ""
+      },
+      "formulaGroupId": "group_thickener_normal",
+      "gasEnv": 0,
+      "id": "thickener_originium_enr_powder_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 2,
+              "id": "item_originium_powder"
+            },
+            {
+              "count": 1,
+              "id": "item_plant_moss_powder_3"
+            }
+          ]
+        }
+      ],
+      "machineId": "thickener_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_originium_enr_powder"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 3,
+      "totalProgress": 12000
+    },
+    "thickener_crystal_enr_powder_1": {
+      "buffers": {
+        "item_crystal_enr_powder": 0,
+        "item_crystal_powder": 0,
+        "item_plant_moss_powder_3": 0
+      },
+      "formulaDesc": {
+        "id": 2689511542277840545,
+        "text": ""
+      },
+      "formulaGroupId": "group_thickener_normal",
+      "gasEnv": 0,
+      "id": "thickener_crystal_enr_powder_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 2,
+              "id": "item_crystal_powder"
+            },
+            {
+              "count": 1,
+              "id": "item_plant_moss_powder_3"
+            }
+          ]
+        }
+      ],
+      "machineId": "thickener_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_crystal_enr_powder"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 5,
+      "totalProgress": 12000
+    },
+    "furnance_iron_enr_1": {
+      "buffers": {
+        "item_iron_enr": 0,
+        "item_iron_enr_powder": 0
+      },
+      "formulaDesc": {
+        "id": 2854522040551592777,
+        "text": ""
+      },
+      "formulaGroupId": "group_furnance_normal",
+      "gasEnv": 0,
+      "id": "furnance_iron_enr_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_enr_powder"
+            }
+          ]
+        }
+      ],
+      "machineId": "furnance_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_enr"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 8,
+      "totalProgress": 12000
+    },
+    "furnance_crystal_enr_1": {
+      "buffers": {
+        "item_crystal_enr": 0,
+        "item_crystal_enr_powder": 0
+      },
+      "formulaDesc": {
+        "id": -6483555563388810025,
+        "text": ""
+      },
+      "formulaGroupId": "group_furnance_normal",
+      "gasEnv": 0,
+      "id": "furnance_crystal_enr_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_crystal_enr_powder"
+            }
+          ]
+        }
+      ],
+      "machineId": "furnance_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_crystal_enr"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 7,
+      "totalProgress": 12000
+    },
+    "component_iron_enr_cmpt_1": {
+      "buffers": {
+        "item_iron_enr": 0,
+        "item_iron_enr_cmpt": 0
+      },
+      "formulaDesc": {
+        "id": -4218922303145737694,
+        "text": ""
+      },
+      "formulaGroupId": "group_component_normal",
+      "gasEnv": 0,
+      "id": "component_iron_enr_cmpt_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_enr"
+            }
+          ]
+        }
+      ],
+      "machineId": "component_mc_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_iron_enr_cmpt"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 3,
+      "totalProgress": 12000
+    },
+    "thickener_quartz_enr_powder_1": {
+      "buffers": {
+        "item_plant_moss_powder_3": 0,
+        "item_quartz_enr_powder": 0,
+        "item_quartz_powder": 0
+      },
+      "formulaDesc": {
+        "id": -8797568689025955804,
+        "text": ""
+      },
+      "formulaGroupId": "group_thickener_normal",
+      "gasEnv": 0,
+      "id": "thickener_quartz_enr_powder_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 2,
+              "id": "item_quartz_powder"
+            },
+            {
+              "count": 1,
+              "id": "item_plant_moss_powder_3"
+            }
+          ]
+        }
+      ],
+      "machineId": "thickener_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_enr_powder"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 2,
+      "totalProgress": 12000
+    },
+    "furnance_quartz_enr_1": {
+      "buffers": {
+        "item_quartz_enr": 0,
+        "item_quartz_enr_powder": 0
+      },
+      "formulaDesc": {
+        "id": -7268376418250185317,
+        "text": ""
+      },
+      "formulaGroupId": "group_furnance_normal",
+      "gasEnv": 0,
+      "id": "furnance_quartz_enr_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_enr_powder"
+            }
+          ]
+        }
+      ],
+      "machineId": "furnance_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_enr"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 9,
+      "totalProgress": 12000
+    },
+    "component_glass_enr_cmpt_1": {
+      "buffers": {
+        "item_glass_enr_cmpt": 0,
+        "item_quartz_enr": 0
+      },
+      "formulaDesc": {
+        "id": -8061219526174336688,
+        "text": ""
+      },
+      "formulaGroupId": "group_component_normal",
+      "gasEnv": 0,
+      "id": "component_glass_enr_cmpt_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_quartz_enr"
+            }
+          ]
+        }
+      ],
+      "machineId": "component_mc_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_glass_enr_cmpt"
+            }
+          ]
+        }
+      ],
+      "progressRound": 2,
+      "signal": 0,
+      "sortId": 4,
+      "totalProgress": 12000
+    },
+    "tools_proc_battery_1_1": {
+      "buffers": {
+        "item_glass_cmpt": 0,
+        "item_originium_powder": 0,
+        "item_proc_battery_1": 0
+      },
+      "formulaDesc": {
+        "id": 5062165150611664263,
+        "text": ""
+      },
+      "formulaGroupId": "group_tools_normal",
+      "gasEnv": 0,
+      "id": "tools_proc_battery_1_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 5,
+              "id": "item_glass_cmpt"
+            },
+            {
+              "count": 10,
+              "id": "item_originium_powder"
+            }
+          ]
+        }
+      ],
+      "machineId": "tools_assebling_mc_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_proc_battery_1"
+            }
+          ]
+        }
+      ],
+      "progressRound": 10,
+      "signal": 0,
+      "sortId": 2,
+      "totalProgress": 60000
+    },
+    "tools_proc_battery_2_1": {
+      "buffers": {
+        "item_iron_cmpt": 0,
+        "item_originium_powder": 0,
+        "item_proc_battery_2": 0
+      },
+      "formulaDesc": {
+        "id": 7031578729620814408,
+        "text": ""
+      },
+      "formulaGroupId": "group_tools_normal",
+      "gasEnv": 0,
+      "id": "tools_proc_battery_2_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 10,
+              "id": "item_iron_cmpt"
+            },
+            {
+              "count": 15,
+              "id": "item_originium_powder"
+            }
+          ]
+        }
+      ],
+      "machineId": "tools_assebling_mc_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_proc_battery_2"
+            }
+          ]
+        }
+      ],
+      "progressRound": 10,
+      "signal": 0,
+      "sortId": 3,
+      "totalProgress": 60000
+    },
+    "tools_proc_battery_3_1": {
+      "buffers": {
+        "item_iron_enr_cmpt": 0,
+        "item_originium_enr_powder": 0,
+        "item_proc_battery_3": 0
+      },
+      "formulaDesc": {
+        "id": 1426280597685836118,
+        "text": ""
+      },
+      "formulaGroupId": "group_tools_normal",
+      "gasEnv": 0,
+      "id": "tools_proc_battery_3_1",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "count": 10,
+              "id": "item_iron_enr_cmpt"
+            },
+            {
+              "count": 15,
+              "id": "item_originium_enr_powder"
+            }
+          ]
+        }
+      ],
+      "machineId": "tools_assebling_mc_1",
+      "outcomes": [
+        {
+          "group": [
+            {
+              "count": 1,
+              "id": "item_proc_battery_3"
+            }
+          ]
+        }
+      ],
+      "progressRound": 10,
+      "signal": 0,
+      "sortId": 4,
+      "totalProgress": 60000
+    }
+  },
+  "groups": {
+    "group_furnance_normal": {
+      "craftList": [
+        "furnance_activity_xiranite_nugget_1",
+        "furnance_activity_xiranite_enr_nugget_1",
+        "furnance_iron_nugget_1",
+        "furnance_iron_nugget_2",
+        "furnance_quartz_glass_1",
+        "furnance_quartz_glass_2",
+        "furnance_crystal_shell_1",
+        "furnance_crystal_shell_2",
+        "furnance_crystal_enr_1",
+        "furnance_iron_enr_1",
+        "furnance_quartz_enr_1",
+        "furnance_carbon_enr_1",
+        "furnance_crystal_enr_powder_1",
+        "furnance_crystal_powder_1",
+        "furnance_carbon_material_1",
+        "furnance_carbon_material_2",
+        "furnance_carbon_material_3",
+        "furnance_carbon_material_4",
+        "furnance_carbon_material_5",
+        "furnance_carbon_material_6",
+        "furnance_carbon_powder_1",
+        "furnance_carbon_powder_2",
+        "furnance_carbon_powder_3",
+        "furnance_carbon_powder_4",
+        "furnance_carbon_powder_5",
+        "furnance_carbon_enr_powder_1",
+        "furnance_carbon_enr_powder_2"
+      ],
+      "formulaGroupIdGroup": "group_furnance_normal",
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "msPerRound": 1000,
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "pipeIngredientBufferBinding": [],
+      "pipeOutcomeBufferBinding": []
+    },
+    "group_grinder_normal": {
+      "craftList": [
+        "grinder_copper_powder_1",
+        "grinder_iron_powder_1",
+        "grinder_quartz_powder_1",
+        "grinder_originium_powder_1",
+        "grinder_carbon_powder_1",
+        "grinder_crystal_powder_1",
+        "grinder_plant_moss_powder_1_1",
+        "grinder_plant_moss_powder_2_1",
+        "grinder_plant_moss_powder_3_1",
+        "grinder_plant_bbflower_powder_1_1",
+        "grinder_plant_grass_powder_1_1",
+        "grinder_plant_grass_powder_2_1"
+      ],
+      "formulaGroupIdGroup": "group_grinder_normal",
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "msPerRound": 1000,
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "pipeIngredientBufferBinding": [],
+      "pipeOutcomeBufferBinding": []
+    },
+    "group_component_normal": {
+      "craftList": [
+        "component_activity_copper_poly_cmpt",
+        "component_iron_cmpt_1",
+        "component_glass_cmpt_1",
+        "component_iron_enr_cmpt_1",
+        "component_glass_enr_cmpt_1",
+        "component_copper_cmpt_1",
+        "component_copper_enr_cmpt_1",
+        "component_activity_xiranite_cmpt_1",
+        "component_activity_xiranite_enr_cmpt_1",
+        "component_copper_enr2_cmpt_1"
+      ],
+      "formulaGroupIdGroup": "group_component_normal",
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "msPerRound": 1000,
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "pipeIngredientBufferBinding": [],
+      "pipeOutcomeBufferBinding": []
+    },
+    "group_thickener_normal": {
+      "craftList": [
+        "thickener_iron_enr_powder_1",
+        "thickener_quartz_enr_powder_1",
+        "thickener_originium_enr_powder_1",
+        "thickener_carbon_enr_powder_1",
+        "thickener_crystal_enr_powder_1",
+        "thickener_plant_moss_enr_powder_1_1",
+        "thickener_plant_moss_enr_powder_2_1"
+      ],
+      "formulaGroupIdGroup": "group_thickener_normal",
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "msPerRound": 1000,
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "pipeIngredientBufferBinding": [],
+      "pipeOutcomeBufferBinding": []
+    },
+    "group_tools_normal": {
+      "craftList": [
+        "tools_proc_activity_xiranite_copper_tool_1",
+        "tools_proc_activity_copper_poly_tool_1",
+        "tools_proc_activity_xiranite_lung",
+        "tools_proc_activity_xiranite_enr_lung",
+        "tools_proc_bomb_1_1",
+        "tools_proc_battery_1_1",
+        "tools_proc_battery_2_1",
+        "tools_proc_battery_3_1",
+        "tools_proc_rec_hp_4_1",
+        "tools_proc_rec_hp_5_1",
+        "tools_proc_food_4_1",
+        "tools_proc_food_5_1",
+        "tools_proc_battery_4_1",
+        "tools_proc_battery_5_1",
+        "tools_proc_activity_xiranite_hulu_1",
+        "tools_proc_activity_xiranite_enr_hulu_1",
+        "tools_proc_activity_xiranite_enr_tool_1",
+        "tools_proc_filter_core_2"
+      ],
+      "formulaGroupIdGroup": "group_tools_normal",
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "msPerRound": 1000,
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "pipePortPhaseType": []
+        }
+      ],
+      "pipeIngredientBufferBinding": [],
+      "pipeOutcomeBufferBinding": []
+    }
+  },
+  "warehouseBuildings": {
+    "unloader_1": {
+      "name": "仓库取货口",
+      "description": "可选择物品从当地仓库取出的活动端口，只能贴靠仓库存取线放置。"
+    },
+    "log_hongs_bus_source": {
+      "name": "仓库存取线源桩",
+      "description": "作为仓库存取线的起始点，可以在集成核心区域自由放置。"
+    },
+    "log_hongs_bus": {
+      "name": "仓库存取线基段",
+      "description": "可以在集成核心区域放置的仓库存取线基段，需要和仓库存取线源桩或其他生效的仓库存取线基段相连，其上可贴靠仓库存货口和仓库取货口。"
+    },
+    "loader_1": {
+      "name": "仓库存货口",
+      "description": "可将物品运送至当地仓库的活动端口，只能贴靠仓库存取线放置。"
+    }
+  },
+  "timeFormula": "FactoryUtils.lua:42: progressRound * machineCraftGroupData.msPerRound * 0.001",
+  "source": "sources/game_data/tables",
+  "sourceHashes": {
+    "FactoryMachineCraftTable.json": "a7c9983935012d30c6cf8c3ce5535bb5e8f79a49bf93fcd72f1bde481312b59b",
+    "FactoryMachineCraftGroupTable.json": "58a69ca0ca7428bf7bc4737c11fa441a519c26b3f0b8e93211e8d655e7ecac39",
+    "FactoryBuildingTable.json": "ff92bfed15af8b57d21a62e98bd7850b124510c8dac3d84cf4b2372bb440fbcb",
+    "ItemTable.json": "fed97c346da9b22f5306ab9a7b7ccb02896a4154bcd0c6ef925a41e0a898d61d"
+  },
+  "adaptation": "Infinite raw warehouse supply is user-requested. Blue iron and its recipes require the blue_iron research; kills do not unlock materials. Unlocks reset on replay. Extraction every 3 seconds, deposit every 0.5 seconds, DP prices, construction costs, a free immutable bottom warehouse row, directional warehouse attachment and no power requirement are fan rules. Finished goods must be produced and deposited before withdrawal."
+}

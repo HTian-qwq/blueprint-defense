@@ -1,0 +1,323 @@
+[
+  {
+    "family": "battle_turret",
+    "relation": "Series inferred from numbered IDs and tier-specific descriptions; independent recipes, not an explicit nextBuildingId field.",
+    "stages": [
+      {
+        "id": "battle_turret_1",
+        "name": "铳械塔",
+        "skill": "int_fac_battle_turret_1_skill",
+        "description": "<b>攻击力</b>：<@ba.key>609</>\n<b>攻击间隔</b>：<@ba.key>2</>秒\n<b>攻击方式</b>：持续发射能量弹，对敌人造成<@ba.phy>物理伤害</>。",
+        "buildingItem": {
+          "buildingId": "battle_turret_1",
+          "itemId": "item_port_battle_turret_1"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_tundra"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_turret_1",
+          "ingredients": [
+            {
+              "count": 10,
+              "id": "item_crystal_shell"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_turret_1"
+            }
+          ],
+          "rarity": 1,
+          "showingType": 21,
+          "sortId": 24,
+          "usableLevel": 1
+        }
+      },
+      {
+        "id": "battle_turret_2",
+        "name": "扩装铳械塔",
+        "skill": "int_fac_battle_turret_2_skill",
+        "description": "<b>攻击力</b>：<@ba.key>2136</>\n<b>攻击间隔</b>：<@ba.key>2</>秒\n<b>攻击方式</b>：持续发射Ⅱ级能量弹，每第4次攻击会发射一次强力能量弹，对敌人造成<@ba.phy>物理伤害</>。",
+        "buildingItem": {
+          "buildingId": "battle_turret_2",
+          "itemId": "item_port_battle_turret_2"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_tundra"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_turret_2",
+          "ingredients": [
+            {
+              "count": 20,
+              "id": "item_iron_cmpt"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_turret_2"
+            }
+          ],
+          "rarity": 3,
+          "showingType": 21,
+          "sortId": 25,
+          "usableLevel": 1
+        }
+      },
+      {
+        "id": "battle_turret_3",
+        "name": "“暴雨”铳械塔",
+        "skill": "int_fac_battle_turret_3_skill",
+        "description": "<b>攻击力</b>：<@ba.key>10310</>\n<b>攻击间隔</b>：<@ba.key>2</>秒\n<b>攻击方式</b>：持续发射Ⅲ级能量弹，对敌人造成<@ba.phy>物理伤害</>，每第6次攻击会发射强力能量弹对范围内的敌人造成<@ba.phy>物理伤害</>。",
+        "buildingItem": {
+          "buildingId": "battle_turret_3",
+          "itemId": "item_port_battle_turret_3"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_jinlong"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_turret_3",
+          "ingredients": [
+            {
+              "count": 20,
+              "id": "item_copper_enr2_cmpt"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_turret_3"
+            }
+          ],
+          "rarity": 4,
+          "showingType": 21,
+          "sortId": 40,
+          "usableLevel": 1
+        }
+      }
+    ]
+  },
+  {
+    "family": "battle_cannon",
+    "relation": "Series inferred from numbered IDs and tier-specific descriptions; independent recipes, not an explicit nextBuildingId field.",
+    "stages": [
+      {
+        "id": "battle_cannon_1",
+        "name": "榴弹塔",
+        "skill": "int_fac_battle_cannon_1_skill",
+        "description": "<b>攻击力</b>：<@ba.key>981</>\n<b>攻击间隔</b>：<@ba.key>3</>秒\n<b>攻击方式</b>：以抛物线发射榴弹攻击敌人，榴弹会在敌人附近地面爆炸并造成范围<@ba.fire>灼热伤害</>。",
+        "buildingItem": {
+          "buildingId": "battle_cannon_1",
+          "itemId": "item_port_battle_cannon_1"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_tundra"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_cannon_1",
+          "ingredients": [
+            {
+              "count": 10,
+              "id": "item_glass_cmpt"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_cannon_1"
+            }
+          ],
+          "rarity": 2,
+          "showingType": 21,
+          "sortId": 28,
+          "usableLevel": 1
+        }
+      },
+      {
+        "id": "battle_cannon_2",
+        "name": "高爆榴弹塔",
+        "skill": "int_fac_battle_cannon_2_skill",
+        "description": "<b>攻击力</b>：<@ba.key>5585</>\n<b>攻击间隔</b>：<@ba.key>3</>秒\n<b>攻击方式</b>：以抛物线发射Ⅱ级榴弹攻击敌人，榴弹会在敌人附近地面爆炸并造成范围<@ba.fire>灼热伤害</>，同时在地面留下一片燃烧区域对敌人造成伤害。",
+        "buildingItem": {
+          "buildingId": "battle_cannon_2",
+          "itemId": "item_port_battle_cannon_2"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_jinlong"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_cannon_2",
+          "ingredients": [
+            {
+              "count": 20,
+              "id": "item_iron_enr_cmpt"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_cannon_2"
+            }
+          ],
+          "rarity": 4,
+          "showingType": 21,
+          "sortId": 29,
+          "usableLevel": 1
+        }
+      }
+    ]
+  },
+  {
+    "family": "battle_laser",
+    "relation": "Series inferred from numbered IDs and tier-specific descriptions; independent recipes, not an explicit nextBuildingId field.",
+    "stages": [
+      {
+        "id": "battle_laser_1",
+        "name": "射线塔",
+        "skill": "int_fac_battle_laser_1_skill",
+        "description": "<b>攻击力</b>：<@ba.key>22338</>\n<b>攻击间隔</b>：<@ba.key>8</>秒\n<b>攻击方式</b>：消耗大量充能向目标发射射线，对敌人造成高额<@ba.pulse>电磁伤害</>。",
+        "buildingItem": {
+          "buildingId": "battle_laser_1",
+          "itemId": "item_port_battle_laser_1"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_tundra"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_laser_1",
+          "ingredients": [
+            {
+              "count": 20,
+              "id": "item_iron_enr_cmpt"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_laser_1"
+            }
+          ],
+          "rarity": 2,
+          "showingType": 21,
+          "sortId": 33,
+          "usableLevel": 1
+        }
+      },
+      {
+        "id": "battle_laser_2",
+        "name": "高能射线塔",
+        "skill": "int_fac_battle_laser_2_skill",
+        "description": "<b>攻击力</b>：<@ba.key>45375</>\n<b>攻击间隔</b>：<@ba.key>8</>秒\n<b>攻击方式</b>：消耗大量充能向目标发射强力射线，优先锁定范围内威胁更高的敌人，对敌人造成高额<@ba.pulse>电磁伤害</>。",
+        "buildingItem": {
+          "buildingId": "battle_laser_2",
+          "itemId": "item_port_battle_laser_2"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_jinlong"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_laser_2",
+          "ingredients": [
+            {
+              "count": 20,
+              "id": "item_copper_enr_cmpt"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_laser_2"
+            }
+          ],
+          "rarity": 4,
+          "showingType": 21,
+          "sortId": 34,
+          "usableLevel": 1
+        }
+      }
+    ]
+  },
+  {
+    "family": "battle_lightning",
+    "relation": "Series inferred from numbered IDs and tier-specific descriptions; independent recipes, not an explicit nextBuildingId field.",
+    "stages": [
+      {
+        "id": "battle_lightning_1",
+        "name": "电涌塔",
+        "skill": "int_fac_battle_lightning_1_skill",
+        "description": "<b>攻击力</b>：<@ba.key>4886</>\n<b>攻击间隔</b>：<@ba.key>3</>秒\n<b>攻击方式</b>：释放电能攻击敌人，攻击会弹射到附近敌人（至多2次），造成<@ba.pulse>电磁伤害</>。",
+        "buildingItem": {
+          "buildingId": "battle_lightning_1",
+          "itemId": "item_port_battle_lightning_1"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_tundra"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_lightning_1",
+          "ingredients": [
+            {
+              "count": 20,
+              "id": "item_iron_enr_cmpt"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_lightning_1"
+            }
+          ],
+          "rarity": 3,
+          "showingType": 21,
+          "sortId": 30,
+          "usableLevel": 1
+        }
+      },
+      {
+        "id": "battle_lightning_2",
+        "name": "甲二型“电荷”",
+        "skill": "int_fac_battle_lightning_2_skill",
+        "description": "<b>攻击力</b>：<@ba.key>20625</>\n<b>攻击间隔</b>：<@ba.key>5</>秒\n<b>攻击方式</b>：释放电能攻击敌人，攻击会弹射到附近敌人（至多2次），造成<@ba.pulse>电磁伤害</>，并在敌人附近留下电球，持续对附近敌人造成<@ba.pulse>电磁伤害</>。",
+        "buildingItem": {
+          "buildingId": "battle_lightning_2",
+          "itemId": "item_port_battle_lightning_2"
+        },
+        "recipe": {
+          "belongingGroupIds": [
+            "factech_recipe_jinlong"
+          ],
+          "defaultUnlock": false,
+          "id": "battle_lightning_2",
+          "ingredients": [
+            {
+              "count": 20,
+              "id": "item_copper_enr2_cmpt"
+            }
+          ],
+          "outcomes": [
+            {
+              "count": 1,
+              "id": "item_port_battle_lightning_2"
+            }
+          ],
+          "rarity": 4,
+          "showingType": 21,
+          "sortId": 41,
+          "usableLevel": 1
+        }
+      }
+    ]
+  }
+]

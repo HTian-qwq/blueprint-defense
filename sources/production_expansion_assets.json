@@ -1,0 +1,201 @@
+[
+  {
+    "file": "item_crystal_enr.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_crystal_enr.png",
+    "sha256": "6e552ba18cfbe6af904eb60655cef44cd03da4d94ad4b1fe1125b5afc7468a2d"
+  },
+  {
+    "file": "item_crystal_enr_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_crystal_enr_powder.png",
+    "sha256": "0eaae0bb3540d51aefc8325b996206634cc39215867c15ed56fb61750497de84"
+  },
+  {
+    "file": "item_crystal_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_crystal_powder.png",
+    "sha256": "9f06ad4766e7ad8482fb3a2efb3df3601a1a573d0242977effa23018ad5b5d32"
+  },
+  {
+    "file": "item_crystal_shell.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_crystal_shell.png",
+    "sha256": "cafd75d1d82b508608d73f3a619dd85705552acc937a161a392ecb40814c5a66"
+  },
+  {
+    "file": "item_glass_cmpt.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_glass_cmpt.png",
+    "sha256": "fad1e574aacd4f261895e195a06a7a3991c1e8562b7c46c10c172c31f22bf6bd"
+  },
+  {
+    "file": "item_glass_enr_cmpt.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_glass_enr_cmpt.png",
+    "sha256": "788b9a0029252462acd6a3d32e812b6cc6b45b4f9bcbe8293949097c52360980"
+  },
+  {
+    "file": "item_iron_cmpt.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_cmpt.png",
+    "sha256": "4d8e79a3ec9ab0b019055b6eccb228ca5ab255fd6d3e754df4334a428260cab7"
+  },
+  {
+    "file": "item_iron_enr.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_enr.png",
+    "sha256": "12613fe9a6311983eb8295f0b17c503a6b8b277107b127a8a78ef883892d7299"
+  },
+  {
+    "file": "item_iron_enr_cmpt.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_enr_cmpt.png",
+    "sha256": "20b603383f986288aea5a4b59a8d0d1277e01bb35c77f5d7503ec90bbcea84ce"
+  },
+  {
+    "file": "item_iron_enr_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_enr_powder.png",
+    "sha256": "d2308f356fa2078d91644637b3d7c3e40de3ed0fadeba3f9a214ce22fdb26511"
+  },
+  {
+    "file": "item_iron_nugget.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_nugget.png",
+    "sha256": "53b3e8a724b6c8063c4f4eef627f75b87a88d3dde606952c620f15497c181a2d"
+  },
+  {
+    "file": "item_iron_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_powder.png",
+    "sha256": "c09d60bfc09c2e2caaec0542a69d2e1114d609a8c5f065dc713059dac2153c68"
+  },
+  {
+    "file": "item_originium_enr_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_originium_enr_powder.png",
+    "sha256": "48c2cbf27c1a6691b0adeff0d96c767c11f52b8e7f7a6b78af94126a44e928c2"
+  },
+  {
+    "file": "item_originium_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_originium_powder.png",
+    "sha256": "61949140f5f267a8fabb4204513ce8dae0a0d8af777d33c1651e9a8765628fea"
+  },
+  {
+    "file": "item_plant_moss_3.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_plant_moss_3.png",
+    "sha256": "f5802c4699193732dcb242fb4d13ff9b90122d42bc770559aad4b67f52270495"
+  },
+  {
+    "file": "item_plant_moss_powder_3.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_plant_moss_powder_3.png",
+    "sha256": "68aa112fcc1d191f545dd8be4d87dc2427c9eff38dd45fb61934e1a283f3e90c"
+  },
+  {
+    "file": "item_proc_battery_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_proc_battery_1.png",
+    "sha256": "12b4eafb87c001b4c36ebba3c3d434789172ba613441dec5cad11298b701f1a9"
+  },
+  {
+    "file": "item_proc_battery_2.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_proc_battery_2.png",
+    "sha256": "353d5e095801855da5e6b1c0c1953ec3561e911fe5564deed87b09c2910fb045"
+  },
+  {
+    "file": "item_proc_battery_3.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_proc_battery_3.png",
+    "sha256": "1f75057402474cb5e8c71f69531c0e0233ac1f94151fefd09f54f57b88677303"
+  },
+  {
+    "file": "item_quartz_enr.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_quartz_enr.png",
+    "sha256": "90f84ab4ba8f5c5d3de69bb584c963a2094b19b57b2062d5e596f1a562a1cf96"
+  },
+  {
+    "file": "item_quartz_enr_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_quartz_enr_powder.png",
+    "sha256": "9c9397bef0f7e954c6530df6c78a49815ae0dca4e50e5c857d26a3d0c745ed1f"
+  },
+  {
+    "file": "item_quartz_glass.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_quartz_glass.png",
+    "sha256": "7bcc7148ab8df136876178e682223b90aa0821d758c990c35fd5e21d82c229fa"
+  },
+  {
+    "file": "item_quartz_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_quartz_powder.png",
+    "sha256": "6057d8f13aa669316f666878315821f2c3fdb320b31974adcbc820e8b35f39db"
+  },
+  {
+    "file": "thickener_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\thickener_1\\d0.png",
+    "sha256": "3fc1a6561916bbc6d87d2289590955402ed2a733e936a119b5b341f34e7b28f4"
+  },
+  {
+    "file": "thickener_1_flow0.png",
+    "building": "thickener_1",
+    "nativeDirection": 3,
+    "flowDirection": 0,
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "c7668ff0a2ce05253ddd58bf3ccaf862e47991f041e8f69f0e0bb5d460f5764d"
+  },
+  {
+    "file": "thickener_1_flow1.png",
+    "building": "thickener_1",
+    "nativeDirection": 0,
+    "flowDirection": 1,
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "3fc1a6561916bbc6d87d2289590955402ed2a733e936a119b5b341f34e7b28f4"
+  },
+  {
+    "file": "thickener_1_flow2.png",
+    "building": "thickener_1",
+    "nativeDirection": 1,
+    "flowDirection": 2,
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "0d5ccb54cba1b666c491b6a30f87124d4a84e193ea06d5e8962c1b77c21a9a73"
+  },
+  {
+    "file": "thickener_1_flow3.png",
+    "building": "thickener_1",
+    "nativeDirection": 2,
+    "flowDirection": 3,
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "73d72494ea750f0cabe7b8c112ae9f93038bec50c62195e7c1adfeaff30b41af"
+  },
+  {
+    "file": "portrait_thickener_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_thickener_1.png",
+    "sha256": "2ae1d87babde72f1dcf26c3878d69e81453d6ed212f4db3bcf0f96aea52cad9c"
+  },
+  {
+    "file": "tools_assebling_mc_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\tools_assebling_mc_1\\d0.png",
+    "sha256": "bf732a185a9601e6c63dcd1e8a79fa9352e9e76ba52667ef36d0c40c7b3de878"
+  },
+  {
+    "file": "tools_assebling_mc_1_flow0.png",
+    "building": "tools_assebling_mc_1",
+    "nativeDirection": 3,
+    "flowDirection": 0,
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "823cd2f89741519c71445a607ce2a7bc50bd7aff5a8c7d2e4c99a6ecc90ba5cc"
+  },
+  {
+    "file": "tools_assebling_mc_1_flow1.png",
+    "building": "tools_assebling_mc_1",
+    "nativeDirection": 0,
+    "flowDirection": 1,
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "bf732a185a9601e6c63dcd1e8a79fa9352e9e76ba52667ef36d0c40c7b3de878"
+  },
+  {
+    "file": "tools_assebling_mc_1_flow2.png",
+    "building": "tools_assebling_mc_1",
+    "nativeDirection": 1,
+    "flowDirection": 2,
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "45f53bcecb3cebc64f243e8d9201f21cfca788215ec908a5d6c67cd7d7e9d06a"
+  },
+  {
+    "file": "tools_assebling_mc_1_flow3.png",
+    "building": "tools_assebling_mc_1",
+    "nativeDirection": 2,
+    "flowDirection": 3,
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "458a239321b600c10c005ea54e0f312f7283742d8dbc2b686f314355ce845813"
+  },
+  {
+    "file": "portrait_tools_assebling_mc_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_tools_asm_mc_1.png",
+    "sha256": "c13fc3ddf38bc6324c7706ea34bd68f08d0959d7400ae14f2f2cc0c827666331"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "wisadel.attack": [
+    "wisadel.attack_0.mp3",
+    "wisadel.attack_1.mp3",
+    "wisadel.attack_2.mp3",
+    "wisadel.attack_3.mp3",
+    "wisadel.attack_4.mp3",
+    "wisadel.attack_5.mp3",
+    "wisadel.attack_6.mp3",
+    "wisadel.attack_7.mp3"
+  ],
+  "wisadel.deploy": [
+    "wisadel.deploy_0.mp3"
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "devices": {
+    "battle_cannon_1": {
+      "file": "portrait_battle_cannon_1.png",
+      "itemId": "item_port_battle_cannon_1",
+      "rarity": 2,
+      "color": "#ABCE42"
+    },
+    "battle_cannon_2": {
+      "file": "portrait_battle_cannon_2.png",
+      "itemId": "item_port_battle_cannon_2",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "battle_debuff_1": {
+      "file": "portrait_battle_debuff_1.png",
+      "itemId": "item_port_battle_debuff_1",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_frost_1": {
+      "file": "portrait_battle_frost_1.png",
+      "itemId": "item_port_battle_frost_1",
+      "rarity": 2,
+      "color": "#ABCE42"
+    },
+    "battle_laser_1": {
+      "file": "portrait_battle_laser_1.png",
+      "itemId": "item_port_battle_laser_1",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "battle_laser_2": {
+      "file": "portrait_battle_laser_2.png",
+      "itemId": "item_port_battle_laser_2",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_lightning_1": {
+      "file": "portrait_battle_lightning_1.png",
+      "itemId": "item_port_battle_lightning_1",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "battle_lightning_2": {
+      "file": "portrait_battle_lightning_2.png",
+      "itemId": "item_port_battle_lightning_2",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_rocket_1": {
+      "file": "portrait_battle_rocket_1.png",
+      "itemId": "item_port_battle_rocket_1",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_sniper_1": {
+      "file": "portrait_battle_sniper_1.png",
+      "itemId": "item_port_battle_sniper_1",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "battle_trap_1": {
+      "file": "portrait_battle_trap_1.png",
+      "itemId": "item_port_battle_trap_1",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_turret_1": {
+      "file": "portrait_battle_turret_1.png",
+      "itemId": "item_port_battle_turret_1",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "battle_turret_2": {
+      "file": "portrait_battle_turret_2.png",
+      "itemId": "item_port_battle_turret_2",
+      "rarity": 3,
+      "color": "#26BBFD"
+    },
+    "battle_turret_3": {
+      "file": "portrait_battle_turret_3.png",
+      "itemId": "item_port_battle_turret_3",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "component_mc_1": {
+      "file": "portrait_component_mc_1.png",
+      "itemId": "item_port_cmpt_mc_1",
+      "rarity": 2,
+      "color": "#ABCE42"
+    },
+    "furnance_1": {
+      "file": "portrait_furnance_1.png",
+      "itemId": "item_port_furnance_1",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "grinder_1": {
+      "file": "portrait_grinder_1.png",
+      "itemId": "item_port_grinder_1",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "icon_belt_grid": {
+      "file": "portrait_icon_belt_grid.png",
+      "itemId": "item_log_belt_01",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "loader_1": {
+      "file": "portrait_loader_1.png",
+      "itemId": "item_port_loader_1",
+      "rarity": 3,
+      "color": "#26BBFD"
+    },
+    "log_hongs_bus": {
+      "file": "portrait_log_hongs_bus.png",
+      "itemId": "item_port_log_hongs_bus",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "log_hongs_bus_source": {
+      "file": "portrait_log_hongs_bus_source.png",
+      "itemId": "item_port_log_hongs_bus_source",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "sp_hub_1": {
+      "file": "portrait_sp_hub_1.png",
+      "itemId": "item_port_sp_hub_1",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "storager_1": {
+      "file": "portrait_storager_1.png",
+      "itemId": "item_port_storager_1",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "unloader_1": {
+      "file": "portrait_unloader_1.png",
+      "itemId": "item_port_unloader_1",
+      "rarity": 3,
+      "color": "#26BBFD"
+    },
+    "thickener_1": {
+      "file": "portrait_thickener_1.png",
+      "itemId": "item_port_thickener_1",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "tools_assebling_mc_1": {
+      "file": "portrait_tools_assebling_mc_1.png",
+      "itemId": "item_port_tools_asm_mc_1",
+      "rarity": 3,
+      "color": "#26BBFD"
+    }
+  },
+  "decorations": {
+    "contours": "ui_contours.png",
+    "technicalLabel": "ui_technicalLabel.png",
+    "cardBase": "ui_cardBase.png",
+    "cardDots": "ui_cardDots.png",
+    "sizeMark": "ui_sizeMark.png"
+  },
+  "files": [
+    {
+      "file": "portrait_battle_cannon_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_cannon_1.png",
+      "sha256": "70dcb61b989f887d453b7dd0ed016bc58ab05d490446f8f8323dc2571446a78b"
+    },
+    {
+      "file": "portrait_battle_cannon_2.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_cannon_2.png",
+      "sha256": "60d88ca6f0dbdd2479669b7f353045760a1d1470eef7cd0e78f5077eec43ac8d"
+    },
+    {
+      "file": "portrait_battle_debuff_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_debuff_1.png",
+      "sha256": "1e96cb8f977be79c43aa129ad8f43764ae37b23076987358f00e2e2aa1101f93"
+    },
+    {
+      "file": "portrait_battle_frost_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_frost_1.png",
+      "sha256": "c997ea1c724723a0dbeff25507a91669da3a6aacf8fccb36e56abb1107ecb637"
+    },
+    {
+      "file": "portrait_battle_laser_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_laser_1.png",
+      "sha256": "f516706870b67ba9dc6450101d09c8fd225dac5a05c81e474a56f04e75351d37"
+    },
+    {
+      "file": "portrait_battle_laser_2.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_laser_2.png",
+      "sha256": "0f8f1aecaeca2a7bb8589af107b0d204ba57db108a781b75774663762b10e741"
+    },
+    {
+      "file": "portrait_battle_lightning_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_lightning_1.png",
+      "sha256": "e393b7cb0da908a2cdffd37a8368ac98b650279fbd49e482735667f6b882e785"
+    },
+    {
+      "file": "portrait_battle_lightning_2.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_lightning_2.png",
+      "sha256": "3f0137ae450c1e486fd60b90132d0884141d32465a4eab0ea709de41506fecae"
+    },
+    {
+      "file": "portrait_battle_rocket_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_rocket_1.png",
+      "sha256": "1fb477b23b5b6a240c3cfe421607ff220632910898bf0ab2e08c89b1132d065e"
+    },
+    {
+      "file": "portrait_battle_sniper_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_sniper_1.png",
+      "sha256": "fd4b8167cc88b9e0378607ea374239a1cb8f44f4d786b2e6a12136be2afa48bb"
+    },
+    {
+      "file": "portrait_battle_trap_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_trap_1.png",
+      "sha256": "1ce5961d9139c70a8b5445d051cfc56d795f0c644e2b32a48839ecb462204fa0"
+    },
+    {
+      "file": "portrait_battle_turret_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_turret_1.png",
+      "sha256": "6ee35330ec7c427673ab1c511b452d7945bd77cc8604617586b32b4ae53fc064"
+    },
+    {
+      "file": "portrait_battle_turret_2.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_turret_2.png",
+      "sha256": "7d8eb93cc1163cf89cb3027121579cdcdcc7a9e096564fa9f77baa9a2938119d"
+    },
+    {
+      "file": "portrait_battle_turret_3.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_battle_turret_3.png",
+      "sha256": "b9fa9d740bae8872e27ce9456a71663dfeaa35af0167aa6d258f8c0f386f9dfb"
+    },
+    {
+      "file": "portrait_component_mc_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_cmpt_mc_1.png",
+      "sha256": "0951785dcea8ab80cd1f169e0a58d3371434c8c354a4b1c77c5c50c190aa845b"
+    },
+    {
+      "file": "portrait_furnance_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_furnance_1.png",
+      "sha256": "91973356123a421dcfec21f8d40bc64814bd62fca656e8cc454806082acb116a"
+    },
+    {
+      "file": "portrait_grinder_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_grinder_1.png",
+      "sha256": "5c99c46c7e0afa5dcf3557a07bce74da91f3c40c1772c5e040444d5c44f4786a"
+    },
+    {
+      "file": "portrait_icon_belt_grid.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_log_belt_01.png",
+      "sha256": "383101381b7fb52c5f663809cf82bc335619c06b969b6773532ca75716f54e91"
+    },
+    {
+      "file": "portrait_loader_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_loader_1.png",
+      "sha256": "b26622fb1f7ac7c26a5ef024baa2cbc79d17e1663c4c8b0d57df1c92ab46f361"
+    },
+    {
+      "file": "portrait_log_hongs_bus.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_log_hongs_bus.png",
+      "sha256": "b56a3596daaedab6f685c4043cbf14e940cd527b8ba9eecf059b770e86a3dcc4"
+    },
+    {
+      "file": "portrait_log_hongs_bus_source.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_log_hongs_bus_source.png",
+      "sha256": "842be22260440369f40d6131fb160eafb7291a6d46746332833f9a821d482b8b"
+    },
+    {
+      "file": "portrait_sp_hub_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_sp_hub_1.png",
+      "sha256": "75e993c8317e1f3d69979f9be3c6417d9289b7a5c41b5d090776d260209a3439"
+    },
+    {
+      "file": "portrait_storager_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_storager_1.png",
+      "sha256": "43cc889788a6bd4a5163923f8bf2c3a4f8c79a15a0a0c0c62cbd289cc2c3e46a"
+    },
+    {
+      "file": "portrait_unloader_1.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_port_unloader_1.png",
+      "sha256": "3e9383bbccf9bd0f7b4d9804875f03bfa0ed90c3ea012067b051c1d3f7e75f4e"
+    },
+    {
+      "file": "ui_blueprint_cover.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_presentation\\icon_fac_blueprint_bg_blue.png",
+      "sha256": "98c61e7e5ad20682cf1b20829f6c8077f6bd1aad234d37f3f4fa813f5b3af55b"
+    },
+    {
+      "file": "ui_contours.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_presentation\\deco_btn_contour_lines.png",
+      "sha256": "5225d1687faa432bd52041f7b55d5bd5ce71f03844857ee57723ac6a26d08eb9"
+    },
+    {
+      "file": "ui_technicalLabel.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_presentation\\deco_fac_blueprint_16.png",
+      "sha256": "c03eb9fc873578c312b0993f589873362a016b14fd799f7c28d4524ce9c40238"
+    },
+    {
+      "file": "ui_cardBase.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_presentation\\bg_item_small_black.png",
+      "sha256": "a0bc899dd8c1e987166f982beb18517980a97fbd8a812c867245122ffe78a1f3"
+    },
+    {
+      "file": "ui_cardDots.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_presentation\\deco_item_dot.png",
+      "sha256": "5f45723a2de81675a50baecb915ce7825e406f5a00b9fe6e264446b79208fafd"
+    },
+    {
+      "file": "ui_sizeMark.png",
+      "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_presentation\\deco_fac_blueprint_size.png",
+      "sha256": "8642d663cb190fb55cf04a1f2baba31c6a7deb54608e1c8eafe63c730e7b43c7"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "origin": "User-provided recordings; not extracted Endfield tower events",
+  "pitchFactor": 1.65,
+  "semitones": 8.669592293653093,
+  "tempo": 1,
+  "method": "FFmpeg Rubber Band pitch shift with shifted formants, duration preserved; normalized and peak-limited; original files untouched.",
+  "playback": "One rotating battle line per mortar launch after the Wisadel refit. Deployment line on refit. Latest voice replaces previous dialogue globally, including at 2x speed. Battle SFX continue.",
+  "clips": [
+    {
+      "name": "作战中1.wav",
+      "key": "wisadel.attack",
+      "variant": 0,
+      "source": "C:\\Users\\Admin\\Downloads\\作战中1.wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.attack_0.wav",
+      "file": "assets/audio/wisadel.attack_0.mp3",
+      "sourceSha256": "0bea29ef1e7897a03720335b4acaa3966d350c8310f1efd9021c72ba47b4db79",
+      "sha256": "0143fabc015b13e06223ad06ffeceed3657ff5f2ef079a7a9662aed3ac7855fe",
+      "original": {
+        "seconds": 4.935578231292517,
+        "rate": 44100,
+        "peak": 0.855255126953125,
+        "rms": 0.19638990172973148
+      },
+      "processed": {
+        "seconds": 4.897375,
+        "rate": 32000,
+        "peak": 0.5533447265625,
+        "rms": 0.10625222600734699
+      }
+    },
+    {
+      "name": "作战中2.wav",
+      "key": "wisadel.attack",
+      "variant": 1,
+      "source": "C:\\Users\\Admin\\Downloads\\作战中2.wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.attack_1.wav",
+      "file": "assets/audio/wisadel.attack_1.mp3",
+      "sourceSha256": "c3db4af3677991ecc43023be5dc2556e54cd3a189f876346d06e310143e4d0ea",
+      "sha256": "fd24e34984a32cbe1ed5a60f03fc5addb6016a0be172c7c7a2d88be183d078c0",
+      "original": {
+        "seconds": 8.245668934240364,
+        "rate": 44100,
+        "peak": 0.7965087890625,
+        "rms": 0.16803350252664928
+      },
+      "processed": {
+        "seconds": 8.2105,
+        "rate": 32000,
+        "peak": 0.59246826171875,
+        "rms": 0.09576353373381909
+      }
+    },
+    {
+      "name": "作战中3.wav",
+      "key": "wisadel.attack",
+      "variant": 2,
+      "source": "C:\\Users\\Admin\\Downloads\\作战中3.wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.attack_2.wav",
+      "file": "assets/audio/wisadel.attack_2.mp3",
+      "sourceSha256": "65198d2bce17463859bd53b151408c0816029d03fbc55b233d86374f74b46adb",
+      "sha256": "78e90286fef6a685f0c81d4bf744935db0e41cef2beaf6d8676d749322193df2",
+      "original": {
+        "seconds": 5.41641723356009,
+        "rate": 44100,
+        "peak": 0.836181640625,
+        "rms": 0.15519828016039391
+      },
+      "processed": {
+        "seconds": 5.381,
+        "rate": 32000,
+        "peak": 0.712005615234375,
+        "rms": 0.10533747992550015
+      }
+    },
+    {
+      "name": "作战中4.wav",
+      "key": "wisadel.attack",
+      "variant": 3,
+      "source": "C:\\Users\\Admin\\Downloads\\作战中4.wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.attack_3.wav",
+      "file": "assets/audio/wisadel.attack_3.mp3",
+      "sourceSha256": "9a736f20ed1b4700bca9cccf917d7e910d0a7a8c82e1cccc5add4f7cfc2a2f1a",
+      "sha256": "58dc00fad8434e283b71cd198340d301c606a1a06c5762d3f8969f999bd6b1b7",
+      "original": {
+        "seconds": 5.069183673469388,
+        "rate": 44100,
+        "peak": 0.744964599609375,
+        "rms": 0.18473926314978556
+      },
+      "processed": {
+        "seconds": 5.03115625,
+        "rate": 32000,
+        "peak": 0.546295166015625,
+        "rms": 0.09708230033862413
+      }
+    },
+    {
+      "name": "作战中1 (1).wav",
+      "key": "wisadel.attack",
+      "variant": 4,
+      "source": "C:\\Users\\Admin\\Downloads\\作战中1 (1).wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.attack_4.wav",
+      "file": "assets/audio/wisadel.attack_4.mp3",
+      "sourceSha256": "e4461528c9e195bdd120cbf782201577678faa58b201d7d38e6badf08aca6d34",
+      "sha256": "909a3e061e87ed93642128c777d5577d1f0187557612ea9998508d0cd2773562",
+      "original": {
+        "seconds": 4.791541950113379,
+        "rate": 44100,
+        "peak": 0.55517578125,
+        "rms": 0.13392446202569575
+      },
+      "processed": {
+        "seconds": 4.75334375,
+        "rate": 32000,
+        "peak": 0.6160888671875,
+        "rms": 0.10250639887292556
+      }
+    },
+    {
+      "name": "作战中2 (1).wav",
+      "key": "wisadel.attack",
+      "variant": 5,
+      "source": "C:\\Users\\Admin\\Downloads\\作战中2 (1).wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.attack_5.wav",
+      "file": "assets/audio/wisadel.attack_5.mp3",
+      "sourceSha256": "87eaffb88b63a0f37c8c4d3877797223103652fcb4f7fd68ff1d931099dd4910",
+      "sha256": "941a05237c6e8bad80c57eace375c500c18dddf7140b148ee2c2b7b4e179d0ca",
+      "original": {
+        "seconds": 4.934489795918368,
+        "rate": 44100,
+        "peak": 0.63641357421875,
+        "rms": 0.13273040084155868
+      },
+      "processed": {
+        "seconds": 4.897375,
+        "rate": 32000,
+        "peak": 0.626739501953125,
+        "rms": 0.10082928858513639
+      }
+    },
+    {
+      "name": "作战中3 (1).wav",
+      "key": "wisadel.attack",
+      "variant": 6,
+      "source": "C:\\Users\\Admin\\Downloads\\作战中3 (1).wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.attack_6.wav",
+      "file": "assets/audio/wisadel.attack_6.mp3",
+      "sourceSha256": "1de00331b556fa828dfa8eadf785b7be65ee16179b9394f376997fb7b9d9d157",
+      "sha256": "ed4eab8ef5bc6e517c43db09d33a0862f329e4f3b7bbb496dbe2f4cf1ccd13c3",
+      "original": {
+        "seconds": 7.05875283446712,
+        "rate": 44100,
+        "peak": 0.65362548828125,
+        "rms": 0.14348615496919467
+      },
+      "processed": {
+        "seconds": 7.02725,
+        "rate": 32000,
+        "peak": 0.63555908203125,
+        "rms": 0.11275938257800518
+      }
+    },
+    {
+      "name": "作战中4 (1).wav",
+      "key": "wisadel.attack",
+      "variant": 7,
+      "source": "C:\\Users\\Admin\\Downloads\\作战中4 (1).wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.attack_7.wav",
+      "file": "assets/audio/wisadel.attack_7.mp3",
+      "sourceSha256": "524e2b3e91425d259ed6d5dcd6716d16f706e3e8f4b645984bdf7d6f5bd83270",
+      "sha256": "7c92d31d10ab5f4cc526a3f6b9a7f8ee347475ca008fc5690ea0968964f7575d",
+      "original": {
+        "seconds": 5.006575963718821,
+        "rate": 44100,
+        "peak": 0.62469482421875,
+        "rms": 0.13049877821521505
+      },
+      "processed": {
+        "seconds": 4.96940625,
+        "rate": 32000,
+        "peak": 0.71356201171875,
+        "rms": 0.11146609774734308
+      }
+    },
+    {
+      "name": "行动出发.wav",
+      "key": "wisadel.deploy",
+      "variant": 0,
+      "source": "C:\\Users\\Admin\\Downloads\\行动出发.wav",
+      "sourceCopy": "sources/audio/wisadel_original/wisadel.deploy_0.wav",
+      "file": "assets/audio/wisadel.deploy_0.mp3",
+      "sourceSha256": "ad34d79c178a3d4415cfb1346d71b1f5a384ef6ebef98352a176addde3b0f0d3",
+      "sha256": "212d23185f448668320c65ee232566c7df3a03d6ab545b074e65ae516e5e26c4",
+      "original": {
+        "seconds": 6.270907029478458,
+        "rate": 44100,
+        "peak": 0.704132080078125,
+        "rms": 0.20972886825674458
+      },
+      "processed": {
+        "seconds": 6.23903125,
+        "rate": 32000,
+        "peak": 0.5048828125,
+        "rms": 0.11189479407978412
+      }
+    }
+  ]
+}

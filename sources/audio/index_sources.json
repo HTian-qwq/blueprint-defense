@@ -1,0 +1,164 @@
+[
+  {
+    "layer": "Persistent",
+    "block": "InitialAudio",
+    "name": "data/audio/pck/windows/initial/init_banks.pck",
+    "bytes": 97578
+  },
+  {
+    "layer": "Persistent",
+    "block": "InitialAudio",
+    "name": "data/audio/pck/windows/initial/init_stream.pck",
+    "bytes": 11508280
+  },
+  {
+    "layer": "Persistent",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/audit/audit_banks.pck",
+    "bytes": 1678586
+  },
+  {
+    "layer": "Persistent",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/audit/audit_stream.pck",
+    "bytes": 147733834
+  },
+  {
+    "layer": "Persistent",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/main/default_banks.pck",
+    "bytes": 29750800
+  },
+  {
+    "layer": "Persistent",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/main/default_stream_0.pck",
+    "bytes": 1610306268
+  },
+  {
+    "layer": "Persistent",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/main/default_stream_1.pck",
+    "bytes": 1610198867
+  },
+  {
+    "layer": "Persistent",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/main/default_stream_2.pck",
+    "bytes": 1371981559
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_japanese_bd0.pck",
+    "bytes": 207726
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_b1a.pck",
+    "bytes": 1201
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_b2a.pck",
+    "bytes": 240
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_b4e.pck",
+    "bytes": 240
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_b6c.pck",
+    "bytes": 240
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_b75.pck",
+    "bytes": 1158916
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_b7a.pck",
+    "bytes": 240
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_bb8.pck",
+    "bytes": 240
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_bba.pck",
+    "bytes": 240
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_bed.pck",
+    "bytes": 922
+  },
+  {
+    "layer": "Persistent",
+    "block": "HotfixAudio",
+    "name": "data/audio/pck/windows/hotfix/hotfix_main_bee.pck",
+    "bytes": 240
+  },
+  {
+    "layer": "StreamingAssets",
+    "block": "InitialAudio",
+    "name": "data/audio/pck/windows/initial/init_banks.pck",
+    "bytes": 97578
+  },
+  {
+    "layer": "StreamingAssets",
+    "block": "InitialAudio",
+    "name": "data/audio/pck/windows/initial/init_stream.pck",
+    "bytes": 11508280
+  },
+  {
+    "layer": "StreamingAssets",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/audit/audit_banks.pck",
+    "bytes": 1678586
+  },
+  {
+    "layer": "StreamingAssets",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/audit/audit_stream.pck",
+    "bytes": 147733834
+  },
+  {
+    "layer": "StreamingAssets",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/main/default_banks.pck",
+    "bytes": 29750800
+  },
+  {
+    "layer": "StreamingAssets",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/main/default_stream_0.pck",
+    "bytes": 1610306268
+  },
+  {
+    "layer": "StreamingAssets",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/main/default_stream_1.pck",
+    "bytes": 1610198867
+  },
+  {
+    "layer": "StreamingAssets",
+    "block": "Audio",
+    "name": "data/audio/pck/windows/main/default_stream_2.pck",
+    "bytes": 1371981559
+  }
+]

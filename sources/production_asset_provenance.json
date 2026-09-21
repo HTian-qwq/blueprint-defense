@@ -1,0 +1,374 @@
+[
+  {
+    "file": "unloader_1_flow0.png",
+    "building": "unloader_1",
+    "flowDirection": 0,
+    "nativeDirection": 3,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "a22c64f02e425ebd166d0cc589967dd94344a474edfd33c2be5ec278eeefd433"
+  },
+  {
+    "file": "unloader_1_flow1.png",
+    "building": "unloader_1",
+    "flowDirection": 1,
+    "nativeDirection": 0,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "d95b76bb5d53171b29dc5292f4e26f0c5607343f33c7362c3fe0aaa95fe1c643"
+  },
+  {
+    "file": "unloader_1_flow2.png",
+    "building": "unloader_1",
+    "flowDirection": 2,
+    "nativeDirection": 1,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "1dba4b881e374faa0acbcbbf95a654af09c74e4e3b0526800d9ce574743874c0"
+  },
+  {
+    "file": "unloader_1_flow3.png",
+    "building": "unloader_1",
+    "flowDirection": 3,
+    "nativeDirection": 2,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "7a8b0488f824d895fdd95fa9a76c981fe203bdca7a4283bb1f408ee5c5e64953"
+  },
+  {
+    "file": "loader_1_flow0.png",
+    "building": "loader_1",
+    "flowDirection": 0,
+    "nativeDirection": 3,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "5745f12ddd633e92c81a73b1548e11e7d76a5e7acc029d89d7b02cfa01f50cc0"
+  },
+  {
+    "file": "loader_1_flow1.png",
+    "building": "loader_1",
+    "flowDirection": 1,
+    "nativeDirection": 0,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "d9e9f7aa22c5f3b1b29a1f3ddc64193992e24a6587306f817b9a9709175ea9a8"
+  },
+  {
+    "file": "loader_1_flow2.png",
+    "building": "loader_1",
+    "flowDirection": 2,
+    "nativeDirection": 1,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "f4c2cef1f65c617d0029710b2f597f67156358555f8fe67b8c33e7bc16b5b9a0"
+  },
+  {
+    "file": "loader_1_flow3.png",
+    "building": "loader_1",
+    "flowDirection": 3,
+    "nativeDirection": 2,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "4654beac80d710d75a52e0f1ca15af48e526b0a72208135fa2ea4ee3b022d24b"
+  },
+  {
+    "file": "furnance_1_flow0.png",
+    "building": "furnance_1",
+    "flowDirection": 0,
+    "nativeDirection": 3,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "11620cd9ce8e8d4719145f7acaf549cfcfc1a6474142a5644053d99c85539763"
+  },
+  {
+    "file": "furnance_1_flow1.png",
+    "building": "furnance_1",
+    "flowDirection": 1,
+    "nativeDirection": 0,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "70c93c8d68c18d2b2516b8282bc9a541199592705e5698f55e23179d10a91e03"
+  },
+  {
+    "file": "furnance_1_flow2.png",
+    "building": "furnance_1",
+    "flowDirection": 2,
+    "nativeDirection": 1,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "86a3955ee236e3c5cc3da91fc9a497418663b3c80e16c4a70da7d3fdda9cc2fb"
+  },
+  {
+    "file": "furnance_1_flow3.png",
+    "building": "furnance_1",
+    "flowDirection": 3,
+    "nativeDirection": 2,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "67b7c8e8f9d02a4194780cf6a101d3be566855bb0ec13cc2feaa374261b384a9"
+  },
+  {
+    "file": "storager_1_flow0.png",
+    "building": "storager_1",
+    "flowDirection": 0,
+    "nativeDirection": 3,
+    "formulaMode": "normal",
+    "closedPorts": [
+      [
+        "outputPorts",
+        0
+      ],
+      [
+        "outputPorts",
+        1
+      ],
+      [
+        "outputPorts",
+        2
+      ]
+    ],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "a742c2fe609adca1f95f8a129e33003984e3c1ef20b117637749c6177128b8e9"
+  },
+  {
+    "file": "storager_1_flow1.png",
+    "building": "storager_1",
+    "flowDirection": 1,
+    "nativeDirection": 0,
+    "formulaMode": "normal",
+    "closedPorts": [
+      [
+        "outputPorts",
+        0
+      ],
+      [
+        "outputPorts",
+        1
+      ],
+      [
+        "outputPorts",
+        2
+      ]
+    ],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "2ce8973f5bf1dfd3e209afee31b67c04d6503365aa75609c573bb9dc89550b9e"
+  },
+  {
+    "file": "storager_1_flow2.png",
+    "building": "storager_1",
+    "flowDirection": 2,
+    "nativeDirection": 1,
+    "formulaMode": "normal",
+    "closedPorts": [
+      [
+        "outputPorts",
+        0
+      ],
+      [
+        "outputPorts",
+        1
+      ],
+      [
+        "outputPorts",
+        2
+      ]
+    ],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "1d228d337ce2933e9d3ef97df01f93e0f6ef42503c77ff326332827835c3cb93"
+  },
+  {
+    "file": "storager_1_flow3.png",
+    "building": "storager_1",
+    "flowDirection": 3,
+    "nativeDirection": 2,
+    "formulaMode": "normal",
+    "closedPorts": [
+      [
+        "outputPorts",
+        0
+      ],
+      [
+        "outputPorts",
+        1
+      ],
+      [
+        "outputPorts",
+        2
+      ]
+    ],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "e3232cc66ea6ddd358f367d0cc8b97c638638b07c3bb44112c831dd6eb7b7b69"
+  },
+  {
+    "file": "grinder_1_flow0.png",
+    "building": "grinder_1",
+    "flowDirection": 0,
+    "nativeDirection": 3,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "8924735b96718b12406362aae27d8396072dc6f12b943348caf7041b956a72f5"
+  },
+  {
+    "file": "grinder_1_flow1.png",
+    "building": "grinder_1",
+    "flowDirection": 1,
+    "nativeDirection": 0,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "c4132182efd2e5f1206fc98f16a6d4bb2cdb20c5f0d109341d064683e22ccd43"
+  },
+  {
+    "file": "grinder_1_flow2.png",
+    "building": "grinder_1",
+    "flowDirection": 2,
+    "nativeDirection": 1,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "4c73e14b5cc5c86e245c710586990ceb5b518d04ba510d00c5135e29f6fd28f9"
+  },
+  {
+    "file": "grinder_1_flow3.png",
+    "building": "grinder_1",
+    "flowDirection": 3,
+    "nativeDirection": 2,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "39e6efd934bf3b38d07eedf8379e39694920e7f78ff54e542ccd28c18153d8b5"
+  },
+  {
+    "file": "component_mc_1_flow0.png",
+    "building": "component_mc_1",
+    "flowDirection": 0,
+    "nativeDirection": 3,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "ee9dba80dfe2a3278f5edc13cf254ab29f93bcde62cf0ae19b86b62f0b62bf9f"
+  },
+  {
+    "file": "component_mc_1_flow1.png",
+    "building": "component_mc_1",
+    "flowDirection": 1,
+    "nativeDirection": 0,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "de002d846cdb93eaa354f34c3033966186310ccfad6ff08ee9fb2de94acfebfd"
+  },
+  {
+    "file": "component_mc_1_flow2.png",
+    "building": "component_mc_1",
+    "flowDirection": 2,
+    "nativeDirection": 1,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "b25d3d1a05c2cdf0d40d46d5017298d4e39475148d372ff443fc0271be5b7a3a"
+  },
+  {
+    "file": "component_mc_1_flow3.png",
+    "building": "component_mc_1",
+    "flowDirection": 3,
+    "nativeDirection": 2,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "4ae32c431fc00f16d21959283111446bd72e456f51650c2920b26d1f8348e32e"
+  },
+  {
+    "file": "log_hongs_bus_flow0.png",
+    "building": "log_hongs_bus",
+    "flowDirection": 0,
+    "nativeDirection": 3,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "7027efbde5069b7a833eb74bbf36c80248772ef1deb02ced5f5be2a1e9a92ac7"
+  },
+  {
+    "file": "log_hongs_bus_flow1.png",
+    "building": "log_hongs_bus",
+    "flowDirection": 1,
+    "nativeDirection": 0,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "c22a27f95c4dde802cb9d441062abd811be84e5a6a0dbaf7d7f73901f3207faa"
+  },
+  {
+    "file": "log_hongs_bus_flow2.png",
+    "building": "log_hongs_bus",
+    "flowDirection": 2,
+    "nativeDirection": 1,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "b94c61ce30eff9d41b983a03e076f0a116d3cf5326a568a408c178ddd08574db"
+  },
+  {
+    "file": "log_hongs_bus_flow3.png",
+    "building": "log_hongs_bus",
+    "flowDirection": 3,
+    "nativeDirection": 2,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "f6e3af33100ab72e262046edc84b6c88cb9d6abb11697021dd29cec81696fa42"
+  },
+  {
+    "file": "log_hongs_bus_source_flow0.png",
+    "building": "log_hongs_bus_source",
+    "flowDirection": 0,
+    "nativeDirection": 3,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "f8c045d834413c25bbb270bd239f4d658405da2b6804219c01a64f465f575d2f"
+  },
+  {
+    "file": "log_hongs_bus_source_flow1.png",
+    "building": "log_hongs_bus_source",
+    "flowDirection": 1,
+    "nativeDirection": 0,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "150b4defb10ef0613e30b9e591c3108a682ceb6c772a52410437281e55924a2b"
+  },
+  {
+    "file": "log_hongs_bus_source_flow2.png",
+    "building": "log_hongs_bus_source",
+    "flowDirection": 2,
+    "nativeDirection": 1,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "ed80b7895a5c7f44b88962b3b2186a22a295c027cae66ee2832fbe2214526136"
+  },
+  {
+    "file": "log_hongs_bus_source_flow3.png",
+    "building": "log_hongs_bus_source",
+    "flowDirection": 3,
+    "nativeDirection": 2,
+    "formulaMode": "normal",
+    "closedPorts": [],
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source",
+    "sha256": "3fd56b2578eae6e70e2360c9ea90aa18c7ec90a46689a12fabec84e45e789462"
+  }
+]

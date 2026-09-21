@@ -1,0 +1,26 @@
+# Reproducible output and local test artifacts
+/dist/
+/reports/*
+!/reports/.gitkeep
+
+# Development dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+playwright-report/
+test-results/
+bin/
+obj/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

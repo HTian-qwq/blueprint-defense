@@ -1,0 +1,2292 @@
+{
+  "baseline": "0.17",
+  "originalProject": "F:\\4\\endfield_blueprint_td",
+  "sourceBuildSha256": "c59813530e016fb0f8ee4668241719baa65ae5535f0aa3ae6864190d60624312",
+  "copiedFiles": [
+    {
+      "file": "assets/audio/cannon.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon.deploy_0.mp3",
+      "sha256": "869cc5fc151d3768895043bd96815e3d5f7d9a251fa430cf28fafd9fe54afffa"
+    },
+    {
+      "file": "assets/audio/cannon.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon.fire_0.mp3",
+      "sha256": "f33becd8c37cbb10c0191dc534d9ba112d3f6a38ad5deef1b5742c7dd4551d09"
+    },
+    {
+      "file": "assets/audio/cannon.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon.fire_1.mp3",
+      "sha256": "032a17341184b6829b594f48797a54bd6a70f9bf400fafece7a38ab0a4b3b07d"
+    },
+    {
+      "file": "assets/audio/cannon.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon.fire_2.mp3",
+      "sha256": "a9565e696abd32ed971596e9ad2bcea56aac2d73e20ae0d22ca6a9272ccd76c7"
+    },
+    {
+      "file": "assets/audio/cannon.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon.hit_0.mp3",
+      "sha256": "1fd0db5c66fbb3bb8226bf6f05dc47ca7b656c24d211deb127f6bbfa39027850"
+    },
+    {
+      "file": "assets/audio/cannon.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon.hit_1.mp3",
+      "sha256": "33a2f7a41262f6a4371d82e4895959981e4562032e125a6632876fbccbeaa365"
+    },
+    {
+      "file": "assets/audio/cannon.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon.hit_2.mp3",
+      "sha256": "e35cdc91b33bb0ae591f9cd2865e67524df6d9fb1f0a68fddd07c71615b3ca49"
+    },
+    {
+      "file": "assets/audio/cannon2.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon2.fire_0.mp3",
+      "sha256": "8647191aaba440423086392154ab00e45a75e986213e3d925fe59ae38983ddd5"
+    },
+    {
+      "file": "assets/audio/cannon2.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon2.fire_1.mp3",
+      "sha256": "62cd8d1ebc4baa9f0b39cb4a3abdc33e881e09504ef6fbcad11fa9aa3d87cc1f"
+    },
+    {
+      "file": "assets/audio/cannon2.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\cannon2.fire_2.mp3",
+      "sha256": "89e7618776c04c00c23313d78d97d0ea693f94e84a525fef9a3ab8aa82f3041a"
+    },
+    {
+      "file": "assets/audio/debuff.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\debuff.deploy_0.mp3",
+      "sha256": "c78e566a12155a990db5c0d998f81b13a065b2799d3f97fdc6622c88237857f4"
+    },
+    {
+      "file": "assets/audio/debuff.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\debuff.fire_0.mp3",
+      "sha256": "1c4e02b3b9a110c8434ba347b61878d54f463861800c72e6620d3e4d08a2a2d0"
+    },
+    {
+      "file": "assets/audio/debuff.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\debuff.fire_1.mp3",
+      "sha256": "b06986b412b8cdaa0cd1cce1c6117d9dcf518137e90887b0048d0ec7275709cc"
+    },
+    {
+      "file": "assets/audio/debuff.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\debuff.fire_2.mp3",
+      "sha256": "2783bb7ebab3002a353958d1e3852a55c0cf545138b4f07544048af44dfba560"
+    },
+    {
+      "file": "assets/audio/debuff.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\debuff.hit_0.mp3",
+      "sha256": "90ab21905efc94b2595543918c5f88fa316ff684ee0c2f2a628a8260381caa9a"
+    },
+    {
+      "file": "assets/audio/debuff.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\debuff.hit_1.mp3",
+      "sha256": "3082953681b7ddff9cd68a36ff7e0e5c58777c15e41e9530bfd13444d35e41e7"
+    },
+    {
+      "file": "assets/audio/debuff.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\debuff.hit_2.mp3",
+      "sha256": "801307506f2bbc5c299990f259cb03444fe23d3880f8b1eba385d93ee3186968"
+    },
+    {
+      "file": "assets/audio/frost.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\frost.deploy_0.mp3",
+      "sha256": "5034b4943441409b035917d2bf9864ea323ee80f3dba4f2f0c49b51e5671fd9f"
+    },
+    {
+      "file": "assets/audio/frost.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\frost.fire_0.mp3",
+      "sha256": "4e3a4c7afe09ee5aef793f7128bf8882c166eb7371decdd695fb00916196ab2a"
+    },
+    {
+      "file": "assets/audio/frost.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\frost.fire_1.mp3",
+      "sha256": "8ab4e8b7ce817ad68d11e68291964f9a4b054aa32345f8deeb3c9c7669c10ce7"
+    },
+    {
+      "file": "assets/audio/frost.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\frost.fire_2.mp3",
+      "sha256": "7f923ca93f5b2fdd7a0011ecd4662a23462ed4cff429b57b93394db6d318ee15"
+    },
+    {
+      "file": "assets/audio/frost.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\frost.hit_0.mp3",
+      "sha256": "f5759af90735dcebe92c47cd1382bc1d6d6063cd9340b144f81dcf7f4f00d1a4"
+    },
+    {
+      "file": "assets/audio/frost.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\frost.hit_1.mp3",
+      "sha256": "deb3a695660a2b96cc3a99eb19d0f30144890c1524f7dc1a8f7025d5e2593ee9"
+    },
+    {
+      "file": "assets/audio/frost.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\frost.hit_2.mp3",
+      "sha256": "6f8c9ad827037877cebe9a6d4f6fb072b64263095c956185be46d963360485d5"
+    },
+    {
+      "file": "assets/audio/laser.charge_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser.charge_0.mp3",
+      "sha256": "f1085a2cdfc5c3a7c57117abbafc5547be9ab513f6867c54149abd0f373bf079"
+    },
+    {
+      "file": "assets/audio/laser.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser.deploy_0.mp3",
+      "sha256": "f4400b4102a0f92c57743999925b9e3da6526830131c6dcfd4d234b2427e055a"
+    },
+    {
+      "file": "assets/audio/laser.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser.fire_0.mp3",
+      "sha256": "b3e2a312f774077d4cf030bf86dbc49552c076428eafc946ce066d403661443a"
+    },
+    {
+      "file": "assets/audio/laser.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser.fire_1.mp3",
+      "sha256": "8f683251d227278e9bbe73ef5d63441ff4db77909e07d93175bdc2f2bea5252e"
+    },
+    {
+      "file": "assets/audio/laser.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser.fire_2.mp3",
+      "sha256": "4716c575f4358de55a844908197d5852a948e285f1d5329c2401270db5dda51a"
+    },
+    {
+      "file": "assets/audio/laser.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser.hit_0.mp3",
+      "sha256": "8bb2e3884f9f38a2c1f74ba04abfa2386577739c1630b833b0b80d5c95671aaa"
+    },
+    {
+      "file": "assets/audio/laser.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser.hit_1.mp3",
+      "sha256": "4cd697d87401c9fe606f3381d9b62795574020d315b83b86b6a12464ea6e93a3"
+    },
+    {
+      "file": "assets/audio/laser.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser.hit_2.mp3",
+      "sha256": "c304e881efeb7ad4a934f0fabdab2ece79ed69c210bce7abb2d1b1d6227ee491"
+    },
+    {
+      "file": "assets/audio/laser2.charge_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser2.charge_0.mp3",
+      "sha256": "b514c5176b35f115c4b28a25b2c3268f7125f8475fcadc63f80999b4e0436c2c"
+    },
+    {
+      "file": "assets/audio/laser2.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser2.fire_0.mp3",
+      "sha256": "2da302173e2a443d93aa297cb56fbe99b085824ec3834f59a18329cc7dd07f17"
+    },
+    {
+      "file": "assets/audio/laser2.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser2.fire_1.mp3",
+      "sha256": "8c2fc856843b3cbf1ecbcca85624eba99bb4f672902aeedc6c68dff5e0a32b16"
+    },
+    {
+      "file": "assets/audio/laser2.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser2.fire_2.mp3",
+      "sha256": "f971e2cdf596b9fbb5acb37b5fdc62b91b3e424a796508d4e1a78d087d283f98"
+    },
+    {
+      "file": "assets/audio/laser2.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser2.hit_0.mp3",
+      "sha256": "0bd1027e05d2679ce925564fc24fe621c5e7e5620cc60a15ddc3cf1b921bf293"
+    },
+    {
+      "file": "assets/audio/laser2.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser2.hit_1.mp3",
+      "sha256": "11e5ce2bf5ed5b3b2ea699ba7474faffb798e478d932599732e551b79d5eefa2"
+    },
+    {
+      "file": "assets/audio/laser2.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\laser2.hit_2.mp3",
+      "sha256": "b33cfbdd07c315d7830e25970f930bc608eb4566b3fc295e6d012f98030cf632"
+    },
+    {
+      "file": "assets/audio/lightning.charge_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning.charge_0.mp3",
+      "sha256": "64677d85ddca1d021bd00820dbaf7a766c38aa4f85998aa631be9ee38d58dff3"
+    },
+    {
+      "file": "assets/audio/lightning.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning.deploy_0.mp3",
+      "sha256": "77002733a4ff9ab87581d577a4b427c1e5c238f0ee31f211cab40bcdd74239df"
+    },
+    {
+      "file": "assets/audio/lightning.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning.fire_0.mp3",
+      "sha256": "052d44786358b5c3d5a62491216747013f03ac3d7f2541eb77e096209e235edb"
+    },
+    {
+      "file": "assets/audio/lightning.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning.fire_1.mp3",
+      "sha256": "7f8d05c610cd8f5c2472cffd0b4cd2f0473bf5abac1cd98e99aad6a292bc1e4c"
+    },
+    {
+      "file": "assets/audio/lightning.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning.fire_2.mp3",
+      "sha256": "7a86711aea6940057f8b912dff8addf1f2821b82d0212f039c6423429b1b1ec8"
+    },
+    {
+      "file": "assets/audio/lightning.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning.hit_0.mp3",
+      "sha256": "881348ede985f6ee3950992baf580221a8aa29f8bad2791bd435816c8ba00c25"
+    },
+    {
+      "file": "assets/audio/lightning.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning.hit_1.mp3",
+      "sha256": "4fba7b3e79e80dcdcfd347723eedc41ef9f4fdd87721838e31cd9cc7bc65dfbe"
+    },
+    {
+      "file": "assets/audio/lightning.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning.hit_2.mp3",
+      "sha256": "fb6038ca2fd3dc46eb18d622185d398969600beb372482c8e38635e28cd572f9"
+    },
+    {
+      "file": "assets/audio/lightning2.charge_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning2.charge_0.mp3",
+      "sha256": "8798fbe7b4543b5b9ad2a22f013e94e3c7d3ef751d16ed2eefc9585771b5a4e7"
+    },
+    {
+      "file": "assets/audio/lightning2.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning2.deploy_0.mp3",
+      "sha256": "77002733a4ff9ab87581d577a4b427c1e5c238f0ee31f211cab40bcdd74239df"
+    },
+    {
+      "file": "assets/audio/lightning2.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning2.fire_0.mp3",
+      "sha256": "5754f88e105befe28973131ab320b34f5124f6c9c730d198a330b2301852c3a2"
+    },
+    {
+      "file": "assets/audio/lightning2.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning2.fire_1.mp3",
+      "sha256": "e54793661fbe64f9869bb75f971a627f451d166c404d50655a0871eaacfb6069"
+    },
+    {
+      "file": "assets/audio/lightning2.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning2.fire_2.mp3",
+      "sha256": "9bfea4f490598bb08aa13542e50ddf64a1d8e7098f81fb388bc767a2c89b3a5f"
+    },
+    {
+      "file": "assets/audio/lightning2.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning2.hit_0.mp3",
+      "sha256": "f6fb002c33145ad52fc4ee7e6dbd7d7cd286abbc63895085c30ac2e0b34c3277"
+    },
+    {
+      "file": "assets/audio/lightning2.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning2.hit_1.mp3",
+      "sha256": "2963cec2e2cd905f993d658aa22350a07d8c0fa714842ff8bf8c71e6a7ae2fd9"
+    },
+    {
+      "file": "assets/audio/lightning2.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\lightning2.hit_2.mp3",
+      "sha256": "dd9bfbcd4a342e55b0b3d5ac565580ab9bb1e138da6234fc23a62d67280ba9c4"
+    },
+    {
+      "file": "assets/audio/manifest.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\manifest.json",
+      "sha256": "845c3b33d58987675804ba3ce0ea11e65bb5e6be038629e585fc21c1e982b750"
+    },
+    {
+      "file": "assets/audio/profiles.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\profiles.json",
+      "sha256": "0cafd95ec4dc2849fa58c97403191c9422e7bd9586d876c0c35c7f50238f346e"
+    },
+    {
+      "file": "assets/audio/rocket.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\rocket.deploy_0.mp3",
+      "sha256": "000a99a1618f3c6a81f4e1ed707c1da0e3e91116f04eaf8a71ccd9421dbe0fa5"
+    },
+    {
+      "file": "assets/audio/rocket.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\rocket.fire_0.mp3",
+      "sha256": "740d64f4dbd3ddeafd01a19c6ad33a65002882311f7a9d7fbc5b6b0974ec933f"
+    },
+    {
+      "file": "assets/audio/rocket.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\rocket.fire_1.mp3",
+      "sha256": "2204780aaeb0ce9676d10e89e4eab9c2cca0573d1f523a5018a4ab507524e9c6"
+    },
+    {
+      "file": "assets/audio/rocket.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\rocket.fire_2.mp3",
+      "sha256": "3b1c7c350f6b106e0ad9996c1f1aeb482bb376f80669e7c975b0d74d8e72305d"
+    },
+    {
+      "file": "assets/audio/rodin.charge_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\rodin.charge_0.mp3",
+      "sha256": "545b3cc31012c2e3425f88a4510411259e18604fa799c640727c7753c79685e3"
+    },
+    {
+      "file": "assets/audio/rodin.flame_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\rodin.flame_0.mp3",
+      "sha256": "f3fe328e74a4a9782d1b46609f955d504bab9e5b0db2a041f500d3de425c4633"
+    },
+    {
+      "file": "assets/audio/rodin.flameCharge_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\rodin.flameCharge_0.mp3",
+      "sha256": "d5b740650f64716d38ab51def9a24bd580881e59fe0fadfcc14f162f6e7a0637"
+    },
+    {
+      "file": "assets/audio/rodin.slam_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\rodin.slam_0.mp3",
+      "sha256": "57d9183632af2f92255c5749da3ec712a483b57098699e0c2b03d7a3515a91c9"
+    },
+    {
+      "file": "assets/audio/sniper.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\sniper.deploy_0.mp3",
+      "sha256": "90bd4a1b80d252727f517c46033e781e5f28c41d9d067c05b1b55a4f6a14460c"
+    },
+    {
+      "file": "assets/audio/sniper.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\sniper.fire_0.mp3",
+      "sha256": "ebac06d17ec50fe7fb67f9feb42a57bcc9a9f177ac2d3a86ffaafd58fdd0842d"
+    },
+    {
+      "file": "assets/audio/sniper.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\sniper.fire_1.mp3",
+      "sha256": "a1bc793651c51fe2ba5490eadefacc057c14f24da8e8632e30432a487fb2084f"
+    },
+    {
+      "file": "assets/audio/sniper.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\sniper.fire_2.mp3",
+      "sha256": "3ae1c5e213a946e5bbc853f522d2906049bcfd7d95cacee8910d854c80199917"
+    },
+    {
+      "file": "assets/audio/sniper.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\sniper.hit_0.mp3",
+      "sha256": "78478ca43e38eb0cc3435775484612a10b06baf8e2a08f1b7f4b77d81d4b7719"
+    },
+    {
+      "file": "assets/audio/sniper.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\sniper.hit_1.mp3",
+      "sha256": "2a2162fc6b9a38b4c0a14b3a5b2cc9c99701acd2d4f5a8a5544a1b8db00130ba"
+    },
+    {
+      "file": "assets/audio/sniper.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\sniper.hit_2.mp3",
+      "sha256": "6173bbd2a2e9ce121135dca2fd7e53ed5c72a9a6938dc950cd564a89b948f989"
+    },
+    {
+      "file": "assets/audio/trap.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.deploy_0.mp3",
+      "sha256": "c1e0d3be0ee6e1921e4eea7a3b408878bc3538d6da13d985a1dc2f3cb55bcd11"
+    },
+    {
+      "file": "assets/audio/trap.end_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.end_0.mp3",
+      "sha256": "e8f38b7d3f8c6561f50f775c9a192323c4cfdefb807d98193b6183d77ea70c53"
+    },
+    {
+      "file": "assets/audio/trap.end_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.end_1.mp3",
+      "sha256": "e6f425384a5efb9c358a0eb5293588ea9f1e9099f7d4f6dbfdc357e8c5ecfbdb"
+    },
+    {
+      "file": "assets/audio/trap.end_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.end_2.mp3",
+      "sha256": "9db20db9dece347ba9e9e0e9c981af941b6f872f4e3c885ba0c642acbe1aa3af"
+    },
+    {
+      "file": "assets/audio/trap.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.fire_0.mp3",
+      "sha256": "61644d9df841a1a4f7722ccf64bf85d8f7e5518b34aeff4ee200cc4a137660d1"
+    },
+    {
+      "file": "assets/audio/trap.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.fire_1.mp3",
+      "sha256": "0580751f5d3805b9c5d8a2124cbb79f22d741d68dd32598c072f53774c93abb2"
+    },
+    {
+      "file": "assets/audio/trap.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.fire_2.mp3",
+      "sha256": "0778ee0e642642c116c8f5976441a2c1f221f1a1010df7c9cde2432cbcaeb9d6"
+    },
+    {
+      "file": "assets/audio/trap.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.hit_0.mp3",
+      "sha256": "e0d36a24ff0c536fab48b5fbb3397d378a253ca1cd03ccf8e48ea16b10ffe05c"
+    },
+    {
+      "file": "assets/audio/trap.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.hit_1.mp3",
+      "sha256": "9fd34c2630f8c4834be5806bb6c566173b9750536c973388a23b19b7b91b7b7c"
+    },
+    {
+      "file": "assets/audio/trap.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\trap.hit_2.mp3",
+      "sha256": "758c31923685c5143335547f4d29745595f99d3ea50c4d37d3debeda2bb3deef"
+    },
+    {
+      "file": "assets/audio/turret.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret.deploy_0.mp3",
+      "sha256": "4052172989113215031fe188f52d7e369951da442c5287c3d5c93edcb719a514"
+    },
+    {
+      "file": "assets/audio/turret.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret.fire_0.mp3",
+      "sha256": "69da8eb91ff409bd1804a556dccfa91b88c54d5e871cf5cedfe470faaf300674"
+    },
+    {
+      "file": "assets/audio/turret.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret.fire_1.mp3",
+      "sha256": "c029bedc010f7bb0b39e91cb941cc3afb12487ab217f4d979c6e6026e41d9a50"
+    },
+    {
+      "file": "assets/audio/turret.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret.fire_2.mp3",
+      "sha256": "f71b025bccfdf1b86cae336841c32fc28391e739c7149ba9a09abced26f60f56"
+    },
+    {
+      "file": "assets/audio/turret.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret.hit_0.mp3",
+      "sha256": "64a5715e5ad3e99ae015be6762fa13d6362e9bffa4b008092241a0ec9fcac94c"
+    },
+    {
+      "file": "assets/audio/turret.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret.hit_1.mp3",
+      "sha256": "8d5424b213ef53f769c6899957d0ce6e724c9d5e5031244b5501abf23b705929"
+    },
+    {
+      "file": "assets/audio/turret.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret.hit_2.mp3",
+      "sha256": "f6786e0fdbd9b68d77fbac72b479d55f9bddd296b1d921e125e554dce4080fcd"
+    },
+    {
+      "file": "assets/audio/turret2.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret2.fire_0.mp3",
+      "sha256": "19b1e42fc8985c54620d9eb0c4c2184542a0d523361c2ade3e7d66fd96c62b6d"
+    },
+    {
+      "file": "assets/audio/turret2.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret2.fire_1.mp3",
+      "sha256": "2222d75ca27415ce0ebd1c25de209fbdcc8af1fb231c38133717a440346d1acd"
+    },
+    {
+      "file": "assets/audio/turret2.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret2.fire_2.mp3",
+      "sha256": "bfb6d54c181ee8f3e9482e35c986a523ab49e164a4dfaa50d5d02f008d9e625f"
+    },
+    {
+      "file": "assets/audio/turret2.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret2.hit_0.mp3",
+      "sha256": "6470fc6e7fbda7fac03c35cdafedb3817afd9b14b5c4c3cd8e654a9a7968821f"
+    },
+    {
+      "file": "assets/audio/turret2.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret2.hit_1.mp3",
+      "sha256": "4fadb887ef7844d50f1e9e7c4e3f26c528a9a41899e033a625c1e48d6fb050b3"
+    },
+    {
+      "file": "assets/audio/turret2.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret2.hit_2.mp3",
+      "sha256": "7df6f2d411db85db1374886e1754957c238ba5e2c19e7bf771e67a951be706db"
+    },
+    {
+      "file": "assets/audio/turret3.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.deploy_0.mp3",
+      "sha256": "4052172989113215031fe188f52d7e369951da442c5287c3d5c93edcb719a514"
+    },
+    {
+      "file": "assets/audio/turret3.fire_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.fire_0.mp3",
+      "sha256": "17006a31ed0ab4158c54013b2784231095aa4e3c5b7fe6cc40009369986da8cd"
+    },
+    {
+      "file": "assets/audio/turret3.fire_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.fire_1.mp3",
+      "sha256": "c968f7a68e0afe1a3a29a95fa8bde0b13f66b7a635f7326bd88514252dd18746"
+    },
+    {
+      "file": "assets/audio/turret3.fire_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.fire_2.mp3",
+      "sha256": "f3bf5fe30a139ac0efc3b481afb17f091b35d0b574ebe9fce59a46de3a97de3d"
+    },
+    {
+      "file": "assets/audio/turret3.hit_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.hit_0.mp3",
+      "sha256": "e08048a44df7d8f98e496569e1bd816e4ee0a62fe40be4e747c5bfffef1e2f03"
+    },
+    {
+      "file": "assets/audio/turret3.hit_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.hit_1.mp3",
+      "sha256": "7e21c47b7863423db32ce3232e63a72d4504a0930b999cabeb2337b108621cd0"
+    },
+    {
+      "file": "assets/audio/turret3.hit_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.hit_2.mp3",
+      "sha256": "77cae9fa3b1817bb00f69ea8046599f83b68c0541bca947fb2d122ca39a449cf"
+    },
+    {
+      "file": "assets/audio/turret3.hitBomb_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.hitBomb_0.mp3",
+      "sha256": "b820b9a6a0e9214f813dec68069fc07fa3f36110397517c72f24f4d732e5ebd5"
+    },
+    {
+      "file": "assets/audio/turret3.hitBomb_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.hitBomb_1.mp3",
+      "sha256": "bed0fbbbc7993cc7ec2e479da342efac8b8222cc0047085840eb0299dd04764b"
+    },
+    {
+      "file": "assets/audio/turret3.hitBomb_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\turret3.hitBomb_2.mp3",
+      "sha256": "300417236ddd868b812e1ba6efa91b461a6745b6d83970034f91fbf5d31fb2f7"
+    },
+    {
+      "file": "assets/audio/wisadel.attack_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.attack_0.mp3",
+      "sha256": "0143fabc015b13e06223ad06ffeceed3657ff5f2ef079a7a9662aed3ac7855fe"
+    },
+    {
+      "file": "assets/audio/wisadel.attack_1.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.attack_1.mp3",
+      "sha256": "fd24e34984a32cbe1ed5a60f03fc5addb6016a0be172c7c7a2d88be183d078c0"
+    },
+    {
+      "file": "assets/audio/wisadel.attack_2.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.attack_2.mp3",
+      "sha256": "78e90286fef6a685f0c81d4bf744935db0e41cef2beaf6d8676d749322193df2"
+    },
+    {
+      "file": "assets/audio/wisadel.attack_3.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.attack_3.mp3",
+      "sha256": "58dc00fad8434e283b71cd198340d301c606a1a06c5762d3f8969f999bd6b1b7"
+    },
+    {
+      "file": "assets/audio/wisadel.attack_4.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.attack_4.mp3",
+      "sha256": "909a3e061e87ed93642128c777d5577d1f0187557612ea9998508d0cd2773562"
+    },
+    {
+      "file": "assets/audio/wisadel.attack_5.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.attack_5.mp3",
+      "sha256": "941a05237c6e8bad80c57eace375c500c18dddf7140b148ee2c2b7b4e179d0ca"
+    },
+    {
+      "file": "assets/audio/wisadel.attack_6.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.attack_6.mp3",
+      "sha256": "ed4eab8ef5bc6e517c43db09d33a0862f329e4f3b7bbb496dbe2f4cf1ccd13c3"
+    },
+    {
+      "file": "assets/audio/wisadel.attack_7.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.attack_7.mp3",
+      "sha256": "7c92d31d10ab5f4cc526a3f6b9a7f8ee347475ca008fc5690ea0968964f7575d"
+    },
+    {
+      "file": "assets/audio/wisadel.deploy_0.mp3",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel.deploy_0.mp3",
+      "sha256": "212d23185f448668320c65ee232566c7df3a03d6ab545b074e65ae516e5e26c4"
+    },
+    {
+      "file": "assets/audio/wisadel_manifest.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\audio\\wisadel_manifest.json",
+      "sha256": "c3a7acff749085405cafed5f34f60322ceff3ee7141a2e2b76d89828a7c001bc"
+    },
+    {
+      "file": "assets/battle_cannon_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_cannon_1.png",
+      "sha256": "696aac1f7299bf6f9cd3a9eead2f503bf2336fa453c5ee3ed5326e143b202c4c"
+    },
+    {
+      "file": "assets/battle_cannon_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_cannon_2.png",
+      "sha256": "fb2b337795b8999e8841a3759692db9c5721ea89de6062fe297fad8c9fe26326"
+    },
+    {
+      "file": "assets/battle_debuff_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_debuff_1.png",
+      "sha256": "216535736786b8c14d0fa5516f17e1dd65670f9ce0348e83ebc756282f567dc2"
+    },
+    {
+      "file": "assets/battle_frost_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_frost_1.png",
+      "sha256": "c3d78d0526df1a1ba8e0790e8e0d1662332aba7c5e77ba47f84de9e7257a819c"
+    },
+    {
+      "file": "assets/battle_laser_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_laser_1.png",
+      "sha256": "ce2c61b17104cda829855a52f9dab1fef8518379b51f1c7ffe3e74bf5e7a346c"
+    },
+    {
+      "file": "assets/battle_laser_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_laser_2.png",
+      "sha256": "98fd39e302c142ac1d5f8efa46a3cbebe4c3d03c4ab22945b821503b6c89cba3"
+    },
+    {
+      "file": "assets/battle_lightning_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_lightning_1.png",
+      "sha256": "e37127163a97666af943cdbfaf01b54223884f50d9433a4c415661ef43a6bf99"
+    },
+    {
+      "file": "assets/battle_lightning_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_lightning_2.png",
+      "sha256": "4f95c94a05939fd7e1ec1d24fcd774edc50f78acf5fc69e41171f8f82b70dc10"
+    },
+    {
+      "file": "assets/battle_rocket_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_rocket_1.png",
+      "sha256": "a78377d9b4e8fef1c3f836b780d524c5c1eaebe6f73eb9375f6751553035d7f2"
+    },
+    {
+      "file": "assets/battle_sniper_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_sniper_1.png",
+      "sha256": "0e4b4161fb9b517b1e6b0a3190a1ff0cac81ad4b6ced7dd795b480a59fade6cd"
+    },
+    {
+      "file": "assets/battle_trap_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_trap_1.png",
+      "sha256": "3d4325800de59728ea0f4242c003b2053eb79f3ff83cad2374282c08fa24b202"
+    },
+    {
+      "file": "assets/battle_turret_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_turret_1.png",
+      "sha256": "0640ea255293a702c1366551dec00afd40fc65bae92231f974dac9ccabc092d7"
+    },
+    {
+      "file": "assets/battle_turret_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_turret_2.png",
+      "sha256": "b5cb7b453e6a3c7095dfab3de811b5866219d5309f80427ea7bf65f6bab59091"
+    },
+    {
+      "file": "assets/battle_turret_3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\battle_turret_3.png",
+      "sha256": "f51ba32fa658383f7aba7ba00043119816876ab0e2f1cfd5d292988ebec7957a"
+    },
+    {
+      "file": "assets/component_mc_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\component_mc_1.png",
+      "sha256": "de002d846cdb93eaa354f34c3033966186310ccfad6ff08ee9fb2de94acfebfd"
+    },
+    {
+      "file": "assets/component_mc_1_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\component_mc_1_flow0.png",
+      "sha256": "ee9dba80dfe2a3278f5edc13cf254ab29f93bcde62cf0ae19b86b62f0b62bf9f"
+    },
+    {
+      "file": "assets/component_mc_1_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\component_mc_1_flow1.png",
+      "sha256": "de002d846cdb93eaa354f34c3033966186310ccfad6ff08ee9fb2de94acfebfd"
+    },
+    {
+      "file": "assets/component_mc_1_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\component_mc_1_flow2.png",
+      "sha256": "b25d3d1a05c2cdf0d40d46d5017298d4e39475148d372ff443fc0271be5b7a3a"
+    },
+    {
+      "file": "assets/component_mc_1_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\component_mc_1_flow3.png",
+      "sha256": "4ae32c431fc00f16d21959283111446bd72e456f51650c2920b26d1f8348e32e"
+    },
+    {
+      "file": "assets/eny_0018_lbtough.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0018_lbtough.png",
+      "sha256": "376dd5a9aabf31cd23c182d68f0987e1db044fc96a14a23c2a94cfdbb2a357e4"
+    },
+    {
+      "file": "assets/eny_0021_agmelee.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0021_agmelee.png",
+      "sha256": "c3abde4bff180f3fb1ee70ca949d352e0ae23919cdaf2f0caf1f782f806e4a91"
+    },
+    {
+      "file": "assets/eny_0027_agscorp.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0027_agscorp.png",
+      "sha256": "03a3039bd692e96eea7fa4d8cadce1492dbcdb514043dfb190c341f87fd0ab59"
+    },
+    {
+      "file": "assets/eny_0029_lbmob.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0029_lbmob.png",
+      "sha256": "d136d830f95c74a53143e31f437bf4d2ec77fb0cf4f254e7427e31301e208d97"
+    },
+    {
+      "file": "assets/eny_0033_lbhunt.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0033_lbhunt.png",
+      "sha256": "92a7de574ef78b329b89a03056aee40c14bf1b554ad763dad9542b67ad45ec0d"
+    },
+    {
+      "file": "assets/eny_0046_lbshamman.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0046_lbshamman.png",
+      "sha256": "6fb17c114a790fd12a8ef7a620f5c3e64315eeda6549a5c0af327e939f5842db"
+    },
+    {
+      "file": "assets/eny_0049_rogue.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0049_rogue.png",
+      "sha256": "16ddda0efb0be583f9a1c8ed45fd6c3b98e8d893ac66fa947b4285f94be78e9a"
+    },
+    {
+      "file": "assets/eny_0051_rodin.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0051_rodin.png",
+      "sha256": "7d69a259f4cbe1643fc1c769fdc8f73747cf52033e35fd49042ed78bf8bb97f5"
+    },
+    {
+      "file": "assets/eny_0055_hscrane.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0055_hscrane.png",
+      "sha256": "2918d01a823055ac645b9d1bd2facaec9c45c1e59345ec4b98176af3d9f9253c"
+    },
+    {
+      "file": "assets/eny_0059_erhound.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0059_erhound.png",
+      "sha256": "1d406b6cd3cc9cac17487256a4e14cb284693c448c1f17d833306df2ab2ddce2"
+    },
+    {
+      "file": "assets/eny_0060_lbmad.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0060_lbmad.png",
+      "sha256": "ed1dca6afc226ef3b8c7521f7d69e2dccd016c0fee58f99ec32b7f329bc877c0"
+    },
+    {
+      "file": "assets/eny_0074_lbshield.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0074_lbshield.png",
+      "sha256": "6ead4fc545f7c7092315cfa4d8b5054883341e21577dc19d57bf6e78ed010325"
+    },
+    {
+      "file": "assets/eny_0076_agfly.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0076_agfly.png",
+      "sha256": "5d1ffab2defbac3889429d5812e19b74801046e906ca7baa1df786ca9162196a"
+    },
+    {
+      "file": "assets/eny_0077_agshield.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0077_agshield.png",
+      "sha256": "ef627366570b523d5a7369fe41595c2ee96113b35bf1ba7501ac2c97e84b6b36"
+    },
+    {
+      "file": "assets/eny_0092_slbomb.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0092_slbomb.png",
+      "sha256": "fd7e8c08a4947f560ab786bd327851a739c400b892b918089bedb758560b332a"
+    },
+    {
+      "file": "assets/eny_0108_slbomb2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\eny_0108_slbomb2.png",
+      "sha256": "d18f55d7d08b1f34ceb4720c70644f9e39376c922e830d382e8f4dc3e2e64a80"
+    },
+    {
+      "file": "assets/fonts/HarmonyOS_Sans_SC.ttf",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\fonts\\HarmonyOS_Sans_SC.ttf",
+      "sha256": "8978e05044e7089ad6a9de38c505c8148305607983487435a916d2610700a7ca"
+    },
+    {
+      "file": "assets/fonts/LICENSE.txt",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\fonts\\LICENSE.txt",
+      "sha256": "7d7acf8e3ac928ae7f34aaa9f8e348dd0476dbb52caaa058e402894d4f6efe73"
+    },
+    {
+      "file": "assets/furnance_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\furnance_1.png",
+      "sha256": "863a266bc6ea17803fa01d0ec1a94fec3be37a8c2237a8258fac6775d7dcd3ef"
+    },
+    {
+      "file": "assets/furnance_1_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\furnance_1_flow0.png",
+      "sha256": "11620cd9ce8e8d4719145f7acaf549cfcfc1a6474142a5644053d99c85539763"
+    },
+    {
+      "file": "assets/furnance_1_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\furnance_1_flow1.png",
+      "sha256": "70c93c8d68c18d2b2516b8282bc9a541199592705e5698f55e23179d10a91e03"
+    },
+    {
+      "file": "assets/furnance_1_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\furnance_1_flow2.png",
+      "sha256": "86a3955ee236e3c5cc3da91fc9a497418663b3c80e16c4a70da7d3fdda9cc2fb"
+    },
+    {
+      "file": "assets/furnance_1_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\furnance_1_flow3.png",
+      "sha256": "67b7c8e8f9d02a4194780cf6a101d3be566855bb0ec13cc2feaa374261b384a9"
+    },
+    {
+      "file": "assets/grinder_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\grinder_1.png",
+      "sha256": "c4132182efd2e5f1206fc98f16a6d4bb2cdb20c5f0d109341d064683e22ccd43"
+    },
+    {
+      "file": "assets/grinder_1_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\grinder_1_flow0.png",
+      "sha256": "8924735b96718b12406362aae27d8396072dc6f12b943348caf7041b956a72f5"
+    },
+    {
+      "file": "assets/grinder_1_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\grinder_1_flow1.png",
+      "sha256": "c4132182efd2e5f1206fc98f16a6d4bb2cdb20c5f0d109341d064683e22ccd43"
+    },
+    {
+      "file": "assets/grinder_1_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\grinder_1_flow2.png",
+      "sha256": "4c73e14b5cc5c86e245c710586990ceb5b518d04ba510d00c5135e29f6fd28f9"
+    },
+    {
+      "file": "assets/grinder_1_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\grinder_1_flow3.png",
+      "sha256": "39e6efd934bf3b38d07eedf8379e39694920e7f78ff54e542ccd28c18153d8b5"
+    },
+    {
+      "file": "assets/icon_belt_corner_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\icon_belt_corner_1.png",
+      "sha256": "6813f94064e297e5f87324d7d7d30500be2cbf2c54ae942367856577abce9066"
+    },
+    {
+      "file": "assets/icon_belt_corner_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\icon_belt_corner_2.png",
+      "sha256": "a376d0048144adebe2a744dc7d3a84f996b316ec2d4140cf9361f031ecc15cec"
+    },
+    {
+      "file": "assets/icon_belt_grid.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\icon_belt_grid.png",
+      "sha256": "c388183d91237b29b0492e654c3150aed4854643326401c1cfa0f17fa9f72558"
+    },
+    {
+      "file": "assets/item_crystal_enr.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_crystal_enr.png",
+      "sha256": "6e552ba18cfbe6af904eb60655cef44cd03da4d94ad4b1fe1125b5afc7468a2d"
+    },
+    {
+      "file": "assets/item_crystal_enr_powder.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_crystal_enr_powder.png",
+      "sha256": "0eaae0bb3540d51aefc8325b996206634cc39215867c15ed56fb61750497de84"
+    },
+    {
+      "file": "assets/item_crystal_powder.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_crystal_powder.png",
+      "sha256": "9f06ad4766e7ad8482fb3a2efb3df3601a1a573d0242977effa23018ad5b5d32"
+    },
+    {
+      "file": "assets/item_crystal_shell.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_crystal_shell.png",
+      "sha256": "cafd75d1d82b508608d73f3a619dd85705552acc937a161a392ecb40814c5a66"
+    },
+    {
+      "file": "assets/item_glass_cmpt.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_glass_cmpt.png",
+      "sha256": "fad1e574aacd4f261895e195a06a7a3991c1e8562b7c46c10c172c31f22bf6bd"
+    },
+    {
+      "file": "assets/item_glass_enr_cmpt.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_glass_enr_cmpt.png",
+      "sha256": "788b9a0029252462acd6a3d32e812b6cc6b45b4f9bcbe8293949097c52360980"
+    },
+    {
+      "file": "assets/item_iron_cmpt.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_iron_cmpt.png",
+      "sha256": "4d8e79a3ec9ab0b019055b6eccb228ca5ab255fd6d3e754df4334a428260cab7"
+    },
+    {
+      "file": "assets/item_iron_enr.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_iron_enr.png",
+      "sha256": "12613fe9a6311983eb8295f0b17c503a6b8b277107b127a8a78ef883892d7299"
+    },
+    {
+      "file": "assets/item_iron_enr_cmpt.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_iron_enr_cmpt.png",
+      "sha256": "20b603383f986288aea5a4b59a8d0d1277e01bb35c77f5d7503ec90bbcea84ce"
+    },
+    {
+      "file": "assets/item_iron_enr_powder.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_iron_enr_powder.png",
+      "sha256": "d2308f356fa2078d91644637b3d7c3e40de3ed0fadeba3f9a214ce22fdb26511"
+    },
+    {
+      "file": "assets/item_iron_nugget.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_iron_nugget.png",
+      "sha256": "53b3e8a724b6c8063c4f4eef627f75b87a88d3dde606952c620f15497c181a2d"
+    },
+    {
+      "file": "assets/item_iron_ore.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_iron_ore.png",
+      "sha256": "e2ff0a28cb1190ba2ae6dde2683bee4befd8e240d952387563a0250eb09c738f"
+    },
+    {
+      "file": "assets/item_iron_powder.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_iron_powder.png",
+      "sha256": "c09d60bfc09c2e2caaec0542a69d2e1114d609a8c5f065dc713059dac2153c68"
+    },
+    {
+      "file": "assets/item_originium_enr_powder.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_originium_enr_powder.png",
+      "sha256": "48c2cbf27c1a6691b0adeff0d96c767c11f52b8e7f7a6b78af94126a44e928c2"
+    },
+    {
+      "file": "assets/item_originium_ore.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_originium_ore.png",
+      "sha256": "700139e03bbac8abde2e4b732f5334114cd812405470aaacd1287db07243facb"
+    },
+    {
+      "file": "assets/item_originium_powder.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_originium_powder.png",
+      "sha256": "61949140f5f267a8fabb4204513ce8dae0a0d8af777d33c1651e9a8765628fea"
+    },
+    {
+      "file": "assets/item_plant_moss_3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_plant_moss_3.png",
+      "sha256": "f5802c4699193732dcb242fb4d13ff9b90122d42bc770559aad4b67f52270495"
+    },
+    {
+      "file": "assets/item_plant_moss_powder_3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_plant_moss_powder_3.png",
+      "sha256": "68aa112fcc1d191f545dd8be4d87dc2427c9eff38dd45fb61934e1a283f3e90c"
+    },
+    {
+      "file": "assets/item_proc_battery_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_proc_battery_1.png",
+      "sha256": "12b4eafb87c001b4c36ebba3c3d434789172ba613441dec5cad11298b701f1a9"
+    },
+    {
+      "file": "assets/item_proc_battery_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_proc_battery_2.png",
+      "sha256": "353d5e095801855da5e6b1c0c1953ec3561e911fe5564deed87b09c2910fb045"
+    },
+    {
+      "file": "assets/item_proc_battery_3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_proc_battery_3.png",
+      "sha256": "1f75057402474cb5e8c71f69531c0e0233ac1f94151fefd09f54f57b88677303"
+    },
+    {
+      "file": "assets/item_quartz_enr.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_quartz_enr.png",
+      "sha256": "90f84ab4ba8f5c5d3de69bb584c963a2094b19b57b2062d5e596f1a562a1cf96"
+    },
+    {
+      "file": "assets/item_quartz_enr_powder.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_quartz_enr_powder.png",
+      "sha256": "9c9397bef0f7e954c6530df6c78a49815ae0dca4e50e5c857d26a3d0c745ed1f"
+    },
+    {
+      "file": "assets/item_quartz_glass.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_quartz_glass.png",
+      "sha256": "7bcc7148ab8df136876178e682223b90aa0821d758c990c35fd5e21d82c229fa"
+    },
+    {
+      "file": "assets/item_quartz_powder.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_quartz_powder.png",
+      "sha256": "6057d8f13aa669316f666878315821f2c3fdb320b31974adcbc820e8b35f39db"
+    },
+    {
+      "file": "assets/item_quartz_sand.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\item_quartz_sand.png",
+      "sha256": "d87c95793e2aaf69c992bb846937682a288dce839a216bfd9cccf845ec8d535c"
+    },
+    {
+      "file": "assets/loader_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\loader_1.png",
+      "sha256": "d9e9f7aa22c5f3b1b29a1f3ddc64193992e24a6587306f817b9a9709175ea9a8"
+    },
+    {
+      "file": "assets/loader_1_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\loader_1_flow0.png",
+      "sha256": "5745f12ddd633e92c81a73b1548e11e7d76a5e7acc029d89d7b02cfa01f50cc0"
+    },
+    {
+      "file": "assets/loader_1_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\loader_1_flow1.png",
+      "sha256": "d9e9f7aa22c5f3b1b29a1f3ddc64193992e24a6587306f817b9a9709175ea9a8"
+    },
+    {
+      "file": "assets/loader_1_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\loader_1_flow2.png",
+      "sha256": "f4c2cef1f65c617d0029710b2f597f67156358555f8fe67b8c33e7bc16b5b9a0"
+    },
+    {
+      "file": "assets/loader_1_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\loader_1_flow3.png",
+      "sha256": "4654beac80d710d75a52e0f1ca15af48e526b0a72208135fa2ea4ee3b022d24b"
+    },
+    {
+      "file": "assets/log_hongs_bus.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus.png",
+      "sha256": "c22a27f95c4dde802cb9d441062abd811be84e5a6a0dbaf7d7f73901f3207faa"
+    },
+    {
+      "file": "assets/log_hongs_bus_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_flow0.png",
+      "sha256": "7027efbde5069b7a833eb74bbf36c80248772ef1deb02ced5f5be2a1e9a92ac7"
+    },
+    {
+      "file": "assets/log_hongs_bus_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_flow1.png",
+      "sha256": "c22a27f95c4dde802cb9d441062abd811be84e5a6a0dbaf7d7f73901f3207faa"
+    },
+    {
+      "file": "assets/log_hongs_bus_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_flow2.png",
+      "sha256": "b94c61ce30eff9d41b983a03e076f0a116d3cf5326a568a408c178ddd08574db"
+    },
+    {
+      "file": "assets/log_hongs_bus_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_flow3.png",
+      "sha256": "f6e3af33100ab72e262046edc84b6c88cb9d6abb11697021dd29cec81696fa42"
+    },
+    {
+      "file": "assets/log_hongs_bus_source.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_source.png",
+      "sha256": "150b4defb10ef0613e30b9e591c3108a682ceb6c772a52410437281e55924a2b"
+    },
+    {
+      "file": "assets/log_hongs_bus_source_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_source_flow0.png",
+      "sha256": "f8c045d834413c25bbb270bd239f4d658405da2b6804219c01a64f465f575d2f"
+    },
+    {
+      "file": "assets/log_hongs_bus_source_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_source_flow1.png",
+      "sha256": "150b4defb10ef0613e30b9e591c3108a682ceb6c772a52410437281e55924a2b"
+    },
+    {
+      "file": "assets/log_hongs_bus_source_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_source_flow2.png",
+      "sha256": "ed80b7895a5c7f44b88962b3b2186a22a295c027cae66ee2832fbe2214526136"
+    },
+    {
+      "file": "assets/log_hongs_bus_source_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\log_hongs_bus_source_flow3.png",
+      "sha256": "3fd56b2578eae6e70e2360c9ea90aa18c7ec90a46689a12fabec84e45e789462"
+    },
+    {
+      "file": "assets/miner_3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\miner_3.png",
+      "sha256": "e6abfc6909f2edca3f07c680f7cb32b2f0eb9c3092bbd22e0649e63a3b0c07c1"
+    },
+    {
+      "file": "assets/portrait_battle_cannon_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_cannon_1.png",
+      "sha256": "70dcb61b989f887d453b7dd0ed016bc58ab05d490446f8f8323dc2571446a78b"
+    },
+    {
+      "file": "assets/portrait_battle_cannon_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_cannon_2.png",
+      "sha256": "60d88ca6f0dbdd2479669b7f353045760a1d1470eef7cd0e78f5077eec43ac8d"
+    },
+    {
+      "file": "assets/portrait_battle_debuff_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_debuff_1.png",
+      "sha256": "1e96cb8f977be79c43aa129ad8f43764ae37b23076987358f00e2e2aa1101f93"
+    },
+    {
+      "file": "assets/portrait_battle_frost_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_frost_1.png",
+      "sha256": "c997ea1c724723a0dbeff25507a91669da3a6aacf8fccb36e56abb1107ecb637"
+    },
+    {
+      "file": "assets/portrait_battle_laser_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_laser_1.png",
+      "sha256": "f516706870b67ba9dc6450101d09c8fd225dac5a05c81e474a56f04e75351d37"
+    },
+    {
+      "file": "assets/portrait_battle_laser_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_laser_2.png",
+      "sha256": "0f8f1aecaeca2a7bb8589af107b0d204ba57db108a781b75774663762b10e741"
+    },
+    {
+      "file": "assets/portrait_battle_lightning_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_lightning_1.png",
+      "sha256": "e393b7cb0da908a2cdffd37a8368ac98b650279fbd49e482735667f6b882e785"
+    },
+    {
+      "file": "assets/portrait_battle_lightning_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_lightning_2.png",
+      "sha256": "3f0137ae450c1e486fd60b90132d0884141d32465a4eab0ea709de41506fecae"
+    },
+    {
+      "file": "assets/portrait_battle_rocket_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_rocket_1.png",
+      "sha256": "1fb477b23b5b6a240c3cfe421607ff220632910898bf0ab2e08c89b1132d065e"
+    },
+    {
+      "file": "assets/portrait_battle_sniper_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_sniper_1.png",
+      "sha256": "fd4b8167cc88b9e0378607ea374239a1cb8f44f4d786b2e6a12136be2afa48bb"
+    },
+    {
+      "file": "assets/portrait_battle_trap_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_trap_1.png",
+      "sha256": "1ce5961d9139c70a8b5445d051cfc56d795f0c644e2b32a48839ecb462204fa0"
+    },
+    {
+      "file": "assets/portrait_battle_turret_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_turret_1.png",
+      "sha256": "6ee35330ec7c427673ab1c511b452d7945bd77cc8604617586b32b4ae53fc064"
+    },
+    {
+      "file": "assets/portrait_battle_turret_2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_turret_2.png",
+      "sha256": "7d8eb93cc1163cf89cb3027121579cdcdcc7a9e096564fa9f77baa9a2938119d"
+    },
+    {
+      "file": "assets/portrait_battle_turret_3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_battle_turret_3.png",
+      "sha256": "b9fa9d740bae8872e27ce9456a71663dfeaa35af0167aa6d258f8c0f386f9dfb"
+    },
+    {
+      "file": "assets/portrait_component_mc_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_component_mc_1.png",
+      "sha256": "0951785dcea8ab80cd1f169e0a58d3371434c8c354a4b1c77c5c50c190aa845b"
+    },
+    {
+      "file": "assets/portrait_furnance_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_furnance_1.png",
+      "sha256": "91973356123a421dcfec21f8d40bc64814bd62fca656e8cc454806082acb116a"
+    },
+    {
+      "file": "assets/portrait_grinder_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_grinder_1.png",
+      "sha256": "5c99c46c7e0afa5dcf3557a07bce74da91f3c40c1772c5e040444d5c44f4786a"
+    },
+    {
+      "file": "assets/portrait_icon_belt_grid.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_icon_belt_grid.png",
+      "sha256": "383101381b7fb52c5f663809cf82bc335619c06b969b6773532ca75716f54e91"
+    },
+    {
+      "file": "assets/portrait_loader_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_loader_1.png",
+      "sha256": "b26622fb1f7ac7c26a5ef024baa2cbc79d17e1663c4c8b0d57df1c92ab46f361"
+    },
+    {
+      "file": "assets/portrait_log_hongs_bus.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_log_hongs_bus.png",
+      "sha256": "b56a3596daaedab6f685c4043cbf14e940cd527b8ba9eecf059b770e86a3dcc4"
+    },
+    {
+      "file": "assets/portrait_log_hongs_bus_source.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_log_hongs_bus_source.png",
+      "sha256": "842be22260440369f40d6131fb160eafb7291a6d46746332833f9a821d482b8b"
+    },
+    {
+      "file": "assets/portrait_sp_hub_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_sp_hub_1.png",
+      "sha256": "75e993c8317e1f3d69979f9be3c6417d9289b7a5c41b5d090776d260209a3439"
+    },
+    {
+      "file": "assets/portrait_storager_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_storager_1.png",
+      "sha256": "43cc889788a6bd4a5163923f8bf2c3a4f8c79a15a0a0c0c62cbd289cc2c3e46a"
+    },
+    {
+      "file": "assets/portrait_thickener_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_thickener_1.png",
+      "sha256": "2ae1d87babde72f1dcf26c3878d69e81453d6ed212f4db3bcf0f96aea52cad9c"
+    },
+    {
+      "file": "assets/portrait_tools_assebling_mc_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_tools_assebling_mc_1.png",
+      "sha256": "c13fc3ddf38bc6324c7706ea34bd68f08d0959d7400ae14f2f2cc0c827666331"
+    },
+    {
+      "file": "assets/portrait_unloader_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\portrait_unloader_1.png",
+      "sha256": "3e9383bbccf9bd0f7b4d9804875f03bfa0ed90c3ea012067b051c1d3f7e75f4e"
+    },
+    {
+      "file": "assets/sp_hub_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\sp_hub_1.png",
+      "sha256": "ca317b8128ece81c4f557553a0bfc2421f7d45c58b1b591853d2e686d872c1b2"
+    },
+    {
+      "file": "assets/storager_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\storager_1.png",
+      "sha256": "1d5590764ee85366c48c6ce7e040710ebb9a05f5a5405a31ad1a70792e80c8cb"
+    },
+    {
+      "file": "assets/storager_1_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\storager_1_flow0.png",
+      "sha256": "a742c2fe609adca1f95f8a129e33003984e3c1ef20b117637749c6177128b8e9"
+    },
+    {
+      "file": "assets/storager_1_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\storager_1_flow1.png",
+      "sha256": "2ce8973f5bf1dfd3e209afee31b67c04d6503365aa75609c573bb9dc89550b9e"
+    },
+    {
+      "file": "assets/storager_1_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\storager_1_flow2.png",
+      "sha256": "1d228d337ce2933e9d3ef97df01f93e0f6ef42503c77ff326332827835c3cb93"
+    },
+    {
+      "file": "assets/storager_1_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\storager_1_flow3.png",
+      "sha256": "e3232cc66ea6ddd358f367d0cc8b97c638638b07c3bb44112c831dd6eb7b7b69"
+    },
+    {
+      "file": "assets/thickener_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\thickener_1.png",
+      "sha256": "3fc1a6561916bbc6d87d2289590955402ed2a733e936a119b5b341f34e7b28f4"
+    },
+    {
+      "file": "assets/thickener_1_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\thickener_1_flow0.png",
+      "sha256": "c7668ff0a2ce05253ddd58bf3ccaf862e47991f041e8f69f0e0bb5d460f5764d"
+    },
+    {
+      "file": "assets/thickener_1_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\thickener_1_flow1.png",
+      "sha256": "3fc1a6561916bbc6d87d2289590955402ed2a733e936a119b5b341f34e7b28f4"
+    },
+    {
+      "file": "assets/thickener_1_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\thickener_1_flow2.png",
+      "sha256": "0d5ccb54cba1b666c491b6a30f87124d4a84e193ea06d5e8962c1b77c21a9a73"
+    },
+    {
+      "file": "assets/thickener_1_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\thickener_1_flow3.png",
+      "sha256": "73d72494ea750f0cabe7b8c112ae9f93038bec50c62195e7c1adfeaff30b41af"
+    },
+    {
+      "file": "assets/tools_assebling_mc_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\tools_assebling_mc_1.png",
+      "sha256": "bf732a185a9601e6c63dcd1e8a79fa9352e9e76ba52667ef36d0c40c7b3de878"
+    },
+    {
+      "file": "assets/tools_assebling_mc_1_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\tools_assebling_mc_1_flow0.png",
+      "sha256": "823cd2f89741519c71445a607ce2a7bc50bd7aff5a8c7d2e4c99a6ecc90ba5cc"
+    },
+    {
+      "file": "assets/tools_assebling_mc_1_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\tools_assebling_mc_1_flow1.png",
+      "sha256": "bf732a185a9601e6c63dcd1e8a79fa9352e9e76ba52667ef36d0c40c7b3de878"
+    },
+    {
+      "file": "assets/tools_assebling_mc_1_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\tools_assebling_mc_1_flow2.png",
+      "sha256": "45f53bcecb3cebc64f243e8d9201f21cfca788215ec908a5d6c67cd7d7e9d06a"
+    },
+    {
+      "file": "assets/tools_assebling_mc_1_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\tools_assebling_mc_1_flow3.png",
+      "sha256": "458a239321b600c10c005ea54e0f312f7283742d8dbc2b686f314355ce845813"
+    },
+    {
+      "file": "assets/ui_blueprint_cover.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\ui_blueprint_cover.png",
+      "sha256": "98c61e7e5ad20682cf1b20829f6c8077f6bd1aad234d37f3f4fa813f5b3af55b"
+    },
+    {
+      "file": "assets/ui_cardBase.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\ui_cardBase.png",
+      "sha256": "a0bc899dd8c1e987166f982beb18517980a97fbd8a812c867245122ffe78a1f3"
+    },
+    {
+      "file": "assets/ui_cardDots.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\ui_cardDots.png",
+      "sha256": "5f45723a2de81675a50baecb915ce7825e406f5a00b9fe6e264446b79208fafd"
+    },
+    {
+      "file": "assets/ui_contours.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\ui_contours.png",
+      "sha256": "5225d1687faa432bd52041f7b55d5bd5ce71f03844857ee57723ac6a26d08eb9"
+    },
+    {
+      "file": "assets/ui_sizeMark.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\ui_sizeMark.png",
+      "sha256": "8642d663cb190fb55cf04a1f2baba31c6a7deb54608e1c8eafe63c730e7b43c7"
+    },
+    {
+      "file": "assets/ui_technicalLabel.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\ui_technicalLabel.png",
+      "sha256": "c03eb9fc873578c312b0993f589873362a016b14fd799f7c28d4524ce9c40238"
+    },
+    {
+      "file": "assets/unloader_1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\unloader_1.png",
+      "sha256": "d95b76bb5d53171b29dc5292f4e26f0c5607343f33c7362c3fe0aaa95fe1c643"
+    },
+    {
+      "file": "assets/unloader_1_flow0.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\unloader_1_flow0.png",
+      "sha256": "a22c64f02e425ebd166d0cc589967dd94344a474edfd33c2be5ec278eeefd433"
+    },
+    {
+      "file": "assets/unloader_1_flow1.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\unloader_1_flow1.png",
+      "sha256": "d95b76bb5d53171b29dc5292f4e26f0c5607343f33c7362c3fe0aaa95fe1c643"
+    },
+    {
+      "file": "assets/unloader_1_flow2.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\unloader_1_flow2.png",
+      "sha256": "1dba4b881e374faa0acbcbbf95a654af09c74e4e3b0526800d9ce574743874c0"
+    },
+    {
+      "file": "assets/unloader_1_flow3.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\unloader_1_flow3.png",
+      "sha256": "7a8b0488f824d895fdd95fa9a76c981fe203bdca7a4283bb1f408ee5c5e64953"
+    },
+    {
+      "file": "assets/wisadel/attackA_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\attackA_0.webp",
+      "sha256": "63eb187b654c11b1c4474f3a0c2574c4380cc8e599f58fe024f04fe894e3e6a2"
+    },
+    {
+      "file": "assets/wisadel/attackB_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\attackB_0.webp",
+      "sha256": "9300d1df8941ad4cdbb26a03cc73d4e7975810ac34c64f22299980a018298cfe"
+    },
+    {
+      "file": "assets/wisadel/attackC_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\attackC_0.webp",
+      "sha256": "f23072ca5fd7b9d1da6c96493c6d83be45a8288352ccbd22d3deea637743ad2f"
+    },
+    {
+      "file": "assets/wisadel/begin_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\begin_0.webp",
+      "sha256": "1eccacded611d54e7558d314e9f5c7b1dbba8dd657a1f7dca5d8671c221f86be"
+    },
+    {
+      "file": "assets/wisadel/idle_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\idle_0.webp",
+      "sha256": "2557c51ce8ff1dac1a55575f1c8d8703254be7ae9e790bd53b4b9d7f1df5486d"
+    },
+    {
+      "file": "assets/wisadel/idle_1.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\idle_1.webp",
+      "sha256": "0fe1c2ea31b9a2226540742098de0af78237a5e7f1d26b2daf951aa11840673e"
+    },
+    {
+      "file": "assets/wisadel/recover_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\recover_0.webp",
+      "sha256": "df05cd8aaffd5a4422a6ed3fd6e61bfcb0ab8c924899d84182c478d547f9223f"
+    },
+    {
+      "file": "assets/wisadel/special_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\special_0.webp",
+      "sha256": "ebe3ded67a0c70c9c2e29889ac144ef57110d4f2c2c197069fdbf89c2adf98ab"
+    },
+    {
+      "file": "assets/wisadel/special_1.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\special_1.webp",
+      "sha256": "645e7f077e12be362d7d97f145a0f321286d6252e65ae3ccdbc57d37761a3d34"
+    },
+    {
+      "file": "assets/wisadel/start_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\start_0.webp",
+      "sha256": "fa78cb1f60994faa400ec505adf0d3829e824aea022d52f8367c4081fc1cc676"
+    },
+    {
+      "file": "assets/wisadel/stun_0.webp",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel\\stun_0.webp",
+      "sha256": "45e63553fa07de6d56ad454a2f0021576bb28de94bb0721df0dba50c6b19418a"
+    },
+    {
+      "file": "assets/wisadel_portrait.png",
+      "origin": "F:\\4\\endfield_blueprint_td\\assets\\wisadel_portrait.png",
+      "sha256": "8636bb7d88ff9ebb63f4e09844b706cd436c3990fb41f10c7da65f3285923460"
+    },
+    {
+      "file": "src/actors.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\actors.js",
+      "sha256": "787b776ebf22c10c6a63013f18413e13f0520c97a7f2ac6d6c6dbf3d892485cc"
+    },
+    {
+      "file": "src/app.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\app.js",
+      "sha256": "2228967781d2c8bac5f51d2d297c85ce8ef9935313ed1a99a916f4cd03624e14"
+    },
+    {
+      "file": "src/audio.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\audio.js",
+      "sha256": "4b99804eaef80c96328fa5ee7d1a6c4b0b60b70d3ee362fe16ae82226e94897f"
+    },
+    {
+      "file": "src/board_input.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\board_input.js",
+      "sha256": "2540a69147b9f4578f0dd7d8dd617e86878c0d5b8767f91e95e78f30ea7f64d0"
+    },
+    {
+      "file": "src/build_tools.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\build_tools.js",
+      "sha256": "3112d318fb4390d0cfcbf94e9842193cd151a12bf5135981586a7c72f129cead"
+    },
+    {
+      "file": "src/bulk_tools.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\bulk_tools.js",
+      "sha256": "9260da8404f89bea32525671caa2deffdd769daace1f0c04f13e560bcedb8062"
+    },
+    {
+      "file": "src/camera.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\camera.js",
+      "sha256": "69b36fd98355cc4d451b9bace181b29b628c474a4aded8cb1b6b661633adf7f3"
+    },
+    {
+      "file": "src/currency.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\currency.js",
+      "sha256": "abb6d3db017c38716299c42df901c6c35fe7d3907a4bed1af86d4d0d2ece184e"
+    },
+    {
+      "file": "src/data.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\data.json",
+      "sha256": "0c117729d1267ceffcff4165044043ec247ddb34cd6145f6bbbb5b3c3cd13856"
+    },
+    {
+      "file": "src/economy.css",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\economy.css",
+      "sha256": "b0dfb5877ce3577a8211c49f69aa7ba4a665ff3d6d0eef322ad8c98c2817adaf"
+    },
+    {
+      "file": "src/economy.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\economy.js",
+      "sha256": "751d2f479269a61feab78c014a557e9acf4f8cc08aa4123548c0c48b8f39c9b4"
+    },
+    {
+      "file": "src/economy_ui.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\economy_ui.js",
+      "sha256": "b8a52a562b23a4d9435a7365a9080e77c9c51f499c66198d029786bcbf344eeb"
+    },
+    {
+      "file": "src/engine.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\engine.js",
+      "sha256": "3da574d7e0fa352a6dbb104ffda79e2c7ab485ef1594bef20a045ab80ef15524"
+    },
+    {
+      "file": "src/fonts.css",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\fonts.css",
+      "sha256": "dba9e778b2310e0be1f396bbf0efc35ddba4fcc6d4b43c52ab9f4b9cb93ebc82"
+    },
+    {
+      "file": "src/hotbar.css",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\hotbar.css",
+      "sha256": "8d64ea694ec7285aee91922f583c60a41bb86985bf4d6f2ea0640b54f10abcd1"
+    },
+    {
+      "file": "src/hotbar.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\hotbar.js",
+      "sha256": "b5463427cb6c0365aa9e88f97056b0fb2c84f49daa1f63ab69278625c19609ba"
+    },
+    {
+      "file": "src/index.html",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\index.html",
+      "sha256": "444259219065a505dcdcd46774577078539d5cfb0c934afad51c762e792782f9"
+    },
+    {
+      "file": "src/interface_theme.css",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\interface_theme.css",
+      "sha256": "e3ef1ba394ee76635396ddffb6d0b4d506a53be5d8e4e3cdfb7881b48fc310e9"
+    },
+    {
+      "file": "src/placement.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\placement.js",
+      "sha256": "34b6827e92e51395882fc3174fd30bfe851e7307e1340aa9eba0c00c149aafb5"
+    },
+    {
+      "file": "src/preview_theme.css",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\preview_theme.css",
+      "sha256": "01639fe10aa173a581ad6d8276cc7cd5f4242b8a7f3bbb94f62b8fc6d572d1ef"
+    },
+    {
+      "file": "src/production.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\production.js",
+      "sha256": "d8fc2a4b33d29715908b5d1e66eb4c7f299fc98271496a84a54d6227c84673a1"
+    },
+    {
+      "file": "src/production_ui.js",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\production_ui.js",
+      "sha256": "d11b31bc793271c382d63836a9d2f2a2f7f4bfbf9019f01b0c63735ab3727672"
+    },
+    {
+      "file": "src/style.css",
+      "origin": "F:\\4\\endfield_blueprint_td\\src\\style.css",
+      "sha256": "ca0e499eae8ca4a666a9dcc4e2e168deef39833af12210f1cb9e46d736ba95b3"
+    },
+    {
+      "file": "tests/actor_facing.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\actor_facing.test.cjs",
+      "sha256": "0ea0484b7b7e03a9d4d816ebce6cf0f21e042afe7a7f7238aede45bbc33385c6"
+    },
+    {
+      "file": "tests/actor_facing_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\actor_facing_browser.test.cjs",
+      "sha256": "56bddc1488bc814f13390cdeafaefcd2f8564c006f59aab96dd829667b219236"
+    },
+    {
+      "file": "tests/audio.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\audio.test.cjs",
+      "sha256": "58ab28767f57856b56bc42e4bfb649abf40145bfe627f29f0d02a977c4600ff7"
+    },
+    {
+      "file": "tests/audio_mapping.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\audio_mapping.test.cjs",
+      "sha256": "db4ad634e3adc262b133a00b5505dfb04b2ff1de1e2abadb55d272783c5b0018"
+    },
+    {
+      "file": "tests/belt_assets.test.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\belt_assets.test.py",
+      "sha256": "236011f77a27e09c23a297db4b89043e5c14d7524fbd3e7deed0246ac0883a9c"
+    },
+    {
+      "file": "tests/blue_iron_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\blue_iron_browser.test.cjs",
+      "sha256": "535f50584a60d7c3fdb93ea038e64e441aa31e4065dd7a3c4cc5db740e89d61d"
+    },
+    {
+      "file": "tests/browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\browser.test.cjs",
+      "sha256": "a099b183b47938cf4f319e6632080f15051c7c436b034d522d560504759b704c"
+    },
+    {
+      "file": "tests/bulk.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\bulk.test.cjs",
+      "sha256": "1baf01fd30dd6b12e9f6ac1310d2eabb60519f23da8d4fbea91bed4c98be4ec5"
+    },
+    {
+      "file": "tests/bulk_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\bulk_browser.test.cjs",
+      "sha256": "dfbadac18e789597ab5f5b368c1db51c67050102dc647cebeefd327e58f4a787"
+    },
+    {
+      "file": "tests/burst.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\burst.test.cjs",
+      "sha256": "8bf96a67560653bf2f8630a2f3ed4fc72c59eebb1620cd5bf9a45565a93f8f59"
+    },
+    {
+      "file": "tests/currency_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\currency_browser.test.cjs",
+      "sha256": "9f9a5138da85d97b8fe9fb78f011c3768a0cbffca2014178f3821a466d308d4c"
+    },
+    {
+      "file": "tests/economy.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\economy.test.cjs",
+      "sha256": "46225d3b2c24017c9e0b44ab9ec986cb1969ec1e423bfabfab86b101abd05c41"
+    },
+    {
+      "file": "tests/economy_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\economy_browser.test.cjs",
+      "sha256": "d2b2cc2745d4442b0b0eebf561d21be84e205697997954f8c37a630a9b0a57d2"
+    },
+    {
+      "file": "tests/economy_campaign.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\economy_campaign.cjs",
+      "sha256": "3acfcbeefea8fcfbe1c15ec228a56f967a32cc6f7339af836775f4f3fcdf00fc"
+    },
+    {
+      "file": "tests/economy_campaign.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\economy_campaign.test.cjs",
+      "sha256": "5c2b53dc386f3319eef60a9d7152fb1951f267c28afc5f10bd9add7a59f95224"
+    },
+    {
+      "file": "tests/effects_visual.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\effects_visual.test.cjs",
+      "sha256": "b125f1dc466e65c4643b8dc6ff67ec1c9a8f40d5a73aceac474be682e83fa1ec"
+    },
+    {
+      "file": "tests/enemies.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\enemies.test.cjs",
+      "sha256": "8b6576764a7ecfb807893f927ee7e86334ce4f3ef3e897d035284aaa13adbb95"
+    },
+    {
+      "file": "tests/enemy_pressure.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\enemy_pressure.test.cjs",
+      "sha256": "88a70d8ed08327f61cf170839dd0fa403081809679b3f43f93561d46f6757429"
+    },
+    {
+      "file": "tests/enemy_pressure_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\enemy_pressure_browser.test.cjs",
+      "sha256": "563df83ea9f1b65cde8c325878d5e85d152c718423ae3ff86bca9ba17a97419a"
+    },
+    {
+      "file": "tests/engine.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\engine.test.cjs",
+      "sha256": "61b1b01feab75928e98f45ae8309e684d8656e34c2e91fff7f500612ae114c10"
+    },
+    {
+      "file": "tests/expansion.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\expansion.test.cjs",
+      "sha256": "8af8c01cd61b72564065cdb5383c9ad5bbaf3eee057f4249a5b9d6a72ece2b1c"
+    },
+    {
+      "file": "tests/expansion_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\expansion_browser.test.cjs",
+      "sha256": "f7339537abd55ce3517712bb5c1618a67985b470257b5d3108fb001a7b67f059"
+    },
+    {
+      "file": "tests/fixtures/v11_balance.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\fixtures\\v11_balance.json",
+      "sha256": "ffab909956f8b52ad9480892184cd9526079a468788cdfe6407da0ab669b2a3f"
+    },
+    {
+      "file": "tests/fixtures/v13_balance.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\fixtures\\v13_balance.json",
+      "sha256": "5a7be5be28ae9647719033a30efd2084f1095ae577f27e64559950f455baf129"
+    },
+    {
+      "file": "tests/fixtures/v14_before_income.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\fixtures\\v14_before_income.json",
+      "sha256": "db27aca09ae92b56fbfc3cc50fa589b3addf121c2c1f95d1c91b52af05916354"
+    },
+    {
+      "file": "tests/footprints.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\footprints.test.cjs",
+      "sha256": "f751494df725ba4e4a6d5070ab27da3bacf0f23a5d5661721de9e963ce398f29"
+    },
+    {
+      "file": "tests/footprints_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\footprints_browser.test.cjs",
+      "sha256": "683dfe2554ba9986ac10eed784510570095d0875951d43d238b5126ee45fa699"
+    },
+    {
+      "file": "tests/geometry.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\geometry.test.cjs",
+      "sha256": "864d7fb618f0c620a0465e8b782cd7f87b3db6cf089bd0a24aed9fc8c5d8e0d7"
+    },
+    {
+      "file": "tests/geometry_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\geometry_browser.test.cjs",
+      "sha256": "39f4a698c204728a4f14e44d2917a012e0981badd57a040044d63489e321d29e"
+    },
+    {
+      "file": "tests/geometry_helpers.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\geometry_helpers.cjs",
+      "sha256": "8bd2843323a691f054d76d30969415c2386ed79ec6390d5c441cc4471c5c3fd4"
+    },
+    {
+      "file": "tests/helpers.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\helpers.cjs",
+      "sha256": "3eec3d4b3dd0e018600c5ba5e2c36f856c489f9b24b916c42242b17701c31558"
+    },
+    {
+      "file": "tests/hotbar_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\hotbar_browser.test.cjs",
+      "sha256": "a54492a9aff8057904d760e79f2755ba17cc2dd35e219f512ecd4a58495cfb56"
+    },
+    {
+      "file": "tests/industrial.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\industrial.test.cjs",
+      "sha256": "4be31f43e676a5dca48d18ed07a8789da1023d2bb1072417520d613e710651ca"
+    },
+    {
+      "file": "tests/industrial_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\industrial_browser.test.cjs",
+      "sha256": "d51033cdf700426b82c46a403b99c5055ae0c985c02d8ec133b45888300b3438"
+    },
+    {
+      "file": "tests/mortar.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\mortar.test.cjs",
+      "sha256": "d33afc7664579bcd0c2a96ce48f0bbb9de29c293e60cf0d7e4174fe807e8cd68"
+    },
+    {
+      "file": "tests/mortar_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\mortar_browser.test.cjs",
+      "sha256": "426714afd074058837d20e22b30974dc2bc156ed0fcb6c6f1cf49d53ee3bbca8"
+    },
+    {
+      "file": "tests/original_bulk_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\original_bulk_browser.test.cjs",
+      "sha256": "5d70c7930855dc0ce3167e384e7ed3ee1608f2a3ff35700440003c480bc1bf48"
+    },
+    {
+      "file": "tests/placement.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\placement.test.cjs",
+      "sha256": "6b8524e0551ece714caceddb6bc0f8cb1ba30cc273221c118cc9664e93f71eaf"
+    },
+    {
+      "file": "tests/placement_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\placement_browser.test.cjs",
+      "sha256": "458fc78f523a24371b162e9b1d03bc1e66bdda05103a30586d5d47c63568793b"
+    },
+    {
+      "file": "tests/preview_ui_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\preview_ui_browser.test.cjs",
+      "sha256": "c94fc7c5fe11defdd902dbfd7204b15682121e4951f69ef35cddeef4e180bd94"
+    },
+    {
+      "file": "tests/production.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\production.test.cjs",
+      "sha256": "dcebedcadb0eda019b7b17c998c925d6451414e35cecd7fc62adbf250d03870e"
+    },
+    {
+      "file": "tests/production_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\production_browser.test.cjs",
+      "sha256": "6bb9dbcb76ede5f38e65a475650eca3915cdcbc703a9dd2287a9e93792a151e0"
+    },
+    {
+      "file": "tests/production_config_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\production_config_browser.test.cjs",
+      "sha256": "90797cb5303c26d793978537c31b47924c8dcbfeb8d97e582b6fc16b5f35fee3"
+    },
+    {
+      "file": "tests/production_ports.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\production_ports.test.cjs",
+      "sha256": "2d705751618a7525075cb73bd990e54f5bd2750b327df0488d30a81a32c83b28"
+    },
+    {
+      "file": "tests/production_unlock.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\production_unlock.test.cjs",
+      "sha256": "0e51ff5b537c5c3f3d03a4d13c24d761cb5589c2e082fec03fd000c857482cab"
+    },
+    {
+      "file": "tests/production_unlock_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\production_unlock_browser.test.cjs",
+      "sha256": "ae086dc9b3adaef7f1331b238ffd39778e01677cea54877155cb38ec960c66c0"
+    },
+    {
+      "file": "tests/warehouse.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\warehouse.test.cjs",
+      "sha256": "7aad8f9fdbc00a0833c6c848ce17826c8680b8c44a88419295f35aed2ccd1fce"
+    },
+    {
+      "file": "tests/warehouse_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\warehouse_browser.test.cjs",
+      "sha256": "9c3d759fed5e26c7737fe952cf13ed3a698844d0d078e1b786d115ce1e10d6c7"
+    },
+    {
+      "file": "tests/wave_preparation.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\wave_preparation.test.cjs",
+      "sha256": "9b1c9b3ad1ac6984f527940958928cf8ee1f509d01b84aac2a1706cedaab47f8"
+    },
+    {
+      "file": "tests/wave_preparation_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\wave_preparation_browser.test.cjs",
+      "sha256": "6798a0dfe0cd6dbbdc44dc253a86d574b3c930bc66b66aea3fb9b595f126f281"
+    },
+    {
+      "file": "tests/zoom_browser.test.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tests\\zoom_browser.test.cjs",
+      "sha256": "6e7d59b398e19f84a08df6d8ee2db8f9fbdeacd3e2a5f33b11956b625dfc5dbe"
+    },
+    {
+      "file": "docs/README-v0.11.md",
+      "origin": "F:\\4\\endfield_blueprint_td\\docs\\README-v0.11.md",
+      "sha256": "63669772ac1cbf8aad0743619550a51972b2281c222cbcffc68777fbe4b44efa"
+    },
+    {
+      "file": "sources/arknights_reference.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\arknights_reference.json",
+      "sha256": "94049e74e920d05b278f2fcc56e15258c93fadef78ebd890c6a81da010718e62"
+    },
+    {
+      "file": "sources/asset_provenance.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\asset_provenance.json",
+      "sha256": "2677278a11dee95733a1401c7800b117c01ba86100221d0a84d15e324f7d3a2d"
+    },
+    {
+      "file": "sources/attack_pattern_audit.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_pattern_audit.json",
+      "sha256": "9af254df27b43994558e11479d56e77238a63bf3f2a86b87e0f80d5ccfc81504"
+    },
+    {
+      "file": "sources/audio_provenance.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio_provenance.json",
+      "sha256": "98067f6f4ee477d5b8fd23e714ae9f726c08b35aa9b063a6045674e13c92c720"
+    },
+    {
+      "file": "sources/balance_reference.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\balance_reference.json",
+      "sha256": "0c117729d1267ceffcff4165044043ec247ddb34cd6145f6bbbb5b3c3cd13856"
+    },
+    {
+      "file": "sources/building_geometry_reference.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\building_geometry_reference.json",
+      "sha256": "7ca3cb7c148b0d89b95689b989535dda4b3665d8c3a6f5717e102aabc7c1bc3f"
+    },
+    {
+      "file": "sources/enemy_asset_candidates.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\enemy_asset_candidates.json",
+      "sha256": "ab73b1c1e5b48db7c56119f5f6e666e276a2ba34416208200fd78f47b5131388"
+    },
+    {
+      "file": "sources/original_bulk_controls_reference.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\original_bulk_controls_reference.json",
+      "sha256": "dd142f278232ba70d7dbfddaed5becc6f71fa47a7e94b618c7e71b8317f78f14"
+    },
+    {
+      "file": "sources/preview_assets.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\preview_assets.json",
+      "sha256": "b3ce9fb47f8870dda37d57d988100b69b8799a1f4b2a20df00f1e8109c2cc1f1"
+    },
+    {
+      "file": "sources/production_asset_provenance.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\production_asset_provenance.json",
+      "sha256": "541d762487bd46628ca6adf152cad05a18239dec05652eb1f5ffb94ec29f0270"
+    },
+    {
+      "file": "sources/production_expansion_assets.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\production_expansion_assets.json",
+      "sha256": "d5c9c305b7414b5cb1a74a45f3c68163709c39654adfed1630d9fa6099dd9e5a"
+    },
+    {
+      "file": "sources/production_ports_reference.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\production_ports_reference.json",
+      "sha256": "fc3b38842a2d8b76100828c186fa41e7cd528372fe7d65a455a2d28082778a41"
+    },
+    {
+      "file": "sources/production_reference.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\production_reference.json",
+      "sha256": "a1dfc51037aa48f22ffaac3d950b5f7457b537bfc169382b1d8eab4f3184b751"
+    },
+    {
+      "file": "sources/tower_footprint_reference.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\tower_footprint_reference.json",
+      "sha256": "14292da12f9d17f8726b450b88810f68ad9596ae4eeb5883c8310751974c1701"
+    },
+    {
+      "file": "sources/upgrade_references.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\upgrade_references.json",
+      "sha256": "0094230471c7b62a83282df9980e25dfd078fa4e7cc096d07650e44a0e29195b"
+    },
+    {
+      "file": "sources/wisadel_animation_manifest.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\wisadel_animation_manifest.json",
+      "sha256": "65000f05de019a3872fe7eb95a4b6a736971f7326f00073aa34e8c92143735f6"
+    },
+    {
+      "file": "sources/wisadel_animation_provenance.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\wisadel_animation_provenance.json",
+      "sha256": "f1bf85a2ce4e73ad7f81cde7bb3086ffe258d84f90230b026a5729aa7e6f2061"
+    },
+    {
+      "file": "sources/wisadel_audio_provenance.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\wisadel_audio_provenance.json",
+      "sha256": "e8c2e926c2d095dabf593065fe0b05cca5e0dd4639ab4e02f42c86aff565a8b6"
+    },
+    {
+      "file": "sources/tables/EnemyAttributeTemplateTable.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\tables\\EnemyAttributeTemplateTable.json",
+      "sha256": "78633372c789bf6ccfbab3b81ef43be961cd55d07e6d0c9034e49f30a11c31ba"
+    },
+    {
+      "file": "sources/tables/EnemyDisplayInfoTable.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\tables\\EnemyDisplayInfoTable.json",
+      "sha256": "c64d3919ef47d28952c6bb75c80fd444a21b494ec9b253757daeee92b0c929dc"
+    },
+    {
+      "file": "sources/tables/EnemyTable.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\tables\\EnemyTable.json",
+      "sha256": "454e73ea72ed88c77bdc11c991bad55256e39a5943b4901f7eb331132e598c6d"
+    },
+    {
+      "file": "sources/tables/EnemyTemplateDisplayInfoTable.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\tables\\EnemyTemplateDisplayInfoTable.json",
+      "sha256": "ba397b3962076e82b074bd7dc8dd8f721e0fdc656429ebe47f64a5489dda71f3"
+    },
+    {
+      "file": "sources/tables/EnemyTemplateTable.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\tables\\EnemyTemplateTable.json",
+      "sha256": "f6b234c2a2037b9722b6cfbcd48593d97efa54c894eff4b4c23a8324021644cf"
+    },
+    {
+      "file": "sources/tables/FactoryBattleTable.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\tables\\FactoryBattleTable.json",
+      "sha256": "f79aa18ac5bf524036a5893f834c9c4976de3d54970e31191f101c7b89cd39bc"
+    },
+    {
+      "file": "sources/tables/table_sources.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\tables\\table_sources.json",
+      "sha256": "bb8816c63d5a85d6a9af15a9854226ca25bf0ab5fbb5fa1897ce6f3b4c068e3c"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_cannon_1_dg002_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_cannon_1_dg002_skill.json",
+      "sha256": "d0c6e319c3369775f90774aa96629089f2445008e8d3c664a942f7565ce488c7"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_cannon_1_dg002_skill_projhit.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_cannon_1_dg002_skill_projhit.json",
+      "sha256": "c82f139a012ebc60f64d5ceb538afea7546a8f322576c294439a6fd142a8a57e"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_cannon_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_cannon_1_skill.json",
+      "sha256": "6fe38d73eac8b9ace7407242fa84abac700632ad5f32b427e4c17f09a4f490be"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_cannon_1_skill_plus.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_cannon_1_skill_plus.json",
+      "sha256": "5e58a5781f0cf56c5cc2715e00d91a40577c39d5a947a5a657fc1ff6246c8494"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_cannon_1_skill_projhit.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_cannon_1_skill_projhit.json",
+      "sha256": "331ef8eb2210d2738c7727060211c35ab9374bd511e4ec07e3bc73502d2ddaf1"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_cannon_1_skill_projhit_plus.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_cannon_1_skill_projhit_plus.json",
+      "sha256": "79dc9d0b31b9d70ab2a0ac07bbeb8a6ef86d8270edaecc2ab9bbc4d5c04cf57a"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_frost_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_frost_1_skill.json",
+      "sha256": "a42cffec0e7825cc1c3dde5350a5124d376861f01e68c723929c00294ec148b5"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_frost_1_skill_plus.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_frost_1_skill_plus.json",
+      "sha256": "cd197ffa5199bc5ba054af3465a455bd164dfeef9546269a1145950b5d2a0325"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_frost_1_skill_projhit.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_frost_1_skill_projhit.json",
+      "sha256": "6d0f0b69eaeb99b31aafac66d5700de30dc952e2a94ec0efef6bdc96c8da1a7d"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_frost_1_skill_projhit_plus.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_frost_1_skill_projhit_plus.json",
+      "sha256": "e5d0a95541a038b665d38d36cf852c4bab52c1d24740752250410bc0a008be9e"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_laser_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_laser_1_skill.json",
+      "sha256": "73ee8211fa91ea2b09386a85d59c009a53c6c6f7a4606459499e61542c537fec"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_laser_1_skill_plus.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_laser_1_skill_plus.json",
+      "sha256": "90c3579d02bf93a1fa4ec7e7e9a8f80e33bcbf956a710f2ae412572a4a190cf0"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_turret_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_turret_1_skill.json",
+      "sha256": "0696b57bf0cde6f7d9bbad2ad9126c148ea9bdd88fdd899ce12149573f7e93a3"
+    },
+    {
+      "file": "sources/archive_skills/int_fac_battle_turret_1_skill_plus.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\archive_skills\\int_fac_battle_turret_1_skill_plus.json",
+      "sha256": "0eaf289c73ad0533101abc69f97958d70bd439cd3487827dd023a4def01cbd33"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_cannon_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_cannon_1_skill.json",
+      "sha256": "e19895ee1e94f8badac1a69678b22cd990a6f3c5ffbefebf8c0f866433afa408"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_cannon_2_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_cannon_2_skill.json",
+      "sha256": "93082955be4c14a7a4eba0cdcc8000aa575d2b346ffc46d7bc30905ce2d8a05b"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_debuff_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_debuff_1_skill.json",
+      "sha256": "e827deb0cdd394e628905c5e567743969284a43cadd728e553dbfc9b0a0df095"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_frost_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_frost_1_skill.json",
+      "sha256": "7e78861e6ae3cdf919cbb210cd2dd49ea5d79b940ee1cbdac30657e8e59b8fd9"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_laser_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_laser_1_skill.json",
+      "sha256": "c6c1a332875f9e6d519ade52833c7ccf5a934b8417a8e5561e847e8058ffc9e2"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_laser_2_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_laser_2_skill.json",
+      "sha256": "c7cfb166adb515fbb29a7956f2fa85952a1155d49dd57717aad4aeed161fc217"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_lightning_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_lightning_1_skill.json",
+      "sha256": "45428177323aa0ddf1a837cee99712acbad28fa2448d40788c370775bbe28770"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_lightning_2_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_lightning_2_skill.json",
+      "sha256": "3dc477fbf21ca04b2453da89787c6f96872faa2792bb3e5d410d078ec08849f3"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_sniper_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_sniper_1_skill.json",
+      "sha256": "ae3ee946780383e039a37be7b24cb361714cb062cac630fbfa18e0accd19dd5c"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_trap_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_trap_1_skill.json",
+      "sha256": "be47e3e11f6d43d3f14e0173be38613b88ebd701460f40e783904038934ba229"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_turret_1_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_turret_1_skill.json",
+      "sha256": "1e13c619898cab0ce94fb41995d55da16da25bc2886589d0b83f1903fd99154e"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_turret_2_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_turret_2_skill.json",
+      "sha256": "a730a4327bdc7d6cdc3199c8f9858a5af7df6dfc04180f9a6592392d7cedda2d"
+    },
+    {
+      "file": "sources/attack_skills/int_fac_battle_turret_3_skill.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\attack_skills\\int_fac_battle_turret_3_skill.json",
+      "sha256": "a58af8cc5245252a5dc22aaff00bdbd0e0d5e821426a634a229c4ee240975449"
+    },
+    {
+      "file": "sources/enemy_abilities/EnemyAbilityDescTable.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\enemy_abilities\\EnemyAbilityDescTable.json",
+      "sha256": "4a2c1ca702ffa6e2d2bbac232a038bd8a2c9da4135af5286cb480f306025f17b"
+    },
+    {
+      "file": "sources/enemy_abilities/table_sources.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\enemy_abilities\\table_sources.json",
+      "sha256": "aa7c852bee64df0e5648f0ff159bca64d72cfa636f6928abc93f38c59ccf5df1"
+    },
+    {
+      "file": "sources/enemy_skills/eny_0051_rodin_skill01.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\enemy_skills\\eny_0051_rodin_skill01.json",
+      "sha256": "3f859225467e595c561f5d176520c4f00d144c111458001d8be5b1d6815d0d6b"
+    },
+    {
+      "file": "sources/enemy_skills/eny_0051_rodin_skill13.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\enemy_skills\\eny_0051_rodin_skill13.json",
+      "sha256": "d7b78c1a568b5019b6b3f3f5f1a2452cc30d81e24ab8418da1217f570074d5f5"
+    },
+    {
+      "file": "sources/audio/decoded.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\decoded.json",
+      "sha256": "7ba668235aa51953a856cae1f55f302e8b99113dcfb73494205ab48b1cc2eff4"
+    },
+    {
+      "file": "sources/audio/event_trace.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\event_trace.json",
+      "sha256": "6d6159b98e78d4a37ccaa0f1c0c4939230b1cf51d82779978781af3b357ec14c"
+    },
+    {
+      "file": "sources/audio/index_sources.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\index_sources.json",
+      "sha256": "2d74a64a835b8dba035594a50a3bf68be28549f30c1df186397c3e8fa73b1a98"
+    },
+    {
+      "file": "sources/audio/mortar_trace.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\mortar_trace.json",
+      "sha256": "afb22a4527ae8fbd224e57a1001c020a3d8bac495b1571455d902fe2af771b2e"
+    },
+    {
+      "file": "sources/audio/tables/AudioBattleBuildings.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\tables\\AudioBattleBuildings.json",
+      "sha256": "05fa42c0fc810c5650956c813e34e09699e761883edcf5cbe9ebfc2e044a4a0f"
+    },
+    {
+      "file": "sources/audio/tables/table_sources.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\tables\\table_sources.json",
+      "sha256": "2aaef78ac7b7ad5cad76a7f19a7689cc6b31245c8e9f4f319a908b3be76c012c"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.attack_0.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.attack_0.wav",
+      "sha256": "0bea29ef1e7897a03720335b4acaa3966d350c8310f1efd9021c72ba47b4db79"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.attack_1.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.attack_1.wav",
+      "sha256": "c3db4af3677991ecc43023be5dc2556e54cd3a189f876346d06e310143e4d0ea"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.attack_2.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.attack_2.wav",
+      "sha256": "65198d2bce17463859bd53b151408c0816029d03fbc55b233d86374f74b46adb"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.attack_3.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.attack_3.wav",
+      "sha256": "9a736f20ed1b4700bca9cccf917d7e910d0a7a8c82e1cccc5add4f7cfc2a2f1a"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.attack_4.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.attack_4.wav",
+      "sha256": "e4461528c9e195bdd120cbf782201577678faa58b201d7d38e6badf08aca6d34"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.attack_5.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.attack_5.wav",
+      "sha256": "87eaffb88b63a0f37c8c4d3877797223103652fcb4f7fd68ff1d931099dd4910"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.attack_6.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.attack_6.wav",
+      "sha256": "1de00331b556fa828dfa8eadf785b7be65ee16179b9394f376997fb7b9d9d157"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.attack_7.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.attack_7.wav",
+      "sha256": "524e2b3e91425d259ed6d5dcd6716d16f706e3e8f4b645984bdf7d6f5bd83270"
+    },
+    {
+      "file": "sources/audio/wisadel_original/wisadel.deploy_0.wav",
+      "origin": "F:\\4\\endfield_blueprint_td\\sources\\audio\\wisadel_original\\wisadel.deploy_0.wav",
+      "sha256": "ad34d79c178a3d4415cfb1346d71b1f5a384ef6ebef98352a176addde3b0f0d3"
+    },
+    {
+      "file": "sources/game_data/tables/I18nTextTable_CN.json",
+      "origin": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\tables\\I18nTextTable_CN.json",
+      "sha256": "893be35e33f68d544c99c3dabd0222ead62855122e1c6e6a86ed5e40dc58a121"
+    },
+    {
+      "file": "sources/game_data/tables/FactoryBuildingTable.json",
+      "origin": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\tables\\FactoryBuildingTable.json",
+      "sha256": "ff92bfed15af8b57d21a62e98bd7850b124510c8dac3d84cf4b2372bb440fbcb"
+    },
+    {
+      "file": "sources/game_data/tables/FactoryBuildingItemReverseTable.json",
+      "origin": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\tables\\FactoryBuildingItemReverseTable.json",
+      "sha256": "c69a0af20b4895b4c28c63142e7668e3e7df01cb8eea5ea597fd4e2edba60912"
+    },
+    {
+      "file": "sources/game_data/tables/FactoryHubCraftTable.json",
+      "origin": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\tables\\FactoryHubCraftTable.json",
+      "sha256": "ecf6ff7b99b82f6eec8f74ef0b4152e941096524622c4435a129e82c71c72d6a"
+    },
+    {
+      "file": "sources/game_data/tables/FactoryMachineCraftTable.json",
+      "origin": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\tables\\FactoryMachineCraftTable.json",
+      "sha256": "a7c9983935012d30c6cf8c3ce5535bb5e8f79a49bf93fcd72f1bde481312b59b"
+    },
+    {
+      "file": "sources/game_data/tables/FactoryMachineCraftGroupTable.json",
+      "origin": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\tables\\FactoryMachineCraftGroupTable.json",
+      "sha256": "58a69ca0ca7428bf7bc4737c11fa441a519c26b3f0b8e93211e8d655e7ecac39"
+    },
+    {
+      "file": "sources/game_data/tables/ItemTable.json",
+      "origin": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\tables\\ItemTable.json",
+      "sha256": "fed97c346da9b22f5306ab9a7b7ccb02896a4154bcd0c6ef925a41e0a898d61d"
+    },
+    {
+      "file": "tools/test_current.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\test_current.py",
+      "sha256": "4e0a92ba42e10e77978ccad799a700b20403817f99edd1318b21af00d4259fc7"
+    },
+    {
+      "file": "tools/economy_config.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\economy_config.py",
+      "sha256": "3383e4f9bfa230499ad740f1e47905f2ec0d824f1a8f8300b94109ddae4f65b4"
+    },
+    {
+      "file": "tools/build.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\build.py",
+      "sha256": "de9612943ef105980576778d6bbe2aa35bdcbeb2a105226a31c37cfdf394a81e"
+    },
+    {
+      "file": "tools/production_config.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\production_config.py",
+      "sha256": "b98e571d05e059a43e749aa93bf001e6ae3e428c0fd7d37847f8b3bb80037f83"
+    },
+    {
+      "file": "tools/archive/audit_attack_patterns.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\audit_attack_patterns.py",
+      "sha256": "bb195509e5d0d8646ecc94540d16d936a686a2f7df5976ebc9366b462956b457"
+    },
+    {
+      "file": "tools/archive/capture_preview_ui.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\capture_preview_ui.cjs",
+      "sha256": "472e222dc03538a093c98a8f8d8deb89647bc31246345627d452689ced87213e"
+    },
+    {
+      "file": "tools/archive/decode_tower_audio.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\decode_tower_audio.py",
+      "sha256": "ed430dd2c74f2f56be8528ec58b67d3f9e1a87206df2a2bec2dbe04b6277b1e7"
+    },
+    {
+      "file": "tools/archive/fetch_arknights_reference.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\fetch_arknights_reference.py",
+      "sha256": "99eb8cdf4850f90474c6943461521a623c4d6f2b1775ec3744feef9ee54abcff"
+    },
+    {
+      "file": "tools/archive/inspect_json_archive.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\inspect_json_archive.py",
+      "sha256": "8fa778508a50df107e55f0ad5afa2c8f32cfe4c38f5a6d87373d5ef1ed4ecec2"
+    },
+    {
+      "file": "tools/archive/manual_play.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\manual_play.cjs",
+      "sha256": "0bb12a08da08bed2a97d41f50c1a39cb44f6d317cd73d7100267b3bfb29362fb"
+    },
+    {
+      "file": "tools/archive/manual_playtest.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\manual_playtest.cjs",
+      "sha256": "493c194f78094b5823fd194cfcea2a92faf61edca003129e984d4ddf6446cc93"
+    },
+    {
+      "file": "tools/archive/play_campaign.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\play_campaign.cjs",
+      "sha256": "383e81c4be4fe778171de45c8a8e632717eae9dfcbd688d4854317ce91d6d2f2"
+    },
+    {
+      "file": "tools/archive/prepare_assets.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\prepare_assets.py",
+      "sha256": "c5e521eda0c8f9258f84876c114b23356a64381ffc4f3ff4e400cc4bea295d2d"
+    },
+    {
+      "file": "tools/archive/prepare_audio.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\prepare_audio.py",
+      "sha256": "aa55ab034601d69103343337bc3e58c9a37ce7d2f60138fa9ce1b1d4fe5eb11d"
+    },
+    {
+      "file": "tools/archive/prepare_preview_assets.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\prepare_preview_assets.py",
+      "sha256": "e749e171f2d7f514f7b896647a73744a2702e35f5838d2986116a16be6f49041"
+    },
+    {
+      "file": "tools/archive/prepare_production_assets.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\prepare_production_assets.py",
+      "sha256": "ee3d82c097324826f7113ee54c3895048a2a1c9b90992b4e000076b6b41cd3e8"
+    },
+    {
+      "file": "tools/archive/prepare_wisadel_animation.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\prepare_wisadel_animation.py",
+      "sha256": "cd2d4d2520893f404c7a8fe511fefec0f2e8f0e932017446596967e3509474df"
+    },
+    {
+      "file": "tools/archive/prepare_wisadel_audio.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\prepare_wisadel_audio.py",
+      "sha256": "4be711a0c84ee5ed9775dc0baadab2f0875d0fe8e5f0f71c34c57c321ca6f5f5"
+    },
+    {
+      "file": "tools/archive/probe_audio_prefabs.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\probe_audio_prefabs.py",
+      "sha256": "bde11c78b90086b060c1afd9f6847d0097775949420f959ea34bcfb790aa6651"
+    },
+    {
+      "file": "tools/archive/probe_pressure_balance.cjs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\probe_pressure_balance.cjs",
+      "sha256": "b875cbfa0a646e1e87278eaa49832c4e80e2a0a586833da183a801173062d59b"
+    },
+    {
+      "file": "tools/archive/probe_sources.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\probe_sources.py",
+      "sha256": "235ef6a1c596d67cfde094e6b88c3e845b84af4a8a32d2368ca302d095da425a"
+    },
+    {
+      "file": "tools/archive/TowerAudioExport/NuGet.Config",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\TowerAudioExport\\NuGet.Config",
+      "sha256": "9508cae5f76364f56e80eb97cb16493977243cf38e5cca6284e3d74f83b20a2c"
+    },
+    {
+      "file": "tools/archive/TowerAudioExport/Program.cs",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\TowerAudioExport\\Program.cs",
+      "sha256": "d160474569b39d5843d444ac1f3505001916bbdd681364815683a89156a0acc8"
+    },
+    {
+      "file": "tools/archive/TowerAudioExport/TowerAudioExport.csproj",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\TowerAudioExport\\TowerAudioExport.csproj",
+      "sha256": "cdee614088049f12b4a061e6899230c580691a916cec14618f212ef4cdf750f4"
+    },
+    {
+      "file": "tools/archive/trace_tower_audio.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\trace_tower_audio.py",
+      "sha256": "cf1626999aec64c3be1ebdbd4b07ce022984929376f8fa67c1f938786ed4ee5c"
+    },
+    {
+      "file": "tools/archive/production_config_original.py",
+      "origin": "F:\\4\\endfield_blueprint_td\\tools\\production_config.py",
+      "sha256": "b98e571d05e059a43e749aa93bf001e6ae3e428c0fd7d37847f8b3bb80037f83"
+    },
+    {
+      "file": "docs/GAMEPLAY.md",
+      "origin": "F:\\4\\endfield_blueprint_td\\README.md",
+      "sha256": "d8c4bf7e050e052ea3b047e0bb6c58cec518b4649510bc1ad8a2ec8c2978015b"
+    },
+    {
+      "file": "docs/baseline/v17_verification.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\reports\\v17_verification.json",
+      "sha256": "1b554b3e99a7e185762822a162ca175e4461570e10dbfc15c0de27065533bd04"
+    },
+    {
+      "file": "docs/baseline/income_pacing_audit.json",
+      "origin": "F:\\4\\endfield_blueprint_td\\reports\\income_pacing_audit.json",
+      "sha256": "826330b2be6e01a94d8c69b0ff65a0dcae272e4036132bd0856e309f54deb454"
+    },
+    {
+      "file": "docs/baseline/campaign_play_20260920.md",
+      "origin": "F:\\4\\endfield_blueprint_td\\reports\\campaign_play_20260920\\REPORT.md",
+      "sha256": "eb2eda0208721c7f4dc8909d1111b8d3a96d1395883bed76841effc5614c224b"
+    },
+    {
+      "file": "docs/baseline/campaign_income_half_20260920.md",
+      "origin": "F:\\4\\endfield_blueprint_td\\reports\\campaign_income_half_20260920\\REPORT.md",
+      "sha256": "e9f433442c3e91225b510e77ff08c3852db53f1e6c0206f305bc90edff544300"
+    },
+    {
+      "file": "tests/fixtures/v10_pressure_baseline.json",
+      "origin": "F:/4/endfield_blueprint_td/reports/v10_pressure_baseline.json",
+      "sha256": "95a99a920a85a146b1d4836a8651a4625df958852694b7ce163bcf8bcfeadde0"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "battle_turret_1": {
+    "fire": "turret.fire",
+    "hit": "turret.hit",
+    "deploy": "turret.deploy"
+  },
+  "battle_turret_2": {
+    "fire": "turret2.fire",
+    "hit": "turret2.hit",
+    "deploy": "turret.deploy"
+  },
+  "battle_turret_3": {
+    "fire": "turret3.fire",
+    "hit": "turret3.hit",
+    "deploy": "turret3.deploy",
+    "hitBomb": "turret3.hitBomb"
+  },
+  "battle_cannon_1": {
+    "fire": "cannon.fire",
+    "deploy": "cannon.deploy"
+  },
+  "battle_cannon_2": {
+    "fire": "cannon2.fire",
+    "deploy": "cannon.deploy"
+  },
+  "battle_frost_1": {
+    "fire": "frost.fire",
+    "hit": "frost.hit",
+    "deploy": "frost.deploy"
+  },
+  "battle_laser_1": {
+    "fire": "laser.fire",
+    "hit": "laser.hit",
+    "deploy": "laser.deploy",
+    "charge": "laser.charge"
+  },
+  "battle_laser_2": {
+    "fire": "laser2.fire",
+    "hit": "laser2.hit",
+    "deploy": "laser.deploy",
+    "charge": "laser2.charge"
+  },
+  "battle_lightning_1": {
+    "fire": "lightning.fire",
+    "hit": "lightning.hit",
+    "deploy": "lightning.deploy",
+    "charge": "lightning.charge"
+  },
+  "battle_lightning_2": {
+    "fire": "lightning2.fire",
+    "hit": "lightning2.hit",
+    "deploy": "lightning2.deploy",
+    "charge": "lightning2.charge"
+  },
+  "battle_sniper_1": {
+    "fire": "sniper.fire",
+    "hit": "sniper.hit",
+    "deploy": "sniper.deploy"
+  },
+  "battle_debuff_1": {
+    "fire": "debuff.fire",
+    "deploy": "debuff.deploy"
+  },
+  "battle_trap_1": {
+    "fire": "trap.fire",
+    "deploy": "trap.deploy",
+    "end": "trap.end"
+  },
+  "battle_rocket_1": {
+    "fire": "rocket.fire",
+    "deploy": "rocket.deploy"
+  }
+}

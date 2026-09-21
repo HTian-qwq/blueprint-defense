@@ -1,0 +1,19 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.png binary
+*.webp binary
+*.wav binary
+*.mp3 binary
+*.webm binary
+*.ttf binary
+# Preserve exact bytes of extracted table snapshots and their recorded hashes.
+sources/game_data/tables/*.json -text
+sources/tables/*.json -text
+sources/audio/tables/*.json -text

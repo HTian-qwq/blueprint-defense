@@ -1,0 +1,184 @@
+{
+  "turret.fire": [
+    "turret.fire_0.mp3",
+    "turret.fire_1.mp3",
+    "turret.fire_2.mp3"
+  ],
+  "turret.hit": [
+    "turret.hit_0.mp3",
+    "turret.hit_1.mp3",
+    "turret.hit_2.mp3"
+  ],
+  "turret.deploy": [
+    "turret.deploy_0.mp3"
+  ],
+  "turret2.fire": [
+    "turret2.fire_0.mp3",
+    "turret2.fire_1.mp3",
+    "turret2.fire_2.mp3"
+  ],
+  "turret2.hit": [
+    "turret2.hit_0.mp3",
+    "turret2.hit_1.mp3",
+    "turret2.hit_2.mp3"
+  ],
+  "turret3.fire": [
+    "turret3.fire_0.mp3",
+    "turret3.fire_1.mp3",
+    "turret3.fire_2.mp3"
+  ],
+  "turret3.hit": [
+    "turret3.hit_0.mp3",
+    "turret3.hit_1.mp3",
+    "turret3.hit_2.mp3"
+  ],
+  "turret3.deploy": [
+    "turret3.deploy_0.mp3"
+  ],
+  "turret3.hitBomb": [
+    "turret3.hitBomb_0.mp3",
+    "turret3.hitBomb_1.mp3",
+    "turret3.hitBomb_2.mp3"
+  ],
+  "cannon.fire": [
+    "cannon.fire_0.mp3",
+    "cannon.fire_1.mp3",
+    "cannon.fire_2.mp3"
+  ],
+  "cannon.deploy": [
+    "cannon.deploy_0.mp3"
+  ],
+  "cannon2.fire": [
+    "cannon2.fire_0.mp3",
+    "cannon2.fire_1.mp3",
+    "cannon2.fire_2.mp3"
+  ],
+  "frost.fire": [
+    "frost.fire_0.mp3",
+    "frost.fire_1.mp3",
+    "frost.fire_2.mp3"
+  ],
+  "frost.hit": [
+    "frost.hit_0.mp3",
+    "frost.hit_1.mp3",
+    "frost.hit_2.mp3"
+  ],
+  "frost.deploy": [
+    "frost.deploy_0.mp3"
+  ],
+  "laser.fire": [
+    "laser.fire_0.mp3",
+    "laser.fire_1.mp3",
+    "laser.fire_2.mp3"
+  ],
+  "laser.hit": [
+    "laser.hit_0.mp3",
+    "laser.hit_1.mp3",
+    "laser.hit_2.mp3"
+  ],
+  "laser.deploy": [
+    "laser.deploy_0.mp3"
+  ],
+  "laser.charge": [
+    "laser.charge_0.mp3"
+  ],
+  "laser2.fire": [
+    "laser2.fire_0.mp3",
+    "laser2.fire_1.mp3",
+    "laser2.fire_2.mp3"
+  ],
+  "laser2.hit": [
+    "laser2.hit_0.mp3",
+    "laser2.hit_1.mp3",
+    "laser2.hit_2.mp3"
+  ],
+  "laser2.charge": [
+    "laser2.charge_0.mp3"
+  ],
+  "lightning.fire": [
+    "lightning.fire_0.mp3",
+    "lightning.fire_1.mp3",
+    "lightning.fire_2.mp3"
+  ],
+  "lightning.hit": [
+    "lightning.hit_0.mp3",
+    "lightning.hit_1.mp3",
+    "lightning.hit_2.mp3"
+  ],
+  "lightning.deploy": [
+    "lightning.deploy_0.mp3"
+  ],
+  "lightning.charge": [
+    "lightning.charge_0.mp3"
+  ],
+  "lightning2.fire": [
+    "lightning2.fire_0.mp3",
+    "lightning2.fire_1.mp3",
+    "lightning2.fire_2.mp3"
+  ],
+  "lightning2.hit": [
+    "lightning2.hit_0.mp3",
+    "lightning2.hit_1.mp3",
+    "lightning2.hit_2.mp3"
+  ],
+  "lightning2.deploy": [
+    "lightning2.deploy_0.mp3"
+  ],
+  "lightning2.charge": [
+    "lightning2.charge_0.mp3"
+  ],
+  "sniper.fire": [
+    "sniper.fire_0.mp3",
+    "sniper.fire_1.mp3",
+    "sniper.fire_2.mp3"
+  ],
+  "sniper.hit": [
+    "sniper.hit_0.mp3",
+    "sniper.hit_1.mp3",
+    "sniper.hit_2.mp3"
+  ],
+  "sniper.deploy": [
+    "sniper.deploy_0.mp3"
+  ],
+  "debuff.fire": [
+    "debuff.fire_0.mp3",
+    "debuff.fire_1.mp3",
+    "debuff.fire_2.mp3"
+  ],
+  "debuff.deploy": [
+    "debuff.deploy_0.mp3"
+  ],
+  "trap.fire": [
+    "trap.fire_0.mp3",
+    "trap.fire_1.mp3",
+    "trap.fire_2.mp3"
+  ],
+  "trap.deploy": [
+    "trap.deploy_0.mp3"
+  ],
+  "trap.end": [
+    "trap.end_0.mp3",
+    "trap.end_1.mp3",
+    "trap.end_2.mp3"
+  ],
+  "rocket.fire": [
+    "rocket.fire_0.mp3",
+    "rocket.fire_1.mp3",
+    "rocket.fire_2.mp3"
+  ],
+  "rocket.deploy": [
+    "rocket.deploy_0.mp3"
+  ],
+  "rodin.charge": [
+    "rodin.charge_0.mp3"
+  ],
+  "rodin.slam": [
+    "rodin.slam_0.mp3"
+  ],
+  "rodin.flameCharge": [
+    "rodin.flameCharge_0.mp3"
+  ],
+  "rodin.flame": [
+    "rodin.flame_0.mp3"
+  ]
+}

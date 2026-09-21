@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net9.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><NuGetAudit>false</NuGetAudit><StudioPath>F:\4\EndfieldStudio\endfield-win</StudioPath></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AnimeStudio"><HintPath>$(StudioPath)\AnimeStudio.dll</HintPath></Reference>
+    <Reference Include="AnimeStudio.Endfield"><HintPath>$(StudioPath)\AnimeStudio.Endfield.dll</HintPath></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>$(StudioPath)\Newtonsoft.Json.dll</HintPath></Reference>
+    <Reference Include="K4os.Hash.xxHash"><HintPath>$(StudioPath)\K4os.Hash.xxHash.dll</HintPath></Reference>
+    <Reference Include="System.IO.Hashing"><HintPath>$(StudioPath)\System.IO.Hashing.dll</HintPath></Reference>
+    <Content Include="$(StudioPath)\*.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+    <Content Include="$(StudioPath)\CNKeys.json" CopyToOutputDirectory="PreserveNewest" Link="CNKeys.json" />
+  </ItemGroup>
+</Project>

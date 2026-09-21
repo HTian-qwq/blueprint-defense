@@ -1,0 +1,447 @@
+[
+  {
+    "version": "before",
+    "opening": {
+      "time": 231.65000000001842,
+      "wave": 3,
+      "phase": "running",
+      "life": 10,
+      "kills": 86,
+      "leaks": 0,
+      "research": [
+        "ballistics",
+        "logistics",
+        "electromagnetics"
+      ],
+      "towers": 8,
+      "production": 19,
+      "tickets": 16500,
+      "journal": [
+        {
+          "step": 0,
+          "time": 0,
+          "wave": 0,
+          "dp": 29,
+          "kills": 0,
+          "towers": 0,
+          "tech": []
+        },
+        {
+          "step": 1,
+          "time": 0,
+          "wave": 0,
+          "dp": 20,
+          "kills": 0,
+          "towers": 1,
+          "tech": []
+        },
+        {
+          "step": 2,
+          "time": 0,
+          "wave": 0,
+          "dp": 11,
+          "kills": 0,
+          "towers": 2,
+          "tech": []
+        },
+        {
+          "step": 3,
+          "time": 0,
+          "wave": 0,
+          "dp": 2,
+          "kills": 0,
+          "towers": 3,
+          "tech": []
+        },
+        {
+          "step": 4,
+          "time": 11.5,
+          "wave": 1,
+          "dp": 3,
+          "kills": 0,
+          "towers": 3,
+          "tech": []
+        },
+        {
+          "step": 5,
+          "time": 17,
+          "wave": 1,
+          "dp": 1,
+          "kills": 3,
+          "towers": 4,
+          "tech": []
+        },
+        {
+          "step": 6,
+          "time": 20.5,
+          "wave": 1,
+          "dp": 0,
+          "kills": 4,
+          "towers": 5,
+          "tech": []
+        },
+        {
+          "step": 7,
+          "time": 62,
+          "wave": 1,
+          "dp": 58,
+          "kills": 18,
+          "towers": 5,
+          "tech": []
+        },
+        {
+          "step": 8,
+          "time": 83,
+          "wave": 1,
+          "dp": 84,
+          "kills": 18,
+          "towers": 5,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 9,
+          "time": 104,
+          "wave": 2,
+          "dp": 80,
+          "kills": 21,
+          "towers": 5,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 10,
+          "time": 104.05,
+          "wave": 2,
+          "dp": 73,
+          "kills": 21,
+          "towers": 5,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 11,
+          "time": 104.1,
+          "wave": 2,
+          "dp": 64,
+          "kills": 21,
+          "towers": 6,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 12,
+          "time": 104.15,
+          "wave": 2,
+          "dp": 55,
+          "kills": 21,
+          "towers": 7,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 13,
+          "time": 104.2,
+          "wave": 2,
+          "dp": 44,
+          "kills": 21,
+          "towers": 7,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 14,
+          "time": 188,
+          "wave": 3,
+          "dp": 182,
+          "kills": 50,
+          "towers": 7,
+          "tech": [
+            "ballistics",
+            "logistics"
+          ]
+        },
+        {
+          "step": 15,
+          "time": 188.05,
+          "wave": 3,
+          "dp": 175,
+          "kills": 50,
+          "towers": 7,
+          "tech": [
+            "ballistics",
+            "logistics"
+          ]
+        },
+        {
+          "step": 16,
+          "time": 205.55,
+          "wave": 3,
+          "dp": 169,
+          "kills": 58,
+          "towers": 7,
+          "tech": [
+            "ballistics",
+            "logistics"
+          ]
+        },
+        {
+          "step": 17,
+          "time": 223.55,
+          "wave": 3,
+          "dp": 171,
+          "kills": 75,
+          "towers": 8,
+          "tech": [
+            "ballistics",
+            "logistics",
+            "electromagnetics"
+          ]
+        },
+        {
+          "step": 18,
+          "time": 228.5,
+          "wave": 3,
+          "dp": 157,
+          "kills": 81,
+          "towers": 8,
+          "tech": [
+            "ballistics",
+            "logistics",
+            "electromagnetics"
+          ]
+        }
+      ]
+    },
+    "lineResult": {
+      "dp": {
+        "tickets": 7200,
+        "stock": {},
+        "delivered": 18
+      },
+      "warehouse": {
+        "tickets": 0,
+        "stock": {
+          "item_crystal_shell": 18
+        },
+        "delivered": 18
+      },
+      "balanced": {
+        "tickets": 3600,
+        "stock": {
+          "item_crystal_shell": 9
+        },
+        "delivered": 18
+      }
+    }
+  },
+  {
+    "version": "after",
+    "opening": {
+      "time": 233.3000000000188,
+      "wave": 3,
+      "phase": "running",
+      "life": 10,
+      "kills": 86,
+      "leaks": 0,
+      "research": [
+        "ballistics",
+        "logistics"
+      ],
+      "towers": 7,
+      "production": 19,
+      "tickets": 11400,
+      "journal": [
+        {
+          "step": 0,
+          "time": 0,
+          "wave": 0,
+          "dp": 29,
+          "kills": 0,
+          "towers": 0,
+          "tech": []
+        },
+        {
+          "step": 1,
+          "time": 0,
+          "wave": 0,
+          "dp": 20,
+          "kills": 0,
+          "towers": 1,
+          "tech": []
+        },
+        {
+          "step": 2,
+          "time": 0,
+          "wave": 0,
+          "dp": 11,
+          "kills": 0,
+          "towers": 2,
+          "tech": []
+        },
+        {
+          "step": 3,
+          "time": 0,
+          "wave": 0,
+          "dp": 2,
+          "kills": 0,
+          "towers": 3,
+          "tech": []
+        },
+        {
+          "step": 4,
+          "time": 17.5,
+          "wave": 1,
+          "dp": 1,
+          "kills": 3,
+          "towers": 3,
+          "tech": []
+        },
+        {
+          "step": 5,
+          "time": 29,
+          "wave": 1,
+          "dp": 1,
+          "kills": 5,
+          "towers": 4,
+          "tech": []
+        },
+        {
+          "step": 6,
+          "time": 35.5,
+          "wave": 1,
+          "dp": 0,
+          "kills": 7,
+          "towers": 5,
+          "tech": []
+        },
+        {
+          "step": 7,
+          "time": 68,
+          "wave": 1,
+          "dp": 8,
+          "kills": 18,
+          "towers": 5,
+          "tech": []
+        },
+        {
+          "step": 8,
+          "time": 92,
+          "wave": 2,
+          "dp": 18,
+          "kills": 18,
+          "towers": 5,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 9,
+          "time": 173,
+          "wave": 3,
+          "dp": 82,
+          "kills": 46,
+          "towers": 5,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 10,
+          "time": 173.05,
+          "wave": 3,
+          "dp": 71,
+          "kills": 46,
+          "towers": 5,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 11,
+          "time": 173.1,
+          "wave": 3,
+          "dp": 62,
+          "kills": 46,
+          "towers": 6,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 12,
+          "time": 173.15,
+          "wave": 3,
+          "dp": 53,
+          "kills": 46,
+          "towers": 7,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 13,
+          "time": 173.2,
+          "wave": 3,
+          "dp": 42,
+          "kills": 46,
+          "towers": 7,
+          "tech": [
+            "ballistics"
+          ]
+        },
+        {
+          "step": 14,
+          "time": 188,
+          "wave": 3,
+          "dp": 44,
+          "kills": 50,
+          "towers": 7,
+          "tech": [
+            "ballistics",
+            "logistics"
+          ]
+        },
+        {
+          "step": 15,
+          "time": 188.05,
+          "wave": 3,
+          "dp": 33,
+          "kills": 50,
+          "towers": 7,
+          "tech": [
+            "ballistics",
+            "logistics"
+          ]
+        }
+      ]
+    },
+    "lineResult": {
+      "dp": {
+        "tickets": 3600,
+        "stock": {},
+        "delivered": 18
+      },
+      "warehouse": {
+        "tickets": 0,
+        "stock": {
+          "item_crystal_shell": 18
+        },
+        "delivered": 18
+      },
+      "balanced": {
+        "tickets": 1800,
+        "stock": {
+          "item_crystal_shell": 9
+        },
+        "delivered": 18
+      }
+    }
+  }
+]

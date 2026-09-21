@@ -1,0 +1,332 @@
+[
+  {
+    "file": "icon_belt_grid.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source\\blueprint\\icon_belt_grid.png",
+    "sha256": "c388183d91237b29b0492e654c3150aed4854643326401c1cfa0f17fa9f72558"
+  },
+  {
+    "file": "icon_belt_corner_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source\\blueprint\\icon_belt_corner_1.png",
+    "sha256": "6813f94064e297e5f87324d7d7d30500be2cbf2c54ae942367856577abce9066"
+  },
+  {
+    "file": "icon_belt_corner_2.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_source\\blueprint\\icon_belt_corner_2.png",
+    "sha256": "a376d0048144adebe2a744dc7d3a84f996b316ec2d4140cf9361f031ecc15cec"
+  },
+  {
+    "file": "battle_turret_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_turret_1\\d0.png",
+    "sha256": "0640ea255293a702c1366551dec00afd40fc65bae92231f974dac9ccabc092d7"
+  },
+  {
+    "file": "battle_cannon_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_cannon_1\\d0.png",
+    "sha256": "696aac1f7299bf6f9cd3a9eead2f503bf2336fa453c5ee3ed5326e143b202c4c"
+  },
+  {
+    "file": "battle_frost_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_frost_1\\d0.png",
+    "sha256": "c3d78d0526df1a1ba8e0790e8e0d1662332aba7c5e77ba47f84de9e7257a819c"
+  },
+  {
+    "file": "battle_laser_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_laser_1\\d0.png",
+    "sha256": "ce2c61b17104cda829855a52f9dab1fef8518379b51f1c7ffe3e74bf5e7a346c"
+  },
+  {
+    "file": "battle_lightning_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_lightning_1\\d0.png",
+    "sha256": "e37127163a97666af943cdbfaf01b54223884f50d9433a4c415661ef43a6bf99"
+  },
+  {
+    "file": "battle_sniper_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_sniper_1\\d0.png",
+    "sha256": "0e4b4161fb9b517b1e6b0a3190a1ff0cac81ad4b6ced7dd795b480a59fade6cd"
+  },
+  {
+    "file": "battle_debuff_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_debuff_1\\d0.png",
+    "sha256": "216535736786b8c14d0fa5516f17e1dd65670f9ce0348e83ebc756282f567dc2"
+  },
+  {
+    "file": "battle_trap_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_trap_1\\d0.png",
+    "sha256": "3d4325800de59728ea0f4242c003b2053eb79f3ff83cad2374282c08fa24b202"
+  },
+  {
+    "file": "battle_rocket_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_rocket_1\\d0.png",
+    "sha256": "a78377d9b4e8fef1c3f836b780d524c5c1eaebe6f73eb9375f6751553035d7f2"
+  },
+  {
+    "file": "battle_turret_2.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_turret_2\\d0.png",
+    "sha256": "b5cb7b453e6a3c7095dfab3de811b5866219d5309f80427ea7bf65f6bab59091"
+  },
+  {
+    "file": "battle_turret_3.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_turret_3\\d0.png",
+    "sha256": "f51ba32fa658383f7aba7ba00043119816876ab0e2f1cfd5d292988ebec7957a"
+  },
+  {
+    "file": "battle_cannon_2.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_cannon_2\\d0.png",
+    "sha256": "fb2b337795b8999e8841a3759692db9c5721ea89de6062fe297fad8c9fe26326"
+  },
+  {
+    "file": "battle_laser_2.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_laser_2\\d0.png",
+    "sha256": "98fd39e302c142ac1d5f8efa46a3cbebe4c3d03c4ab22945b821503b6c89cba3"
+  },
+  {
+    "file": "battle_lightning_2.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\battle_lightning_2\\d0.png",
+    "sha256": "4f95c94a05939fd7e1ec1d24fcd774edc50f78acf5fc69e41171f8f82b70dc10"
+  },
+  {
+    "file": "unloader_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\unloader_1\\d0.png",
+    "sha256": "d95b76bb5d53171b29dc5292f4e26f0c5607343f33c7362c3fe0aaa95fe1c643"
+  },
+  {
+    "file": "loader_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\loader_1\\d0.png",
+    "sha256": "d9e9f7aa22c5f3b1b29a1f3ddc64193992e24a6587306f817b9a9709175ea9a8"
+  },
+  {
+    "file": "log_hongs_bus.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\log_hongs_bus\\d0.png",
+    "sha256": "c22a27f95c4dde802cb9d441062abd811be84e5a6a0dbaf7d7f73901f3207faa"
+  },
+  {
+    "file": "log_hongs_bus_source.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\log_hongs_bus_source\\d0.png",
+    "sha256": "150b4defb10ef0613e30b9e591c3108a682ceb6c772a52410437281e55924a2b"
+  },
+  {
+    "file": "furnance_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\furnance_1\\d0.png",
+    "sha256": "863a266bc6ea17803fa01d0ec1a94fec3be37a8c2237a8258fac6775d7dcd3ef"
+  },
+  {
+    "file": "storager_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\storager_1\\d0.png",
+    "sha256": "1d5590764ee85366c48c6ce7e040710ebb9a05f5a5405a31ad1a70792e80c8cb"
+  },
+  {
+    "file": "grinder_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\grinder_1\\d0.png",
+    "sha256": "c4132182efd2e5f1206fc98f16a6d4bb2cdb20c5f0d109341d064683e22ccd43"
+  },
+  {
+    "file": "component_mc_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\component_mc_1\\d0.png",
+    "sha256": "de002d846cdb93eaa354f34c3033966186310ccfad6ff08ee9fb2de94acfebfd"
+  },
+  {
+    "file": "sp_hub_1.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\blueprint_baked\\sp_hub_1\\d0.png",
+    "sha256": "ca317b8128ece81c4f557553a0bfc2421f7d45c58b1b591853d2e686d872c1b2"
+  },
+  {
+    "file": "item_originium_ore.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_originium_ore.png",
+    "sha256": "700139e03bbac8abde2e4b732f5334114cd812405470aaacd1287db07243facb"
+  },
+  {
+    "file": "item_quartz_sand.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_quartz_sand.png",
+    "sha256": "d87c95793e2aaf69c992bb846937682a288dce839a216bfd9cccf845ec8d535c"
+  },
+  {
+    "file": "item_iron_ore.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_ore.png",
+    "sha256": "e2ff0a28cb1190ba2ae6dde2683bee4befd8e240d952387563a0250eb09c738f"
+  },
+  {
+    "file": "item_crystal_shell.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_crystal_shell.png",
+    "sha256": "cafd75d1d82b508608d73f3a619dd85705552acc937a161a392ecb40814c5a66"
+  },
+  {
+    "file": "item_quartz_glass.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_quartz_glass.png",
+    "sha256": "7bcc7148ab8df136876178e682223b90aa0821d758c990c35fd5e21d82c229fa"
+  },
+  {
+    "file": "item_iron_nugget.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_nugget.png",
+    "sha256": "53b3e8a724b6c8063c4f4eef627f75b87a88d3dde606952c620f15497c181a2d"
+  },
+  {
+    "file": "item_originium_powder.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_originium_powder.png",
+    "sha256": "61949140f5f267a8fabb4204513ce8dae0a0d8af777d33c1651e9a8765628fea"
+  },
+  {
+    "file": "item_iron_cmpt.png",
+    "source": "F:\\4\\endfield_blueprint_toolkit_1.5.3\\images\\item\\item_iron_cmpt.png",
+    "sha256": "4d8e79a3ec9ab0b019055b6eccb228ca5ab255fd6d3e754df4334a428260cab7"
+  },
+  {
+    "file": "eny_0029_lbmob.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0029_lbmob.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__574381130151952803",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "d136d830f95c74a53143e31f437bf4d2ec77fb0cf4f254e7427e31301e208d97"
+  },
+  {
+    "file": "eny_0059_erhound.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0059_erhound.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__-7736381143318220692",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "1d406b6cd3cc9cac17487256a4e14cb284693c448c1f17d833306df2ab2ddce2"
+  },
+  {
+    "file": "eny_0021_agmelee.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0021_agmelee.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__7905620919657385815",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "c3abde4bff180f3fb1ee70ca949d352e0ae23919cdaf2f0caf1f782f806e4a91"
+  },
+  {
+    "file": "eny_0018_lbtough.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0018_lbtough.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__656463981190955090",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "376dd5a9aabf31cd23c182d68f0987e1db044fc96a14a23c2a94cfdbb2a357e4"
+  },
+  {
+    "file": "eny_0076_agfly.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0076_agfly.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__7935566211847573935",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "5d1ffab2defbac3889429d5812e19b74801046e906ca7baa1df786ca9162196a"
+  },
+  {
+    "file": "eny_0074_lbshield.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0074_lbshield.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__-5060212509216470613",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "6ead4fc545f7c7092315cfa4d8b5054883341e21577dc19d57bf6e78ed010325"
+  },
+  {
+    "file": "eny_0060_lbmad.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0060_lbmad.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__439805255487520000",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "ed1dca6afc226ef3b8c7521f7d69e2dccd016c0fee58f99ec32b7f329bc877c0"
+  },
+  {
+    "file": "eny_0077_agshield.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0077_agshield.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__-1975762490565832658",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "ef627366570b523d5a7369fe41595c2ee96113b35bf1ba7501ac2c97e84b6b36"
+  },
+  {
+    "file": "eny_0033_lbhunt.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0033_lbhunt.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__3888206847309248635",
+    "size": [
+      254,
+      254
+    ],
+    "sha256": "92a7de574ef78b329b89a03056aee40c14bf1b554ad763dad9542b67ad45ec0d"
+  },
+  {
+    "file": "eny_0046_lbshamman.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0046_lbshamman.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__2981608959787095856",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "6fb17c114a790fd12a8ef7a620f5c3e64315eeda6549a5c0af327e939f5842db"
+  },
+  {
+    "file": "eny_0049_rogue.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0049_rogue.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__9033702917770926683",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "16ddda0efb0be583f9a1c8ed45fd6c3b98e8d893ac66fa947b4285f94be78e9a"
+  },
+  {
+    "file": "eny_0092_slbomb.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0092_slbomb.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__2074621182466341007",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "fd7e8c08a4947f560ab786bd327851a739c400b892b918089bedb758560b332a"
+  },
+  {
+    "file": "eny_0051_rodin.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0051_rodin.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__1473350736309960073",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "7d69a259f4cbe1643fc1c769fdc8f73747cf52033e35fd49042ed78bf8bb97f5"
+  },
+  {
+    "file": "eny_0027_agscorp.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0027_agscorp.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__-5422333331311254845",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "03a3039bd692e96eea7fa4d8cadce1492dbcdb514043dfb190c341f87fd0ab59"
+  },
+  {
+    "file": "eny_0055_hscrane.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0055_hscrane.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__8589114472256960889",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "2918d01a823055ac645b9d1bd2facaec9c45c1e59345ec4b98176af3d9f9253c"
+  },
+  {
+    "file": "eny_0108_slbomb2.png",
+    "source": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0108_slbomb2.png",
+    "objectId": "CAB-8195ffab1a6a8d15d6a0bb74f7b1b7b6__2640094695539482129",
+    "size": [
+      126,
+      126
+    ],
+    "sha256": "d18f55d7d08b1f34ceb4720c70644f9e39376c922e830d382e8f4dc3e2e64a80"
+  }
+]

@@ -1,0 +1,4596 @@
+{
+  "format": "mono MP3 32 kHz / 96 kbps",
+  "wwiseBankVersion": 150,
+  "parserReference": "https://github.com/bnnm/wwiser/blob/master/wwiser/parser/wparser.py",
+  "method": "Event hash -> Play action -> DirectParentID child graph -> Sound sourceID. Random containers: one variant per mix; layer containers: sum selected leaves. Prototype timing, trimmed tails, level adjustment. Not full Wwise runtime mixing.",
+  "unverified": "Cannon and acid have verified launch events but no separately verified impact events. Their earlier substituted impacts are removed, not relabelled as original tower impacts. VFX names alone are not audio binding evidence.",
+  "profiles": {
+    "battle_turret_1": {
+      "fire": "turret.fire",
+      "hit": "turret.hit",
+      "deploy": "turret.deploy"
+    },
+    "battle_turret_2": {
+      "fire": "turret2.fire",
+      "hit": "turret2.hit",
+      "deploy": "turret.deploy"
+    },
+    "battle_turret_3": {
+      "fire": "turret3.fire",
+      "hit": "turret3.hit",
+      "deploy": "turret3.deploy",
+      "hitBomb": "turret3.hitBomb"
+    },
+    "battle_cannon_1": {
+      "fire": "cannon.fire",
+      "deploy": "cannon.deploy"
+    },
+    "battle_cannon_2": {
+      "fire": "cannon2.fire",
+      "deploy": "cannon.deploy"
+    },
+    "battle_frost_1": {
+      "fire": "frost.fire",
+      "hit": "frost.hit",
+      "deploy": "frost.deploy"
+    },
+    "battle_laser_1": {
+      "fire": "laser.fire",
+      "hit": "laser.hit",
+      "deploy": "laser.deploy",
+      "charge": "laser.charge"
+    },
+    "battle_laser_2": {
+      "fire": "laser2.fire",
+      "hit": "laser2.hit",
+      "deploy": "laser.deploy",
+      "charge": "laser2.charge"
+    },
+    "battle_lightning_1": {
+      "fire": "lightning.fire",
+      "hit": "lightning.hit",
+      "deploy": "lightning.deploy",
+      "charge": "lightning.charge"
+    },
+    "battle_lightning_2": {
+      "fire": "lightning2.fire",
+      "hit": "lightning2.hit",
+      "deploy": "lightning2.deploy",
+      "charge": "lightning2.charge"
+    },
+    "battle_sniper_1": {
+      "fire": "sniper.fire",
+      "hit": "sniper.hit",
+      "deploy": "sniper.deploy"
+    },
+    "battle_debuff_1": {
+      "fire": "debuff.fire",
+      "deploy": "debuff.deploy"
+    },
+    "battle_trap_1": {
+      "fire": "trap.fire",
+      "deploy": "trap.deploy",
+      "end": "trap.end"
+    },
+    "battle_rocket_1": {
+      "fire": "rocket.fire",
+      "deploy": "rocket.deploy"
+    }
+  },
+  "bossAudio": "Rodin charge/slam and flame charge/fire use his skill01/skill13 event names from the supplied 1.4.4 archive, verified against current Wwise event banks. Short clips and two-phase gameplay timing are fan adaptations; they do not reconstruct the complete original boss timeline.",
+  "buildEvidence": "Current AudioBattleBuildings.audioBuildUp IDs matched against bank events. Cannon 2, laser 2 and turret 2 intentionally share the base build event; lightning 2 and turret 3 use distinct events.",
+  "skillEvidence": "Current length-prefixed SkillData strings verify trap1_blast_start/end and turret_3_skill_hit_bomb; current raw bytes and source hashes are retained under sources/audio/current_skills. Other numbered family events match their exact FNV-1 hashes in current Wwise banks.",
+  "timing": "Charges are shortened to prototype wind-ups (.22 s laser, .12 s lightning). Flame start mix is trimmed to 3.16 s; its voice is stopped when that shot's 3 s damage zone ends, then the original blast_end event plays. Playback pitch is unchanged at 2x game speed.",
+  "extraction": "Read-only selective PCK ranges from current VFS index. Persistent index preferred; base fallback only if its manifest MD5 matches. WEM hashes recorded. Full multi-GB stream PCK content MD5 was not re-read/verified.",
+  "clips": [
+    {
+      "key": "turret.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_1_skill",
+      "eventId": 2577522274,
+      "mediaIds": [
+        23808229,
+        185505996,
+        191841011,
+        707785709,
+        806160845,
+        985226010
+      ],
+      "chains": [
+        [
+          2577522274,
+          553293420,
+          74141730,
+          520034635
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          349712349,
+          735022253,
+          263167168
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          349712349,
+          737686575,
+          24234577
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          205033610,
+          53735640
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          807248146,
+          553477725
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          877182620,
+          386366059
+        ]
+      ],
+      "file": "assets/audio/turret.fire_0.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 8.090864197530864,
+      "sourceMixPeak": 0.098876953125,
+      "sourceMixRms": 0.010658693062624968,
+      "sha256": "69da8eb91ff409bd1804a556dccfa91b88c54d5e871cf5cedfe470faaf300674"
+    },
+    {
+      "key": "turret.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_turret_1_skill",
+      "eventId": 2577522274,
+      "mediaIds": [
+        40030319,
+        62090445,
+        129347452,
+        513235134,
+        634918840,
+        859304462
+      ],
+      "chains": [
+        [
+          2577522274,
+          553293420,
+          74141730,
+          594396119
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          349712349,
+          735022253,
+          479147034
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          349712349,
+          737686575,
+          469718695
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          205033610,
+          204822901
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          807248146,
+          568359623
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          877182620,
+          409371333
+        ]
+      ],
+      "file": "assets/audio/turret.fire_1.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 10.557551349174386,
+      "sourceMixPeak": 0.075775146484375,
+      "sourceMixRms": 0.010527027354819859,
+      "sha256": "c029bedc010f7bb0b39e91cb941cc3afb12487ab217f4d979c6e6026e41d9a50"
+    },
+    {
+      "key": "turret.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_turret_1_skill",
+      "eventId": 2577522274,
+      "mediaIds": [
+        292938670,
+        539898173,
+        728300689,
+        944826642,
+        1072199557,
+        1073035656
+      ],
+      "chains": [
+        [
+          2577522274,
+          553293420,
+          74141730,
+          829379560
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          349712349,
+          735022253,
+          826766183
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          349712349,
+          737686575,
+          761183808
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          205033610,
+          461379771
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          807248146,
+          937436073
+        ],
+        [
+          2577522274,
+          35392602,
+          334483417,
+          581228399,
+          877182620,
+          932771299
+        ]
+      ],
+      "file": "assets/audio/turret.fire_2.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 7.647141190198367,
+      "sourceMixPeak": 0.1046142578125,
+      "sourceMixRms": 0.014513938479419052,
+      "sha256": "f71b025bccfdf1b86cae336841c32fc28391e739c7149ba9a09abced26f60f56"
+    },
+    {
+      "key": "turret.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_1_skill_hit",
+      "eventId": 3126918420,
+      "mediaIds": [
+        461784980,
+        503405879
+      ],
+      "chains": [
+        [
+          3126918420,
+          1052652006,
+          587416988,
+          386864737,
+          362093806
+        ],
+        [
+          3126918420,
+          1052652006,
+          587416988,
+          574590987,
+          299425336
+        ]
+      ],
+      "file": "assets/audio/turret.hit_0.mp3",
+      "duration": 1.35,
+      "trimStart": 0,
+      "gain": 6.603123425692695,
+      "sourceMixPeak": 0.12115478515625,
+      "sourceMixRms": 0.010034471419984264,
+      "sha256": "64a5715e5ad3e99ae015be6762fa13d6362e9bffa4b008092241a0ec9fcac94c"
+    },
+    {
+      "key": "turret.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_turret_1_skill_hit",
+      "eventId": 3126918420,
+      "mediaIds": [
+        338124222,
+        848010616
+      ],
+      "chains": [
+        [
+          3126918420,
+          1052652006,
+          587416988,
+          386864737,
+          524027807
+        ],
+        [
+          3126918420,
+          1052652006,
+          587416988,
+          574590987,
+          527789151
+        ]
+      ],
+      "file": "assets/audio/turret.hit_1.mp3",
+      "duration": 1.28334375,
+      "trimStart": 0,
+      "gain": 4.318682042833609,
+      "sourceMixPeak": 0.18524169921875,
+      "sourceMixRms": 0.011414543853603038,
+      "sha256": "8d5424b213ef53f769c6899957d0ce6e724c9d5e5031244b5501abf23b705929"
+    },
+    {
+      "key": "turret.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_turret_1_skill_hit",
+      "eventId": 3126918420,
+      "mediaIds": [
+        183210475,
+        1033846000
+      ],
+      "chains": [
+        [
+          3126918420,
+          1052652006,
+          587416988,
+          386864737,
+          915900630
+        ],
+        [
+          3126918420,
+          1052652006,
+          587416988,
+          574590987,
+          859742347
+        ]
+      ],
+      "file": "assets/audio/turret.hit_2.mp3",
+      "duration": 1.33334375,
+      "trimStart": 0,
+      "gain": 4.01384167815036,
+      "sourceMixPeak": 0.199310302734375,
+      "sourceMixRms": 0.01419593143939859,
+      "sha256": "f6786e0fdbd9b68d77fbac72b479d55f9bddd296b1d921e125e554dce4080fcd"
+    },
+    {
+      "key": "turret.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_1_build",
+      "eventId": 1658550369,
+      "mediaIds": [
+        4793667,
+        215859400,
+        277722303,
+        607415694,
+        616470288,
+        996804304
+      ],
+      "chains": [
+        [
+          1658550369,
+          435942526,
+          877258935,
+          363639855
+        ],
+        [
+          1658550369,
+          435942526,
+          877258935,
+          591849442
+        ],
+        [
+          1658550369,
+          435942526,
+          877258935,
+          120662489,
+          437217416,
+          976317019
+        ],
+        [
+          1658550369,
+          435942526,
+          877258935,
+          120662489,
+          621447382,
+          862047455
+        ],
+        [
+          1658550369,
+          435942526,
+          877258935,
+          120662489,
+          887960756,
+          817754827
+        ],
+        [
+          1658550369,
+          435942526,
+          877258935,
+          120662489,
+          994243199,
+          594517985
+        ]
+      ],
+      "file": "assets/audio/turret.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 10.009316533027874,
+      "sourceMixPeak": 0.079925537109375,
+      "sourceMixRms": 0.01294609730016735,
+      "sha256": "4052172989113215031fe188f52d7e369951da442c5287c3d5c93edcb719a514"
+    },
+    {
+      "key": "turret2.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_2_skill",
+      "eventId": 2225288617,
+      "mediaIds": [
+        185505996,
+        210047910,
+        420947347,
+        628000429,
+        783509235,
+        785371268,
+        859304462,
+        945196513
+      ],
+      "chains": [
+        [
+          2225288617,
+          593594753,
+          758288815,
+          924113763
+        ],
+        [
+          2225288617,
+          247842343,
+          1015888716,
+          278491305
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          373435945,
+          390087790,
+          36468968
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          373435945,
+          730653542,
+          405766152
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          305016587,
+          201976668
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          430171703,
+          3108435
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          467700362,
+          127403319
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          834197968,
+          37565332
+        ]
+      ],
+      "file": "assets/audio/turret2.fire_0.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 5.906804867057233,
+      "sourceMixPeak": 0.13543701171875,
+      "sourceMixRms": 0.01454865499959562,
+      "sha256": "19b1e42fc8985c54620d9eb0c4c2184542a0d523361c2ade3e7d66fd96c62b6d"
+    },
+    {
+      "key": "turret2.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_turret_2_skill",
+      "eventId": 2225288617,
+      "mediaIds": [
+        28432090,
+        28954325,
+        292938670,
+        420947347,
+        653263631,
+        697732028,
+        728300689,
+        917553436
+      ],
+      "chains": [
+        [
+          2225288617,
+          593594753,
+          758288815,
+          924113763
+        ],
+        [
+          2225288617,
+          247842343,
+          1015888716,
+          923767737
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          373435945,
+          390087790,
+          217509094
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          373435945,
+          730653542,
+          592728856
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          305016587,
+          901625548
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          430171703,
+          37464697
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          467700362,
+          183575941
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          834197968,
+          254057198
+        ]
+      ],
+      "file": "assets/audio/turret2.fire_1.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 10.105782575173478,
+      "sourceMixPeak": 0.07916259765625,
+      "sourceMixRms": 0.009622160517999436,
+      "sha256": "2222d75ca27415ce0ebd1c25de209fbdcc8af1fb231c38133717a440346d1acd"
+    },
+    {
+      "key": "turret2.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_turret_2_skill",
+      "eventId": 2225288617,
+      "mediaIds": [
+        4924830,
+        51126751,
+        250164013,
+        420947347,
+        634918840,
+        697956955,
+        779853639,
+        806160845
+      ],
+      "chains": [
+        [
+          2225288617,
+          593594753,
+          758288815,
+          924113763
+        ],
+        [
+          2225288617,
+          247842343,
+          1015888716,
+          1052760396
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          373435945,
+          390087790,
+          322763904
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          373435945,
+          730653542,
+          988922558
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          305016587,
+          902182591
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          430171703,
+          43715972
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          467700362,
+          936649643
+        ],
+        [
+          2225288617,
+          593594753,
+          758288815,
+          779573862,
+          834197968,
+          268368334
+        ]
+      ],
+      "file": "assets/audio/turret2.fire_2.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 12,
+      "sourceMixPeak": 0.066314697265625,
+      "sourceMixRms": 0.009851876543440902,
+      "sha256": "bfb6d54c181ee8f3e9482e35c986a523ab49e164a4dfaa50d5d02f008d9e625f"
+    },
+    {
+      "key": "turret2.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_2_skill_hit",
+      "eventId": 2602297531,
+      "mediaIds": [
+        708524760,
+        1041898867
+      ],
+      "chains": [
+        [
+          2602297531,
+          704793863,
+          659896309,
+          120674900,
+          734097049
+        ],
+        [
+          2602297531,
+          704793863,
+          659896309,
+          967025670,
+          121434280
+        ]
+      ],
+      "file": "assets/audio/turret2.hit_0.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 5.615766923736076,
+      "sourceMixPeak": 0.1424560546875,
+      "sourceMixRms": 0.016588482284653268,
+      "sha256": "6470fc6e7fbda7fac03c35cdafedb3817afd9b14b5c4c3cd8e654a9a7968821f"
+    },
+    {
+      "key": "turret2.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_turret_2_skill_hit",
+      "eventId": 2602297531,
+      "mediaIds": [
+        413264986,
+        634111877
+      ],
+      "chains": [
+        [
+          2602297531,
+          704793863,
+          659896309,
+          120674900,
+          908620800
+        ],
+        [
+          2602297531,
+          704793863,
+          659896309,
+          967025670,
+          872145077
+        ]
+      ],
+      "file": "assets/audio/turret2.hit_1.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 5.791957578435706,
+      "sourceMixPeak": 0.13812255859375,
+      "sourceMixRms": 0.01484396758280825,
+      "sha256": "4fadb887ef7844d50f1e9e7c4e3f26c528a9a41899e033a625c1e48d6fb050b3"
+    },
+    {
+      "key": "turret2.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_turret_2_skill_hit",
+      "eventId": 2602297531,
+      "mediaIds": [
+        485531975,
+        715187459
+      ],
+      "chains": [
+        [
+          2602297531,
+          704793863,
+          659896309,
+          120674900,
+          983158152
+        ],
+        [
+          2602297531,
+          704793863,
+          659896309,
+          967025670,
+          975403660
+        ]
+      ],
+      "file": "assets/audio/turret2.hit_2.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 5.559787910922588,
+      "sourceMixPeak": 0.143890380859375,
+      "sourceMixRms": 0.01475377207323252,
+      "sha256": "7df6f2d411db85db1374886e1754957c238ba5e2c19e7bf771e67a951be706db"
+    },
+    {
+      "key": "turret3.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_3_skill",
+      "eventId": 4207196208,
+      "mediaIds": [
+        420947347,
+        526827743,
+        692782211,
+        914895731,
+        968612851
+      ],
+      "chains": [
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          282648217
+        ],
+        [
+          4207196208,
+          1046275971,
+          388918788,
+          208117819
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          364076878,
+          612754688,
+          207543501
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          364076878,
+          703557697,
+          100910478
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          960976287,
+          151775364,
+          801072580
+        ]
+      ],
+      "file": "assets/audio/turret3.fire_0.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 4.125003933910307,
+      "sourceMixPeak": 0.193939208984375,
+      "sourceMixRms": 0.025327406834052324,
+      "sha256": "17006a31ed0ab4158c54013b2784231095aa4e3c5b7fe6cc40009369986da8cd"
+    },
+    {
+      "key": "turret3.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_turret_3_skill",
+      "eventId": 4207196208,
+      "mediaIds": [
+        204007536,
+        420947347,
+        485606258,
+        783509235,
+        917289433
+      ],
+      "chains": [
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          282648217
+        ],
+        [
+          4207196208,
+          1046275971,
+          388918788,
+          364395977
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          364076878,
+          612754688,
+          298666721
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          364076878,
+          703557697,
+          310271467
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          960976287,
+          151775364,
+          958313437
+        ]
+      ],
+      "file": "assets/audio/turret3.fire_1.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 6.338104448742747,
+      "sourceMixPeak": 0.126220703125,
+      "sourceMixRms": 0.01692007854978614,
+      "sha256": "c968f7a68e0afe1a3a29a95fa8bde0b13f66b7a635f7326bd88514252dd18746"
+    },
+    {
+      "key": "turret3.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_turret_3_skill",
+      "eventId": 4207196208,
+      "mediaIds": [
+        419026709,
+        420947347,
+        679318401,
+        736234943,
+        917553436
+      ],
+      "chains": [
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          282648217
+        ],
+        [
+          4207196208,
+          1046275971,
+          388918788,
+          508047322
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          364076878,
+          612754688,
+          373799343
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          364076878,
+          703557697,
+          343397256
+        ],
+        [
+          4207196208,
+          1049908845,
+          305716123,
+          960976287,
+          151775364,
+          1037757235
+        ]
+      ],
+      "file": "assets/audio/turret3.fire_2.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 5.9987185354691075,
+      "sourceMixPeak": 0.13336181640625,
+      "sourceMixRms": 0.018272132814342774,
+      "sha256": "f3bf5fe30a139ac0efc3b481afb17f091b35d0b574ebe9fce59a46de3a97de3d"
+    },
+    {
+      "key": "turret3.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_3_skill_hit",
+      "eventId": 3657852038,
+      "mediaIds": [
+        623910123,
+        879510996
+      ],
+      "chains": [
+        [
+          3657852038,
+          514997781,
+          549894468,
+          43662571,
+          80589385
+        ],
+        [
+          3657852038,
+          514997781,
+          549894468,
+          548862677,
+          349991869
+        ]
+      ],
+      "file": "assets/audio/turret3.hit_0.mp3",
+      "duration": 1.1116875,
+      "trimStart": 0,
+      "gain": 2.49162627126699,
+      "sourceMixPeak": 0.321075439453125,
+      "sourceMixRms": 0.040695861871217855,
+      "sha256": "e08048a44df7d8f98e496569e1bd816e4ee0a62fe40be4e747c5bfffef1e2f03"
+    },
+    {
+      "key": "turret3.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_turret_3_skill_hit",
+      "eventId": 3657852038,
+      "mediaIds": [
+        393608979,
+        481549109
+      ],
+      "chains": [
+        [
+          3657852038,
+          514997781,
+          549894468,
+          43662571,
+          137508227
+        ],
+        [
+          3657852038,
+          514997781,
+          549894468,
+          548862677,
+          772906931
+        ]
+      ],
+      "file": "assets/audio/turret3.hit_1.mp3",
+      "duration": 1.1116875,
+      "trimStart": 0,
+      "gain": 2.2551961459050243,
+      "sourceMixPeak": 0.354736328125,
+      "sourceMixRms": 0.04613857292346483,
+      "sha256": "7e21c47b7863423db32ce3232e63a72d4504a0930b999cabeb2337b108621cd0"
+    },
+    {
+      "key": "turret3.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_turret_3_skill_hit",
+      "eventId": 3657852038,
+      "mediaIds": [
+        102268413,
+        973466847
+      ],
+      "chains": [
+        [
+          3657852038,
+          514997781,
+          549894468,
+          43662571,
+          262070049
+        ],
+        [
+          3657852038,
+          514997781,
+          549894468,
+          548862677,
+          1040747848
+        ]
+      ],
+      "file": "assets/audio/turret3.hit_2.mp3",
+      "duration": 1.1116875,
+      "trimStart": 0,
+      "gain": 3.1782735208535406,
+      "sourceMixPeak": 0.251708984375,
+      "sourceMixRms": 0.04213554751752447,
+      "sha256": "77cae9fa3b1817bb00f69ea8046599f83b68c0541bca947fb2d122ca39a449cf"
+    },
+    {
+      "key": "turret3.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_3_build",
+      "eventId": 273572467,
+      "mediaIds": [
+        4793667,
+        215859400,
+        277722303,
+        607415694,
+        616470288,
+        996804304
+      ],
+      "chains": [
+        [
+          273572467,
+          597362088,
+          877258935,
+          363639855
+        ],
+        [
+          273572467,
+          597362088,
+          877258935,
+          591849442
+        ],
+        [
+          273572467,
+          597362088,
+          877258935,
+          120662489,
+          437217416,
+          976317019
+        ],
+        [
+          273572467,
+          597362088,
+          877258935,
+          120662489,
+          621447382,
+          862047455
+        ],
+        [
+          273572467,
+          597362088,
+          877258935,
+          120662489,
+          887960756,
+          817754827
+        ],
+        [
+          273572467,
+          597362088,
+          877258935,
+          120662489,
+          994243199,
+          594517985
+        ]
+      ],
+      "file": "assets/audio/turret3.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 10.009316533027874,
+      "sourceMixPeak": 0.079925537109375,
+      "sourceMixRms": 0.01294609730016735,
+      "sha256": "4052172989113215031fe188f52d7e369951da442c5287c3d5c93edcb719a514"
+    },
+    {
+      "key": "turret3.hitBomb",
+      "variant": 0,
+      "event": "au_int_fac_battle_turret_3_skill_hit_bomb",
+      "eventId": 193365237,
+      "mediaIds": [
+        192185243,
+        209558769
+      ],
+      "chains": [
+        [
+          193365237,
+          241681587,
+          846471323,
+          119629900,
+          484051157
+        ],
+        [
+          193365237,
+          241681587,
+          846471323,
+          925759987,
+          20774794
+        ]
+      ],
+      "file": "assets/audio/turret3.hitBomb_0.mp3",
+      "duration": 1.97740625,
+      "trimStart": 0,
+      "gain": 1.9350704953126154,
+      "sourceMixPeak": 0.413421630859375,
+      "sourceMixRms": 0.05959120622518141,
+      "sha256": "b820b9a6a0e9214f813dec68069fc07fa3f36110397517c72f24f4d732e5ebd5"
+    },
+    {
+      "key": "turret3.hitBomb",
+      "variant": 1,
+      "event": "au_int_fac_battle_turret_3_skill_hit_bomb",
+      "eventId": 193365237,
+      "mediaIds": [
+        389853318,
+        516212527
+      ],
+      "chains": [
+        [
+          193365237,
+          241681587,
+          846471323,
+          119629900,
+          827449098
+        ],
+        [
+          193365237,
+          241681587,
+          846471323,
+          925759987,
+          129932952
+        ]
+      ],
+      "file": "assets/audio/turret3.hitBomb_1.mp3",
+      "duration": 1.97740625,
+      "trimStart": 0,
+      "gain": 1.654949494949495,
+      "sourceMixPeak": 0.4833984375,
+      "sourceMixRms": 0.05955594772604018,
+      "sha256": "bed0fbbbc7993cc7ec2e479da342efac8b8222cc0047085840eb0299dd04764b"
+    },
+    {
+      "key": "turret3.hitBomb",
+      "variant": 2,
+      "event": "au_int_fac_battle_turret_3_skill_hit_bomb",
+      "eventId": 193365237,
+      "mediaIds": [
+        458719314,
+        726527125
+      ],
+      "chains": [
+        [
+          193365237,
+          241681587,
+          846471323,
+          119629900,
+          888452559
+        ],
+        [
+          193365237,
+          241681587,
+          846471323,
+          925759987,
+          416907347
+        ]
+      ],
+      "file": "assets/audio/turret3.hitBomb_2.mp3",
+      "duration": 1.97740625,
+      "trimStart": 0,
+      "gain": 1.9433909111127587,
+      "sourceMixPeak": 0.411651611328125,
+      "sourceMixRms": 0.055425861162792384,
+      "sha256": "300417236ddd868b812e1ba6efa91b461a6745b6d83970034f91fbf5d31fb2f7"
+    },
+    {
+      "key": "cannon.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_cannon_1_skill",
+      "eventId": 42258631,
+      "mediaIds": [
+        52134092,
+        398039317,
+        634918840,
+        638056148,
+        824067701
+      ],
+      "chains": [
+        [
+          42258631,
+          377740628,
+          396454265,
+          291710200,
+          58297139
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          314977930,
+          602597304
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          641392959,
+          259990252
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          925730864,
+          397261768
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          1069280176,
+          334639964
+        ]
+      ],
+      "file": "assets/audio/cannon.fire_0.mp3",
+      "duration": 2.409,
+      "trimStart": 0,
+      "gain": 5.47159256940096,
+      "sourceMixPeak": 0.146209716796875,
+      "sourceMixRms": 0.016413536708845912,
+      "sha256": "f33becd8c37cbb10c0191dc534d9ba112d3f6a38ad5deef1b5742c7dd4551d09"
+    },
+    {
+      "key": "cannon.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_cannon_1_skill",
+      "eventId": 42258631,
+      "mediaIds": [
+        28249979,
+        152498405,
+        292938670,
+        639937406,
+        818794523
+      ],
+      "chains": [
+        [
+          42258631,
+          377740628,
+          396454265,
+          291710200,
+          710013352
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          314977930,
+          605051834
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          641392959,
+          471805576
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          925730864,
+          483431017
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          1069280176,
+          627832018
+        ]
+      ],
+      "file": "assets/audio/cannon.fire_1.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 5.344424057084608,
+      "sourceMixPeak": 0.149688720703125,
+      "sourceMixRms": 0.014730639994397745,
+      "sha256": "032a17341184b6829b594f48797a54bd6a70f9bf400fafece7a38ab0a4b3b07d"
+    },
+    {
+      "key": "cannon.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_cannon_1_skill",
+      "eventId": 42258631,
+      "mediaIds": [
+        63627368,
+        185505996,
+        205583621,
+        293194884,
+        348177358
+      ],
+      "chains": [
+        [
+          42258631,
+          377740628,
+          396454265,
+          291710200,
+          798257949
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          314977930,
+          859423769
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          641392959,
+          981138154
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          925730864,
+          507038152
+        ],
+        [
+          42258631,
+          377740628,
+          396454265,
+          830257556,
+          1069280176,
+          813504569
+        ]
+      ],
+      "file": "assets/audio/cannon.fire_2.mp3",
+      "duration": 2.40634375,
+      "trimStart": 0,
+      "gain": 6.626491405460061,
+      "sourceMixPeak": 0.1207275390625,
+      "sourceMixRms": 0.017240938635735913,
+      "sha256": "a9565e696abd32ed971596e9ad2bcea56aac2d73e20ae0d22ca6a9272ccd76c7"
+    },
+    {
+      "key": "cannon.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_cannon_1_build",
+      "eventId": 2221613144,
+      "mediaIds": [
+        4793667,
+        120435140,
+        215859400,
+        277722303,
+        607415694
+      ],
+      "chains": [
+        [
+          2221613144,
+          110615192,
+          87972192,
+          500456401
+        ],
+        [
+          2221613144,
+          110615192,
+          87972192,
+          920310555,
+          129291973,
+          900144363
+        ],
+        [
+          2221613144,
+          110615192,
+          87972192,
+          920310555,
+          858817384,
+          77161434
+        ],
+        [
+          2221613144,
+          110615192,
+          87972192,
+          920310555,
+          925981465,
+          201020302
+        ],
+        [
+          2221613144,
+          110615192,
+          87972192,
+          920310555,
+          943064339,
+          1034397403
+        ]
+      ],
+      "file": "assets/audio/cannon.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 7.445157625674525,
+      "sourceMixPeak": 0.107452392578125,
+      "sourceMixRms": 0.013070738898929785,
+      "sha256": "869cc5fc151d3768895043bd96815e3d5f7d9a251fa430cf28fafd9fe54afffa"
+    },
+    {
+      "key": "cannon2.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_cannon_2_skill",
+      "eventId": 2535878444,
+      "mediaIds": [
+        60601697,
+        95343162,
+        292938670,
+        544389375,
+        638056148,
+        800043711
+      ],
+      "chains": [
+        [
+          2535878444,
+          630426593,
+          67599817,
+          21456751,
+          190227452
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          563930074
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          311378533,
+          11673132
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          954094711,
+          245735908
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          1025987400,
+          57682507
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          1056679935,
+          410638669
+        ]
+      ],
+      "file": "assets/audio/cannon2.fire_0.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 5.575159506592939,
+      "sourceMixPeak": 0.14349365234375,
+      "sourceMixRms": 0.017670775230201656,
+      "sha256": "8647191aaba440423086392154ab00e45a75e986213e3d925fe59ae38983ddd5"
+    },
+    {
+      "key": "cannon2.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_cannon_2_skill",
+      "eventId": 2535878444,
+      "mediaIds": [
+        205583621,
+        544389375,
+        604938850,
+        634918840,
+        880356165,
+        1002804176
+      ],
+      "chains": [
+        [
+          2535878444,
+          630426593,
+          67599817,
+          21456751,
+          692444061
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          563930074
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          311378533,
+          79885384
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          954094711,
+          317646382
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          1025987400,
+          538980580
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          1056679935,
+          495554814
+        ]
+      ],
+      "file": "assets/audio/cannon2.fire_1.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 6.533998005982054,
+      "sourceMixPeak": 0.1224365234375,
+      "sourceMixRms": 0.01685290128778726,
+      "sha256": "62cd8d1ebc4baa9f0b39cb4a3abdc33e881e09504ef6fbcad11fa9aa3d87cc1f"
+    },
+    {
+      "key": "cannon2.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_cannon_2_skill",
+      "eventId": 2535878444,
+      "mediaIds": [
+        135375565,
+        144400616,
+        185505996,
+        496650066,
+        544389375,
+        818794523
+      ],
+      "chains": [
+        [
+          2535878444,
+          630426593,
+          67599817,
+          21456751,
+          1058373263
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          563930074
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          311378533,
+          818780641
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          954094711,
+          667522408
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          1025987400,
+          961060221
+        ],
+        [
+          2535878444,
+          630426593,
+          67599817,
+          144637846,
+          1056679935,
+          514428342
+        ]
+      ],
+      "file": "assets/audio/cannon2.fire_2.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 5.848817492190986,
+      "sourceMixPeak": 0.13677978515625,
+      "sourceMixRms": 0.015578380221889464,
+      "sha256": "89e7618776c04c00c23313d78d97d0ea693f94e84a525fef9a3ab8aa82f3041a"
+    },
+    {
+      "key": "frost.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_frost_1_skill",
+      "eventId": 4006782190,
+      "mediaIds": [
+        29846064,
+        46929342,
+        115948250,
+        268030337,
+        572743555,
+        615554695,
+        629341378
+      ],
+      "chains": [
+        [
+          4006782190,
+          23271336,
+          786054819,
+          566165167,
+          404371446
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          218811320
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          178260474,
+          27207810
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          701600449,
+          192481479
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          946524672,
+          550653
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          1027667592,
+          137898622,
+          525434057
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          1027667592,
+          494289008,
+          82920645
+        ]
+      ],
+      "file": "assets/audio/frost.fire_0.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 4.096640100015628,
+      "sourceMixPeak": 0.195281982421875,
+      "sourceMixRms": 0.016736128794487177,
+      "sha256": "4e3a4c7afe09ee5aef793f7128bf8882c166eb7371decdd695fb00916196ab2a"
+    },
+    {
+      "key": "frost.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_frost_1_skill",
+      "eventId": 4006782190,
+      "mediaIds": [
+        13284034,
+        116441524,
+        124505605,
+        238553107,
+        615554695,
+        636083872,
+        1008796299
+      ],
+      "chains": [
+        [
+          4006782190,
+          23271336,
+          786054819,
+          566165167,
+          520542923
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          218811320
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          178260474,
+          359794021
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          701600449,
+          732147880
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          946524672,
+          631128528
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          1027667592,
+          137898622,
+          584447301
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          1027667592,
+          494289008,
+          733622901
+        ]
+      ],
+      "file": "assets/audio/frost.fire_1.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 4.633975605444582,
+      "sourceMixPeak": 0.172637939453125,
+      "sourceMixRms": 0.016917225990830658,
+      "sha256": "8ab4e8b7ce817ad68d11e68291964f9a4b054aa32345f8deeb3c9c7669c10ce7"
+    },
+    {
+      "key": "frost.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_frost_1_skill",
+      "eventId": 4006782190,
+      "mediaIds": [
+        9555358,
+        147804656,
+        286264850,
+        515304696,
+        615554695,
+        882821330,
+        969376160
+      ],
+      "chains": [
+        [
+          4006782190,
+          23271336,
+          786054819,
+          566165167,
+          539019482
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          218811320
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          178260474,
+          510208673
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          701600449,
+          843045992
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          669492138,
+          946524672,
+          957965565
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          1027667592,
+          137898622,
+          947144326
+        ],
+        [
+          4006782190,
+          23271336,
+          786054819,
+          1027667592,
+          494289008,
+          960734431
+        ]
+      ],
+      "file": "assets/audio/frost.fire_2.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 4.58373841580696,
+      "sourceMixPeak": 0.174530029296875,
+      "sourceMixRms": 0.0154228254946151,
+      "sha256": "7f923ca93f5b2fdd7a0011ecd4662a23462ed4cff429b57b93394db6d318ee15"
+    },
+    {
+      "key": "frost.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_frost_1_skill_hit",
+      "eventId": 1347247920,
+      "mediaIds": [
+        172568281,
+        950274760
+      ],
+      "chains": [
+        [
+          1347247920,
+          144293613,
+          80204034,
+          628267025,
+          1004310551
+        ],
+        [
+          1347247920,
+          144293613,
+          80204034,
+          628267025,
+          459895688,
+          271548538
+        ]
+      ],
+      "file": "assets/audio/frost.hit_0.mp3",
+      "duration": 2.4,
+      "trimStart": 0,
+      "gain": 3.232753730422987,
+      "sourceMixPeak": 0.247467041015625,
+      "sourceMixRms": 0.025031093178062118,
+      "sha256": "f5759af90735dcebe92c47cd1382bc1d6d6063cd9340b144f81dcf7f4f00d1a4"
+    },
+    {
+      "key": "frost.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_frost_1_skill_hit",
+      "eventId": 1347247920,
+      "mediaIds": [
+        152046270,
+        950274760
+      ],
+      "chains": [
+        [
+          1347247920,
+          144293613,
+          80204034,
+          628267025,
+          1004310551
+        ],
+        [
+          1347247920,
+          144293613,
+          80204034,
+          628267025,
+          459895688,
+          290006122
+        ]
+      ],
+      "file": "assets/audio/frost.hit_1.mp3",
+      "duration": 2.4,
+      "trimStart": 0,
+      "gain": 3.1740404407313236,
+      "sourceMixPeak": 0.252044677734375,
+      "sourceMixRms": 0.02427903951686576,
+      "sha256": "deb3a695660a2b96cc3a99eb19d0f30144890c1524f7dc1a8f7025d5e2593ee9"
+    },
+    {
+      "key": "frost.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_frost_1_skill_hit",
+      "eventId": 1347247920,
+      "mediaIds": [
+        740564890,
+        950274760
+      ],
+      "chains": [
+        [
+          1347247920,
+          144293613,
+          80204034,
+          628267025,
+          1004310551
+        ],
+        [
+          1347247920,
+          144293613,
+          80204034,
+          628267025,
+          459895688,
+          508679833
+        ]
+      ],
+      "file": "assets/audio/frost.hit_2.mp3",
+      "duration": 2.4,
+      "trimStart": 0,
+      "gain": 3.066011695906433,
+      "sourceMixPeak": 0.26092529296875,
+      "sourceMixRms": 0.02453200824846151,
+      "sha256": "6f8c9ad827037877cebe9a6d4f6fb072b64263095c956185be46d963360485d5"
+    },
+    {
+      "key": "frost.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_frost_1_build",
+      "eventId": 3546492533,
+      "mediaIds": [
+        4793667,
+        215859400,
+        277722303,
+        607415694,
+        785144477
+      ],
+      "chains": [
+        [
+          3546492533,
+          204450129,
+          727977266,
+          850716164
+        ],
+        [
+          3546492533,
+          204450129,
+          727977266,
+          611571174,
+          704321205,
+          976376912
+        ],
+        [
+          3546492533,
+          204450129,
+          727977266,
+          611571174,
+          752278936,
+          388903375
+        ],
+        [
+          3546492533,
+          204450129,
+          727977266,
+          611571174,
+          894632755,
+          783455555
+        ],
+        [
+          3546492533,
+          204450129,
+          727977266,
+          611571174,
+          1062958009,
+          633063293
+        ]
+      ],
+      "file": "assets/audio/frost.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 11.829602888086644,
+      "sourceMixPeak": 0.067626953125,
+      "sourceMixRms": 0.008715437761922781,
+      "sha256": "5034b4943441409b035917d2bf9864ea323ee80f3dba4f2f0c49b51e5671fd9f"
+    },
+    {
+      "key": "laser.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_laser_1_skill",
+      "eventId": 1648210665,
+      "mediaIds": [
+        81730863,
+        461382393,
+        622363638,
+        852192449
+      ],
+      "chains": [
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          764318372
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          931226478,
+          3307091
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          621982936,
+          193130520
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          879582552,
+          635782037
+        ]
+      ],
+      "file": "assets/audio/laser.fire_0.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 3.2451596929933153,
+      "sourceMixPeak": 0.24652099609375,
+      "sourceMixRms": 0.0368379148937495,
+      "sha256": "b3e2a312f774077d4cf030bf86dbc49552c076428eafc946ce066d403661443a"
+    },
+    {
+      "key": "laser.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_laser_1_skill",
+      "eventId": 1648210665,
+      "mediaIds": [
+        461382393,
+        688313939,
+        739972888,
+        1072266446
+      ],
+      "chains": [
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          764318372
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          931226478,
+          660668596
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          621982936,
+          375558249
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          879582552,
+          958848042
+        ]
+      ],
+      "file": "assets/audio/laser.fire_1.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 3.3582372533948246,
+      "sourceMixPeak": 0.23822021484375,
+      "sourceMixRms": 0.03563584549713715,
+      "sha256": "8f683251d227278e9bbe73ef5d63441ff4db77909e07d93175bdc2f2bea5252e"
+    },
+    {
+      "key": "laser.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_laser_1_skill",
+      "eventId": 1648210665,
+      "mediaIds": [
+        226520522,
+        445955474,
+        461382393,
+        505129960
+      ],
+      "chains": [
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          764318372
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          931226478,
+          926052757
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          621982936,
+          799182587
+        ],
+        [
+          1648210665,
+          196943704,
+          867689804,
+          293629541,
+          879582552,
+          1041955186
+        ]
+      ],
+      "file": "assets/audio/laser.fire_2.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 3.0714001171646164,
+      "sourceMixPeak": 0.260467529296875,
+      "sourceMixRms": 0.03245220441783419,
+      "sha256": "4716c575f4358de55a844908197d5852a948e285f1d5329c2401270db5dda51a"
+    },
+    {
+      "key": "laser.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_laser_1_skill_hit",
+      "eventId": 3919140603,
+      "mediaIds": [
+        312223938,
+        386246328,
+        732905208,
+        950264124,
+        954493223
+      ],
+      "chains": [
+        [
+          3919140603,
+          390458210,
+          17509135
+        ],
+        [
+          3919140603,
+          614560869,
+          1027583742,
+          448113381,
+          172622048
+        ],
+        [
+          3919140603,
+          614560869,
+          1027583742,
+          845474471,
+          28214319
+        ],
+        [
+          3919140603,
+          121495607,
+          504350300,
+          119766959,
+          460656403
+        ],
+        [
+          3919140603,
+          121495607,
+          504350300,
+          471419390,
+          100732315
+        ]
+      ],
+      "file": "assets/audio/laser.hit_0.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 7.629336437718277,
+      "sourceMixPeak": 0.1048583984375,
+      "sourceMixRms": 0.01943106035252387,
+      "sha256": "8bb2e3884f9f38a2c1f74ba04abfa2386577739c1630b833b0b80d5c95671aaa"
+    },
+    {
+      "key": "laser.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_laser_1_skill_hit",
+      "eventId": 3919140603,
+      "mediaIds": [
+        105807018,
+        386246328,
+        464038971,
+        671467685,
+        857532717
+      ],
+      "chains": [
+        [
+          3919140603,
+          390458210,
+          17509135
+        ],
+        [
+          3919140603,
+          614560869,
+          1027583742,
+          448113381,
+          442869516
+        ],
+        [
+          3919140603,
+          614560869,
+          1027583742,
+          845474471,
+          185337753
+        ],
+        [
+          3919140603,
+          121495607,
+          504350300,
+          119766959,
+          953747326
+        ],
+        [
+          3919140603,
+          121495607,
+          504350300,
+          471419390,
+          141502447
+        ]
+      ],
+      "file": "assets/audio/laser.hit_1.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 6.646653144016228,
+      "sourceMixPeak": 0.120361328125,
+      "sourceMixRms": 0.019584062470466356,
+      "sha256": "4cd697d87401c9fe606f3381d9b62795574020d315b83b86b6a12464ea6e93a3"
+    },
+    {
+      "key": "laser.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_laser_1_skill_hit",
+      "eventId": 3919140603,
+      "mediaIds": [
+        73801876,
+        197140316,
+        386246328,
+        410645662,
+        665730413
+      ],
+      "chains": [
+        [
+          3919140603,
+          390458210,
+          17509135
+        ],
+        [
+          3919140603,
+          614560869,
+          1027583742,
+          448113381,
+          471074624
+        ],
+        [
+          3919140603,
+          614560869,
+          1027583742,
+          845474471,
+          441030263
+        ],
+        [
+          3919140603,
+          121495607,
+          504350300,
+          119766959,
+          985643826
+        ],
+        [
+          3919140603,
+          121495607,
+          504350300,
+          471419390,
+          621773199
+        ]
+      ],
+      "file": "assets/audio/laser.hit_2.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 7.561119123161235,
+      "sourceMixPeak": 0.105804443359375,
+      "sourceMixRms": 0.017915804847605576,
+      "sha256": "c304e881efeb7ad4a934f0fabdab2ece79ed69c210bce7abb2d1b1d6227ee491"
+    },
+    {
+      "key": "laser.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_laser_1_build",
+      "eventId": 2864578678,
+      "mediaIds": [
+        4793667,
+        215859400,
+        258147770,
+        277722303,
+        607415694
+      ],
+      "chains": [
+        [
+          2864578678,
+          378594136,
+          993852814,
+          981773099
+        ],
+        [
+          2864578678,
+          378594136,
+          993852814,
+          336305975,
+          321344338,
+          748882593
+        ],
+        [
+          2864578678,
+          378594136,
+          993852814,
+          336305975,
+          483108896,
+          744080567
+        ],
+        [
+          2864578678,
+          378594136,
+          993852814,
+          336305975,
+          588487496,
+          147782050
+        ],
+        [
+          2864578678,
+          378594136,
+          993852814,
+          336305975,
+          1065453828,
+          750761810
+        ]
+      ],
+      "file": "assets/audio/laser.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 7.855678753371292,
+      "sourceMixPeak": 0.101837158203125,
+      "sourceMixRms": 0.01506173451351541,
+      "sha256": "f4400b4102a0f92c57743999925b9e3da6526830131c6dcfd4d234b2427e055a"
+    },
+    {
+      "key": "laser.charge",
+      "variant": 0,
+      "event": "au_int_fac_battle_laser_1_skill_charge",
+      "eventId": 3923101832,
+      "mediaIds": [
+        145573884
+      ],
+      "chains": [
+        [
+          3923101832,
+          935759906,
+          723375739
+        ]
+      ],
+      "file": "assets/audio/laser.charge_0.mp3",
+      "duration": 0.22,
+      "trimStart": 0.5,
+      "gain": 3.6644982483249873,
+      "sourceMixPeak": 0.191802978515625,
+      "sourceMixRms": 0.049119957986683865,
+      "sha256": "f1085a2cdfc5c3a7c57117abbafc5547be9ab513f6867c54149abd0f373bf079"
+    },
+    {
+      "key": "laser2.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_laser_2_skill",
+      "eventId": 4189667234,
+      "mediaIds": [
+        150379050,
+        247340137,
+        351944408,
+        461382393
+      ],
+      "chains": [
+        [
+          4189667234,
+          233473531,
+          425073809,
+          760557829,
+          172835849
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          388285033
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          126921717,
+          311026577
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          230998789,
+          144015254
+        ]
+      ],
+      "file": "assets/audio/laser2.fire_0.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 2.3909522072236413,
+      "sourceMixPeak": 0.3345947265625,
+      "sourceMixRms": 0.04015790609800967,
+      "sha256": "2da302173e2a443d93aa297cb56fbe99b085824ec3834f59a18329cc7dd07f17"
+    },
+    {
+      "key": "laser2.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_laser_2_skill",
+      "eventId": 4189667234,
+      "mediaIds": [
+        25776533,
+        334461960,
+        461382393,
+        1018036108
+      ],
+      "chains": [
+        [
+          4189667234,
+          233473531,
+          425073809,
+          760557829,
+          500590327
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          388285033
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          126921717,
+          534558543
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          230998789,
+          734606434
+        ]
+      ],
+      "file": "assets/audio/laser2.fire_1.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 2.872496164803857,
+      "sourceMixPeak": 0.27850341796875,
+      "sourceMixRms": 0.034774028453759424,
+      "sha256": "8c2fc856843b3cbf1ecbcca85624eba99bb4f672902aeedc6c68dff5e0a32b16"
+    },
+    {
+      "key": "laser2.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_laser_2_skill",
+      "eventId": 4189667234,
+      "mediaIds": [
+        306680990,
+        431103323,
+        461382393,
+        594058946
+      ],
+      "chains": [
+        [
+          4189667234,
+          233473531,
+          425073809,
+          760557829,
+          628348748
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          388285033
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          126921717,
+          562969225
+        ],
+        [
+          4189667234,
+          233473531,
+          425073809,
+          1040905119,
+          230998789,
+          839512194
+        ]
+      ],
+      "file": "assets/audio/laser2.fire_2.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 2.989440072984377,
+      "sourceMixPeak": 0.267608642578125,
+      "sourceMixRms": 0.03711482125757203,
+      "sha256": "f971e2cdf596b9fbb5acb37b5fdc62b91b3e424a796508d4e1a78d087d283f98"
+    },
+    {
+      "key": "laser2.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_laser_2_skill_hit",
+      "eventId": 2289358420,
+      "mediaIds": [
+        133313572,
+        172779459,
+        210246403,
+        495669703,
+        720105772,
+        813457438
+      ],
+      "chains": [
+        [
+          2289358420,
+          793147746,
+          940392701
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          53943560,
+          539265468
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          176423376,
+          533265917
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          1030532981,
+          74064190
+        ],
+        [
+          2289358420,
+          847154304,
+          872463059,
+          168822374,
+          113045030
+        ],
+        [
+          2289358420,
+          847154304,
+          872463059,
+          467608855,
+          20659077
+        ]
+      ],
+      "file": "assets/audio/laser2.hit_0.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 5.386151633449764,
+      "sourceMixPeak": 0.148529052734375,
+      "sourceMixRms": 0.028693732832242306,
+      "sha256": "0bd1027e05d2679ce925564fc24fe621c5e7e5620cc60a15ddc3cf1b921bf293"
+    },
+    {
+      "key": "laser2.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_laser_2_skill_hit",
+      "eventId": 2289358420,
+      "mediaIds": [
+        354563467,
+        698035558,
+        813457438,
+        851334022,
+        961873873,
+        1008972109
+      ],
+      "chains": [
+        [
+          2289358420,
+          793147746,
+          940392701
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          53943560,
+          865079304
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          176423376,
+          676520463
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          1030532981,
+          597393450
+        ],
+        [
+          2289358420,
+          847154304,
+          872463059,
+          168822374,
+          1020513990
+        ],
+        [
+          2289358420,
+          847154304,
+          872463059,
+          467608855,
+          293904991
+        ]
+      ],
+      "file": "assets/audio/laser2.hit_1.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 5.115004878048781,
+      "sourceMixPeak": 0.156402587890625,
+      "sourceMixRms": 0.025660438681762744,
+      "sha256": "11e5ce2bf5ed5b3b2ea699ba7474faffb798e478d932599732e551b79d5eefa2"
+    },
+    {
+      "key": "laser2.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_laser_2_skill_hit",
+      "eventId": 2289358420,
+      "mediaIds": [
+        71947362,
+        288069866,
+        790414440,
+        813457438,
+        826949885,
+        955687420
+      ],
+      "chains": [
+        [
+          2289358420,
+          793147746,
+          940392701
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          53943560,
+          1051338387
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          176423376,
+          981742520
+        ],
+        [
+          2289358420,
+          387873241,
+          48317866,
+          1030532981,
+          966380290
+        ],
+        [
+          2289358420,
+          847154304,
+          872463059,
+          168822374,
+          1043624065
+        ],
+        [
+          2289358420,
+          847154304,
+          872463059,
+          467608855,
+          819307494
+        ]
+      ],
+      "file": "assets/audio/laser2.hit_2.mp3",
+      "duration": 1.5,
+      "trimStart": 0,
+      "gain": 6.548688483637273,
+      "sourceMixPeak": 0.122161865234375,
+      "sourceMixRms": 0.02333169113950292,
+      "sha256": "b33cfbdd07c315d7830e25970f930bc608eb4566b3fc295e6d012f98030cf632"
+    },
+    {
+      "key": "laser2.charge",
+      "variant": 0,
+      "event": "au_int_fac_battle_laser_2_skill_charge",
+      "eventId": 662758585,
+      "mediaIds": [
+        12245153
+      ],
+      "chains": [
+        [
+          662758585,
+          699763196,
+          162670706
+        ]
+      ],
+      "file": "assets/audio/laser2.charge_0.mp3",
+      "duration": 0.22,
+      "trimStart": 0.5,
+      "gain": 5.792692537617633,
+      "sourceMixPeak": 0.12744140625,
+      "sourceMixRms": 0.031073632655467812,
+      "sha256": "b514c5176b35f115c4b28a25b2c3268f7125f8475fcadc63f80999b4e0436c2c"
+    },
+    {
+      "key": "lightning.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_lightning_1_skill",
+      "eventId": 3368307678,
+      "mediaIds": [
+        204360491,
+        435811111
+      ],
+      "chains": [
+        [
+          3368307678,
+          75056159,
+          1053029656,
+          308600529,
+          340379245
+        ],
+        [
+          3368307678,
+          75056159,
+          1053029656,
+          374829226,
+          139696662
+        ]
+      ],
+      "file": "assets/audio/lightning.fire_0.mp3",
+      "duration": 1.54178125,
+      "trimStart": 0,
+      "gain": 5.75129442738043,
+      "sourceMixPeak": 0.13909912109375,
+      "sourceMixRms": 0.01938164851068722,
+      "sha256": "052d44786358b5c3d5a62491216747013f03ac3d7f2541eb77e096209e235edb"
+    },
+    {
+      "key": "lightning.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_lightning_1_skill",
+      "eventId": 3368307678,
+      "mediaIds": [
+        392716982,
+        896923965
+      ],
+      "chains": [
+        [
+          3368307678,
+          75056159,
+          1053029656,
+          308600529,
+          1033755190
+        ],
+        [
+          3368307678,
+          75056159,
+          1053029656,
+          374829226,
+          465478428
+        ]
+      ],
+      "file": "assets/audio/lightning.fire_1.mp3",
+      "duration": 1.54215625,
+      "trimStart": 0,
+      "gain": 6.4125244618395305,
+      "sourceMixPeak": 0.124755859375,
+      "sourceMixRms": 0.019687343777222147,
+      "sha256": "7f8d05c610cd8f5c2472cffd0b4cd2f0473bf5abac1cd98e99aad6a292bc1e4c"
+    },
+    {
+      "key": "lightning.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_lightning_1_skill",
+      "eventId": 3368307678,
+      "mediaIds": [
+        441456407,
+        558927713
+      ],
+      "chains": [
+        [
+          3368307678,
+          75056159,
+          1053029656,
+          308600529,
+          1036907744
+        ],
+        [
+          3368307678,
+          75056159,
+          1053029656,
+          374829226,
+          593297210
+        ]
+      ],
+      "file": "assets/audio/lightning.fire_2.mp3",
+      "duration": 1.55,
+      "trimStart": 0,
+      "gain": 5.313011755168221,
+      "sourceMixPeak": 0.15057373046875,
+      "sourceMixRms": 0.019670033781649734,
+      "sha256": "7a86711aea6940057f8b912dff8addf1f2821b82d0212f039c6423429b1b1ec8"
+    },
+    {
+      "key": "lightning.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_lightning_1_skill_hit",
+      "eventId": 1652429280,
+      "mediaIds": [
+        173731241,
+        711364335
+      ],
+      "chains": [
+        [
+          1652429280,
+          474889852,
+          368727712,
+          170441965,
+          440448905
+        ],
+        [
+          1652429280,
+          474889852,
+          368727712,
+          257041925,
+          69190553
+        ]
+      ],
+      "file": "assets/audio/lightning.hit_0.mp3",
+      "duration": 1.420125,
+      "trimStart": 0,
+      "gain": 6.013856389080065,
+      "sourceMixPeak": 0.133026123046875,
+      "sourceMixRms": 0.01805043958731764,
+      "sha256": "881348ede985f6ee3950992baf580221a8aa29f8bad2791bd435816c8ba00c25"
+    },
+    {
+      "key": "lightning.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_lightning_1_skill_hit",
+      "eventId": 1652429280,
+      "mediaIds": [
+        247082922,
+        283532621
+      ],
+      "chains": [
+        [
+          1652429280,
+          474889852,
+          368727712,
+          170441965,
+          500404778
+        ],
+        [
+          1652429280,
+          474889852,
+          368727712,
+          257041925,
+          554841684
+        ]
+      ],
+      "file": "assets/audio/lightning.hit_1.mp3",
+      "duration": 1.357625,
+      "trimStart": 0,
+      "gain": 6.1579516091144,
+      "sourceMixPeak": 0.129913330078125,
+      "sourceMixRms": 0.014949960942590516,
+      "sha256": "4fba7b3e79e80dcdcfd347723eedc41ef9f4fdd87721838e31cd9cc7bc65dfbe"
+    },
+    {
+      "key": "lightning.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_lightning_1_skill_hit",
+      "eventId": 1652429280,
+      "mediaIds": [
+        722874609,
+        1045944963
+      ],
+      "chains": [
+        [
+          1652429280,
+          474889852,
+          368727712,
+          170441965,
+          508954822
+        ],
+        [
+          1652429280,
+          474889852,
+          368727712,
+          257041925,
+          973045576
+        ]
+      ],
+      "file": "assets/audio/lightning.hit_2.mp3",
+      "duration": 1.2621875,
+      "trimStart": 0,
+      "gain": 6.040184331797235,
+      "sourceMixPeak": 0.1324462890625,
+      "sourceMixRms": 0.017278999366738528,
+      "sha256": "fb6038ca2fd3dc46eb18d622185d398969600beb372482c8e38635e28cd572f9"
+    },
+    {
+      "key": "lightning.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_lightning_1_build",
+      "eventId": 3107574181,
+      "mediaIds": [
+        4793667,
+        215859400,
+        277722303,
+        607415694,
+        710891037
+      ],
+      "chains": [
+        [
+          3107574181,
+          523253777,
+          286119119,
+          828811356
+        ],
+        [
+          3107574181,
+          523253777,
+          286119119,
+          629868896,
+          141167044,
+          627128465
+        ],
+        [
+          3107574181,
+          523253777,
+          286119119,
+          629868896,
+          590488501,
+          283773355
+        ],
+        [
+          3107574181,
+          523253777,
+          286119119,
+          629868896,
+          685514776,
+          30041054
+        ],
+        [
+          3107574181,
+          523253777,
+          286119119,
+          629868896,
+          1011190808,
+          375371339
+        ]
+      ],
+      "file": "assets/audio/lightning.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 11.457342657342657,
+      "sourceMixPeak": 0.06982421875,
+      "sourceMixRms": 0.01319172657108996,
+      "sha256": "77002733a4ff9ab87581d577a4b427c1e5c238f0ee31f211cab40bcdd74239df"
+    },
+    {
+      "key": "lightning.charge",
+      "variant": 0,
+      "event": "au_int_fac_battle_lightning_1_skill_charge",
+      "eventId": 925228805,
+      "mediaIds": [
+        882992083
+      ],
+      "chains": [
+        [
+          925228805,
+          602786905,
+          100307087,
+          164182837
+        ]
+      ],
+      "file": "assets/audio/lightning.charge_0.mp3",
+      "duration": 0.12,
+      "trimStart": 0,
+      "gain": 3.5592307149651004,
+      "sourceMixPeak": 0.160797119140625,
+      "sourceMixRms": 0.05057272607902996,
+      "sha256": "64677d85ddca1d021bd00820dbaf7a766c38aa4f85998aa631be9ee38d58dff3"
+    },
+    {
+      "key": "lightning2.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_lightning_2_skill",
+      "eventId": 3448220453,
+      "mediaIds": [
+        379151667,
+        785503063
+      ],
+      "chains": [
+        [
+          3448220453,
+          364853862,
+          413773554,
+          169234832,
+          183176776
+        ],
+        [
+          3448220453,
+          364853862,
+          413773554,
+          597498932,
+          307668774
+        ]
+      ],
+      "file": "assets/audio/lightning2.fire_0.mp3",
+      "duration": 1.6610625,
+      "trimStart": 0,
+      "gain": 1.9951594489687192,
+      "sourceMixPeak": 0.400970458984375,
+      "sourceMixRms": 0.06782483308286905,
+      "sha256": "5754f88e105befe28973131ab320b34f5124f6c9c730d198a330b2301852c3a2"
+    },
+    {
+      "key": "lightning2.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_lightning_2_skill",
+      "eventId": 3448220453,
+      "mediaIds": [
+        524003821,
+        1022259488
+      ],
+      "chains": [
+        [
+          3448220453,
+          364853862,
+          413773554,
+          169234832,
+          305408865
+        ],
+        [
+          3448220453,
+          364853862,
+          413773554,
+          597498932,
+          770586923
+        ]
+      ],
+      "file": "assets/audio/lightning2.fire_1.mp3",
+      "duration": 1.6610625,
+      "trimStart": 0,
+      "gain": 1.7632609134324344,
+      "sourceMixPeak": 0.453704833984375,
+      "sourceMixRms": 0.06815349807223713,
+      "sha256": "e54793661fbe64f9869bb75f971a627f451d166c404d50655a0871eaacfb6069"
+    },
+    {
+      "key": "lightning2.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_lightning_2_skill",
+      "eventId": 3448220453,
+      "mediaIds": [
+        490560101,
+        949607657
+      ],
+      "chains": [
+        [
+          3448220453,
+          364853862,
+          413773554,
+          169234832,
+          601058411
+        ],
+        [
+          3448220453,
+          364853862,
+          413773554,
+          597498932,
+          1023057936
+        ]
+      ],
+      "file": "assets/audio/lightning2.fire_2.mp3",
+      "duration": 1.6610625,
+      "trimStart": 0,
+      "gain": 2.007381882226817,
+      "sourceMixPeak": 0.398529052734375,
+      "sourceMixRms": 0.06593439362528013,
+      "sha256": "9bfea4f490598bb08aa13542e50ddf64a1d8e7098f81fb388bc767a2c89b3a5f"
+    },
+    {
+      "key": "lightning2.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_lightning_2_skill_hit",
+      "eventId": 3902568535,
+      "mediaIds": [
+        371278869,
+        450352784
+      ],
+      "chains": [
+        [
+          3902568535,
+          327523014,
+          515625636,
+          309210257,
+          548276623
+        ],
+        [
+          3902568535,
+          327523014,
+          515625636,
+          437812249,
+          76606840
+        ]
+      ],
+      "file": "assets/audio/lightning2.hit_0.mp3",
+      "duration": 1.29784375,
+      "trimStart": 0,
+      "gain": 1.4959995434571707,
+      "sourceMixPeak": 0.534759521484375,
+      "sourceMixRms": 0.07198983273487669,
+      "sha256": "f6fb002c33145ad52fc4ee7e6dbd7d7cd286abbc63895085c30ac2e0b34c3277"
+    },
+    {
+      "key": "lightning2.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_lightning_2_skill_hit",
+      "eventId": 3902568535,
+      "mediaIds": [
+        893461022,
+        926321660
+      ],
+      "chains": [
+        [
+          3902568535,
+          327523014,
+          515625636,
+          309210257,
+          757009960
+        ],
+        [
+          3902568535,
+          327523014,
+          515625636,
+          437812249,
+          171288381
+        ]
+      ],
+      "file": "assets/audio/lightning2.hit_1.mp3",
+      "duration": 1.29784375,
+      "trimStart": 0,
+      "gain": 1.2446892360286788,
+      "sourceMixPeak": 0.642730712890625,
+      "sourceMixRms": 0.07101112973070116,
+      "sha256": "2963cec2e2cd905f993d658aa22350a07d8c0fa714842ff8bf8c71e6a7ae2fd9"
+    },
+    {
+      "key": "lightning2.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_lightning_2_skill_hit",
+      "eventId": 3902568535,
+      "mediaIds": [
+        657921897,
+        1054760393
+      ],
+      "chains": [
+        [
+          3902568535,
+          327523014,
+          515625636,
+          309210257,
+          875213515
+        ],
+        [
+          3902568535,
+          327523014,
+          515625636,
+          437812249,
+          814813640
+        ]
+      ],
+      "file": "assets/audio/lightning2.hit_2.mp3",
+      "duration": 1.29784375,
+      "trimStart": 0,
+      "gain": 1.3616455433201746,
+      "sourceMixPeak": 0.5875244140625,
+      "sourceMixRms": 0.0741081017038754,
+      "sha256": "dd9bfbcd4a342e55b0b3d5ac565580ab9bb1e138da6234fc23a62d67280ba9c4"
+    },
+    {
+      "key": "lightning2.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_lightning_2_build",
+      "eventId": 840419178,
+      "mediaIds": [
+        4793667,
+        215859400,
+        277722303,
+        607415694,
+        710891037
+      ],
+      "chains": [
+        [
+          840419178,
+          46973136,
+          286119119,
+          828811356
+        ],
+        [
+          840419178,
+          46973136,
+          286119119,
+          629868896,
+          141167044,
+          627128465
+        ],
+        [
+          840419178,
+          46973136,
+          286119119,
+          629868896,
+          590488501,
+          283773355
+        ],
+        [
+          840419178,
+          46973136,
+          286119119,
+          629868896,
+          685514776,
+          30041054
+        ],
+        [
+          840419178,
+          46973136,
+          286119119,
+          629868896,
+          1011190808,
+          375371339
+        ]
+      ],
+      "file": "assets/audio/lightning2.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 11.457342657342657,
+      "sourceMixPeak": 0.06982421875,
+      "sourceMixRms": 0.01319172657108996,
+      "sha256": "77002733a4ff9ab87581d577a4b427c1e5c238f0ee31f211cab40bcdd74239df"
+    },
+    {
+      "key": "lightning2.charge",
+      "variant": 0,
+      "event": "au_int_fac_battle_lightning_2_skill_charge",
+      "eventId": 3541914436,
+      "mediaIds": [
+        509687300,
+        619190526
+      ],
+      "chains": [
+        [
+          3541914436,
+          586364306,
+          752966341,
+          276506771,
+          76266156
+        ],
+        [
+          3541914436,
+          586364306,
+          752966341,
+          727715043,
+          79135993
+        ]
+      ],
+      "file": "assets/audio/lightning2.charge_0.mp3",
+      "duration": 0.12,
+      "trimStart": 0,
+      "gain": 11.309059534081104,
+      "sourceMixPeak": 0.07073974609375,
+      "sourceMixRms": 0.014894380071222044,
+      "sha256": "8798fbe7b4543b5b9ad2a22f013e94e3c7d3ef751d16ed2eefc9585771b5a4e7"
+    },
+    {
+      "key": "sniper.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_sniper_1_skill",
+      "eventId": 3490203921,
+      "mediaIds": [
+        73060753,
+        286264850,
+        304386672,
+        777608966,
+        893825177
+      ],
+      "chains": [
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          943773380,
+          108058234
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          136780729,
+          44847813
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          490740009,
+          69776080
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          813426727,
+          277922844
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          949808054,
+          138412897
+        ]
+      ],
+      "file": "assets/audio/sniper.fire_0.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 3.580223982518438,
+      "sourceMixPeak": 0.22344970703125,
+      "sourceMixRms": 0.027618605919651863,
+      "sha256": "ebac06d17ec50fe7fb67f9feb42a57bcc9a9f177ac2d3a86ffaafd58fdd0842d"
+    },
+    {
+      "key": "sniper.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_sniper_1_skill",
+      "eventId": 3490203921,
+      "mediaIds": [
+        90865006,
+        495358246,
+        572743555,
+        746521085,
+        852701036
+      ],
+      "chains": [
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          943773380,
+          692603301
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          136780729,
+          533755633
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          490740009,
+          504556349
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          813426727,
+          953603132
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          949808054,
+          550749781
+        ]
+      ],
+      "file": "assets/audio/sniper.fire_1.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 2.8401300108342364,
+      "sourceMixPeak": 0.28167724609375,
+      "sourceMixRms": 0.02779301154886651,
+      "sha256": "a1bc793651c51fe2ba5490eadefacc057c14f24da8e8632e30432a487fb2084f"
+    },
+    {
+      "key": "sniper.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_sniper_1_skill",
+      "eventId": 3490203921,
+      "mediaIds": [
+        13284034,
+        29891003,
+        324730862,
+        793173233,
+        891551951
+      ],
+      "chains": [
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          943773380,
+          861940704
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          136780729,
+          903168295
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          490740009,
+          522721017
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          813426727,
+          1037233701
+        ],
+        [
+          3490203921,
+          151794706,
+          1067966882,
+          71343629,
+          949808054,
+          659345303
+        ]
+      ],
+      "file": "assets/audio/sniper.fire_2.mp3",
+      "duration": 2.42178125,
+      "trimStart": 0,
+      "gain": 3.4776333244892546,
+      "sourceMixPeak": 0.23004150390625,
+      "sourceMixRms": 0.0286878178073361,
+      "sha256": "3ae1c5e213a946e5bbc853f522d2906049bcfd7d95cacee8910d854c80199917"
+    },
+    {
+      "key": "sniper.hit",
+      "variant": 0,
+      "event": "au_int_fac_battle_sniper_1_skill_hit",
+      "eventId": 3192959891,
+      "mediaIds": [
+        265522220,
+        289504958,
+        798548380
+      ],
+      "chains": [
+        [
+          3192959891,
+          680952782,
+          521803363,
+          284497872,
+          61870692
+        ],
+        [
+          3192959891,
+          680952782,
+          521803363,
+          332941389,
+          244032614
+        ],
+        [
+          3192959891,
+          680952782,
+          521803363,
+          515639041,
+          96214278
+        ]
+      ],
+      "file": "assets/audio/sniper.hit_0.mp3",
+      "duration": 1.9166875,
+      "trimStart": 0,
+      "gain": 3.642406558288176,
+      "sourceMixPeak": 0.219635009765625,
+      "sourceMixRms": 0.02269736014441319,
+      "sha256": "78478ca43e38eb0cc3435775484612a10b06baf8e2a08f1b7f4b77d81d4b7719"
+    },
+    {
+      "key": "sniper.hit",
+      "variant": 1,
+      "event": "au_int_fac_battle_sniper_1_skill_hit",
+      "eventId": 3192959891,
+      "mediaIds": [
+        501577272,
+        639394962,
+        964363722
+      ],
+      "chains": [
+        [
+          3192959891,
+          680952782,
+          521803363,
+          284497872,
+          142190967
+        ],
+        [
+          3192959891,
+          680952782,
+          521803363,
+          332941389,
+          324034148
+        ],
+        [
+          3192959891,
+          680952782,
+          521803363,
+          515639041,
+          224463765
+        ]
+      ],
+      "file": "assets/audio/sniper.hit_1.mp3",
+      "duration": 1.95,
+      "trimStart": 0,
+      "gain": 2.8382849718492857,
+      "sourceMixPeak": 0.2818603515625,
+      "sourceMixRms": 0.026209630272856027,
+      "sha256": "2a2162fc6b9a38b4c0a14b3a5b2cc9c99701acd2d4f5a8a5544a1b8db00130ba"
+    },
+    {
+      "key": "sniper.hit",
+      "variant": 2,
+      "event": "au_int_fac_battle_sniper_1_skill_hit",
+      "eventId": 3192959891,
+      "mediaIds": [
+        99936921,
+        262535527,
+        535016031
+      ],
+      "chains": [
+        [
+          3192959891,
+          680952782,
+          521803363,
+          284497872,
+          653992914
+        ],
+        [
+          3192959891,
+          680952782,
+          521803363,
+          332941389,
+          330612925
+        ],
+        [
+          3192959891,
+          680952782,
+          521803363,
+          515639041,
+          305516858
+        ]
+      ],
+      "file": "assets/audio/sniper.hit_2.mp3",
+      "duration": 1.9166875,
+      "trimStart": 0,
+      "gain": 4.078158058494089,
+      "sourceMixPeak": 0.1961669921875,
+      "sourceMixRms": 0.023965577926054662,
+      "sha256": "6173bbd2a2e9ce121135dca2fd7e53ed5c72a9a6938dc950cd564a89b948f989"
+    },
+    {
+      "key": "sniper.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_sniper_1_build",
+      "eventId": 3558184862,
+      "mediaIds": [
+        4793667,
+        215859400,
+        277722303,
+        414539137,
+        607415694
+      ],
+      "chains": [
+        [
+          3558184862,
+          754985353,
+          1041713624,
+          393578454
+        ],
+        [
+          3558184862,
+          754985353,
+          1041713624,
+          700707553,
+          362176104,
+          646400381
+        ],
+        [
+          3558184862,
+          754985353,
+          1041713624,
+          700707553,
+          863624092,
+          1042934286
+        ],
+        [
+          3558184862,
+          754985353,
+          1041713624,
+          700707553,
+          923042839,
+          78631393
+        ],
+        [
+          3558184862,
+          754985353,
+          1041713624,
+          700707553,
+          1043494390,
+          961243475
+        ]
+      ],
+      "file": "assets/audio/sniper.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 9.918426031025351,
+      "sourceMixPeak": 0.080657958984375,
+      "sourceMixRms": 0.010375442180237627,
+      "sha256": "90bd4a1b80d252727f517c46033e781e5f28c41d9d067c05b1b55a4f6a14460c"
+    },
+    {
+      "key": "debuff.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_debuff_1_skill",
+      "eventId": 544661810,
+      "mediaIds": [
+        93685195,
+        174817357,
+        399921842
+      ],
+      "chains": [
+        [
+          544661810,
+          101558846,
+          504180082,
+          105662760,
+          117555892
+        ],
+        [
+          544661810,
+          101558846,
+          504180082,
+          147078675,
+          64605859
+        ],
+        [
+          544661810,
+          101558846,
+          504180082,
+          574843606,
+          160708435
+        ]
+      ],
+      "file": "assets/audio/debuff.fire_0.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 2.1508368887430263,
+      "sourceMixPeak": 0.3719482421875,
+      "sourceMixRms": 0.04122306819910963,
+      "sha256": "1c4e02b3b9a110c8434ba347b61878d54f463861800c72e6620d3e4d08a2a2d0"
+    },
+    {
+      "key": "debuff.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_debuff_1_skill",
+      "eventId": 544661810,
+      "mediaIds": [
+        41697298,
+        385378074,
+        948915300
+      ],
+      "chains": [
+        [
+          544661810,
+          101558846,
+          504180082,
+          105662760,
+          844415236
+        ],
+        [
+          544661810,
+          101558846,
+          504180082,
+          147078675,
+          682042807
+        ],
+        [
+          544661810,
+          101558846,
+          504180082,
+          574843606,
+          782579268
+        ]
+      ],
+      "file": "assets/audio/debuff.fire_1.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 2.2127458428294084,
+      "sourceMixPeak": 0.361541748046875,
+      "sourceMixRms": 0.03827182542824636,
+      "sha256": "b06986b412b8cdaa0cd1cce1c6117d9dcf518137e90887b0048d0ec7275709cc"
+    },
+    {
+      "key": "debuff.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_debuff_1_skill",
+      "eventId": 544661810,
+      "mediaIds": [
+        281244651,
+        472358002,
+        989938064
+      ],
+      "chains": [
+        [
+          544661810,
+          101558846,
+          504180082,
+          105662760,
+          938386206
+        ],
+        [
+          544661810,
+          101558846,
+          504180082,
+          147078675,
+          924170933
+        ],
+        [
+          544661810,
+          101558846,
+          504180082,
+          574843606,
+          788658377
+        ]
+      ],
+      "file": "assets/audio/debuff.fire_2.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 2.014787487510568,
+      "sourceMixPeak": 0.397064208984375,
+      "sourceMixRms": 0.03796972256962479,
+      "sha256": "2783bb7ebab3002a353958d1e3852a55c0cf545138b4f07544048af44dfba560"
+    },
+    {
+      "key": "debuff.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_debuff_1_build",
+      "eventId": 1631497521,
+      "mediaIds": [
+        4793667,
+        215859400,
+        277722303,
+        370985609,
+        607415694
+      ],
+      "chains": [
+        [
+          1631497521,
+          993517210,
+          1057272105,
+          327402938
+        ],
+        [
+          1631497521,
+          993517210,
+          1057272105,
+          282749580,
+          32835891,
+          208716826
+        ],
+        [
+          1631497521,
+          993517210,
+          1057272105,
+          282749580,
+          209395948,
+          216330191
+        ],
+        [
+          1631497521,
+          993517210,
+          1057272105,
+          282749580,
+          248312252,
+          312351703
+        ],
+        [
+          1631497521,
+          993517210,
+          1057272105,
+          282749580,
+          330450099,
+          809918628
+        ]
+      ],
+      "file": "assets/audio/debuff.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 9.752380952380953,
+      "sourceMixPeak": 0.08203125,
+      "sourceMixRms": 0.013016930287892914,
+      "sha256": "c78e566a12155a990db5c0d998f81b13a065b2799d3f97fdc6622c88237857f4"
+    },
+    {
+      "key": "trap.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_trap1_blast_start",
+      "eventId": 2233608062,
+      "mediaIds": [
+        421680535,
+        582177547,
+        941660904,
+        974289803
+      ],
+      "chains": [
+        [
+          2233608062,
+          115146138,
+          392523496,
+          238571928,
+          187625514
+        ],
+        [
+          2233608062,
+          115146138,
+          392523496,
+          803577149,
+          70534735
+        ],
+        [
+          2233608062,
+          299041991,
+          759095634,
+          136179772,
+          15170872
+        ],
+        [
+          2233608062,
+          299041991,
+          759095634,
+          1000295775,
+          260171673
+        ]
+      ],
+      "file": "assets/audio/trap.fire_0.mp3",
+      "duration": 3.16,
+      "trimStart": 0,
+      "gain": 3.834196284920287,
+      "sourceMixPeak": 0.208648681640625,
+      "sourceMixRms": 0.036397716578372236,
+      "sha256": "61644d9df841a1a4f7722ccf64bf85d8f7e5518b34aeff4ee200cc4a137660d1"
+    },
+    {
+      "key": "trap.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_trap1_blast_start",
+      "eventId": 2233608062,
+      "mediaIds": [
+        454843320,
+        687081216,
+        913409838,
+        1039683408
+      ],
+      "chains": [
+        [
+          2233608062,
+          115146138,
+          392523496,
+          238571928,
+          215400400
+        ],
+        [
+          2233608062,
+          115146138,
+          392523496,
+          803577149,
+          506843573
+        ],
+        [
+          2233608062,
+          299041991,
+          759095634,
+          136179772,
+          370418525
+        ],
+        [
+          2233608062,
+          299041991,
+          759095634,
+          1000295775,
+          744182338
+        ]
+      ],
+      "file": "assets/audio/trap.fire_1.mp3",
+      "duration": 3.16,
+      "trimStart": 0,
+      "gain": 4.241126031386507,
+      "sourceMixPeak": 0.188629150390625,
+      "sourceMixRms": 0.037739749754691035,
+      "sha256": "0580751f5d3805b9c5d8a2124cbb79f22d741d68dd32598c072f53774c93abb2"
+    },
+    {
+      "key": "trap.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_trap1_blast_start",
+      "eventId": 2233608062,
+      "mediaIds": [
+        106005443,
+        158735682,
+        444187994,
+        823509473
+      ],
+      "chains": [
+        [
+          2233608062,
+          115146138,
+          392523496,
+          238571928,
+          270814084
+        ],
+        [
+          2233608062,
+          115146138,
+          392523496,
+          803577149,
+          662105176
+        ],
+        [
+          2233608062,
+          299041991,
+          759095634,
+          136179772,
+          881986006
+        ],
+        [
+          2233608062,
+          299041991,
+          759095634,
+          1000295775,
+          765737764
+        ]
+      ],
+      "file": "assets/audio/trap.fire_2.mp3",
+      "duration": 3.16,
+      "trimStart": 0,
+      "gain": 4.427360243202162,
+      "sourceMixPeak": 0.180694580078125,
+      "sourceMixRms": 0.036836501743243925,
+      "sha256": "0778ee0e642642c116c8f5976441a2c1f221f1a1010df7c9cde2432cbcaeb9d6"
+    },
+    {
+      "key": "trap.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_trap_1_build",
+      "eventId": 355664574,
+      "mediaIds": [
+        4793667,
+        202474091,
+        215859400,
+        277722303,
+        607415694
+      ],
+      "chains": [
+        [
+          355664574,
+          742716162,
+          998146741,
+          332337053
+        ],
+        [
+          355664574,
+          742716162,
+          998146741,
+          475345940,
+          188363126,
+          109890892
+        ],
+        [
+          355664574,
+          742716162,
+          998146741,
+          475345940,
+          278757036,
+          618360085
+        ],
+        [
+          355664574,
+          742716162,
+          998146741,
+          475345940,
+          383728812,
+          13327935
+        ],
+        [
+          355664574,
+          742716162,
+          998146741,
+          475345940,
+          431833131,
+          724682337
+        ]
+      ],
+      "file": "assets/audio/trap.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 9.781492537313433,
+      "sourceMixPeak": 0.081787109375,
+      "sourceMixRms": 0.013080102946414115,
+      "sha256": "c1e0d3be0ee6e1921e4eea7a3b408878bc3538d6da13d985a1dc2f3cb55bcd11"
+    },
+    {
+      "key": "trap.end",
+      "variant": 0,
+      "event": "au_int_fac_battle_trap1_blast_end",
+      "eventId": 3917282485,
+      "mediaIds": [
+        69794972,
+        100211893
+      ],
+      "chains": [
+        [
+          3917282485,
+          564197509,
+          1032407544,
+          219180470,
+          42778816
+        ],
+        [
+          3917282485,
+          564197509,
+          1032407544,
+          812570548,
+          76740279
+        ]
+      ],
+      "file": "assets/audio/trap.end_0.mp3",
+      "duration": 0.8668125,
+      "trimStart": 0,
+      "gain": 4.68281529117542,
+      "sourceMixPeak": 0.17083740234375,
+      "sourceMixRms": 0.01937655997807673,
+      "sha256": "e8f38b7d3f8c6561f50f775c9a192323c4cfdefb807d98193b6183d77ea70c53"
+    },
+    {
+      "key": "trap.end",
+      "variant": 1,
+      "event": "au_int_fac_battle_trap1_blast_end",
+      "eventId": 3917282485,
+      "mediaIds": [
+        496912606,
+        961213551
+      ],
+      "chains": [
+        [
+          3917282485,
+          564197509,
+          1032407544,
+          219180470,
+          208334433
+        ],
+        [
+          3917282485,
+          564197509,
+          1032407544,
+          812570548,
+          442432349
+        ]
+      ],
+      "file": "assets/audio/trap.end_1.mp3",
+      "duration": 0.8668125,
+      "trimStart": 0,
+      "gain": 4.16233724992061,
+      "sourceMixPeak": 0.19219970703125,
+      "sourceMixRms": 0.025668010530870613,
+      "sha256": "e6f425384a5efb9c358a0eb5293588ea9f1e9099f7d4f6dbfdc357e8c5ecfbdb"
+    },
+    {
+      "key": "trap.end",
+      "variant": 2,
+      "event": "au_int_fac_battle_trap1_blast_end",
+      "eventId": 3917282485,
+      "mediaIds": [
+        997911763,
+        1015384134
+      ],
+      "chains": [
+        [
+          3917282485,
+          564197509,
+          1032407544,
+          219180470,
+          242066882
+        ],
+        [
+          3917282485,
+          564197509,
+          1032407544,
+          812570548,
+          558004412
+        ]
+      ],
+      "file": "assets/audio/trap.end_2.mp3",
+      "duration": 0.8668125,
+      "trimStart": 0,
+      "gain": 5.794518125552608,
+      "sourceMixPeak": 0.1380615234375,
+      "sourceMixRms": 0.01963597247792119,
+      "sha256": "9db20db9dece347ba9e9e0e9c981af941b6f872f4e3c885ba0c642acbe1aa3af"
+    },
+    {
+      "key": "rocket.fire",
+      "variant": 0,
+      "event": "au_int_fac_battle_rocket_1_skill",
+      "eventId": 3902195876,
+      "mediaIds": [
+        222852591,
+        252903958
+      ],
+      "chains": [
+        [
+          3902195876,
+          132477744,
+          191615216,
+          516844924,
+          16124800
+        ],
+        [
+          3902195876,
+          132477744,
+          191615216,
+          213347020,
+          267881163,
+          62428977
+        ]
+      ],
+      "file": "assets/audio/rocket.fire_0.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 3.047831647482851,
+      "sourceMixPeak": 0.262481689453125,
+      "sourceMixRms": 0.05440440348471969,
+      "sha256": "740d64f4dbd3ddeafd01a19c6ad33a65002882311f7a9d7fbc5b6b0974ec933f"
+    },
+    {
+      "key": "rocket.fire",
+      "variant": 1,
+      "event": "au_int_fac_battle_rocket_1_skill",
+      "eventId": 3902195876,
+      "mediaIds": [
+        647763808,
+        1072088232
+      ],
+      "chains": [
+        [
+          3902195876,
+          132477744,
+          191615216,
+          516844924,
+          343029074
+        ],
+        [
+          3902195876,
+          132477744,
+          191615216,
+          213347020,
+          267881163,
+          787254730
+        ]
+      ],
+      "file": "assets/audio/rocket.fire_1.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 3.019396452430316,
+      "sourceMixPeak": 0.26495361328125,
+      "sourceMixRms": 0.0537678409320515,
+      "sha256": "2204780aaeb0ce9676d10e89e4eab9c2cca0573d1f523a5018a4ab507524e9c6"
+    },
+    {
+      "key": "rocket.fire",
+      "variant": 2,
+      "event": "au_int_fac_battle_rocket_1_skill",
+      "eventId": 3902195876,
+      "mediaIds": [
+        274382825,
+        473388895
+      ],
+      "chains": [
+        [
+          3902195876,
+          132477744,
+          191615216,
+          516844924,
+          1069701159
+        ],
+        [
+          3902195876,
+          132477744,
+          191615216,
+          213347020,
+          267881163,
+          799000487
+        ]
+      ],
+      "file": "assets/audio/rocket.fire_2.mp3",
+      "duration": 2.5,
+      "trimStart": 0,
+      "gain": 3.3157538233793815,
+      "sourceMixPeak": 0.22412109375,
+      "sourceMixRms": 0.0542862979545767,
+      "sha256": "3b1c7c350f6b106e0ad9996c1f1aeb482bb376f80669e7c975b0d74d8e72305d"
+    },
+    {
+      "key": "rocket.deploy",
+      "variant": 0,
+      "event": "au_int_fac_battle_rocket_1_build",
+      "eventId": 2265535039,
+      "mediaIds": [
+        4793667,
+        215859400,
+        277722303,
+        607415694,
+        640678184
+      ],
+      "chains": [
+        [
+          2265535039,
+          402039529,
+          627537889,
+          743108664
+        ],
+        [
+          2265535039,
+          402039529,
+          627537889,
+          665325187,
+          220824537,
+          728755856
+        ],
+        [
+          2265535039,
+          402039529,
+          627537889,
+          665325187,
+          808798019,
+          945566745
+        ],
+        [
+          2265535039,
+          402039529,
+          627537889,
+          665325187,
+          812682242,
+          685445234
+        ],
+        [
+          2265535039,
+          402039529,
+          627537889,
+          665325187,
+          1042487219,
+          554443755
+        ]
+      ],
+      "file": "assets/audio/rocket.deploy_0.mp3",
+      "duration": 1.8775625,
+      "trimStart": 0,
+      "gain": 9.172288313505948,
+      "sourceMixPeak": 0.08721923828125,
+      "sourceMixRms": 0.016069636460931246,
+      "sha256": "000a99a1618f3c6a81f4e1ed707c1da0e3e91116f04eaf8a71ccd9421dbe0fa5"
+    },
+    {
+      "key": "rodin.charge",
+      "variant": 0,
+      "event": "au_eny_0051_rodin_skill01_charge_a",
+      "eventId": 1688549508,
+      "mediaIds": [
+        87788228,
+        191801544,
+        348615332
+      ],
+      "chains": [
+        [
+          1688549508,
+          460530367,
+          779285723
+        ],
+        [
+          1688549508,
+          185986340,
+          396879595,
+          563187627,
+          276948189
+        ],
+        [
+          1688549508,
+          185986340,
+          396879595,
+          672206973,
+          46151862
+        ]
+      ],
+      "file": "assets/audio/rodin.charge_0.mp3",
+      "duration": 1.2,
+      "trimStart": 0,
+      "gain": 1.7291820580474935,
+      "sourceMixPeak": 0.462646484375,
+      "sourceMixRms": 0.10171847209664076,
+      "sha256": "545b3cc31012c2e3425f88a4510411259e18604fa799c640727c7753c79685e3"
+    },
+    {
+      "key": "rodin.slam",
+      "variant": 0,
+      "event": "au_eny_0051_rodin_skill01_exp",
+      "eventId": 2567664137,
+      "mediaIds": [
+        103920851,
+        262628404,
+        685743308,
+        864200275,
+        947348439
+      ],
+      "chains": [
+        [
+          2567664137,
+          314959212,
+          209492614
+        ],
+        [
+          2567664137,
+          152186974,
+          224058709,
+          157392407
+        ],
+        [
+          2567664137,
+          835878089,
+          1026593299,
+          147039717,
+          169098998
+        ],
+        [
+          2567664137,
+          835878089,
+          1026593299,
+          259913144,
+          353183093
+        ],
+        [
+          2567664137,
+          835878089,
+          1026593299,
+          393065260,
+          115830206
+        ]
+      ],
+      "file": "assets/audio/rodin.slam_0.mp3",
+      "duration": 1.4,
+      "trimStart": 0,
+      "gain": 2.1130420764146383,
+      "sourceMixPeak": 0.37860107421875,
+      "sourceMixRms": 0.06669185774647206,
+      "sha256": "57d9183632af2f92255c5749da3ec712a483b57098699e0c2b03d7a3515a91c9"
+    },
+    {
+      "key": "rodin.flameCharge",
+      "variant": 0,
+      "event": "au_eny_0051_rodin_skill13_charge",
+      "eventId": 2515223611,
+      "mediaIds": [
+        815719930
+      ],
+      "chains": [
+        [
+          2515223611,
+          460388880,
+          116438623,
+          815733766
+        ]
+      ],
+      "file": "assets/audio/rodin.flameCharge_0.mp3",
+      "duration": 1.0,
+      "trimStart": 0,
+      "gain": 1.0780808100160606,
+      "sourceMixPeak": 0.7373046875,
+      "sourceMixRms": 0.16696336520201902,
+      "sha256": "d5b740650f64716d38ab51def9a24bd580881e59fe0fadfcc14f162f6e7a0637"
+    },
+    {
+      "key": "rodin.flame",
+      "variant": 0,
+      "event": "au_eny_0051_rodin_skill13_fire",
+      "eventId": 1745798067,
+      "mediaIds": [
+        334794293
+      ],
+      "chains": [
+        [
+          1745798067,
+          1029068352,
+          974123581,
+          379568305
+        ]
+      ],
+      "file": "assets/audio/rodin.flame_0.mp3",
+      "duration": 1.6,
+      "trimStart": 0,
+      "gain": 0.9442547366904402,
+      "sourceMixPeak": 0.84722900390625,
+      "sourceMixRms": 0.16858992474994372,
+      "sha256": "f3fe328e74a4a9782d1b46609f955d504bab9e5b0db2a041f500d3de425c4633"
+    }
+  ]
+}

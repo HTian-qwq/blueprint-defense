@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "name": "EnemyAbilityDescTable",
+      "source": "Persistent",
+      "Version": 25024360,
+      "originalPath": "Data/TableCfg/EnemyAbilityDescTable.bytes",
+      "rawSha256": "ED79A57AC9055424761498C29F643E4B7BDBF6CFB96E4AEBD704C3592672F11F"
+    }
+  ],
+  "missing": []
+}

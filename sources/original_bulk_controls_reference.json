@@ -1,0 +1,553 @@
+{
+  "source": "F:\\4\\data\\MonoBehaviour\\FactoryDefaultInputSetting.json",
+  "sha256": "51f07cc0da86324035596707a451ed45a5b80bcaedd944be4990276d88c279b4",
+  "actions": {
+    "fac_enter_dismantle_mode": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 120,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 3,
+        "blockOtherTiming": 0,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": 0,
+      "overrideTextId": "",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 1,
+        "blockOtherTiming": 0,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 1,
+        "blockOtherTiming": 0,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_rotate_device": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 114,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 17,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": 0,
+      "overrideTextId": "LUA_FAC_BUILD_MODE_ROTATE",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 1,
+        "blockOtherTiming": 0,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 1,
+        "blockOtherTiming": 0,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_batch_select": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 323,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 11,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": -90,
+      "overrideTextId": "",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_batch_drag_select": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 323,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": 0,
+      "overrideTextId": "",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_batch_drag_unselect": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 324,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": 0,
+      "overrideTextId": "",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_batch_mode_save_bp": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 115,
+        "useCtrl": 1,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 14,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": 0,
+      "overrideTextId": "",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_batch_mode_move": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 109,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 13,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": 0,
+      "overrideTextId": "",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_batch_mode_copy": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 99,
+        "useCtrl": 1,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 22,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": 0,
+      "overrideTextId": "",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_exit_batch_select_mode": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 120,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 12,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": -100,
+      "overrideTextId": "",
+      "needSecond": 1,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 330,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    },
+    "fac_batch_mode_del": {
+      "primaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 102,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "primaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 20,
+        "modifyKey": 0
+      },
+      "priority": 0,
+      "needShowControllerHint": 0,
+      "controllerHintPriority": 0,
+      "overrideTextId": "",
+      "needSecond": 0,
+      "hideSecondInKeyHint": 0,
+      "secondaryKeyboardInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "useCtrl": 0,
+        "useShift": 0,
+        "useAlt": 0
+      },
+      "secondaryGamepadInput": {
+        "timingType": 2,
+        "blockOtherTiming": 1,
+        "longPressTime": -1.0,
+        "enableContinuousTrigger": 0,
+        "continuousTriggerType": 0,
+        "overrideKeyIconName": "",
+        "key": 0,
+        "modifyKey": 0
+      }
+    }
+  },
+  "verifiedKeys": {
+    "enterExit": "X",
+    "addDrag": "Mouse0 / left",
+    "subtractDrag": "Mouse1 / right",
+    "pan": "Mouse2 / middle",
+    "move": "M",
+    "dismantle": "F"
+  },
+  "luaSource": "F:\\4\\release-win\\output\\Lua\\Data\\LuaScripts",
+  "selection": "FacBuildingInteractCtrl.lua:1768-1953 snapshots the old selection; normal drag unions and reverse drag subtracts. Mouse1 selects reverse; Mouse2 pans. _ClickScreenInBatchMode toggles a single target. _OnLongPressScreen triggers group movement.",
+  "demolition": "FacDestroyModeCtrl.lua:294-347 requests confirmation at FacConst.BATCH_DEL_HINT_COUNT = 5; otherwise dismantles directly.",
+  "implementedScope": [
+    "batch entry/exit",
+    "click toggle",
+    "additive/reverse marquee",
+    "live selection preview and size",
+    "middle-button pan",
+    "M and long-press movement",
+    "F demolition with 5+ confirmation"
+  ],
+  "adaptation": [
+    "B, Shift-selection and Delete/Backspace remain optional aliases",
+    "long-press threshold is 450 ms in the web demo; exact engine default not recovered",
+    "fan economy refund and fixed core/warehouse restrictions retained",
+    "blueprint storage, batch copy and power switching are outside this interaction update"
+  ],
+  "officialLongPressReference": "https://endfield.hypergryph.com/news/7225"
+}

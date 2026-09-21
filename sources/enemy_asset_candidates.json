@@ -1,0 +1,1438 @@
+[
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0027_agscorp.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0081_ruanyi.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0039_agcanno.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0058_agdisk.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0030_lbmob2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0124_kltdcap.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0062_paletent.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0026_agrange2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0064_agrange2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_weekraid_enemy_drop_1.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/activity/activitydungeonactmonsterpanel.prefab",
+    "bundle": "main/25410867636a04bf67e862ae.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0101_agfly2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0035_lbhunt3.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_erhound_1_agmelee_1_moss_1_1.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0061_palecore.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0063_agmelee2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0032_lbmob4.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0106_wgthorns2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0090_wgabyss.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0055_hscrane.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0018_lbtough.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0049_rogue.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/settlement/deco_settlemainmap_enemy1.png",
+    "bundle": "main/3751071e0435d5502779c5b9.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0029_lbmob.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0018_lbtough.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0096_hsmob2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0068_lbtough2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0023_aghornb.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0070_agscorp2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0007_mimicw.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_weekraid_enemy_drop_5.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/seasontower/seasontowerenemybuffpopuppanel.prefab",
+    "bundle": "main/53e1cbd482419b76f9179b11.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0128_babyents.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0090_wgabyss.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0060_lbmad.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_weekraid_enemy_drop_3.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0029_lbmob.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0117_klhound.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0104_hsrogue2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_drop_enemycommon_1.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0083_hstiger.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_weekraid_enemy_drop_9.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0060_lbmad.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0099_slimeml2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0120_klbear.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0100_slimerg2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0071_sandb.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/settlement/enemycell_selected_loop.anim",
+    "bundle": "main/0663db3d4bd64d7935f0016e.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/battle/battleactionpanel/bg_enemy_vigilance01.png",
+    "bundle": "main/2c2c37ac93891748ac3078f0.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0103_hshunt2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/bufficon/icon_battle_eny_resist_inflict_fire.png",
+    "bundle": "main/f761d6897c6cea0b90b7a422.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0076_agfly.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medalicon/achv_bat_eny_building_kill_lv02.png",
+    "bundle": "main/1b72f5296d0b5f9b8770a342.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0108_slbomb2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0112_jzmonk.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0064_agrange2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0046_lbshamman.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0053_hsmob.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0026_agrange2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/battle/battleenemyinfopanel.prefab",
+    "bundle": "main/98f2ecc09d1c143f1e282a7d.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/settlement/enemycell_selectnode_in.anim",
+    "bundle": "main/6254f44be2e3f104e484ad3c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0104_hsrogue2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0091_wgshoal.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0065_lbmob2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/dungeon/dungeoncopy/commonenemypopuprightchange_in.anim",
+    "bundle": "main/aee183a234dfba75e953b8df.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0058_agdisk.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/guide/guide_pic_monster_heart_2.png",
+    "bundle": "main/79f6b03f8ed3fba3a40a53a2.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medalicon/achv_bat_eny_ace_lv02.png",
+    "bundle": "main/1b72f5296d0b5f9b8770a342.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/outofscreentargets/icon_enemy_01.png",
+    "bundle": "main/0063235bcab325813e8690cd.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0046_lbshamman.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/settlement/deco_defense_monster.png",
+    "bundle": "main/913faa21cd73b1697fc68eb8.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/dungeon/icon_enemy.png",
+    "bundle": "main/3d2af1fa0a153523be1f1938.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0064_agrange2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0101_agfly2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0018_lbtough.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/adventure/deco_adventure_d_brushingmonsters.png",
+    "bundle": "main/373813aef43c9726a8baaf88.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0113_jzogre.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0034_lbhunt2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0073_slimerg.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/battle/widgets/enemyfootbar.prefab",
+    "bundle": "main/65b8afc8870df1b19d2b265f.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0045_agtrinit.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/tatget_003_expand.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/battle/battleenemyinfo/prgs_hp_large_bg.png",
+    "bundle": "main/b7cd384b72849eb43a540865.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/tatget_002_endurance.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0063_agmelee2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/dungeonnew/dungeonentry/deco_dungeonentry_enemynew_3.png",
+    "bundle": "main/b946eccfdd458cca4f9ee61c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0107_wgshoal2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0105_wgslime2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0094_hsfly.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0061_palecore.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0028_agscorp2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0039_agcanno.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0127_bigents.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/tatget_005_shield.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0123_klcap.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0052_palesent.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0075_lbroshan.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/tatget_001_normal.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0054_hsmino.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0125_fdcentur.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0109_hshog2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0054_hsmino.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/wiki/wiki_enemytakeninfo_in.anim",
+    "bundle": "main/16b229418b09684d853bd47f.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/racingdungeonentry/racingdungeonprotalpanel/racing_portal_monster_bg1.png",
+    "bundle": "main/e6ae1a7c6fd57369d13e5bd7.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/activity/activitydungeonactmonster/activitydungeonactmonster_in.anim",
+    "bundle": "main/e8cbb1d622a91d4300953ba8.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_slimeml_1_erhound_1_agfly_1_1.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0077_agshield.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0074_lbshield.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/activity/activitydungeonactmonster/activitydungeonactmonster_out.anim",
+    "bundle": "main/11bb9dae8eb1669b6fd6a460.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0122_kltdbud.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/dungeonnew/dungeonentry/deco_dungeonentry_enemynew_1.png",
+    "bundle": "main/52224adb9bbd8e692ee53b71.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/factory/marker/icon_social_enemy.png",
+    "bundle": "main/a1761bf114a5dc0cb248cbee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_drop_lbtough_1.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0062_paletent.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0051_rodin.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0128_babyents.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/bufficon/icon_battle_eny_resist_inflict_natural.png",
+    "bundle": "main/f761d6897c6cea0b90b7a422.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0058_agdisk.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0007_mimicw.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0069_aghornb2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/common/widgets/monster/monsterbig.prefab",
+    "bundle": "main/ca0d576551bcbe44c7840cfc.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0067_hound2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medalicon/achv_bat_eny_building_kill_lv01.png",
+    "bundle": "main/1b72f5296d0b5f9b8770a342.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0048_hvybow.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0039_agcanno.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0059_erhound.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0052_palesent.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_weekraid_enemy_drop_11.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0125_fdcentur.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0022_agmelee2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0102_hstiger2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0063_agmelee2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0107_wgshoal2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/map/mapmarkdetailactivityactmonsterpanel.prefab",
+    "bundle": "main/cb96db1f28e4c4a9f1a9a371.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/map/mapmarkdetailenemyspawnerpanel.prefab",
+    "bundle": "main/105a1a4fda673541b842bf96.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0023_aghornb.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_weekraid_enemy_drop_1.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0093_hshog.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/headbar/prgs_2_enemy_part_hp_bar.png",
+    "bundle": "main/4e90a5bc818c0c607aad8d07.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/activity/activitydungeonactmonster/activitydungeonactmonster_loop.anim",
+    "bundle": "main/42591857ee7cf83fc25df362.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0035_lbhunt3.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0124_kltdcap.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/settlement/enemycell_selected_in.anim",
+    "bundle": "main/a469ce52c10cea5424414689.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medaliconbig/achv_bat_eny_ace_lv02.png",
+    "bundle": "main/a26abbe4317e1d1041b139b5.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0074_lbshield.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0024_aghornb2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0092_slbomb.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/headbar/prgs_2_enemy_part_hp_border.png",
+    "bundle": "main/e73b86d309084fe5838d8376.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0054_hsmino.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0088_wgthorns.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0098_sandb2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0103_hshunt2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0072_slimeml.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0089_wgreflec.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0033_lbhunt.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0100_slimerg2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_agrange_1_erhound_1_sp_1_1.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/tatget_004_armor.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/settlement/widgets/enemycell.prefab",
+    "bundle": "main/5339f0bd3421fe54ef43e1ac.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/adventure/icon_adventure_dg_tab_monster_spawn.png",
+    "bundle": "main/373813aef43c9726a8baaf88.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0087_wgslime.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0129_slwood.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0071_sandb.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/wiki/wiki_modeltoshow_monster_out.anim",
+    "bundle": "main/80edcd888771b7221736cefa.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0118_klhog.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0069_aghornb2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0084_hshunt.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0082_hsbear.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0123_klcap.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_erhound_1_agmelee_1_moss_1_1.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/wiki/groupicon/icon_wiki_group_monster_angel.png",
+    "bundle": "main/09ff4bfb7f822708352ba64f.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/map/markicon/icon_map_enemyspawner.png",
+    "bundle": "main/1aef040e13f95589f57d4c4a.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0059_erhound.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/dungeon/dungeonenemypopup_out.anim",
+    "bundle": "main/5f266254c0ba5224e3dfd6b3.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/activity/activitydungeonactmonster/activitydungeonactmonster_in_part_0.anim",
+    "bundle": "main/ae8a9b1def3898815dfc99d1.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0105_wgslime2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0047_firebat.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0083_hstiger.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/wiki/wiki_monster_site_in.anim",
+    "bundle": "main/c0b676a7c13aff5be4cc566a.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/guide/guide_pic_enemyarmor_1.png",
+    "bundle": "main/778f2d111bf31677d268474a.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/dungeon/dungeonenemypopup_in.anim",
+    "bundle": "main/cb459260466717f5c1e9fee9.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0098_sandb2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0050_hound.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0079_nefarp2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0049_rogue.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0078_nefarp1.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/wiki/groupicon/icon_wiki_group_monster_kl.png",
+    "bundle": "main/09ff4bfb7f822708352ba64f.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0113_jzogre.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/battle/battleactionpanel/bg_enemy_vigilance02.png",
+    "bundle": "main/779f14c06dd9c803f7b431d8.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0052_palesent.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medaliconbig/achv_bat_eny_building_kill_lv02.png",
+    "bundle": "main/a26abbe4317e1d1041b139b5.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0047_firebat.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_drop_lbtough_1.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0033_lbhunt.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/headbar/prgs_2_enemy_part_position_border.png",
+    "bundle": "main/a2a00eff7146314508aff6ce.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0112_jzmonk.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_slimeml_1_erhound_1_agfly_1_1.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/bufficon/icon_battle_eny_resist_inflict_cryst.png",
+    "bundle": "main/f761d6897c6cea0b90b7a422.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0045_agtrinit.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0027_agscorp.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medalicon/achv_bat_enemyspawner_lv02.png",
+    "bundle": "main/1b72f5296d0b5f9b8770a342.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/guide/wiki_pic_enemyeintro.png",
+    "bundle": "main/a58fb9b6f56bdb5b68fa3bbf.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0053_hsmob.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0089_wgreflec.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medalicon/achv_bat_eny_cannot_move_lv02.png",
+    "bundle": "main/1b72f5296d0b5f9b8770a342.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0027_agscorp.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0061_palecore.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0099_slimeml2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/wiki/groupicon/icon_wiki_group_monster_js.png",
+    "bundle": "main/09ff4bfb7f822708352ba64f.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/dungeon/dungeoncopy/commonenemypopup_out.anim",
+    "bundle": "main/8b4a5b677d42bd70fb731f98.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0030_lbmob2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0031_lbmob3.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/headbar/prgs_2_enemy_part_position_point.png",
+    "bundle": "main/a37d8f3c21eeb9b9b6d1f4c9.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0084_hshunt.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0065_lbmob2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0078_nefarp1.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_drop_erhound_1.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0077_agshield.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0033_lbhunt.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0028_agscorp2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0047_firebat.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/settlement/deco_settledefense_map_enemy.png",
+    "bundle": "main/6f7b3ec30bdae7ad128d3522.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/wiki/wiki_monster_site_out.anim",
+    "bundle": "main/16e28317c073dc9cebf1a3d0.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/activity/activitydungeonactmonster/activitydungeonactmonster_in_part_1.anim",
+    "bundle": "main/2a36765f0a783cc7727d100b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/wiki/widgets/enemydamagetakeninfo.prefab",
+    "bundle": "main/0ddb39cd3275f3a6f1eff953.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/guide/guide_pic_monster_heart_1.png",
+    "bundle": "main/08a5375aacaded487dd85290.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0094_hsfly.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0032_lbmob4.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0055_hscrane.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0080_reaper.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/battle/widgets/headbarenemypart.prefab",
+    "bundle": "main/f3dad1261a9ac9df59ae0487.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_weekraid_enemy_drop_3.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0085_hsrogue.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0021_agmelee.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_monster_core_base.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/common/commonenemypopuppanel.prefab",
+    "bundle": "main/740d8e30db06336e37af7816.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/wiki/groupicon/icon_wiki_group_monster_animal.png",
+    "bundle": "main/09ff4bfb7f822708352ba64f.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/wiki/groupicon/icon_wiki_group_monster_landbreaker.png",
+    "bundle": "main/09ff4bfb7f822708352ba64f.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medaliconbig/achv_bat_eny_cannot_move_lv02.png",
+    "bundle": "main/a26abbe4317e1d1041b139b5.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/tatget_002_endurance.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/activity/activitydungeonactmonster/dungeonsunrvivalselectcell_selectbg_out.anim",
+    "bundle": "main/9c54d555cfd2ca7abc2afaf5.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0097_hsmino2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0031_lbmob3.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0127_bigents.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0048_hvybow.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0088_wgthorns.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0021_agmelee.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0070_agscorp2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0076_agfly.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0066_lbhunt2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medalicon/achv_bat_eny_building_kill_lv03.png",
+    "bundle": "main/1b72f5296d0b5f9b8770a342.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0082_hsbear.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0046_lbshamman.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/map/markicon/icon_map_enemyspawner_unactive.png",
+    "bundle": "main/1aef040e13f95589f57d4c4a.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0049_rogue.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0025_agrange.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/tatget_004_armor.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0067_hound2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/dungeon/dungeoncopy/commonenemypopup_in.anim",
+    "bundle": "main/74d388678a28bdea57845b74.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/activity/activitydungeonactmonster/dungeonsunrvivalselectcell_selectbg_in.anim",
+    "bundle": "main/5d5ab14e962d1f66b7458651.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0022_agmelee2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0029_lbmob.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/map/markiconsmall/icon_map_enemyspawner.png",
+    "bundle": "main/32dbb611e2b246022540dddc.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/bufficon/icon_battle_eny_resist_inflict.png",
+    "bundle": "main/f761d6897c6cea0b90b7a422.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medaliconbig/achv_bat_enemyspawner_lv02.png",
+    "bundle": "main/a26abbe4317e1d1041b139b5.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medaliconbig/achv_bat_eny_building_kill_lv03.png",
+    "bundle": "main/a26abbe4317e1d1041b139b5.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_drop_erhound_1.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0051_rodin.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0121_klbud.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_drop_enemycommon_1.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0024_aghornb2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/settlement/settlementdefensemainmap_enemytips_in.anim",
+    "bundle": "main/48b33f7ada6c1a48ebd4a0a5.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/wiki/wikimonsterpanel.prefab",
+    "bundle": "main/72c00a426b6a30a5853c235b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0072_slimeml.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/typhoeaarchery/widgets/btnenemydetail.prefab",
+    "bundle": "main/60c1781a83231cb64c22dc6c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemtips/icon_tips_enemy_spawner.png",
+    "bundle": "main/af79d77292dddb1c20303afd.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0073_slimerg.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0070_agscorp2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0075_lbroshan.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/battle/widgets/enemylockhint.prefab",
+    "bundle": "main/d6e72e65d4d340a3cb63b888.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0050_hound.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_weekraid_enemy_drop_7.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0068_lbtough2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0023_aghornb.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0109_hshog2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0060_lbmad.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_weekraid_enemy_drop_5.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/wiki/wiki_model_in_monster.anim",
+    "bundle": "main/6f4855efe95c1354db5abc19.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0119_kltiger.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/activity/activitydungeonactmonster/dungeonsunrvivalselectcell_select_in.anim",
+    "bundle": "main/d0f0cbaff27d455ca5c0ac46.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/settlement/settlementdefensemainmap_enemytips_out.anim",
+    "bundle": "main/bb3d6b0b2c29a62d79cdfade.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0079_nefarp2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/settlement/widgets/enemytipsnode.prefab",
+    "bundle": "main/7c606c6e3a875bc297e5a450.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0066_lbhunt2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/common/widgets/monster/monster.prefab",
+    "bundle": "main/ad73b026f65b32bfadc58298.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0108_slbomb2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0119_kltiger.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0059_erhound.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/guide/guide_pic_weekly_raid_enemy.png",
+    "bundle": "main/7a857af729282f118cd8b940.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0114_jzmking.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/wiki/groupicon/icon_wiki_group_monster_witchcraft.png",
+    "bundle": "main/09ff4bfb7f822708352ba64f.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemtips/icon_tips_monster_2.png",
+    "bundle": "main/af79d77292dddb1c20303afd.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemtips/icon_tips_monster.png",
+    "bundle": "main/af79d77292dddb1c20303afd.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/dungeonnew/dungeonentry/deco_dungeonentry_enemynew_2.png",
+    "bundle": "main/cf6cebd43f7410a2bb34b332.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0092_slbomb.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0025_agrange.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0087_wgslime.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0080_reaper.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/wiki/groupicon/icon_wiki_group_monster_hongshan.png",
+    "bundle": "main/09ff4bfb7f822708352ba64f.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/reading/collection_ldz_enemy.png",
+    "bundle": "main/d69c2489a08ddcb8b62335aa.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/settlement/deco_settledefense_map_enemy_big.png",
+    "bundle": "main/5fd08ec8f7b0394a7603d4f6.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0091_wgshoal.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0081_ruanyi.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_agrange_1_erhound_1_sp_1_1.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0045_agtrinit.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0095_ethillu.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0093_hshog.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0021_agmelee.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/prefabs/common/widgets/monster/monsterbigblack.prefab",
+    "bundle": "main/7c310767f0fc4ef827e1eadb.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemiconbig/item_weekraid_enemy_drop_7.png",
+    "bundle": "main/e546d9422932f7165679598c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/adventure/icon_adventure_d_brushingmonsters.png",
+    "bundle": "main/373813aef43c9726a8baaf88.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0068_lbtough2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/bufficon/icon_battle_eny_resist_inflict_phy.png",
+    "bundle": "main/f761d6897c6cea0b90b7a422.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0102_hstiger2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0085_hsrogue.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0065_lbmob2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0066_lbhunt2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0067_hound2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/tatget_001_normal.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0007_mimicw.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0050_hound.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0129_slwood.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0095_ethillu.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0053_hsmob.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0096_hsmob2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/arts/ui/sprites/racingdungeonentry/racingdungeonprotalpanel/icon_racing_portal_enemy_info.png",
+    "bundle": "main/09f2a8767fdc545162b2378c.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/medaliconbig/achv_bat_eny_building_kill_lv01.png",
+    "bundle": "main/a26abbe4317e1d1041b139b5.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0055_hscrane.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0120_klbear.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0118_klhog.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0051_rodin.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0121_klbud.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/wiki/wiki_modeltoshow_monster_in.anim",
+    "bundle": "main/2a7bcc1867597b10d56dd213.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_weekraid_enemy_drop_9.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/adventure_eny_0025_agrange.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/tatget_003_expand.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0048_hvybow.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0106_wgthorns2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0117_klhound.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0097_hsmino2.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/bufficon/icon_battle_eny_resist_inflict_pulse.png",
+    "bundle": "main/f761d6897c6cea0b90b7a422.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0034_lbhunt2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/animations/dungeon/dungeoncopy/commonenemypopupenemycell_in.anim",
+    "bundle": "main/d54aac321d5505803f7e0675.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/tatget_005_shield.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0114_jzmking.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0069_aghornb2.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericonbig/eny_0062_paletent.png",
+    "bundle": "main/f093dbca80aa38d203866087.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/itemicon/item_weekraid_enemy_drop_11.png",
+    "bundle": "main/8b817febd77fd42c8e6c83ee.ab"
+  },
+  {
+    "path": "assets/beyond/dynamicassets/gameplay/ui/sprites/monstericon/eny_0122_kltdbud.png",
+    "bundle": "main/b9ec4bed9adb66a6973b773b.ab"
+  }
+]

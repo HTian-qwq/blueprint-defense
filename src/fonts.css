@@ -1,0 +1,5 @@
+@font-face{font-family:"HarmonyOS Sans SC";src:url('__FONT_SC__') format('truetype');font-style:normal;font-weight:40 900;font-display:swap}
+:root{--font-ui:"HarmonyOS Sans SC",sans-serif}
+body{font-variant-numeric:tabular-nums}
+.font-license pre{white-space:pre-wrap;font-family:var(--font-ui);font-size:10px;line-height:1.6}
+.font-license summary{font-size:11px;cursor:pointer}

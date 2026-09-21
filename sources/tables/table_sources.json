@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "name": "EnemyTemplateTable",
+      "source": "Persistent",
+      "Version": 25024360,
+      "originalPath": "Data/TableCfg/EnemyTemplateTable.bytes",
+      "rawSha256": "1B1DD2819E6880F98D22DD663D59F8F4D25D2DF4E78DF0F66A1A139190008E98"
+    },
+    {
+      "name": "EnemyTemplateDisplayInfoTable",
+      "source": "Persistent",
+      "Version": 25024360,
+      "originalPath": "Data/TableCfg/EnemyTemplateDisplayInfoTable.bytes",
+      "rawSha256": "7431105EB73015EF911BE0E2BAD1DEBAB830808C223F43739F910989938EDBA0"
+    },
+    {
+      "name": "EnemyDisplayInfoTable",
+      "source": "Persistent",
+      "Version": 25024360,
+      "originalPath": "Data/TableCfg/EnemyDisplayInfoTable.bytes",
+      "rawSha256": "CB78BD889B9771F70C2E5974AF3FBB5002F49B3CBDA3C5E5070DE256DCD2213D"
+    },
+    {
+      "name": "EnemyTable",
+      "source": "Persistent",
+      "Version": 25024360,
+      "originalPath": "Data/TableCfg/EnemyTable.bytes",
+      "rawSha256": "D8443B7257E32E9B5384C9CF303028AC92E838CC4C9BDC1F669B1F36C36E9343"
+    },
+    {
+      "name": "EnemyAttributeTemplateTable",
+      "source": "Persistent",
+      "Version": 25024360,
+      "originalPath": "Data/TableCfg/EnemyAttributeTemplateTable.bytes",
+      "rawSha256": "D71E29F03134665FD4E9E567F827D691D3E374C250730F6EE0E3687BAE48EA15"
+    },
+    {
+      "name": "FactoryBattleTable",
+      "source": "Persistent",
+      "Version": 25024360,
+      "originalPath": "Data/TableCfg/FactoryBattleTable.bytes",
+      "rawSha256": "7A1EEE9E87433E59F46E2BBC04E173D927DCB96096A89EA1368CC83D523F9CC6"
+    }
+  ],
+  "missing": []
+}

@@ -1,0 +1,4270 @@
+{
+  "towers": [
+    {
+      "id": "battle_turret_1",
+      "name": "铳械塔",
+      "role": "速射",
+      "mode": "single",
+      "damage": 76,
+      "audio": {
+        "fire": "turret.fire",
+        "hit": "turret.hit",
+        "deploy": "turret.deploy"
+      },
+      "burst": {
+        "fps": 30,
+        "launchFrames": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "hitFrames": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "weights": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "fireFrames": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "hitAudioFrames": [
+          1,
+          5
+        ],
+        "enhancedIndex": -1,
+        "splashLast": false
+      },
+      "color": "#bf8836",
+      "desc": "每轮快速连射 4 发，约 0.23 秒完成命中；每 2 秒开始下一轮。",
+      "cost": 9,
+      "range": 3.75,
+      "interval": 2.0,
+      "targets": "all",
+      "reference": {
+        "rangeMeters": 15.0,
+        "chargeInterval": 2.0,
+        "skill": "int_fac_battle_turret_1_skill",
+        "costCharacter": "char_124_kroos",
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "originalDescription": "<b>攻击力</b>：<@ba.key>609</>\n<b>攻击间隔</b>：<@ba.key>2</>秒\n<b>攻击方式</b>：持续发射能量弹，对敌人造成<@ba.phy>物理伤害</>。"
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      },
+      "research": null,
+      "materials": {},
+      "ammo": null,
+      "upgrades": [
+        {
+          "id": "battle_turret_2",
+          "name": "扩装铳械塔",
+          "audio": {
+            "fire": "turret2.fire",
+            "hit": "turret2.hit",
+            "deploy": "turret.deploy"
+          },
+          "burst": {
+            "fps": 30,
+            "launchFrames": [
+              0,
+              2,
+              4,
+              8
+            ],
+            "hitFrames": [
+              2,
+              5,
+              8,
+              11
+            ],
+            "weights": [
+              0.2,
+              0.2,
+              0.2,
+              0.4
+            ],
+            "fireFrames": [
+              0,
+              2,
+              4,
+              8
+            ],
+            "hitAudioFrames": [
+              2,
+              5,
+              8,
+              11
+            ],
+            "enhancedIndex": 3,
+            "splashLast": false
+          },
+          "damage": 228,
+          "range": 4.05,
+          "interval": 2.0,
+          "upgradeKind": "refit",
+          "desc": "每轮快速连射 4 发，约 0.37 秒完成命中；第 4 发是强化弹，占整轮伤害 40%，为普通弹的 2 倍。",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 14,
+          "research": "ballistics",
+          "materials": {
+            "item_crystal_shell": 4
+          },
+          "ammo": {
+            "item": "item_crystal_shell",
+            "volleys": 2
+          }
+        },
+        {
+          "id": "battle_turret_3",
+          "name": "“暴雨”铳械塔",
+          "audio": {
+            "fire": "turret3.fire",
+            "hit": "turret3.hit",
+            "deploy": "turret3.deploy",
+            "hitBomb": "turret3.hitBomb"
+          },
+          "burst": {
+            "fps": 30,
+            "launchFrames": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10
+            ],
+            "hitFrames": [
+              1,
+              4,
+              6,
+              8,
+              10,
+              13
+            ],
+            "weights": [
+              0.12,
+              0.12,
+              0.12,
+              0.12,
+              0.12,
+              0.4
+            ],
+            "fireFrames": [
+              0,
+              5,
+              9
+            ],
+            "hitAudioFrames": [
+              1,
+              4,
+              6,
+              8,
+              10,
+              13
+            ],
+            "enhancedIndex": 5,
+            "splashLast": true
+          },
+          "damage": 532,
+          "range": 5.1,
+          "interval": 2.0,
+          "upgradeKind": "refit",
+          "desc": "每轮快速连射 6 发，约 0.43 秒完成命中；末发范围强化弹占整轮伤害 40%，前五发各占 12%。每 2 秒开始下一轮。",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 23,
+          "research": "storm",
+          "materials": {
+            "item_iron_enr_cmpt": 6
+          },
+          "ammo": {
+            "item": "item_iron_cmpt",
+            "volleys": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "battle_cannon_1",
+      "name": "榴弹塔",
+      "role": "群攻",
+      "mode": "splash",
+      "damage": 210,
+      "audio": {
+        "fire": "cannon.fire",
+        "deploy": "cannon.deploy"
+      },
+      "burst": null,
+      "color": "#d47555",
+      "desc": "炮弹在目标周围爆炸，处理密集敌群。",
+      "cost": 24,
+      "range": 3.125,
+      "interval": 3.0,
+      "targets": "ground",
+      "reference": {
+        "rangeMeters": 12.5,
+        "chargeInterval": 3.0,
+        "skill": "int_fac_battle_cannon_1_skill",
+        "costCharacter": "char_121_lava",
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "originalDescription": "<b>攻击力</b>：<@ba.key>981</>\n<b>攻击间隔</b>：<@ba.key>3</>秒\n<b>攻击方式</b>：以抛物线发射榴弹攻击敌人，榴弹会在敌人附近地面爆炸并造成范围<@ba.fire>灼热伤害</>。"
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      },
+      "research": "ballistics",
+      "materials": {
+        "item_crystal_shell": 4
+      },
+      "ammo": {
+        "item": "item_crystal_shell",
+        "volleys": 2
+      },
+      "upgrades": [
+        {
+          "id": "battle_cannon_2",
+          "name": "高爆榴弹塔",
+          "audio": {
+            "fire": "cannon2.fire",
+            "deploy": "cannon.deploy"
+          },
+          "burst": null,
+          "damage": 630,
+          "range": 3.425,
+          "interval": 3.0,
+          "upgradeKind": "refit",
+          "burnDps": 120,
+          "desc": "榴弹爆炸后留下持续 3 秒的燃烧区，每秒造成 120 点灼热伤害。只攻击地面目标。",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 38,
+          "research": "heavy",
+          "materials": {
+            "item_iron_cmpt": 4
+          },
+          "ammo": {
+            "item": "item_iron_cmpt",
+            "volleys": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "battle_frost_1",
+      "name": "液氮塔",
+      "role": "控制",
+      "mode": "slow",
+      "damage": 55,
+      "audio": {
+        "fire": "frost.fire",
+        "hit": "frost.hit",
+        "deploy": "frost.deploy"
+      },
+      "burst": null,
+      "color": "#58a8b9",
+      "desc": "液氮晶体爆裂，使范围内敌人减速 60%，持续 3 秒。",
+      "cost": 10,
+      "range": 3.75,
+      "interval": 5.0,
+      "targets": "ground",
+      "reference": {
+        "rangeMeters": 15.0,
+        "chargeInterval": 5.0,
+        "skill": "int_fac_battle_frost_1_skill",
+        "costCharacter": "char_278_orchid",
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "originalDescription": "<b>攻击间隔</b>：<@ba.key>5</>秒\n<b>攻击方式</b>：发射特殊液氮晶体，晶体爆裂后会降低范围内敌人的移动速度。"
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      },
+      "research": null,
+      "materials": {},
+      "ammo": null,
+      "upgrades": [
+        {
+          "id": "battle_frost_1",
+          "name": "液氮塔",
+          "audio": {
+            "fire": "frost.fire",
+            "hit": "frost.hit",
+            "deploy": "frost.deploy"
+          },
+          "burst": null,
+          "damage": 165,
+          "range": 4.05,
+          "interval": 5.0,
+          "upgradeKind": "enhance",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 16,
+          "research": "chemistry",
+          "materials": {
+            "item_quartz_glass": 4
+          },
+          "ammo": {
+            "item": "item_quartz_glass",
+            "volleys": 2
+          }
+        },
+        {
+          "id": "battle_frost_1",
+          "name": "液氮塔",
+          "audio": {
+            "fire": "frost.fire",
+            "hit": "frost.hit",
+            "deploy": "frost.deploy"
+          },
+          "burst": null,
+          "damage": 385,
+          "range": 4.35,
+          "interval": 5.0,
+          "upgradeKind": "enhance",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 26,
+          "research": "precision",
+          "materials": {
+            "item_glass_enr_cmpt": 6
+          },
+          "ammo": {
+            "item": "item_quartz_glass",
+            "volleys": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "battle_laser_1",
+      "name": "射线塔",
+      "role": "贯穿",
+      "mode": "pierce",
+      "damage": 340,
+      "audio": {
+        "fire": "laser.fire",
+        "hit": "laser.hit",
+        "deploy": "laser.deploy",
+        "charge": "laser.charge"
+      },
+      "burst": null,
+      "color": "#8c7ebb",
+      "desc": "电磁射线无视护甲，贯穿射线上最多 3 个目标。",
+      "cost": 30,
+      "range": 3.125,
+      "interval": 8.0,
+      "targets": "all",
+      "reference": {
+        "rangeMeters": 12.5,
+        "chargeInterval": 8.0,
+        "skill": "int_fac_battle_laser_1_skill",
+        "costCharacter": "char_210_stward",
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "originalDescription": "<b>攻击力</b>：<@ba.key>22338</>\n<b>攻击间隔</b>：<@ba.key>8</>秒\n<b>攻击方式</b>：消耗大量充能向目标发射射线，对敌人造成高额<@ba.pulse>电磁伤害</>。"
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      },
+      "research": "electromagnetics",
+      "materials": {
+        "item_quartz_glass": 6
+      },
+      "ammo": {
+        "item": "item_quartz_glass",
+        "volleys": 2
+      },
+      "upgrades": [
+        {
+          "id": "battle_laser_2",
+          "name": "高能射线塔",
+          "audio": {
+            "fire": "laser2.fire",
+            "hit": "laser2.hit",
+            "deploy": "laser.deploy",
+            "charge": "laser2.charge"
+          },
+          "burst": null,
+          "damage": 1020,
+          "range": 3.425,
+          "interval": 8.0,
+          "upgradeKind": "refit",
+          "highThreat": true,
+          "desc": "优先锁定高威胁目标，强力电磁射线无视护甲，贯穿最多 3 个目标。",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 48,
+          "research": "overcharge",
+          "materials": {
+            "item_quartz_glass": 4,
+            "item_glass_enr_cmpt": 4
+          },
+          "ammo": {
+            "item": "item_quartz_glass",
+            "volleys": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "battle_lightning_1",
+      "name": "电涌塔",
+      "role": "弹射",
+      "mode": "chain",
+      "damage": 155,
+      "audio": {
+        "fire": "lightning.fire",
+        "hit": "lightning.hit",
+        "deploy": "lightning.deploy",
+        "charge": "lightning.charge"
+      },
+      "burst": null,
+      "color": "#779cda",
+      "desc": "电弧至多弹射 2 次，每次伤害衰减 20%，无视护甲，可攻击飞行敌人。",
+      "cost": 28,
+      "range": 3.125,
+      "interval": 3.0,
+      "targets": "all",
+      "reference": {
+        "rangeMeters": 12.5,
+        "chargeInterval": 3.0,
+        "skill": "int_fac_battle_lightning_1_skill",
+        "costCharacter": null,
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "originalDescription": "<b>攻击力</b>：<@ba.key>4886</>\n<b>攻击间隔</b>：<@ba.key>3</>秒\n<b>攻击方式</b>：释放电能攻击敌人，攻击会弹射到附近敌人（至多2次），造成<@ba.pulse>电磁伤害</>。"
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      },
+      "research": "electromagnetics",
+      "materials": {
+        "item_quartz_glass": 4,
+        "item_iron_nugget": 2
+      },
+      "ammo": {
+        "item": "item_quartz_glass",
+        "volleys": 2
+      },
+      "upgrades": [
+        {
+          "id": "battle_lightning_2",
+          "name": "甲二型“电荷”",
+          "audio": {
+            "fire": "lightning2.fire",
+            "hit": "lightning2.hit",
+            "deploy": "lightning2.deploy",
+            "charge": "lightning2.charge"
+          },
+          "burst": null,
+          "damage": 465,
+          "range": 4.8,
+          "interval": 5.0,
+          "upgradeKind": "refit",
+          "orbDps": 90,
+          "desc": "电弧至多弹射 2 次，并留下持续 3 秒的电球，每秒对附近目标造成 90 点电磁伤害。",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 45,
+          "research": "overcharge",
+          "materials": {
+            "item_quartz_glass": 4,
+            "item_glass_enr_cmpt": 4
+          },
+          "ammo": {
+            "item": "item_quartz_glass",
+            "volleys": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "battle_sniper_1",
+      "name": "哨戒塔",
+      "role": "远程",
+      "mode": "snipe",
+      "damage": 380,
+      "audio": {
+        "fire": "sniper.fire",
+        "hit": "sniper.hit",
+        "deploy": "sniper.deploy"
+      },
+      "burst": null,
+      "color": "#c5ad74",
+      "desc": "优先锁定高威胁目标。远距离重击，适合处理护盾与首领。",
+      "cost": 36,
+      "range": 5.0,
+      "interval": 5.0,
+      "targets": "all",
+      "reference": {
+        "rangeMeters": 20.0,
+        "chargeInterval": 5.0,
+        "skill": "int_fac_battle_sniper_1_skill",
+        "costCharacter": null,
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "originalDescription": "<b>攻击力</b>：<@ba.key>11634</>\n<b>攻击间隔</b>：<@ba.key>5</>秒\n<b>攻击方式</b>：拥有较大攻击范围，优先锁定范围内威胁更高的敌人，对敌人造成高额<@ba.phy>物理伤害</>。"
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      },
+      "research": "heavy",
+      "materials": {
+        "item_iron_cmpt": 4
+      },
+      "ammo": {
+        "item": "item_iron_cmpt",
+        "volleys": 2
+      },
+      "upgrades": [
+        {
+          "id": "battle_sniper_1",
+          "name": "哨戒塔",
+          "audio": {
+            "fire": "sniper.fire",
+            "hit": "sniper.hit",
+            "deploy": "sniper.deploy"
+          },
+          "burst": null,
+          "damage": 1140,
+          "range": 5.3,
+          "interval": 5.0,
+          "upgradeKind": "enhance",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 58,
+          "research": "heavy",
+          "materials": {
+            "item_iron_cmpt": 4
+          },
+          "ammo": {
+            "item": "item_iron_cmpt",
+            "volleys": 1
+          }
+        },
+        {
+          "id": "battle_sniper_1",
+          "name": "哨戒塔",
+          "audio": {
+            "fire": "sniper.fire",
+            "hit": "sniper.hit",
+            "deploy": "sniper.deploy"
+          },
+          "burst": null,
+          "damage": 2660,
+          "range": 5.6,
+          "interval": 5.0,
+          "upgradeKind": "enhance",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 94,
+          "research": "precision",
+          "materials": {
+            "item_iron_enr_cmpt": 6
+          },
+          "ammo": {
+            "item": "item_iron_cmpt",
+            "volleys": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "battle_debuff_1",
+      "name": "“酸洗”MK-Ⅰ",
+      "role": "破甲",
+      "mode": "acid",
+      "damage": 95,
+      "audio": {
+        "fire": "debuff.fire",
+        "deploy": "debuff.deploy"
+      },
+      "burst": null,
+      "color": "#90b86d",
+      "desc": "酸液弹对地面群体造成伤害，使护甲降低 65%，持续 6 秒；不叠加。",
+      "cost": 22,
+      "range": 3.75,
+      "interval": 5.0,
+      "targets": "ground",
+      "reference": {
+        "rangeMeters": 15.0,
+        "chargeInterval": 5.0,
+        "skill": "int_fac_battle_debuff_1_skill",
+        "costCharacter": null,
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "originalDescription": "<b>攻击力</b>：<@ba.key>12375</>\n<b>攻击间隔</b>：<@ba.key>5</>秒\n<b>攻击方式</b>：发射特制酸液弹，酸液弹会在敌人附近地面爆炸并造成范围<@ba.natur>自然伤害</>，同时降低范围内敌人的防御力。"
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      },
+      "research": "chemistry",
+      "materials": {
+        "item_originium_powder": 4
+      },
+      "ammo": {
+        "item": "item_originium_powder",
+        "volleys": 3
+      },
+      "upgrades": [
+        {
+          "id": "battle_debuff_1",
+          "name": "“酸洗”MK-Ⅰ",
+          "audio": {
+            "fire": "debuff.fire",
+            "deploy": "debuff.deploy"
+          },
+          "burst": null,
+          "damage": 285,
+          "range": 4.05,
+          "interval": 5.0,
+          "upgradeKind": "enhance",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 35,
+          "research": "chemistry",
+          "materials": {
+            "item_originium_powder": 4
+          },
+          "ammo": {
+            "item": "item_originium_powder",
+            "volleys": 2
+          }
+        },
+        {
+          "id": "battle_debuff_1",
+          "name": "“酸洗”MK-Ⅰ",
+          "audio": {
+            "fire": "debuff.fire",
+            "deploy": "debuff.deploy"
+          },
+          "burst": null,
+          "damage": 665,
+          "range": 4.35,
+          "interval": 5.0,
+          "upgradeKind": "enhance",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 57,
+          "research": "precision",
+          "materials": {
+            "item_iron_enr_cmpt": 6
+          },
+          "ammo": {
+            "item": "item_originium_powder",
+            "volleys": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "battle_trap_1",
+      "name": "AF1“熔甲者”",
+      "role": "灼烧",
+      "mode": "flame",
+      "damage": 82,
+      "audio": {
+        "fire": "trap.fire",
+        "deploy": "trap.deploy",
+        "end": "trap.end"
+      },
+      "burst": null,
+      "color": "#db8252",
+      "desc": "近距离喷出火焰，留下持续 3 秒的燃烧区，每秒造成灼热伤害。只能攻击地面目标。",
+      "cost": 24,
+      "range": 1.75,
+      "interval": 3.0,
+      "targets": "ground",
+      "reference": {
+        "rangeMeters": 7.0,
+        "chargeInterval": 3.0,
+        "skill": "int_fac_battle_trap_1_skill",
+        "costCharacter": null,
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "originalDescription": "<b>攻击力</b>：<@ba.key>17252</>\n<b>攻击方式</b>：当敌人靠近时，喷射火焰攻击敌人，对范围内的敌人持续造成<@ba.fire>灼热伤害</>。"
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      },
+      "research": "chemistry",
+      "materials": {
+        "item_originium_powder": 4
+      },
+      "ammo": {
+        "item": "item_originium_powder",
+        "volleys": 3
+      },
+      "upgrades": [
+        {
+          "id": "battle_trap_1",
+          "name": "AF1“熔甲者”",
+          "audio": {
+            "fire": "trap.fire",
+            "deploy": "trap.deploy",
+            "end": "trap.end"
+          },
+          "burst": null,
+          "damage": 246,
+          "range": 2.05,
+          "interval": 3.0,
+          "upgradeKind": "enhance",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 38,
+          "research": "chemistry",
+          "materials": {
+            "item_originium_powder": 4
+          },
+          "ammo": {
+            "item": "item_originium_powder",
+            "volleys": 2
+          }
+        },
+        {
+          "id": "battle_trap_1",
+          "name": "AF1“熔甲者”",
+          "audio": {
+            "fire": "trap.fire",
+            "deploy": "trap.deploy",
+            "end": "trap.end"
+          },
+          "burst": null,
+          "damage": 574,
+          "range": 2.35,
+          "interval": 3.0,
+          "upgradeKind": "enhance",
+          "footprint": {
+            "width": 2,
+            "depth": 2
+          },
+          "cost": 62,
+          "research": "precision",
+          "materials": {
+            "item_iron_enr_cmpt": 6
+          },
+          "ammo": {
+            "item": "item_originium_powder",
+            "volleys": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "battle_rocket_1",
+      "name": "重锤迫击炮",
+      "role": "重炮",
+      "mode": "mortar",
+      "damage": 1400,
+      "cost": 48,
+      "color": "#a78b53",
+      "range": 6.25,
+      "interval": 8.0,
+      "splashRadius": 2,
+      "duration": 1.25,
+      "targets": "ground",
+      "audio": {
+        "fire": "rocket.fire",
+        "deploy": "rocket.deploy"
+      },
+      "desc": "每 8 秒发射一枚高抛重炮弹，对落点半径 2 格内的地面敌人造成 1400 点物理伤害。射程 6.25 格，炮弹飞行时间 1.25 秒。",
+      "reference": {
+        "rangeMeters": 25.0,
+        "chargeInterval": 8.0,
+        "skill": "int_fac_battle_rocket_1_skill",
+        "originalDescription": "<b>攻击力</b>：<@ba.key>33000</>\n<b>攻击间隔</b>：<@ba.key>8</>秒\n<b>攻击方式</b>：消耗大量充能向目标发射威力极大的炮弹，对范围内敌人造成高额<@ba.phy>物理伤害</>。",
+        "costSource": "fan economy v0.12; Arknights DP model reference only",
+        "adaptation": "8-second cadence and original mortar artwork retained. Base damage, splash size, travel time, cost and the Wisadel easter-egg refit are fan design; voice recordings supplied by the user."
+      },
+      "footprint": {
+        "width": 3,
+        "depth": 3
+      },
+      "research": "heavy",
+      "materials": {
+        "item_iron_cmpt": 6,
+        "item_crystal_shell": 4
+      },
+      "ammo": {
+        "item": "item_iron_cmpt",
+        "volleys": 1
+      },
+      "upgrades": [
+        {
+          "id": "battle_rocket_wisadel",
+          "artId": "battle_rocket_1",
+          "name": "维什戴尔改件",
+          "role": "重锤迫击炮 · 改装",
+          "damage": 33000,
+          "range": 7,
+          "interval": 8,
+          "splashRadius": 2.8,
+          "duration": 1.25,
+          "cost": 120,
+          "upgradeKind": "refit",
+          "easterEgg": true,
+          "color": "#ae4d68",
+          "audio": {
+            "fire": "rocket.fire",
+            "deploy": "wisadel.deploy",
+            "voice": "wisadel.attack"
+          },
+          "desc": "每 8 秒发射一枚高抛重炮弹，对落点半径 2.8 格内的地面敌人造成 33000 点物理伤害。射程 7 格，炮弹飞行时间 1.25 秒。",
+          "footprint": {
+            "width": 3,
+            "depth": 3
+          },
+          "research": "precision",
+          "materials": {
+            "item_iron_enr_cmpt": 24,
+            "item_glass_enr_cmpt": 12,
+            "item_proc_battery_3": 1
+          },
+          "ammo": {
+            "item": "item_iron_cmpt",
+            "volleys": 1
+          }
+        }
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "id": "eny_0029_lbmob",
+      "name": "碾骨劫掠者",
+      "role": "突入",
+      "hp": 194.0,
+      "speed": 0.82,
+      "armor": 12,
+      "leak": 1,
+      "threat": 1,
+      "desc": "标准地面敌人。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 194.0,
+          "2": 36.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "装备基础近战武器的裂地者武装人员。他们是组成裂地者团体的“大多数”，装备简陋，但常常成群出现。",
+        "abilities": [
+          {
+            "id": "common_ability",
+            "description": "该敌人无特殊能力。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0059_erhound",
+      "name": "雾火牙兽",
+      "role": "疾行",
+      "hp": 194.0,
+      "speed": 1.32,
+      "armor": 4,
+      "leak": 1,
+      "threat": 2,
+      "desc": "移动较快，适合用减速配合击杀。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 194.0,
+          "2": 33.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "浸染雾火的牙兽。当这种诡异的小型危险生物成群行动时，能对全副武装的外勤小队造成巨大的威胁。",
+        "abilities": [
+          {
+            "id": "eny_0059_erhound_ability_1",
+            "description": "比起普通牙兽更加凶猛但理智更低，若躲开它的全力扑击，它就会摔倒在地上。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0021_agmelee",
+      "name": "大角天使",
+      "role": "集群",
+      "hp": 138.0,
+      "speed": 0.94,
+      "armor": 6,
+      "leak": 1,
+      "threat": 1,
+      "desc": "生命较低，常成群出现。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 138.0,
+          "2": 33.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "“克利俄松”（归档编号：ACL071），能用角冲撞敌人。它们是最早被记录的天使形成模式之一，于各处都较常见。",
+        "abilities": [
+          {
+            "id": "common_ability",
+            "description": "该敌人无特殊能力。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0018_lbtough",
+      "name": "碾骨行刑人",
+      "role": "重装",
+      "hp": 1108.0,
+      "speed": 0.5,
+      "armor": 42,
+      "leak": 3,
+      "threat": 4,
+      "desc": "高生命与护甲，漏过扣 3 点耐久。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 1108.0,
+          "2": 66.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "装备重型斩击斧的裂地者武装人员，体型高大。他们的体能强于多数裂地者，能掀翻战车甚至轻松破坏工事。",
+        "abilities": [
+          {
+            "id": "eny_0018_lbtough_ability_1",
+            "description": "他的抓取会造成大量伤害，若有干员被他抓住，可尽快用其他干员施放技能打断来解救。"
+          },
+          {
+            "id": "eny_0018_lbtough_ability_2",
+            "description": "他的蓄力二连抡斧不易闪避，尽快打断来应对。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0076_agfly",
+      "name": "仿生翅天使",
+      "role": "飞行",
+      "hp": 111.0,
+      "speed": 1.12,
+      "armor": 4,
+      "leak": 1,
+      "threat": 3,
+      "flying": true,
+      "desc": "沿传送带上空前进；榴弹、液氮、酸液和燃烧区无法命中。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 111.0,
+          "2": 26.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "“苏索泰隆”（归档编号：ARA07C），飞行能力与其外形无关。这种形成模式最早被认为是对生物的模仿，但如今，共识已演变为模仿泰拉人所使用的飞行器。",
+        "abilities": [
+          {
+            "id": "eny_0076_agfly_ability_1",
+            "description": "施放的小型旋风会同时减速干员。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0074_lbshield",
+      "name": "碾骨先锋",
+      "role": "护盾",
+      "hp": 166.0,
+      "speed": 0.68,
+      "armor": 50,
+      "leak": 2,
+      "threat": 6,
+      "shield": 180,
+      "badge": "盾",
+      "ward": {
+        "radius": 2.3,
+        "fraction": 0.08,
+        "capFraction": 0.16,
+        "targets": 3,
+        "interval": 7,
+        "windup": 0.8
+      },
+      "desc": "同人护盾支援：蓄力 0.8 秒，为附近最多 3 名同伴补充 8% 最大生命的护盾，上限至少为 16%；每 7 秒发动。优先击杀护盾兵，或用高威胁优先的塔拆掉支援队。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 166.0,
+          "2": 26.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "装备矛与盾的裂地者武装人员。简陋的拼接装备反倒是让碾骨先锋锻炼出了攻防一体的战斗技巧，请小心应对。",
+        "abilities": [
+          {
+            "id": "eny_0074_lbshield_ability_1",
+            "description": "除非他正在发动进攻，否则他会格挡所有来袭的攻击。使他失衡即可击碎他的盾牌。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0060_lbmad",
+      "name": "雾火爪牙",
+      "role": "狂奔",
+      "hp": 249.0,
+      "speed": 1.03,
+      "armor": 9,
+      "leak": 1,
+      "threat": 3,
+      "rageSpeed": 1.65,
+      "desc": "生命低于一半时移动速度提高 65%。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 249.0,
+          "2": 36.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "浸染雾火的裂地者武装人员。汲取雾火并不一定是一件幸运的事，这些裂地者遭到了严重的扭曲。",
+        "abilities": [
+          {
+            "id": "eny_0060_lbmad_ability_1",
+            "description": "若躲开它的连续撕咬，它就会摔倒在地上。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0077_agshield",
+      "name": "跂步晶城",
+      "role": "精英",
+      "hp": 1385.0,
+      "speed": 0.43,
+      "armor": 85,
+      "leak": 4,
+      "threat": 6,
+      "shield": 350,
+      "slowResistance": 0.5,
+      "desc": "高护甲精英，携带护盾；减速效果减半，漏过扣 4 点耐久。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 1385.0,
+          "2": 59.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "“图利奥隆”（归档编号：ACL156），光环被正面盾牌形结构完全保护的形成模式，能够使用能量将远处的目标拖拽至身前，需要当心。",
+        "abilities": [
+          {
+            "id": "eny_0077_agshield_ability_1",
+            "description": "跂步晶城拥有通常和架盾两种形态。"
+          },
+          {
+            "id": "eny_0077_agshield_ability_2",
+            "description": "通常状态：拥有把远处干员拉拽到面前的能力。"
+          },
+          {
+            "id": "eny_0077_agshield_ability_3",
+            "description": "架盾状态：正面和侧面会反弹攻击，同时暴露背后的弱点。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0033_lbhunt",
+      "name": "碾骨伏击射手",
+      "role": "压制",
+      "hp": 180.0,
+      "speed": 0.75,
+      "armor": 12,
+      "leak": 1,
+      "threat": 4,
+      "suppress": {
+        "range": 3,
+        "interval": 7,
+        "windup": 0.8,
+        "duration": 1.4
+      },
+      "desc": "每 7 秒瞄准附近一台设备；红线预警 0.8 秒后使其停火 1.4 秒。优先清理可减少火力空档。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 180.0,
+          "2": 28.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "装备基础远程武器的裂地者武装人员。他们仅受过基础的射击训练，准头不佳，但仍有许多人命丧于他们的弩箭。",
+        "abilities": [
+          {
+            "id": "common_ability",
+            "description": "该敌人无特殊能力。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0046_lbshamman",
+      "name": "碾骨焰术师",
+      "role": "闪现",
+      "hp": 761.0,
+      "speed": 0.53,
+      "armor": 22,
+      "leak": 2,
+      "threat": 5,
+      "blink": {
+        "distance": 1.4,
+        "cooldown": 7
+      },
+      "desc": "受到伤害时沿传送带向前闪现 1.4 格，冷却 7 秒。用集中火力击杀，避免被持续消耗攻击反复触发闪现。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 761.0,
+          "2": 49.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "掌握源石技艺的裂地者武装人员。他们操纵塑能转换系源石技艺，在战场上播撒烈焰，是不折不扣的高威胁目标。",
+        "abilities": [
+          {
+            "id": "eny_0046_lbshamman_settlement_ability_1",
+            "description": "碾骨焰术师受到攻击时，会沿路径向前传送一段距离。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0049_rogue",
+      "name": "碾骨渗透者",
+      "role": "闪避",
+      "hp": 166.0,
+      "speed": 1.08,
+      "armor": 8,
+      "leak": 1,
+      "threat": 3,
+      "dodgeCooldown": 3.5,
+      "desc": "闪避一次设备伤害，冷却 3.5 秒。密集连射和持续伤害能够消耗闪避后继续命中。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 166.0,
+          "2": 33.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "装备成对近战武器的裂地者武装人员。他们熟练地运用双持武器作战，行动敏捷，擅长近身缠斗，必须谨慎应对。",
+        "abilities": [
+          {
+            "id": "eny_0049_rogue_settlement_ability_1",
+            "description": "会闪避来自作战设备的攻击（有冷却时间）。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0092_slbomb",
+      "name": "火雾源石虫",
+      "role": "治疗",
+      "hp": 180.0,
+      "speed": 0.87,
+      "armor": 6,
+      "leak": 1,
+      "threat": 4,
+      "deathHeal": {
+        "radius": 2.2,
+        "fraction": 0.15
+      },
+      "desc": "死亡时回复 2.2 格内存活同伴 15% 最大生命，含罗丹。治疗不会超过最大生命。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 180.0,
+          "2": 26.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "野生的被感染生物，体温极高。它在濒死时会发生爆炸，沸腾的酸性体液与活性源石粉尘将席卷周边的一切。\n",
+        "abilities": [
+          {
+            "id": "eny_0092_slbomb_settlement_ability_1",
+            "description": "火雾源石虫在死亡时会回复周围同伴的生命值。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0051_rodin",
+      "name": "“碾骨之拳”罗丹",
+      "role": "BOSS",
+      "hp": 3461.0,
+      "speed": 0.4,
+      "armor": 105,
+      "leak": 10,
+      "threat": 10,
+      "boss": true,
+      "slowResistance": 0.65,
+      "audio": {
+        "charge": "rodin.charge",
+        "slam": "rodin.slam",
+        "flameCharge": "rodin.flameCharge",
+        "flame": "rodin.flame"
+      },
+      "phaseShieldFraction": 0.25,
+      "phaseSpeed": 1.2,
+      "bossAttack": {
+        "interval": 9,
+        "windup": 1.2,
+        "radius": 2.5,
+        "duration": 2,
+        "phase2Interval": 6,
+        "phase2Windup": 1,
+        "phase2Radius": 3,
+        "phase2Duration": 2.6
+      },
+      "desc": "第一阶段蓄力施放牵引震击，使预警范围内设备停火 2 秒。半血时吸能进入第二阶段，获得 25% 最大生命的护盾并加速；火焰冲击扩大到 3 格，使设备停火 2.6 秒。漏过直接损失 10 点耐久。阶段与停火规则为同人适配。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 3461.0,
+          "2": 66.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "聂菲斯的“右拳”，碾骨氏族头号战将。曾有许多裂地者试图挑战聂菲斯的权威，他们的野心被罗丹以重拳逐一粉碎。",
+        "abilities": [
+          {
+            "id": "eny_0051_rodin_ability_1",
+            "description": "重型敌人，利用身上的通风管将敌人牵引至自己周围并进行攻击。"
+          },
+          {
+            "id": "eny_0051_rodin_ability_2",
+            "description": "可以从巢雕获得能量，并提升自身的能力。小心他喷射出的火焰。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0027_agscorp",
+      "name": "重刺天使",
+      "role": "召唤",
+      "hp": 734.0,
+      "speed": 0.58,
+      "armor": 25,
+      "leak": 2,
+      "threat": 8,
+      "badge": "召",
+      "summon": {
+        "type": 2,
+        "count": 2,
+        "limit": 2,
+        "interval": 8,
+        "windup": 1.2,
+        "hpScale": 0.85
+      },
+      "desc": "同人召唤：预警 1.2 秒后在身边召来 2 名轻型援兵，最多召唤 2 次，间隔 8 秒。援兵计入总数；在蓄力结束前击杀召唤者可阻止本次召唤。哨戒塔或高能射线优先处理高威胁目标。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 734.0,
+          "2": 49.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "“华丽肯托隆”（归档编号：ARL141），ARL121的非模式种。有时会放弃能量攻击，直接用尾巴近战。",
+        "abilities": [
+          {
+            "id": "eny_0027_agscorp_ability_1",
+            "description": "会在干员脚下伸出源石柱进行攻击。"
+          },
+          {
+            "id": "eny_0027_agscorp_ability_2",
+            "description": "当它被靠近时，会在自身周围召唤石柱保护自己。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0055_hscrane",
+      "name": "劫云客",
+      "role": "支援",
+      "hp": 761.0,
+      "speed": 0.7,
+      "armor": 16,
+      "leak": 2,
+      "threat": 9,
+      "badge": "疗",
+      "heal": {
+        "radius": 2.6,
+        "fraction": 0.08,
+        "targets": 3,
+        "interval": 6,
+        "windup": 1
+      },
+      "desc": "同人治疗支援：绿色圈预警 1 秒后，回复附近最多 3 名受伤同伴 8% 最大生命，每 6 秒发动。可治疗罗丹，不能复活或治疗自身；优先击杀治疗者可打断读条。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 761.0,
+          "2": 49.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "装备了奇异兵器的非法武装人员。劫云客的兵器形似灯笼，看似无害，但十步之外便足以取人首级，大意不得。",
+        "abilities": [
+          {
+            "id": "eny_0055_hscrane_ability_1",
+            "description": "可以喷出干扰视线的烟雾。在烟雾内，干员的视野会缩减，移动速度下降且无法进行闪避。"
+          },
+          {
+            "id": "eny_0055_hscrane_ability_2",
+            "description": "自身的战斗能力相对薄弱，可以考虑优先针对。"
+          },
+          {
+            "id": "eny_0055_hscrane_ability_3",
+            "description": "绿色的烟雾可以为其他敌人提供治疗。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eny_0108_slbomb2",
+      "name": "焚雾源石虫",
+      "role": "爆破",
+      "hp": 270.0,
+      "speed": 1.02,
+      "armor": 8,
+      "leak": 1,
+      "threat": 4,
+      "badge": "爆",
+      "deathBurst": {
+        "radius": 2.2,
+        "windup": 1.3,
+        "duration": 2.2
+      },
+      "desc": "同人死亡爆破：击杀后留下橙色预警圈，1.3 秒后使圈内防御塔停火 2.2 秒。优先远距离击杀、分散炮塔，避免爆破和压制接力封锁同一区域。",
+      "reference": {
+        "level": 1,
+        "attributes": {
+          "0": 1.0,
+          "1": 270.0,
+          "2": 30.0,
+          "3": 100.0
+        },
+        "traits": "fan adaptation",
+        "originalDescription": "野生的被感染生物，体温极高，背部甲壳所含源石粉尘活性更强，强烈不建议靠近这团活体岩浆。",
+        "abilities": [
+          {
+            "id": "eny_0092_slbomb_ability_1",
+            "description": "在生命值较低时会自爆。自爆会在被命中干员身上留下不稳定化合物，干员再次受到伤害时，这些化合物会爆炸。"
+          }
+        ]
+      }
+    }
+  ],
+  "waves": [
+    {
+      "name": "前哨接敌",
+      "enemies": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "gap": 1.1,
+      "hp": 1.05
+    },
+    {
+      "name": "高速穿插",
+      "enemies": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "gap": 0.9,
+      "hp": 1.12
+    },
+    {
+      "name": "密集攻势",
+      "enemies": [
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "gap": 0.7,
+      "hp": 1.25
+    },
+    {
+      "name": "低空突入",
+      "enemies": [
+        0,
+        4,
+        3,
+        1,
+        2,
+        4,
+        5,
+        1,
+        3,
+        2,
+        0,
+        4,
+        14,
+        2,
+        4,
+        0,
+        4,
+        3,
+        1,
+        2,
+        4,
+        5,
+        1,
+        3,
+        2,
+        0,
+        4,
+        14,
+        2,
+        4,
+        0,
+        4,
+        3,
+        1,
+        2,
+        4,
+        5,
+        1,
+        3,
+        2,
+        0,
+        4,
+        14,
+        2,
+        4,
+        0,
+        4,
+        3,
+        1,
+        2,
+        4,
+        5,
+        1,
+        3
+      ],
+      "gap": 0.6,
+      "hp": 1.4
+    },
+    {
+      "name": "盾阵推进",
+      "enemies": [
+        5,
+        0,
+        3,
+        2,
+        14,
+        5,
+        1,
+        3,
+        15,
+        2,
+        0,
+        8,
+        5,
+        4,
+        5,
+        0,
+        3,
+        2,
+        14,
+        5,
+        1,
+        3,
+        15,
+        2,
+        0,
+        8,
+        5,
+        4,
+        5,
+        0,
+        3,
+        2,
+        14,
+        5,
+        1,
+        3,
+        15,
+        2,
+        0,
+        8,
+        5,
+        4,
+        5,
+        0,
+        3,
+        2,
+        14,
+        5,
+        1,
+        3,
+        15,
+        2,
+        0,
+        8,
+        5,
+        4,
+        5,
+        0,
+        3,
+        2,
+        14,
+        5,
+        1,
+        3,
+        15,
+        2,
+        0,
+        8
+      ],
+      "gap": 0.5,
+      "hp": 1.6
+    },
+    {
+      "name": "雾火狂袭",
+      "enemies": [
+        6,
+        4,
+        5,
+        13,
+        2,
+        6,
+        14,
+        1,
+        4,
+        15,
+        6,
+        8,
+        2,
+        5,
+        6,
+        4,
+        6,
+        4,
+        5,
+        13,
+        2,
+        6,
+        14,
+        1,
+        4,
+        15,
+        6,
+        8,
+        2,
+        5,
+        6,
+        4,
+        6,
+        4,
+        5,
+        13,
+        2,
+        6,
+        14,
+        1,
+        4,
+        15,
+        6,
+        8,
+        2,
+        5,
+        6,
+        4,
+        6,
+        4,
+        5,
+        13,
+        2,
+        6,
+        14,
+        1,
+        4,
+        15,
+        6,
+        8,
+        2,
+        5,
+        6,
+        4,
+        6,
+        4,
+        5,
+        13,
+        2,
+        6,
+        14,
+        1,
+        4,
+        15,
+        6,
+        8,
+        2,
+        5,
+        6,
+        4,
+        6,
+        4
+      ],
+      "gap": 0.43,
+      "hp": 1.75
+    },
+    {
+      "name": "晶城压境",
+      "enemies": [
+        5,
+        7,
+        14,
+        4,
+        3,
+        13,
+        6,
+        15,
+        8,
+        2,
+        5,
+        9,
+        6,
+        4,
+        5,
+        7,
+        14,
+        4,
+        3,
+        13,
+        6,
+        15,
+        8,
+        2,
+        5,
+        9,
+        6,
+        4,
+        5,
+        7,
+        14,
+        4,
+        3,
+        13,
+        6,
+        15,
+        8,
+        2,
+        5,
+        9,
+        6,
+        4,
+        5,
+        7,
+        14,
+        4,
+        3,
+        13,
+        6,
+        15,
+        8,
+        2,
+        5,
+        9,
+        6,
+        4,
+        5,
+        7,
+        14,
+        4,
+        3,
+        13,
+        6,
+        15,
+        8,
+        2,
+        5,
+        9,
+        6,
+        4,
+        5,
+        7,
+        14,
+        4,
+        3,
+        13,
+        6,
+        15,
+        8,
+        2,
+        5,
+        9,
+        6,
+        4,
+        5,
+        7,
+        14,
+        4,
+        3,
+        13,
+        6,
+        15,
+        8,
+        2
+      ],
+      "gap": 0.38,
+      "hp": 1.85
+    },
+    {
+      "name": "终局合围",
+      "enemies": [
+        4,
+        6,
+        5,
+        15,
+        7,
+        14,
+        6,
+        8,
+        13,
+        4,
+        9,
+        10,
+        5,
+        2,
+        6,
+        4,
+        6,
+        5,
+        15,
+        7,
+        14,
+        6,
+        8,
+        13,
+        4,
+        9,
+        10,
+        5,
+        2,
+        6,
+        4,
+        6,
+        5,
+        15,
+        7,
+        14,
+        6,
+        8,
+        13,
+        4,
+        9,
+        10,
+        5,
+        2,
+        6,
+        4,
+        6,
+        5,
+        15,
+        7,
+        14,
+        6,
+        8,
+        13,
+        4,
+        9,
+        10,
+        5,
+        2,
+        6,
+        4,
+        6,
+        5,
+        15,
+        7,
+        14,
+        6,
+        8,
+        13,
+        4,
+        9,
+        10,
+        5,
+        2,
+        6,
+        4,
+        6,
+        5,
+        15,
+        7,
+        14,
+        6,
+        8,
+        13,
+        4,
+        9,
+        10,
+        5,
+        2,
+        6,
+        4,
+        6,
+        5,
+        15,
+        7,
+        14,
+        6,
+        8,
+        13,
+        4,
+        9,
+        10,
+        5,
+        2
+      ],
+      "gap": 0.34,
+      "hp": 2
+    },
+    {
+      "name": "碾骨先遣队",
+      "enemies": [
+        10,
+        8,
+        5,
+        14,
+        11,
+        9,
+        13,
+        6,
+        15,
+        10,
+        8,
+        4,
+        7,
+        2,
+        5,
+        10,
+        8,
+        5,
+        14,
+        11,
+        9,
+        13,
+        6,
+        15,
+        10,
+        8,
+        4,
+        7,
+        2,
+        5,
+        10,
+        8,
+        5,
+        14,
+        11,
+        9,
+        13,
+        6,
+        15,
+        10,
+        8,
+        4,
+        7,
+        2,
+        5,
+        10,
+        8,
+        5,
+        14,
+        11,
+        9,
+        13,
+        6,
+        15,
+        10,
+        8,
+        4,
+        7,
+        2,
+        5,
+        10,
+        8,
+        5,
+        14,
+        11,
+        9,
+        13,
+        6,
+        15,
+        10,
+        8,
+        4,
+        7,
+        2,
+        5,
+        10,
+        8,
+        5,
+        14,
+        11,
+        9,
+        13,
+        6,
+        15,
+        10,
+        8,
+        4,
+        7,
+        2,
+        5,
+        10,
+        8,
+        5,
+        14,
+        11,
+        9,
+        13,
+        6,
+        15,
+        10,
+        8,
+        4,
+        7,
+        2,
+        5,
+        10,
+        8,
+        5,
+        14,
+        11,
+        9,
+        13
+      ],
+      "gap": 0.32,
+      "hp": 2.2
+    },
+    {
+      "name": "碾骨之拳 · 罗丹",
+      "enemies": [
+        5,
+        14,
+        8,
+        10,
+        13,
+        15,
+        11,
+        9,
+        7,
+        2,
+        6,
+        4,
+        8,
+        5,
+        10,
+        2,
+        14,
+        15,
+        5,
+        14,
+        8,
+        10,
+        13,
+        15,
+        11,
+        9,
+        7,
+        2,
+        6,
+        4,
+        8,
+        5,
+        10,
+        2,
+        14,
+        15,
+        5,
+        14,
+        8,
+        10,
+        13,
+        15,
+        12,
+        9,
+        7,
+        2,
+        6,
+        4,
+        8,
+        5,
+        10,
+        2,
+        14,
+        15,
+        5,
+        14,
+        8,
+        10,
+        13,
+        15,
+        11,
+        9,
+        7,
+        2,
+        6,
+        4,
+        8,
+        5,
+        10,
+        2,
+        14,
+        15,
+        5,
+        14,
+        8,
+        10,
+        13,
+        15,
+        11,
+        9,
+        7,
+        2,
+        6,
+        4,
+        8,
+        5,
+        10,
+        2,
+        14,
+        15,
+        5,
+        14,
+        8,
+        10,
+        13,
+        15,
+        11,
+        9,
+        7,
+        2,
+        6,
+        4,
+        8,
+        5,
+        10,
+        2,
+        14,
+        15,
+        5,
+        14,
+        8,
+        10,
+        13,
+        15,
+        11,
+        9,
+        7,
+        2,
+        6,
+        4
+      ],
+      "gap": 0.32,
+      "hp": 2.6
+    }
+  ],
+  "production": {
+    "types": [
+      {
+        "id": "unloader_1",
+        "name": "仓库取货口",
+        "kind": "unloader",
+        "category": "warehouse",
+        "role": "取货",
+        "cost": 2,
+        "period": 3,
+        "sources": [
+          "item_originium_ore",
+          "item_crystal_enr",
+          "item_crystal_enr_powder",
+          "item_crystal_powder",
+          "item_crystal_shell",
+          "item_glass_cmpt",
+          "item_glass_enr_cmpt",
+          "item_iron_cmpt",
+          "item_iron_enr",
+          "item_iron_enr_cmpt",
+          "item_iron_enr_powder",
+          "item_iron_nugget",
+          "item_iron_ore",
+          "item_iron_powder",
+          "item_originium_enr_powder",
+          "item_originium_powder",
+          "item_plant_moss_3",
+          "item_plant_moss_powder_3",
+          "item_proc_battery_1",
+          "item_proc_battery_2",
+          "item_proc_battery_3",
+          "item_quartz_enr",
+          "item_quartz_enr_powder",
+          "item_quartz_glass",
+          "item_quartz_powder",
+          "item_quartz_sand"
+        ],
+        "color": "#c9a159",
+        "desc": "仓库接口朝下接入地图底部存取线，每 3 秒取出一份选定物品。源矿、紫晶矿无限供应；蓝铁矿需要击杀敌人解锁，解锁后无限供应。成品需要先存入仓库。按箭头输出。 仓库接口须朝下、出货口朝上。",
+        "defaultDir": 3,
+        "ports": {
+          "inputs": [],
+          "outputs": [
+            0
+          ],
+          "warehouse": 2
+        },
+        "footprint": {
+          "width": 1,
+          "depth": 3
+        },
+        "portCells": {
+          "inputs": [],
+          "outputs": [
+            {
+              "x": 0,
+              "y": 1,
+              "side": 0,
+              "index": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "icon_belt_grid",
+        "name": "生产传送带",
+        "kind": "belt",
+        "role": "输送",
+        "cost": 1,
+        "period": 0.35,
+        "color": "#baa64f",
+        "desc": "按住拖拽连续铺设，松开确认；自动转弯，末端可自动对准设备入口。按 R 锁定末端方向，Esc 取消。已有传送带可复用，按新建格数收费。",
+        "defaultDir": 0,
+        "footprint": {
+          "width": 1,
+          "depth": 1
+        },
+        "ports": {
+          "inputs": [
+            1,
+            2,
+            3
+          ],
+          "outputs": [
+            0
+          ],
+          "warehouse": null
+        }
+      },
+      {
+        "id": "furnance_1",
+        "name": "精炼炉",
+        "kind": "processor",
+        "role": "精炼",
+        "cost": 5,
+        "color": "#bf855f",
+        "desc": "将矿石或研磨后的粉末精炼为外壳、纤维、金属块。基础配方初始可用；致密冶炼与高晶精炼解锁更高级材料。 物品只从入口进入，由另一侧出口送出；R 同时旋转两个接口。",
+        "defaultDir": 0,
+        "ports": {
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            0
+          ],
+          "warehouse": null
+        },
+        "footprint": {
+          "width": 3,
+          "depth": 3
+        },
+        "portCells": {
+          "inputs": [
+            {
+              "x": 0,
+              "y": 2,
+              "side": 2,
+              "index": 0
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "side": 2,
+              "index": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "side": 2,
+              "index": 2
+            }
+          ],
+          "outputs": [
+            {
+              "x": 2,
+              "y": 2,
+              "side": 0,
+              "index": 0
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "side": 0,
+              "index": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "side": 0,
+              "index": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "storager_1",
+        "name": "协议储存箱",
+        "kind": "supply",
+        "role": "兑换 / 入库",
+        "cost": 4,
+        "period": 0.5,
+        "color": "#7fabab",
+        "desc": "交付成品可选择兑换部署费用、存入公共仓库或两者交替。入库材料用于研究、制造和弹药；交替模式下 折金票已满会自动入库。每份成品只结算一次。",
+        "defaultDir": 0,
+        "ports": {
+          "inputs": [
+            2
+          ],
+          "outputs": [],
+          "warehouse": null
+        },
+        "footprint": {
+          "width": 3,
+          "depth": 3
+        },
+        "portCells": {
+          "inputs": [
+            {
+              "x": 0,
+              "y": 2,
+              "side": 2,
+              "index": 0
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "side": 2,
+              "index": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "side": 2,
+              "index": 2
+            }
+          ],
+          "outputs": []
+        }
+      },
+      {
+        "id": "grinder_1",
+        "name": "粉碎机",
+        "kind": "processor",
+        "role": "粉碎",
+        "cost": 5,
+        "color": "#90a16c",
+        "desc": "将源矿加工为源石粉末。研究粉体工艺后可粉碎蓝铁块、紫晶纤维、晶体外壳和砂叶；砂叶每份产出 3 份粉末。 物品只从入口进入，由另一侧出口送出；R 同时旋转两个接口。",
+        "defaultDir": 0,
+        "ports": {
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            0
+          ],
+          "warehouse": null
+        },
+        "footprint": {
+          "width": 3,
+          "depth": 3
+        },
+        "portCells": {
+          "inputs": [
+            {
+              "x": 0,
+              "y": 2,
+              "side": 2,
+              "index": 0
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "side": 2,
+              "index": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "side": 2,
+              "index": 2
+            }
+          ],
+          "outputs": [
+            {
+              "x": 2,
+              "y": 2,
+              "side": 0,
+              "index": 0
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "side": 0,
+              "index": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "side": 0,
+              "index": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "component_mc_1",
+        "name": "配件机",
+        "kind": "processor",
+        "role": "深加工",
+        "cost": 7,
+        "color": "#8aa0b8",
+        "desc": "将金属块或纤维加工为零件。铁制零件用于武器与中容电池，紫晶零件用于电池与高晶研究；钢制和高晶零件用于高级研究和改装。 物品只从入口进入，由另一侧出口送出；R 同时旋转两个接口。",
+        "defaultDir": 0,
+        "ports": {
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            0
+          ],
+          "warehouse": null
+        },
+        "footprint": {
+          "width": 3,
+          "depth": 3
+        },
+        "portCells": {
+          "inputs": [
+            {
+              "x": 0,
+              "y": 2,
+              "side": 2,
+              "index": 0
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "side": 2,
+              "index": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "side": 2,
+              "index": 2
+            }
+          ],
+          "outputs": [
+            {
+              "x": 2,
+              "y": 2,
+              "side": 0,
+              "index": 0
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "side": 0,
+              "index": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "side": 0,
+              "index": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "log_hongs_bus_source",
+        "name": "仓库存取线源桩",
+        "kind": "hub",
+        "builtIn": true,
+        "category": "warehouse",
+        "role": "自带仓库",
+        "cost": 0,
+        "color": "#91a6a8",
+        "desc": "地图底部自带仓库起点，不需要建造。整排存取线共享仓库，原材料无限供应，成品按实际库存取用。",
+        "defaultDir": 0,
+        "ports": {
+          "inputs": [],
+          "outputs": [],
+          "warehouse": null
+        },
+        "footprint": {
+          "width": 4,
+          "depth": 4
+        },
+        "portCells": {
+          "inputs": [],
+          "outputs": []
+        }
+      },
+      {
+        "id": "log_hongs_bus",
+        "name": "仓库存取线基段",
+        "kind": "bus",
+        "builtIn": true,
+        "category": "warehouse",
+        "role": "自带管线",
+        "cost": 0,
+        "color": "#8b9d86",
+        "desc": "地图底部自带的仓库存取线基段，不需要建造。在上方贴放存取口，仓库接口朝下即可使用公共仓库。",
+        "defaultDir": 0,
+        "ports": {
+          "inputs": [],
+          "outputs": [],
+          "warehouse": null
+        },
+        "footprint": {
+          "width": 8,
+          "depth": 4
+        },
+        "portCells": {
+          "inputs": [],
+          "outputs": []
+        }
+      },
+      {
+        "id": "loader_1",
+        "name": "仓库存货口",
+        "kind": "loader",
+        "category": "warehouse",
+        "role": "入库",
+        "cost": 2,
+        "period": 0.5,
+        "color": "#a3a16d",
+        "desc": "仓库接口朝下连接底部存取线，从上方物品入口接收物品并存入公共仓库。入库不直接兑换折金票；成品可以从任一在线取货口取出。 物品入口须朝上、仓库接口朝下。",
+        "defaultDir": 1,
+        "ports": {
+          "inputs": [
+            2
+          ],
+          "outputs": [],
+          "warehouse": 0
+        },
+        "footprint": {
+          "width": 1,
+          "depth": 3
+        },
+        "portCells": {
+          "inputs": [
+            {
+              "x": 0,
+              "y": 1,
+              "side": 2,
+              "index": 0
+            }
+          ],
+          "outputs": []
+        }
+      },
+      {
+        "id": "thickener_1",
+        "name": "研磨机",
+        "kind": "processor",
+        "role": "双料研磨",
+        "cost": 18,
+        "research": "densification",
+        "color": "#8ba1b2",
+        "desc": "将矿物粉末与砂叶粉末按原版比例合批研磨。各入口可接不同物料，备齐全部原料后开始加工；缺料或出料积压会停产。 物品只从入口进入，由另一侧出口送出；R 同时旋转两个接口。",
+        "defaultDir": 0,
+        "ports": {
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            0
+          ],
+          "warehouse": null
+        },
+        "footprint": {
+          "width": 4,
+          "depth": 6
+        },
+        "portCells": {
+          "inputs": [
+            {
+              "x": 0,
+              "y": 5,
+              "side": 2,
+              "index": 0
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "side": 2,
+              "index": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "side": 2,
+              "index": 2
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "side": 2,
+              "index": 3
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "side": 2,
+              "index": 4
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "side": 2,
+              "index": 5
+            }
+          ],
+          "outputs": [
+            {
+              "x": 3,
+              "y": 5,
+              "side": 0,
+              "index": 0
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "side": 0,
+              "index": 1
+            },
+            {
+              "x": 3,
+              "y": 3,
+              "side": 0,
+              "index": 2
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "side": 0,
+              "index": 3
+            },
+            {
+              "x": 3,
+              "y": 1,
+              "side": 0,
+              "index": 4
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "side": 0,
+              "index": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "tools_assebling_mc_1",
+        "name": "封装机",
+        "kind": "processor",
+        "role": "电池封装",
+        "cost": 24,
+        "research": "batteries",
+        "color": "#b29f77",
+        "desc": "将零件与源石粉末封装为谷地电池。每批按配方收齐两种材料，加工 10 秒；电池可交付兑换折金票，或入库用于研究和高级改装。 物品只从入口进入，由另一侧出口送出；R 同时旋转两个接口。",
+        "defaultDir": 0,
+        "ports": {
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            0
+          ],
+          "warehouse": null
+        },
+        "footprint": {
+          "width": 4,
+          "depth": 6
+        },
+        "portCells": {
+          "inputs": [
+            {
+              "x": 0,
+              "y": 5,
+              "side": 2,
+              "index": 0
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "side": 2,
+              "index": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "side": 2,
+              "index": 2
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "side": 2,
+              "index": 3
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "side": 2,
+              "index": 4
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "side": 2,
+              "index": 5
+            }
+          ],
+          "outputs": [
+            {
+              "x": 3,
+              "y": 5,
+              "side": 0,
+              "index": 0
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "side": 0,
+              "index": 1
+            },
+            {
+              "x": 3,
+              "y": 3,
+              "side": 0,
+              "index": 2
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "side": 0,
+              "index": 3
+            },
+            {
+              "x": 3,
+              "y": 1,
+              "side": 0,
+              "index": 4
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "side": 0,
+              "index": 5
+            }
+          ]
+        }
+      }
+    ],
+    "recipes": [
+      {
+        "id": "furnance_crystal_shell_1",
+        "machineId": "furnance_1",
+        "input": "item_originium_ore",
+        "output": "item_crystal_shell",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_originium_ore",
+            "count": 1
+          }
+        ],
+        "research": null,
+        "period": 2.0
+      },
+      {
+        "id": "furnance_quartz_glass_1",
+        "machineId": "furnance_1",
+        "input": "item_quartz_sand",
+        "output": "item_quartz_glass",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_quartz_sand",
+            "count": 1
+          }
+        ],
+        "research": null,
+        "period": 2.0
+      },
+      {
+        "id": "furnance_iron_nugget_1",
+        "machineId": "furnance_1",
+        "input": "item_iron_ore",
+        "output": "item_iron_nugget",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_iron_ore",
+            "count": 1
+          }
+        ],
+        "research": null,
+        "period": 2.0
+      },
+      {
+        "id": "grinder_originium_powder_1",
+        "machineId": "grinder_1",
+        "input": "item_originium_ore",
+        "output": "item_originium_powder",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_originium_ore",
+            "count": 1
+          }
+        ],
+        "research": null,
+        "period": 2.0
+      },
+      {
+        "id": "component_iron_cmpt_1",
+        "machineId": "component_mc_1",
+        "input": "item_iron_nugget",
+        "output": "item_iron_cmpt",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_iron_nugget",
+            "count": 1
+          }
+        ],
+        "research": null,
+        "period": 2.0
+      },
+      {
+        "id": "component_glass_cmpt_1",
+        "machineId": "component_mc_1",
+        "input": "item_quartz_glass",
+        "output": "item_glass_cmpt",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_quartz_glass",
+            "count": 1
+          }
+        ],
+        "research": "components",
+        "period": 2.0
+      },
+      {
+        "id": "grinder_iron_powder_1",
+        "machineId": "grinder_1",
+        "input": "item_iron_nugget",
+        "output": "item_iron_powder",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_iron_nugget",
+            "count": 1
+          }
+        ],
+        "research": "powder",
+        "period": 2.0
+      },
+      {
+        "id": "grinder_quartz_powder_1",
+        "machineId": "grinder_1",
+        "input": "item_quartz_glass",
+        "output": "item_quartz_powder",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_quartz_glass",
+            "count": 1
+          }
+        ],
+        "research": "powder",
+        "period": 2.0
+      },
+      {
+        "id": "grinder_crystal_powder_1",
+        "machineId": "grinder_1",
+        "input": "item_crystal_shell",
+        "output": "item_crystal_powder",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_crystal_shell",
+            "count": 1
+          }
+        ],
+        "research": "powder",
+        "period": 2.0
+      },
+      {
+        "id": "grinder_plant_moss_powder_3_1",
+        "machineId": "grinder_1",
+        "input": "item_plant_moss_3",
+        "output": "item_plant_moss_powder_3",
+        "inputCount": 1,
+        "outputCount": 3,
+        "inputs": [
+          {
+            "id": "item_plant_moss_3",
+            "count": 1
+          }
+        ],
+        "research": "powder",
+        "period": 2.0
+      },
+      {
+        "id": "thickener_iron_enr_powder_1",
+        "machineId": "thickener_1",
+        "input": "item_iron_powder",
+        "output": "item_iron_enr_powder",
+        "inputCount": 2,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_iron_powder",
+            "count": 2
+          },
+          {
+            "id": "item_plant_moss_powder_3",
+            "count": 1
+          }
+        ],
+        "research": "densification",
+        "period": 2.0
+      },
+      {
+        "id": "thickener_originium_enr_powder_1",
+        "machineId": "thickener_1",
+        "input": "item_originium_powder",
+        "output": "item_originium_enr_powder",
+        "inputCount": 2,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_originium_powder",
+            "count": 2
+          },
+          {
+            "id": "item_plant_moss_powder_3",
+            "count": 1
+          }
+        ],
+        "research": "densification",
+        "period": 2.0
+      },
+      {
+        "id": "thickener_crystal_enr_powder_1",
+        "machineId": "thickener_1",
+        "input": "item_crystal_powder",
+        "output": "item_crystal_enr_powder",
+        "inputCount": 2,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_crystal_powder",
+            "count": 2
+          },
+          {
+            "id": "item_plant_moss_powder_3",
+            "count": 1
+          }
+        ],
+        "research": "densification",
+        "period": 2.0
+      },
+      {
+        "id": "furnance_iron_enr_1",
+        "machineId": "furnance_1",
+        "input": "item_iron_enr_powder",
+        "output": "item_iron_enr",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_iron_enr_powder",
+            "count": 1
+          }
+        ],
+        "research": "densification",
+        "period": 2.0
+      },
+      {
+        "id": "furnance_crystal_enr_1",
+        "machineId": "furnance_1",
+        "input": "item_crystal_enr_powder",
+        "output": "item_crystal_enr",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_crystal_enr_powder",
+            "count": 1
+          }
+        ],
+        "research": "densification",
+        "period": 2.0
+      },
+      {
+        "id": "component_iron_enr_cmpt_1",
+        "machineId": "component_mc_1",
+        "input": "item_iron_enr",
+        "output": "item_iron_enr_cmpt",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_iron_enr",
+            "count": 1
+          }
+        ],
+        "research": "densification",
+        "period": 2.0
+      },
+      {
+        "id": "thickener_quartz_enr_powder_1",
+        "machineId": "thickener_1",
+        "input": "item_quartz_powder",
+        "output": "item_quartz_enr_powder",
+        "inputCount": 2,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_quartz_powder",
+            "count": 2
+          },
+          {
+            "id": "item_plant_moss_powder_3",
+            "count": 1
+          }
+        ],
+        "research": "crystal",
+        "period": 2.0
+      },
+      {
+        "id": "furnance_quartz_enr_1",
+        "machineId": "furnance_1",
+        "input": "item_quartz_enr_powder",
+        "output": "item_quartz_enr",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_quartz_enr_powder",
+            "count": 1
+          }
+        ],
+        "research": "crystal",
+        "period": 2.0
+      },
+      {
+        "id": "component_glass_enr_cmpt_1",
+        "machineId": "component_mc_1",
+        "input": "item_quartz_enr",
+        "output": "item_glass_enr_cmpt",
+        "inputCount": 1,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_quartz_enr",
+            "count": 1
+          }
+        ],
+        "research": "crystal",
+        "period": 2.0
+      },
+      {
+        "id": "tools_proc_battery_1_1",
+        "machineId": "tools_assebling_mc_1",
+        "input": "item_glass_cmpt",
+        "output": "item_proc_battery_1",
+        "inputCount": 5,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_glass_cmpt",
+            "count": 5
+          },
+          {
+            "id": "item_originium_powder",
+            "count": 10
+          }
+        ],
+        "research": "batteries",
+        "period": 10.0
+      },
+      {
+        "id": "tools_proc_battery_2_1",
+        "machineId": "tools_assebling_mc_1",
+        "input": "item_iron_cmpt",
+        "output": "item_proc_battery_2",
+        "inputCount": 10,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_iron_cmpt",
+            "count": 10
+          },
+          {
+            "id": "item_originium_powder",
+            "count": 15
+          }
+        ],
+        "research": "batteries",
+        "period": 10.0
+      },
+      {
+        "id": "tools_proc_battery_3_1",
+        "machineId": "tools_assebling_mc_1",
+        "input": "item_iron_enr_cmpt",
+        "output": "item_proc_battery_3",
+        "inputCount": 10,
+        "outputCount": 1,
+        "inputs": [
+          {
+            "id": "item_iron_enr_cmpt",
+            "count": 10
+          },
+          {
+            "id": "item_originium_enr_powder",
+            "count": 15
+          }
+        ],
+        "research": "industrial",
+        "period": 10.0
+      }
+    ],
+    "items": {
+      "item_crystal_enr": {
+        "id": "item_crystal_enr",
+        "name": "密制晶体",
+        "value": 14,
+        "research": "densification"
+      },
+      "item_crystal_enr_powder": {
+        "id": "item_crystal_enr_powder",
+        "name": "致密晶体粉末",
+        "value": 10,
+        "research": "densification"
+      },
+      "item_crystal_powder": {
+        "id": "item_crystal_powder",
+        "name": "晶体外壳粉末",
+        "value": 4,
+        "research": "powder"
+      },
+      "item_crystal_shell": {
+        "id": "item_crystal_shell",
+        "name": "晶体外壳",
+        "value": 4
+      },
+      "item_glass_cmpt": {
+        "id": "item_glass_cmpt",
+        "name": "紫晶零件",
+        "value": 7,
+        "research": "components"
+      },
+      "item_glass_enr_cmpt": {
+        "id": "item_glass_enr_cmpt",
+        "name": "高晶零件",
+        "value": 18,
+        "research": "crystal"
+      },
+      "item_iron_cmpt": {
+        "id": "item_iron_cmpt",
+        "name": "铁制零件",
+        "value": 10
+      },
+      "item_iron_enr": {
+        "id": "item_iron_enr",
+        "name": "钢块",
+        "value": 18,
+        "research": "densification"
+      },
+      "item_iron_enr_cmpt": {
+        "id": "item_iron_enr_cmpt",
+        "name": "钢制零件",
+        "value": 22,
+        "research": "densification"
+      },
+      "item_iron_enr_powder": {
+        "id": "item_iron_enr_powder",
+        "name": "致密蓝铁粉末",
+        "value": 14,
+        "research": "densification"
+      },
+      "item_iron_nugget": {
+        "id": "item_iron_nugget",
+        "name": "蓝铁块",
+        "value": 6
+      },
+      "item_iron_ore": {
+        "id": "item_iron_ore",
+        "name": "蓝铁矿",
+        "value": 0
+      },
+      "item_iron_powder": {
+        "id": "item_iron_powder",
+        "name": "蓝铁粉末",
+        "value": 6,
+        "research": "powder"
+      },
+      "item_originium_enr_powder": {
+        "id": "item_originium_enr_powder",
+        "name": "致密源石粉末",
+        "value": 10,
+        "research": "densification"
+      },
+      "item_originium_ore": {
+        "id": "item_originium_ore",
+        "name": "源矿",
+        "value": 0
+      },
+      "item_originium_powder": {
+        "id": "item_originium_powder",
+        "name": "源石粉末",
+        "value": 4
+      },
+      "item_plant_moss_3": {
+        "id": "item_plant_moss_3",
+        "name": "砂叶",
+        "value": 0,
+        "research": "powder"
+      },
+      "item_plant_moss_powder_3": {
+        "id": "item_plant_moss_powder_3",
+        "name": "砂叶粉末",
+        "value": 1,
+        "research": "powder"
+      },
+      "item_proc_battery_1": {
+        "id": "item_proc_battery_1",
+        "name": "低容谷地电池",
+        "value": 90,
+        "research": "batteries"
+      },
+      "item_proc_battery_2": {
+        "id": "item_proc_battery_2",
+        "name": "中容谷地电池",
+        "value": 190,
+        "research": "batteries"
+      },
+      "item_proc_battery_3": {
+        "id": "item_proc_battery_3",
+        "name": "高容谷地电池",
+        "value": 450,
+        "research": "industrial"
+      },
+      "item_quartz_enr": {
+        "id": "item_quartz_enr",
+        "name": "高晶纤维",
+        "value": 14,
+        "research": "crystal"
+      },
+      "item_quartz_enr_powder": {
+        "id": "item_quartz_enr_powder",
+        "name": "高晶粉末",
+        "value": 10,
+        "research": "crystal"
+      },
+      "item_quartz_glass": {
+        "id": "item_quartz_glass",
+        "name": "紫晶纤维",
+        "value": 4
+      },
+      "item_quartz_powder": {
+        "id": "item_quartz_powder",
+        "name": "紫晶粉末",
+        "value": 4,
+        "research": "powder"
+      },
+      "item_quartz_sand": {
+        "id": "item_quartz_sand",
+        "name": "紫晶矿",
+        "value": 0
+      }
+    },
+    "rawMaterials": [
+      "item_iron_ore",
+      "item_originium_ore",
+      "item_plant_moss_3",
+      "item_quartz_sand"
+    ],
+    "unlocks": [
+      {
+        "id": "blue_iron",
+        "name": "蓝铁矿",
+        "kills": 50,
+        "items": [
+          "item_iron_ore",
+          "item_iron_nugget",
+          "item_iron_cmpt"
+        ]
+      }
+    ]
+  },
+  "economy": {
+    "version": 2,
+    "nodes": [
+      {
+        "id": "logistics",
+        "name": "仓储扩容",
+        "branch": "工程",
+        "requires": [],
+        "cost": 16,
+        "materials": {
+          "item_crystal_shell": 6
+        },
+        "seconds": 12,
+        "desc": "折金票容量由 9,900 提高至 20,000。",
+        "dpCapacity": 200
+      },
+      {
+        "id": "ballistics",
+        "name": "弹道工程",
+        "branch": "火力",
+        "requires": [],
+        "cost": 22,
+        "materials": {
+          "item_crystal_shell": 8
+        },
+        "seconds": 15,
+        "desc": "解锁榴弹塔与扩装铳械塔。"
+      },
+      {
+        "id": "chemistry",
+        "name": "应用化学",
+        "branch": "工程",
+        "requires": [],
+        "cost": 22,
+        "materials": {
+          "item_quartz_glass": 6,
+          "item_originium_powder": 6
+        },
+        "seconds": 15,
+        "desc": "解锁酸液、燃烧塔及液氮、酸液、燃烧设备二级强化。"
+      },
+      {
+        "id": "electromagnetics",
+        "name": "电磁工程",
+        "branch": "能量",
+        "requires": [],
+        "cost": 28,
+        "materials": {
+          "item_quartz_glass": 10,
+          "item_iron_nugget": 4
+        },
+        "seconds": 18,
+        "desc": "解锁射线塔、电涌塔。"
+      },
+      {
+        "id": "heavy",
+        "name": "重型武器",
+        "branch": "火力",
+        "requires": [
+          "ballistics"
+        ],
+        "cost": 40,
+        "materials": {
+          "item_iron_cmpt": 12,
+          "item_crystal_shell": 12
+        },
+        "seconds": 35,
+        "desc": "解锁哨戒塔、重锤迫击炮及二级榴弹、哨戒改装。"
+      },
+      {
+        "id": "storm",
+        "name": "密集火力",
+        "branch": "火力",
+        "requires": [
+          "ballistics",
+          "logistics",
+          "densification"
+        ],
+        "cost": 80,
+        "materials": {
+          "item_iron_cmpt": 12,
+          "item_iron_enr_cmpt": 6,
+          "item_crystal_shell": 18
+        },
+        "seconds": 70,
+        "desc": "以钢制零件强化供弹机构，解锁暴雨铳械塔。整轮伤害为基础铳械塔的 7 倍。"
+      },
+      {
+        "id": "overcharge",
+        "name": "高能回路",
+        "branch": "能量",
+        "requires": [
+          "electromagnetics",
+          "crystal",
+          "batteries"
+        ],
+        "cost": 90,
+        "materials": {
+          "item_glass_enr_cmpt": 6,
+          "item_proc_battery_1": 1,
+          "item_quartz_glass": 12
+        },
+        "seconds": 90,
+        "desc": "以高晶零件和谷地电池构建高能回路，解锁高能射线与电涌改装。"
+      },
+      {
+        "id": "precision",
+        "name": "精密战备",
+        "branch": "工程",
+        "requires": [
+          "heavy",
+          "chemistry",
+          "industrial"
+        ],
+        "cost": 150,
+        "materials": {
+          "item_iron_enr_cmpt": 12,
+          "item_glass_enr_cmpt": 8,
+          "item_proc_battery_3": 1
+        },
+        "seconds": 80,
+        "desc": "解锁三级液氮、哨戒、酸液、燃烧强化与维什戴尔改件。改装需要钢材、高晶及电池供应。",
+        "dpCapacity": 350
+      },
+      {
+        "id": "components",
+        "name": "精密加工",
+        "branch": "基础加工",
+        "requires": [],
+        "cost": 16,
+        "materials": {
+          "item_crystal_shell": 6,
+          "item_quartz_glass": 4
+        },
+        "seconds": 20,
+        "desc": "配件机新增紫晶零件。紫晶矿 → 紫晶纤维 → 紫晶零件，用于电池封装与高晶精炼。",
+        "production": true,
+        "products": [
+          "item_glass_cmpt"
+        ]
+      },
+      {
+        "id": "powder",
+        "name": "粉体工艺",
+        "branch": "基础加工",
+        "requires": [],
+        "cost": 20,
+        "materials": {
+          "item_crystal_shell": 8,
+          "item_originium_powder": 8
+        },
+        "seconds": 25,
+        "desc": "解锁砂叶无限取货，以及砂叶、蓝铁块、紫晶纤维、晶体外壳的粉碎配方。1 份砂叶产出 3 份砂叶粉末。",
+        "production": true,
+        "products": [
+          "item_plant_moss_powder_3",
+          "item_iron_powder",
+          "item_quartz_powder",
+          "item_crystal_powder"
+        ]
+      },
+      {
+        "id": "densification",
+        "name": "致密冶炼",
+        "branch": "材料精炼",
+        "requires": [
+          "powder",
+          "logistics"
+        ],
+        "cost": 50,
+        "materials": {
+          "item_iron_nugget": 8,
+          "item_originium_powder": 12,
+          "item_plant_moss_powder_3": 6
+        },
+        "seconds": 40,
+        "desc": "解锁研磨机：2 份矿物粉末 + 1 份砂叶粉末 → 致密材料。致密蓝铁粉末 → 钢块 → 钢制零件；同时解锁致密源石粉末与密制晶体。",
+        "production": true,
+        "products": [
+          "item_iron_enr",
+          "item_iron_enr_cmpt",
+          "item_crystal_enr",
+          "item_originium_enr_powder"
+        ],
+        "machine": "thickener_1"
+      },
+      {
+        "id": "crystal",
+        "name": "高晶精炼",
+        "branch": "材料精炼",
+        "requires": [
+          "densification",
+          "components"
+        ],
+        "cost": 65,
+        "materials": {
+          "item_crystal_enr": 6,
+          "item_iron_enr": 6,
+          "item_glass_cmpt": 8
+        },
+        "seconds": 50,
+        "desc": "紫晶粉末 + 砂叶粉末 → 高晶粉末 → 高晶纤维 → 高晶零件。为能量设备与集成制造供应高阶材料。",
+        "production": true,
+        "products": [
+          "item_quartz_enr",
+          "item_glass_enr_cmpt"
+        ]
+      },
+      {
+        "id": "batteries",
+        "name": "电池封装",
+        "branch": "工业制造",
+        "requires": [
+          "components"
+        ],
+        "cost": 40,
+        "materials": {
+          "item_glass_cmpt": 10,
+          "item_originium_powder": 15
+        },
+        "seconds": 35,
+        "desc": "解锁封装机与低容、中容谷地电池。零件与源石粉末分别接入，收齐后每批封装 10 秒。电池可整份兑换，也可入库供给研究。",
+        "production": true,
+        "products": [
+          "item_proc_battery_1",
+          "item_proc_battery_2"
+        ],
+        "machine": "tools_assebling_mc_1"
+      },
+      {
+        "id": "industrial",
+        "name": "集成制造",
+        "branch": "工业制造",
+        "requires": [
+          "batteries",
+          "crystal"
+        ],
+        "cost": 100,
+        "materials": {
+          "item_iron_enr_cmpt": 12,
+          "item_glass_enr_cmpt": 8,
+          "item_proc_battery_2": 1
+        },
+        "seconds": 60,
+        "desc": "解锁高容谷地电池：10 钢制零件 + 15 致密源石粉末 → 1 电池。折金票容量提高至 50,000，为精密战备提供能源。",
+        "production": true,
+        "products": [
+          "item_proc_battery_3"
+        ],
+        "dpCapacity": 500
+      }
+    ],
+    "description": "Per-run industrial and combat research; original multi-input recipes supply advanced refits, batteries and research. No tower count limit or passive DP."
+  },
+  "currency": {
+    "name": "折金票",
+    "perPoint": 100
+  },
+  "bossPractice": {
+    "initialDP": 500,
+    "maxDP": 500,
+    "waves": [
+      {
+        "name": "先遣队试压",
+        "enemies": [
+          10,
+          8,
+          11,
+          9,
+          10,
+          8,
+          2,
+          6,
+          0,
+          10
+        ],
+        "gap": 1.1,
+        "hp": 1.9
+      },
+      {
+        "name": "碾骨之拳 · 罗丹",
+        "enemies": [
+          5,
+          14,
+          8,
+          10,
+          13,
+          15,
+          11,
+          9,
+          7,
+          2,
+          6,
+          4,
+          8,
+          5,
+          10,
+          2,
+          14,
+          15,
+          5,
+          14,
+          8,
+          10,
+          13,
+          15,
+          11,
+          9,
+          7,
+          2,
+          6,
+          4,
+          8,
+          5,
+          10,
+          2,
+          14,
+          15,
+          5,
+          14,
+          8,
+          10,
+          13,
+          15,
+          12,
+          9,
+          7,
+          2,
+          6,
+          4,
+          8,
+          5,
+          10,
+          2,
+          14,
+          15,
+          5,
+          14,
+          8,
+          10,
+          13,
+          15,
+          11,
+          9,
+          7,
+          2,
+          6,
+          4,
+          8,
+          5,
+          10,
+          2,
+          14,
+          15,
+          5,
+          14,
+          8,
+          10,
+          13,
+          15,
+          11,
+          9,
+          7,
+          2,
+          6,
+          4,
+          8,
+          5,
+          10,
+          2,
+          14,
+          15,
+          5,
+          14,
+          8,
+          10,
+          13,
+          15,
+          11,
+          9,
+          7,
+          2,
+          6,
+          4,
+          8,
+          5,
+          10,
+          2,
+          14,
+          15,
+          5,
+          14,
+          8,
+          10,
+          13,
+          15,
+          11,
+          9,
+          7,
+          2,
+          6,
+          4
+        ],
+        "gap": 0.32,
+        "hp": 2
+      }
+    ]
+  },
+  "sprites": [
+    "icon_belt_grid",
+    "icon_belt_corner_1",
+    "icon_belt_corner_2"
+  ],
+  "map": {
+    "width": 44,
+    "height": 32,
+    "corners": [
+      [
+        0,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        20,
+        4
+      ],
+      [
+        20,
+        16
+      ],
+      [
+        37,
+        16
+      ],
+      [
+        37,
+        14
+      ]
+    ],
+    "core": {
+      "id": "sp_hub_1",
+      "name": "协议核心",
+      "x": 33,
+      "y": 5,
+      "footprint": {
+        "width": 9,
+        "depth": 9
+      },
+      "entrance": {
+        "x": 37.5,
+        "y": 14
+      }
+    },
+    "sectors": [
+      [
+        1,
+        18,
+        30,
+        10,
+        "生产区"
+      ],
+      [
+        10,
+        6,
+        8,
+        8,
+        "防御区"
+      ]
+    ]
+  },
+  "rules": {
+    "initialDP": 40,
+    "maxDP": 99,
+    "dpPerSecond": 0,
+    "life": 10,
+    "refund": 0.5,
+    "intermission": 30
+  },
+  "sourceCommit": "0ef7f952dfd018392200157a5c79a6511ba69122",
+  "deviceArt": {
+    "battle_cannon_1": {
+      "file": "portrait_battle_cannon_1.png",
+      "itemId": "item_port_battle_cannon_1",
+      "rarity": 2,
+      "color": "#ABCE42"
+    },
+    "battle_cannon_2": {
+      "file": "portrait_battle_cannon_2.png",
+      "itemId": "item_port_battle_cannon_2",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "battle_debuff_1": {
+      "file": "portrait_battle_debuff_1.png",
+      "itemId": "item_port_battle_debuff_1",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_frost_1": {
+      "file": "portrait_battle_frost_1.png",
+      "itemId": "item_port_battle_frost_1",
+      "rarity": 2,
+      "color": "#ABCE42"
+    },
+    "battle_laser_1": {
+      "file": "portrait_battle_laser_1.png",
+      "itemId": "item_port_battle_laser_1",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "battle_laser_2": {
+      "file": "portrait_battle_laser_2.png",
+      "itemId": "item_port_battle_laser_2",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_lightning_1": {
+      "file": "portrait_battle_lightning_1.png",
+      "itemId": "item_port_battle_lightning_1",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "battle_lightning_2": {
+      "file": "portrait_battle_lightning_2.png",
+      "itemId": "item_port_battle_lightning_2",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_rocket_1": {
+      "file": "portrait_battle_rocket_1.png",
+      "itemId": "item_port_battle_rocket_1",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_sniper_1": {
+      "file": "portrait_battle_sniper_1.png",
+      "itemId": "item_port_battle_sniper_1",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "battle_trap_1": {
+      "file": "portrait_battle_trap_1.png",
+      "itemId": "item_port_battle_trap_1",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "battle_turret_1": {
+      "file": "portrait_battle_turret_1.png",
+      "itemId": "item_port_battle_turret_1",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "battle_turret_2": {
+      "file": "portrait_battle_turret_2.png",
+      "itemId": "item_port_battle_turret_2",
+      "rarity": 3,
+      "color": "#26BBFD"
+    },
+    "battle_turret_3": {
+      "file": "portrait_battle_turret_3.png",
+      "itemId": "item_port_battle_turret_3",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "component_mc_1": {
+      "file": "portrait_component_mc_1.png",
+      "itemId": "item_port_cmpt_mc_1",
+      "rarity": 2,
+      "color": "#ABCE42"
+    },
+    "furnance_1": {
+      "file": "portrait_furnance_1.png",
+      "itemId": "item_port_furnance_1",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "grinder_1": {
+      "file": "portrait_grinder_1.png",
+      "itemId": "item_port_grinder_1",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "icon_belt_grid": {
+      "file": "portrait_icon_belt_grid.png",
+      "itemId": "item_log_belt_01",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "loader_1": {
+      "file": "portrait_loader_1.png",
+      "itemId": "item_port_loader_1",
+      "rarity": 3,
+      "color": "#26BBFD"
+    },
+    "log_hongs_bus": {
+      "file": "portrait_log_hongs_bus.png",
+      "itemId": "item_port_log_hongs_bus",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "log_hongs_bus_source": {
+      "file": "portrait_log_hongs_bus_source.png",
+      "itemId": "item_port_log_hongs_bus_source",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "sp_hub_1": {
+      "file": "portrait_sp_hub_1.png",
+      "itemId": "item_port_sp_hub_1",
+      "rarity": 5,
+      "color": "#FFBB03"
+    },
+    "storager_1": {
+      "file": "portrait_storager_1.png",
+      "itemId": "item_port_storager_1",
+      "rarity": 1,
+      "color": "#9B9B9B"
+    },
+    "unloader_1": {
+      "file": "portrait_unloader_1.png",
+      "itemId": "item_port_unloader_1",
+      "rarity": 3,
+      "color": "#26BBFD"
+    },
+    "thickener_1": {
+      "file": "portrait_thickener_1.png",
+      "itemId": "item_port_thickener_1",
+      "rarity": 4,
+      "color": "#9452FA"
+    },
+    "tools_assebling_mc_1": {
+      "file": "portrait_tools_assebling_mc_1.png",
+      "itemId": "item_port_tools_asm_mc_1",
+      "rarity": 3,
+      "color": "#26BBFD"
+    }
+  },
+  "ui": [
+    "cover"
+  ],
+  "wisadel": {
+    "size": 480,
+    "anchor": [
+      240.0,
+      391.2
+    ],
+    "bodyWidth": 201.6,
+    "animations": {
+      "start": {
+        "state": "Start",
+        "fps": 20,
+        "frames": 20,
+        "duration": 1.0,
+        "sourceDuration": 0.973619,
+        "box": [
+          169,
+          175,
+          300,
+          390
+        ],
+        "width": 131,
+        "height": 215,
+        "pages": [
+          {
+            "file": "assets/wisadel/start_0.webp",
+            "start": 0,
+            "count": 20,
+            "columns": 8,
+            "sha256": "fa78cb1f60994faa400ec505adf0d3829e824aea022d52f8367c4081fc1cc676"
+          }
+        ]
+      },
+      "begin": {
+        "state": "Skill_3_Begin",
+        "fps": 20,
+        "frames": 17,
+        "duration": 0.85,
+        "sourceDuration": 0.8057,
+        "box": [
+          174,
+          230,
+          298,
+          387
+        ],
+        "width": 124,
+        "height": 157,
+        "pages": [
+          {
+            "file": "assets/wisadel/begin_0.webp",
+            "start": 0,
+            "count": 17,
+            "columns": 8,
+            "sha256": "1eccacded611d54e7558d314e9f5c7b1dbba8dd657a1f7dca5d8671c221f86be"
+          }
+        ]
+      },
+      "idle": {
+        "state": "Skill_Down_3_Idle",
+        "fps": 20,
+        "frames": 106,
+        "duration": 5.3,
+        "sourceDuration": 5.29702,
+        "box": [
+          186,
+          249,
+          307,
+          386
+        ],
+        "width": 121,
+        "height": 137,
+        "pages": [
+          {
+            "file": "assets/wisadel/idle_0.webp",
+            "start": 0,
+            "count": 64,
+            "columns": 8,
+            "sha256": "2557c51ce8ff1dac1a55575f1c8d8703254be7ae9e790bd53b4b9d7f1df5486d"
+          },
+          {
+            "file": "assets/wisadel/idle_1.webp",
+            "start": 64,
+            "count": 42,
+            "columns": 8,
+            "sha256": "0fe1c2ea31b9a2226540742098de0af78237a5e7f1d26b2daf951aa11840673e"
+          }
+        ]
+      },
+      "attackA": {
+        "state": "Attack_Down_A",
+        "fps": 20,
+        "frames": 42,
+        "duration": 2.1,
+        "sourceDuration": 2.064875,
+        "box": [
+          157,
+          246,
+          315,
+          390
+        ],
+        "width": 158,
+        "height": 144,
+        "pages": [
+          {
+            "file": "assets/wisadel/attackA_0.webp",
+            "start": 0,
+            "count": 42,
+            "columns": 8,
+            "sha256": "63eb187b654c11b1c4474f3a0c2574c4380cc8e599f58fe024f04fe894e3e6a2"
+          }
+        ]
+      },
+      "attackB": {
+        "state": "Attack_Down_B",
+        "fps": 20,
+        "frames": 42,
+        "duration": 2.1,
+        "sourceDuration": 2.066877,
+        "box": [
+          154,
+          247,
+          319,
+          394
+        ],
+        "width": 165,
+        "height": 147,
+        "pages": [
+          {
+            "file": "assets/wisadel/attackB_0.webp",
+            "start": 0,
+            "count": 42,
+            "columns": 8,
+            "sha256": "9300d1df8941ad4cdbb26a03cc73d4e7975810ac34c64f22299980a018298cfe"
+          }
+        ]
+      },
+      "attackC": {
+        "state": "Attack_Down_C",
+        "fps": 20,
+        "frames": 42,
+        "duration": 2.1,
+        "sourceDuration": 2.067948,
+        "box": [
+          156,
+          247,
+          312,
+          394
+        ],
+        "width": 156,
+        "height": 147,
+        "pages": [
+          {
+            "file": "assets/wisadel/attackC_0.webp",
+            "start": 0,
+            "count": 42,
+            "columns": 8,
+            "sha256": "f23072ca5fd7b9d1da6c96493c6d83be45a8288352ccbd22d3deea637743ad2f"
+          }
+        ]
+      },
+      "special": {
+        "state": "Skill_Down_3_Loop",
+        "fps": 20,
+        "frames": 100,
+        "duration": 5.0,
+        "sourceDuration": 4.965986,
+        "box": [
+          136,
+          234,
+          317,
+          403
+        ],
+        "width": 181,
+        "height": 169,
+        "pages": [
+          {
+            "file": "assets/wisadel/special_0.webp",
+            "start": 0,
+            "count": 64,
+            "columns": 8,
+            "sha256": "ebe3ded67a0c70c9c2e29889ac144ef57110d4f2c2c197069fdbf89c2adf98ab"
+          },
+          {
+            "file": "assets/wisadel/special_1.webp",
+            "start": 64,
+            "count": 36,
+            "columns": 8,
+            "sha256": "645e7f077e12be362d7d97f145a0f321286d6252e65ae3ccdbc57d37761a3d34"
+          }
+        ]
+      },
+      "recover": {
+        "state": "Skill_3_End",
+        "fps": 20,
+        "frames": 10,
+        "duration": 0.5,
+        "sourceDuration": 0.467611,
+        "box": [
+          181,
+          246,
+          307,
+          386
+        ],
+        "width": 126,
+        "height": 140,
+        "pages": [
+          {
+            "file": "assets/wisadel/recover_0.webp",
+            "start": 0,
+            "count": 10,
+            "columns": 8,
+            "sha256": "df05cd8aaffd5a4422a6ed3fd6e61bfcb0ab8c924899d84182c478d547f9223f"
+          }
+        ]
+      },
+      "stun": {
+        "state": "Stun",
+        "fps": 20,
+        "frames": 20,
+        "duration": 1.0,
+        "sourceDuration": 0.969627,
+        "box": [
+          156,
+          247,
+          297,
+          397
+        ],
+        "width": 141,
+        "height": 150,
+        "pages": [
+          {
+            "file": "assets/wisadel/stun_0.webp",
+            "start": 0,
+            "count": 20,
+            "columns": 8,
+            "sha256": "45e63553fa07de6d56ad454a2f0021576bb28de94bb0721df0dba50c6b19418a"
+          }
+        ]
+      }
+    },
+    "portrait": "assets/wisadel_portrait.png",
+    "portraitSha256": "8636bb7d88ff9ebb63f4e09844b706cd436c3990fb41f10c7da65f3285923460"
+  },
+  "adaptation": "Original Endfield names/icons, level-1 enemy HP, range / 4 and chargeInterval as cadence reference. Original multi-input production recipes, batch quantities and durations. Arknights-inspired deployment points. Per-run research, costs, damage, material consumption, ammunition, DP capacity and exchange are fan design. No tower count limit or passive DP."
+}

@@ -1,0 +1,1074 @@
+{
+  "buildings": {
+    "unloader_1": {
+      "range": {
+        "depth": 1,
+        "height": 3,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputPorts": [],
+      "outputPorts": [
+        {
+          "index": 0,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "roadAttachSide": 0,
+      "runtimePorts": {
+        "inputs": [],
+        "outputs": [
+          0
+        ],
+        "warehouse": 2
+      }
+    },
+    "furnance_1": {
+      "range": {
+        "depth": 3,
+        "height": 4,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputPorts": [
+        {
+          "index": 0,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 3,
+          "isOutput": 0,
+          "isPipe": true,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "outputPorts": [
+        {
+          "index": 0,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 3,
+          "isOutput": 1,
+          "isPipe": true,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "roadAttachSide": 0,
+      "runtimePorts": {
+        "inputs": [
+          2
+        ],
+        "outputs": [
+          0
+        ],
+        "warehouse": null
+      }
+    },
+    "storager_1": {
+      "range": {
+        "depth": 3,
+        "height": 4,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputPorts": [
+        {
+          "index": 0,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "outputPorts": [
+        {
+          "index": 0,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "roadAttachSide": 0,
+      "runtimePorts": {
+        "inputs": [
+          2
+        ],
+        "outputs": [],
+        "warehouse": null
+      }
+    },
+    "grinder_1": {
+      "range": {
+        "depth": 3,
+        "height": 4,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputPorts": [
+        {
+          "index": 0,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "outputPorts": [
+        {
+          "index": 0,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "roadAttachSide": 0,
+      "runtimePorts": {
+        "inputs": [
+          2
+        ],
+        "outputs": [
+          0
+        ],
+        "warehouse": null
+      }
+    },
+    "component_mc_1": {
+      "range": {
+        "depth": 3,
+        "height": 4,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputPorts": [
+        {
+          "index": 0,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "outputPorts": [
+        {
+          "index": 0,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "roadAttachSide": 0,
+      "runtimePorts": {
+        "inputs": [
+          2
+        ],
+        "outputs": [
+          0
+        ],
+        "warehouse": null
+      }
+    },
+    "loader_1": {
+      "range": {
+        "depth": 1,
+        "height": 3,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputPorts": [
+        {
+          "index": 0,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "outputPorts": [],
+      "roadAttachSide": 2,
+      "runtimePorts": {
+        "inputs": [
+          2
+        ],
+        "outputs": [],
+        "warehouse": 0
+      }
+    },
+    "thickener_1": {
+      "range": {
+        "depth": 4,
+        "height": 5,
+        "width": 6,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputPorts": [
+        {
+          "index": 0,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 3,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 4,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 5,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "outputPorts": [
+        {
+          "index": 0,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 3,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 4,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 5,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "roadAttachSide": 0,
+      "runtimePorts": {
+        "inputs": [
+          2
+        ],
+        "outputs": [
+          0
+        ],
+        "warehouse": null
+      }
+    },
+    "tools_assebling_mc_1": {
+      "range": {
+        "depth": 4,
+        "height": 4,
+        "width": 6,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "inputPorts": [
+        {
+          "index": 0,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 3,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 4,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 5,
+          "isOutput": 0,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "outputPorts": [
+        {
+          "index": 0,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 1,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 2,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 3,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 4,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        },
+        {
+          "index": 5,
+          "isOutput": 1,
+          "isPipe": false,
+          "trans": {
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "roadAttachSide": 0,
+      "runtimePorts": {
+        "inputs": [
+          2
+        ],
+        "outputs": [
+          0
+        ],
+        "warehouse": null
+      }
+    }
+  },
+  "directionConvention": "Runtime 0=right, 1=down, 2=left, 3=up; original solid-port flow is down, so native sprite rotation=(runtime direction+3)%4.",
+  "adaptation": "Every original solid port retains its own grid cell and rotates with its full-size building. Belts accept rear or side input but reject head-on input. Supply settles each item for either DP or stock and has no output; its output artwork is hidden. Unused liquid ports are hidden in normal formula mode."
+}

@@ -1,0 +1,17 @@
+{
+  "name": "blueprint-defense",
+  "version": "0.17.0",
+  "private": true,
+  "description": "蓝图防线：本地蓝图风格塔防与生产模拟",
+  "scripts": {
+    "build": "python tools/build.py",
+    "dev": "python tools/serve.py",
+    "test": "python tools/test_current.py"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

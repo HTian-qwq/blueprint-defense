@@ -1,0 +1,691 @@
+{
+  "source": "sources/game_data/tables/FactoryBuildingTable.json",
+  "buildings": {
+    "battle_turret_1": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_turret_2": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_turret_3": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_cannon_1": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_cannon_2": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_frost_1": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_laser_1": {
+      "originalRange": {
+        "depth": 2,
+        "height": 6,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_laser_2": {
+      "originalRange": {
+        "depth": 2,
+        "height": 6,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_lightning_1": {
+      "originalRange": {
+        "depth": 2,
+        "height": 5,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_lightning_2": {
+      "originalRange": {
+        "depth": 2,
+        "height": 5,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_sniper_1": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_debuff_1": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_trap_1": {
+      "originalRange": {
+        "depth": 2,
+        "height": 4,
+        "width": 2,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    "battle_rocket_1": {
+      "originalRange": {
+        "depth": 3,
+        "height": 6,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 3,
+        "depth": 3
+      }
+    },
+    "unloader_1": {
+      "originalRange": {
+        "depth": 1,
+        "height": 3,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 1,
+        "depth": 3
+      },
+      "portCells": {
+        "inputs": [],
+        "outputs": [
+          {
+            "x": 0,
+            "y": 1,
+            "side": 0,
+            "index": 0
+          }
+        ]
+      }
+    },
+    "furnance_1": {
+      "originalRange": {
+        "depth": 3,
+        "height": 4,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 3,
+        "depth": 3
+      },
+      "portCells": {
+        "inputs": [
+          {
+            "x": 0,
+            "y": 2,
+            "side": 2,
+            "index": 0
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "side": 2,
+            "index": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "side": 2,
+            "index": 2
+          }
+        ],
+        "outputs": [
+          {
+            "x": 2,
+            "y": 2,
+            "side": 0,
+            "index": 0
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "side": 0,
+            "index": 1
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "side": 0,
+            "index": 2
+          }
+        ]
+      }
+    },
+    "storager_1": {
+      "originalRange": {
+        "depth": 3,
+        "height": 4,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 3,
+        "depth": 3
+      },
+      "portCells": {
+        "inputs": [
+          {
+            "x": 0,
+            "y": 2,
+            "side": 2,
+            "index": 0
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "side": 2,
+            "index": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "side": 2,
+            "index": 2
+          }
+        ],
+        "outputs": []
+      }
+    },
+    "grinder_1": {
+      "originalRange": {
+        "depth": 3,
+        "height": 4,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 3,
+        "depth": 3
+      },
+      "portCells": {
+        "inputs": [
+          {
+            "x": 0,
+            "y": 2,
+            "side": 2,
+            "index": 0
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "side": 2,
+            "index": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "side": 2,
+            "index": 2
+          }
+        ],
+        "outputs": [
+          {
+            "x": 2,
+            "y": 2,
+            "side": 0,
+            "index": 0
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "side": 0,
+            "index": 1
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "side": 0,
+            "index": 2
+          }
+        ]
+      }
+    },
+    "component_mc_1": {
+      "originalRange": {
+        "depth": 3,
+        "height": 4,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 3,
+        "depth": 3
+      },
+      "portCells": {
+        "inputs": [
+          {
+            "x": 0,
+            "y": 2,
+            "side": 2,
+            "index": 0
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "side": 2,
+            "index": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "side": 2,
+            "index": 2
+          }
+        ],
+        "outputs": [
+          {
+            "x": 2,
+            "y": 2,
+            "side": 0,
+            "index": 0
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "side": 0,
+            "index": 1
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "side": 0,
+            "index": 2
+          }
+        ]
+      }
+    },
+    "log_hongs_bus_source": {
+      "originalRange": {
+        "depth": 4,
+        "height": 2,
+        "width": 4,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 4,
+        "depth": 4
+      },
+      "portCells": {
+        "inputs": [],
+        "outputs": []
+      }
+    },
+    "log_hongs_bus": {
+      "originalRange": {
+        "depth": 8,
+        "height": 2,
+        "width": 4,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 8,
+        "depth": 4
+      },
+      "portCells": {
+        "inputs": [],
+        "outputs": []
+      }
+    },
+    "loader_1": {
+      "originalRange": {
+        "depth": 1,
+        "height": 3,
+        "width": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 1,
+        "depth": 3
+      },
+      "portCells": {
+        "inputs": [
+          {
+            "x": 0,
+            "y": 1,
+            "side": 2,
+            "index": 0
+          }
+        ],
+        "outputs": []
+      }
+    },
+    "thickener_1": {
+      "originalRange": {
+        "depth": 4,
+        "height": 5,
+        "width": 6,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 4,
+        "depth": 6
+      },
+      "portCells": {
+        "inputs": [
+          {
+            "x": 0,
+            "y": 5,
+            "side": 2,
+            "index": 0
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "side": 2,
+            "index": 1
+          },
+          {
+            "x": 0,
+            "y": 3,
+            "side": 2,
+            "index": 2
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "side": 2,
+            "index": 3
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "side": 2,
+            "index": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "side": 2,
+            "index": 5
+          }
+        ],
+        "outputs": [
+          {
+            "x": 3,
+            "y": 5,
+            "side": 0,
+            "index": 0
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "side": 0,
+            "index": 1
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "side": 0,
+            "index": 2
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "side": 0,
+            "index": 3
+          },
+          {
+            "x": 3,
+            "y": 1,
+            "side": 0,
+            "index": 4
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "side": 0,
+            "index": 5
+          }
+        ]
+      }
+    },
+    "tools_assebling_mc_1": {
+      "originalRange": {
+        "depth": 4,
+        "height": 4,
+        "width": 6,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "runtimeDir0Footprint": {
+        "width": 4,
+        "depth": 6
+      },
+      "portCells": {
+        "inputs": [
+          {
+            "x": 0,
+            "y": 5,
+            "side": 2,
+            "index": 0
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "side": 2,
+            "index": 1
+          },
+          {
+            "x": 0,
+            "y": 3,
+            "side": 2,
+            "index": 2
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "side": 2,
+            "index": 3
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "side": 2,
+            "index": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "side": 2,
+            "index": 5
+          }
+        ],
+        "outputs": [
+          {
+            "x": 3,
+            "y": 5,
+            "side": 0,
+            "index": 0
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "side": 0,
+            "index": 1
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "side": 0,
+            "index": 2
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "side": 0,
+            "index": 3
+          },
+          {
+            "x": 3,
+            "y": 1,
+            "side": 0,
+            "index": 4
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "side": 0,
+            "index": 5
+          }
+        ]
+      }
+    },
+    "sp_hub_1": {
+      "originalRange": {
+        "depth": 9,
+        "height": 10,
+        "width": 9,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "footprint": {
+        "width": 9,
+        "depth": 9
+      }
+    }
+  },
+  "coordinates": "Original +z points up. Production dir0 is native d3; clockwise turns rotate the entire footprint and every solid port cell."
+}

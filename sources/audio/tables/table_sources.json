@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "name": "AudioBattleBuildings",
+      "source": "Persistent",
+      "Version": 25024360,
+      "originalPath": "Data/TableCfg/AudioBattleBuildings.bytes",
+      "rawSha256": "875CE790205556014D0FFFF0396A83B5FC80872365AB0DA32D27A7B033047BFA"
+    }
+  ],
+  "missing": []
+}
