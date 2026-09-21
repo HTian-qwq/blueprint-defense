@@ -1,8 +1,8 @@
 # 蓝图防线
 
-独立的蓝图风格同人塔防项目，当前版本为 **v0.18.2**。包含生产、局内科技、10 波战役、罗丹、原版建筑占地、可配置快捷栏和批量选取／移动／拆除。网页版新增主菜单、加载进度、自动存档、存档备份和蓝图文件分享，全部在浏览器内完成。
+独立的蓝图风格同人塔防项目，当前版本为 **v0.18.3**。包含生产、局内科技、10 波战役、罗丹、原版建筑占地、可配置快捷栏和批量选取／移动／拆除。网页版新增主菜单、加载进度、自动存档、存档备份和蓝图文件分享，全部在浏览器内完成。
 
-本次加入两首从原版战斗状态分支提取的 BGM，音乐与音效独立控制。保留上一版核心物流与紧贴放置修复，兼容 v0.18 / v0.18.1 存档。
+本次将 HarmonyOS Sans SC 拆为按需加载的 WOFF2 分片，常用字体首次下载由 19.66 MiB 降至 353.3 KiB。保留全部 29,508 字符和可变字重，兼容 v0.18 起的存档。
 
 ## 启动
 
@@ -22,6 +22,8 @@ python tools/serve.py
 - `dist/offline/blueprint_defense.html`：素材、字体、音效与动画全部内嵌的离线版，可以直接打开；首次进入战场，已有存档时先显示菜单，通过顶部「菜单」管理存档。
 
 网页首次加载后进入主菜单。常用设备图像就绪即可开始；HarmonyOS Sans SC 在后台加载，角色动画按需载入，音效在用户操作后启用并按需读取。资源名包含内容哈希，支持浏览器缓存；加载失败可重试。
+
+部署时解压 `dist/blueprint-defense-web.zip`，将其中内容放到静态网站目录即可，不需要 Node 服务、数据库或游戏安装。发布包已在独立 HTTP 服务的 `/game/index.html` 子目录验证。部署、缓存和字体维护见 [网页发布说明](docs/DEPLOYMENT.md)。
 
 开始战斗后播放 BGM，默认每两波轮换，整备时音量减半。右侧底部「音乐」开关可独立静音；「菜单 → 设置」可调音乐音量和固定曲目。暂停、打开菜单、切出页面或结束战斗时音乐同步暂停；继续时保留播放位置，战斗加速不改变音乐速度。曲目按需加载，音量与选曲保存在本地。
 
@@ -62,6 +64,9 @@ python tools/test_current.py
 | `src/session.js` / `src/local_store.js` | 存档编解码与校验、蓝图原子放置、浏览器存储 |
 | `src/session_ui.js` / `src/session.html` / `src/session.css` | 主菜单、设置、存档和蓝图操作界面 |
 | `src/web_boot.js` | 网页启动、进度与错误重试 |
+| `assets/fonts/subsets/` / `tools/font_assets.py` | 58 个 WOFF2 字体分片、字符范围和构建时校验 |
+| `tools/prepare_fonts.py` / `requirements-fonts.txt` | 可选字体重建工具与依赖，日常构建无需安装 |
+| `tools/test_web_release.py` | 解压实际发布包到临时子目录，独立静态服务验证 |
 | `src/music.js` / `src/music_ui.js` | 独立 BGM 播放、波次轮换与偏好设置 |
 | `sources/music_provenance.json` / `sources/music/` | 原版战斗音乐事件链、文件哈希与保留的 WEM 原件 |
 | `tools/prepare_music.py` | 使用 vgmstream / FFmpeg 从项目内 WEM 重新生成 MP3；日常构建无需运行 |

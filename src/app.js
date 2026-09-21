@@ -33,7 +33,8 @@ const choiceDef=()=>allDevices[choice];
 const productionChoice=()=>choice>=DATA.towers.length;
 let loadedImages=0;
 const initialImages=[DATA.map.core,...DATA.towers.flatMap(t=>[t,...t.upgrades]),...DATA.enemies,...DATA.production.types.flatMap(d=>[d,...(d.faces||[]).map((image,dir)=>({id:d.id+'@'+dir,image}))]),...Object.values(DATA.production.items),...Object.entries(DATA.sprites).map(([id,image])=>({id,image}))];
-const fontReady=Promise.all([document.fonts.load('400 16px "HarmonyOS Sans SC"'),document.fonts.load('700 16px "HarmonyOS Sans SC"')]);
+const fontText=__FONT_UI_TEXT__;
+const fontReady=Promise.all([document.fonts.load('400 16px "HarmonyOS Sans SC"',fontText),document.fonts.load('700 16px "HarmonyOS Sans SC"',fontText)]);
 const ready=Promise.all(initialImages.map(d=>new Promise((resolve,reject)=>{
   const img=new Image();img.onload=()=>{images.set(d.id,img);globalThis.BlueprintBoot?.reportImages(++loadedImages,initialImages.length);resolve();};img.onerror=()=>reject(Error('图像加载失败：'+d.id));img.src=d.image;
 })).concat(actors.ready,globalThis.BlueprintBuild?.web?Promise.resolve():fontReady));

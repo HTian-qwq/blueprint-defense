@@ -1,6 +1,6 @@
 {
   "name": "blueprint-defense",
-  "version": "0.18.0",
+  "version": "0.18.3",
   "private": true,
   "description": "蓝图防线：本地蓝图风格塔防与生产模拟",
   "scripts": {

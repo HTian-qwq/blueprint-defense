@@ -67,3 +67,11 @@
 音乐仅在生成页面配置时添加，不参与 balance_reference / rulesId，继续兼容已有存档。`music` 单元检查和 `music_browser` 实际 HTTP 音频检查纳入 `tools/test_current.py`，覆盖循环末端、暂停续播、独立开关、倍速、后台、偏好、手机布局和断网重试。
 
 验证：197 项检查和 12 种传送带朝向通过，含离线版内嵌音乐实际播放。初次 geometry_browser 加载与重新构建重叠而失败，最终构建后单独重跑 7 项全部通过；重跑记录保留在验证摘要 `docs/verification/v0.18.2.json`。
+
+## v0.18.3：字体分片与独立发布验证
+
+原始 HarmonyOS Sans SC TTF 继续作为字体来源保留，网页和离线版均改用 `assets/fonts/subsets/` 中的 58 个 WOFF2 分片。Latin 与游戏源码/配置文字单独分组，其余字符每 512 个一片；`unicode-range` 不重叠，保留全部 29,508 字符和 40–900 可变轴。启动两片共 361,744 字节，原版为 20,617,156 字节。`tools/prepare_fonts.py` 是可选生成流程，标准构建通过 `tools/font_assets.py` 使用已提交分片和 SHA-256 清单，不新增日常构建依赖。
+
+`document.fonts.load` 显式传入游戏字符集，解决画布中文字的字体就绪问题。网页仍不阻塞启动；下载失败保持系统字体。顶部菜单/蓝图按钮从 build.py 注入移到 HTML 模板，保证其文案也被常用字收集。音效、战斗、经济与 rulesId 保持不变。
+
+`tools/test_web_release.py` 直接从发布 ZIP 启动独立静态服务器，在 `/game/index.html` 验证 10 项网页流程、7 项音乐检查、5 项字体检查，全部通过。原字体与分片在浏览器中对常规/粗体样本像素一致；首屏只下载两片，显示额外生僻字只加一片。详见 `docs/DEPLOYMENT.md` 与 `docs/verification/v0.18.3.json`。

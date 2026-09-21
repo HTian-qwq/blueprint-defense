@@ -20,7 +20,7 @@ def build_web(root, template, style, payload, sounds, scripts, rules_id, version
             target.write_bytes(content)
         files[relative] = len(content)
         return './' + relative
-    extensions = {'image/png':'png', 'image/webp':'webp', 'audio/mpeg':'mp3', 'font/ttf':'ttf'}
+    extensions = {'image/png':'png', 'image/webp':'webp', 'audio/mpeg':'mp3', 'font/woff2':'woff2'}
     uris = {}
     def resource(uri):
         if uri not in uris:

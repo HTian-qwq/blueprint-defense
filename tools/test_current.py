@@ -18,7 +18,7 @@ with subprocess.Popen([sys.executable,'-u',str(ROOT/'tools/serve.py'),'--port','
     try:
         line=server.stdout.readline();url=re.search(r'http://\S+',line)
         if not url:raise RuntimeError('Web test server failed to start: '+line)
-        for name in ['web_browser','music_browser']:
+        for name in ['web_browser','music_browser','fonts_browser']:
             run=subprocess.run([NODE,str(ROOT/f'tests/{name}.test.cjs')],cwd=ROOT,env={**env,'BLUEPRINT_WEB_URL':url.group()},capture_output=True,text=True,encoding='utf-8',timeout=180)
             results.append({'suite':name,'returncode':run.returncode,'output':run.stdout+run.stderr})
             print(name,'PASS' if run.returncode==0 else 'FAIL',flush=True)
@@ -28,7 +28,7 @@ with subprocess.Popen([sys.executable,'-u',str(ROOT/'tools/serve.py'),'--port','
 belts=subprocess.run([sys.executable,str(ROOT/'tests/belt_assets.test.py')],cwd=ROOT,env=env,capture_output=True,text=True,encoding='utf-8',timeout=60)
 results.append({'suite':'belt_assets','returncode':belts.returncode,'output':belts.stdout+belts.stderr})
 print('belt_assets', 'PASS' if belts.returncode==0 else 'FAIL',flush=True)
-report={'version':'0.18.2','passed':sum(int(re.search(r'"passed":\s*(\d+)',r['output']).group(1)) for r in results if r['returncode']==0 and r['suite']!='belt_assets'),'beltOrientations':12 if belts.returncode==0 else 0,'suites':results,'buildSha256':hashlib.sha256((ROOT/'dist/offline/blueprint_defense.html').read_bytes()).hexdigest()}
+report={'version':'0.18.3','passed':sum(int(re.search(r'"passed":\s*(\d+)',r['output']).group(1)) for r in results if r['returncode']==0 and r['suite']!='belt_assets'),'beltOrientations':12 if belts.returncode==0 else 0,'suites':results,'buildSha256':hashlib.sha256((ROOT/'dist/offline/blueprint_defense.html').read_bytes()).hexdigest()}
 (ROOT/'reports/v18_verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 assert all(r['returncode']==0 for r in results)
 print('Passed',report['passed'],'checks and',report['beltOrientations'],'belt orientations')
